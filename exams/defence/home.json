@@ -1,0 +1,137 @@
+[
+  {
+    "categorytitle": "Entrance Exams",
+    "subjects": [
+      {
+        "subjecttitle": "NEET Practice",
+        "slogo": "fas fa-yin-yang",
+        "subjectpath": "",
+        "chapters": [
+          {
+            "chaptertitle": "Previous Papers",
+            "chapterpath": "index-details.html",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Model Papers",
+            "chapterpath": "index-details.html",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Chapterswise Questions",
+            "chapterpath": "index-details.html",
+            "clogo": ""
+          }
+        ]
+      },
+      {
+        "subjecttitle": "EAMCET Practice",
+        "slogo": "fab fa-html5",
+        "spath": "",
+        "chapters": [
+          {
+            "chaptertitle": "Previous Papers",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Model Papers",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Chapterswise Questions",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ]
+      },
+      {
+        "subjecttitle": "TS EAMCET Practice",
+        "slogo": "fab fa-linkedin",
+        "path": "",
+        "chapters": [
+          {
+            "chaptertitle": "Previous Papers",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Model Papers",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Chapterswise Questions",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Study Resources",
+    "subjects": [
+      {
+        "subjecttitle": "Physics Notes",
+        "slogo": "fas fa-yin-yang",
+        "subjectpath": "",
+        "chapters": [
+          {
+            "chaptertitle": "Physics Class 11 Notes multi line test here",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Physics Class 12 Notes  multi line test here",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Chemistry Notes",
+        "slogo": "fab fa-html5",
+        "spath": "",
+        "chapters": [
+          {
+            "chaptertitle": "Chemistry Class 11 Notes  multi line test here",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Chemistry Class 12 Notes  multi line test here",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ],
+      },
+      {
+        "subjecttitle": "Math Formula Notes",
+        "slogo": "fab fa-linkedin",
+        "path": "",
+        "chapters": [
+          {
+            "chaptertitle": "Math Class 11 Notes",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Math Class 12 Notes",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Video Resource",
+    "subjects": []
+  },
+  {
+    "categorytitle": "NCERT Books",
+    "subjects": []
+  }
+]
