@@ -1,0 +1,89 @@
+[
+    {
+      "title": "Home",
+      "icon": "fa-solid fa-house",
+      "link": "index.html",
+      "type": "action"
+    },
+    {
+      "title": "Themes",
+      "icon": "themes",
+      "link": "#",
+      "type": "grid",
+      "submenu": [
+        {
+          "title": "Default",
+          "link": "default",
+          "color":"#143b59"
+        },
+        {
+          "title": "Blue",
+          "link": "blue",
+          "color":"#0073e6"
+        },
+        {
+          "title": "Dark",
+          "link": "dark",
+          "color":"#3a3b3c"
+        },
+        {
+          "title": "Gold",
+          "link": "gold",
+          "color":"#776236"
+        },
+        {
+          "title": "Green",
+          "link": "green",
+          "color":"#004b49"
+        },
+        {
+          "title": "Grey",
+          "link": "grey",
+          "color":"#555555"
+        },
+        {
+          "title": "Purple",
+          "link": "purple",
+          "color":"#5f32a2"
+        },
+        {
+          "title": "Red",
+          "link": "red",
+          "color":"#b74c5f"
+        },
+        {
+          "title": "Violet",
+          "link": "violet",
+          "color":"#5f32a2"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "icon": "fa-regular fa-envelope",
+      "link": "#",
+      "type": "list",
+      "submenu": [
+        {
+          "icon": "fa-regular fa-envelope",
+          "title": "examsnet9@gmail.com"  
+        } 
+        
+      ]
+    },
+    {
+      "title": "About",
+      "icon": "fa-solid fa-circle-info",
+      "link": "#",
+      "type": "text",
+      "submenu": [
+        {
+          "title":"Examsnet.com is an online platform that provides comprehensive practice tests and study materials for a wide range of competitive exams. "
+        },
+        {
+          "title":"It aims to help students and professionals prepare effectively with up-to-date questions and detailed solutions."
+        }
+      ]
+    }
+  ]
+  

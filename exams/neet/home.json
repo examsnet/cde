@@ -1,0 +1,153 @@
+[
+  {
+    "categorytitle": "Entrance Exams",
+    "subjects": [
+      {
+        "subjecttitle": "NEET Practice",
+        "slogo": "fas fa-yin-yang",
+        "subjectpath": "",
+        "chapters": [
+          {
+            "chaptertitle": "Previous Papers",
+            "chapterpath": "exams/neet/previous",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Model Papers",
+            "chapterpath": "exams/neet/model",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Chapterswise Questions",
+            "chapterpath": "exams/neet/chapters",
+            "clogo": ""
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NEET Chapters Wise",
+        "slogo": "fab fa-html5",
+        "spath": "",
+        "chapters": [
+          {
+            "chaptertitle": "Class 11 Biology Questions",
+            "chapterpath": "exams/neet/chapters/",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Class 12 Biology Questions",
+            "chapterpath": "exams/neet/chapters/biology12",
+            "clogo": ""
+          },
+           {
+            "chaptertitle": "Class 11 Chemistry Questions",
+            "chapterpath": "exams/neet/chapters/chemistry11",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Questions",
+            "chapterpath": "exams/neet/chapters/chemistry12",
+            "clogo": ""
+          },
+           {
+            "chaptertitle": "Class 11 Physics Questions",
+            "chapterpath": "exams/neet/chapters/physics11",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Class 12 Physics Questions",
+            "chapterpath": "exams/neet/chapters/physics12",
+            "clogo": ""
+          },
+          
+        ]
+      },
+      {
+        "subjecttitle": "TS EAMCET Practice",
+        "slogo": "fab fa-linkedin",
+        "path": "",
+        "chapters": [
+          {
+            "chaptertitle": "Previous Papers",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Model Papers",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Chapterswise Questions",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Study Resources",
+    "subjects": [
+      {
+        "subjecttitle": "Physics Notes",
+        "slogo": "fas fa-yin-yang",
+        "subjectpath": "",
+        "chapters": [
+          {
+            "chaptertitle": "Physics Class 11 Notes multi line test here",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Physics Class 12 Notes  multi line test here",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Chemistry Notes",
+        "slogo": "fab fa-html5",
+        "spath": "",
+        "chapters": [
+          {
+            "chaptertitle": "Chemistry Class 11 Notes  multi line test here",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Chemistry Class 12 Notes  multi line test here",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ],
+      },
+      {
+        "subjecttitle": "Math Formula Notes",
+        "slogo": "fab fa-linkedin",
+        "path": "",
+        "chapters": [
+          {
+            "chaptertitle": "Math Class 11 Notes",
+            "chapterpath": "",
+            "clogo": ""
+          },
+          {
+            "chaptertitle": "Math Class 12 Notes",
+            "chapterpath": "",
+            "clogo": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Video Resource",
+    "subjects": []
+  },
+  {
+    "categorytitle": "NCERT Books",
+    "subjects": []
+  }
+]
