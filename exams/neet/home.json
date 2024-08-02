@@ -9,17 +9,17 @@
         "chapters": [
           {
             "chaptertitle": "Previous Papers",
-            "chapterpath": "exams/neet/previous",
+            "chapterpath": "exams/neet/previous/",
             "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Model Papers",
-            "chapterpath": "exams/neet/model",
+            "chapterpath": "exams/neet/model/",
             "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Chapterswise Questions",
-            "chapterpath": "exams/neet/chapters",
+            "chapterpath": "exams/neet/chapters/",
             "clogo": "fa-solid fa-flask"
           }
         ]
@@ -31,32 +31,32 @@
         "chapters": [
           {
             "chaptertitle": "Class 11 Biology Questions",
-            "chapterpath": "exams/neet/chapters/",
+            "chapterpath": "exams/neet/chapters/biology11/",
             "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Class 12 Biology Questions",
-            "chapterpath": "exams/neet/chapters/biology12",
+            "chapterpath": "exams/neet/chapters/biology12/",
             "clogo": "fa-solid fa-flask"
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
-            "chapterpath": "exams/neet/chapters/chemistry11",
+            "chapterpath": "exams/neet/chapters/chemistry11/",
             "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
-            "chapterpath": "exams/neet/chapters/chemistry12",
+            "chapterpath": "exams/neet/chapters/chemistry12/",
             "clogo": "fa-solid fa-flask"
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
-            "chapterpath": "exams/neet/chapters/physics11",
+            "chapterpath": "exams/neet/chapters/physics11/",
             "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
-            "chapterpath": "exams/neet/chapters/physics12",
+            "chapterpath": "exams/neet/chapters/physics12/",
             "clogo": "fa-solid fa-user-pen"
           }
           
