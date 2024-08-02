@@ -4,83 +4,83 @@
     "subjects": [
       {
         "subjecttitle": "NEET Practice",
-        "slogo": "fas fa-yin-yang",
+        "slogo": "fa-solid fa-stethoscope",
         "subjectpath": "",
         "chapters": [
           {
             "chaptertitle": "Previous Papers",
             "chapterpath": "exams/neet/previous",
-            "clogo": ""
+            "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Model Papers",
             "chapterpath": "exams/neet/model",
-            "clogo": ""
+            "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Chapterswise Questions",
             "chapterpath": "exams/neet/chapters",
-            "clogo": ""
+            "clogo": "fa-solid fa-flask"
           }
         ]
       },
       {
         "subjecttitle": "NEET Chapters Wise",
-        "slogo": "fab fa-html5",
+        "slogo": "fa-solid fa-stethoscope",
         "spath": "",
         "chapters": [
           {
             "chaptertitle": "Class 11 Biology Questions",
             "chapterpath": "exams/neet/chapters/",
-            "clogo": ""
+            "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Class 12 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology12",
-            "clogo": ""
+            "clogo": "fa-solid fa-flask"
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry11",
-            "clogo": ""
+            "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry12",
-            "clogo": ""
+            "clogo": "fa-solid fa-flask"
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics11",
-            "clogo": ""
+            "clogo": "fa-solid fa-flask"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics12",
-            "clogo": ""
-          },
+            "clogo": "fa-solid fa-user-pen"
+          }
           
         ]
       },
       {
         "subjecttitle": "TS EAMCET Practice",
-        "slogo": "fab fa-linkedin",
+        "slogo": "fa-solid fa-stethoscope",
         "path": "",
         "chapters": [
           {
             "chaptertitle": "Previous Papers",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-solid fa-pencil"
           },
           {
             "chaptertitle": "Model Papers",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-solid fa-pencil"
           },
           {
             "chaptertitle": "Chapterswise Questions",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-solid fa-pencil"
           }
         ]
       }
@@ -91,52 +91,52 @@
     "subjects": [
       {
         "subjecttitle": "Physics Notes",
-        "slogo": "fas fa-yin-yang",
+        "slogo": "fa-solid fa-book",
         "subjectpath": "",
         "chapters": [
           {
             "chaptertitle": "Physics Class 11 Notes multi line test here",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-brands fa-readme"
           },
           {
             "chaptertitle": "Physics Class 12 Notes  multi line test here",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-brands fa-readme"
           }
         ]
       },
       {
         "subjecttitle": "Chemistry Notes",
-        "slogo": "fab fa-html5",
+        "slogo": "fa-solid fa-book",
         "spath": "",
         "chapters": [
           {
             "chaptertitle": "Chemistry Class 11 Notes  multi line test here",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-brands fa-readme"
           },
           {
             "chaptertitle": "Chemistry Class 12 Notes  multi line test here",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-brands fa-readme"
           }
-        ],
+        ]
       },
       {
         "subjecttitle": "Math Formula Notes",
-        "slogo": "fab fa-linkedin",
+        "slogo": "fa-solid fa-book",
         "path": "",
         "chapters": [
           {
             "chaptertitle": "Math Class 11 Notes",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-brands fa-readme"
           },
           {
             "chaptertitle": "Math Class 12 Notes",
             "chapterpath": "",
-            "clogo": ""
+            "clogo": "fa-brands fa-readme"
           }
         ]
       }
