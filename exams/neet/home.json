@@ -8,20 +8,15 @@
         "subjectpath": "",
         "chapters": [
           {
-            "chaptertitle": "Previous Papers",
+            "chaptertitle": "NEET Previous Papers",
             "chapterpath": "exams/neet/previous/",
             "clogo": "fa-solid fa-flask"
           },
           {
-            "chaptertitle": "Model Papers",
+            "chaptertitle": "NEET Model Papers",
             "chapterpath": "exams/neet/model/",
             "clogo": "fa-solid fa-flask"
-          },
-          {
-            "chaptertitle": "Chapterswise Questions",
-            "chapterpath": "exams/neet/chapters/",
-            "clogo": "fa-solid fa-flask"
-          }
+          } 
         ]
       },
       {
@@ -63,91 +58,81 @@
         ]
       },
       {
-        "subjecttitle": "TS EAMCET Practice",
+        "subjecttitle": "AIPMT Previous Papers",
         "slogo": "fa-solid fa-stethoscope",
-        "path": "",
+        "subjectpath": "",
         "chapters": [
           {
-            "chaptertitle": "Previous Papers",
-            "chapterpath": "",
-            "clogo": "fa-solid fa-pencil"
-          },
-          {
-            "chaptertitle": "Model Papers",
-            "chapterpath": "",
-            "clogo": "fa-solid fa-pencil"
-          },
-          {
-            "chaptertitle": "Chapterswise Questions",
-            "chapterpath": "",
-            "clogo": "fa-solid fa-pencil"
-          }
+            "chaptertitle": "AIPMT Previous Papers",
+            "chapterpath": "exams/neet/aipmt/",
+            "clogo": "fa-solid fa-flask"
+          } 
         ]
-      }
+      } 
     ]
   },
   {
     "categorytitle": "Study Resources",
     "subjects": [
       {
-        "subjecttitle": "Physics Notes",
+        "subjecttitle": "Biology Notes",
         "slogo": "fa-solid fa-book",
         "subjectpath": "",
         "chapters": [
           {
-            "chaptertitle": "Physics Class 11 Notes multi line test here",
+            "chaptertitle": "Biology Class 11 Notes",
             "chapterpath": "",
             "clogo": "fa-brands fa-readme"
           },
           {
-            "chaptertitle": "Physics Class 12 Notes  multi line test here",
+            "chaptertitle": "Biology Class 12 Notes",
             "chapterpath": "",
             "clogo": "fa-brands fa-readme"
           }
         ]
       },
+      
       {
         "subjecttitle": "Chemistry Notes",
         "slogo": "fa-solid fa-book",
         "spath": "",
         "chapters": [
           {
-            "chaptertitle": "Chemistry Class 11 Notes  multi line test here",
+            "chaptertitle": "Chemistry Class 11 Notes",
             "chapterpath": "",
             "clogo": "fa-brands fa-readme"
           },
           {
-            "chaptertitle": "Chemistry Class 12 Notes  multi line test here",
+            "chaptertitle": "Chemistry Class 12 Notes",
             "chapterpath": "",
             "clogo": "fa-brands fa-readme"
           }
         ]
       },
       {
-        "subjecttitle": "Math Formula Notes",
+        "subjecttitle": "Physics Notes",
         "slogo": "fa-solid fa-book",
-        "path": "",
+        "subjectpath": "",
         "chapters": [
           {
-            "chaptertitle": "Math Class 11 Notes",
+            "chaptertitle": "Physics Class 11 Notes",
             "chapterpath": "",
             "clogo": "fa-brands fa-readme"
           },
           {
-            "chaptertitle": "Math Class 12 Notes",
+            "chaptertitle": "Physics Class 12 Notes",
             "chapterpath": "",
             "clogo": "fa-brands fa-readme"
           }
         ]
-      }
+      } 
     ]
   },
-  {
-    "categorytitle": "Video Resource",
-    "subjects": []
-  },
+   
   {
     "categorytitle": "NCERT Books",
-    "subjects": []
+    "subjects": [
+      
+    ]
   }
 ]
