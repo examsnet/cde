@@ -22,6 +22,11 @@
           "color":"#0073e6"
         },
         {
+          "title": "Cyan",
+          "link": "cyan",
+          "color":"#00bcd4"
+        },
+        {
           "title": "Dark",
           "link": "dark",
           "color":"#3a3b3c"
@@ -42,9 +47,9 @@
           "color":"#555555"
         },
         {
-          "title": "Purple",
-          "link": "purple",
-          "color":"#5f32a2"
+          "title": "Pink",
+          "link": "pink",
+          "color":"#FFC0CB"
         },
         {
           "title": "Red",
