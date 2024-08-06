@@ -3,69 +3,76 @@
     "categorytitle": "Entrance Exams",
     "subjects": [
       {
-        "subjecttitle": "NEET Practice",
-        "slogo": "fa-solid fa-stethoscope",
-        "subjectpath": "",
+        "subjecttitle": "NEET Practice Papers",
+        "slogo": "fa-solid fa-stethoscope", 
         "chapters": [
           {
             "chaptertitle": "NEET Previous Papers",
             "chapterpath": "exams/neet/previous/",
-            "clogo": "fa-solid fa-flask"
+            "clogo": "fa-solid fa-flask",
+            "savekey":"NPP"
           },
           {
             "chaptertitle": "NEET Model Papers",
             "chapterpath": "exams/neet/model/",
-            "clogo": "fa-solid fa-flask"
+            "clogo": "fa-solid fa-flask",
+            "savekey":"NMP"
           } 
         ]
       },
       {
         "subjecttitle": "NEET Chapters Wise",
-        "slogo": "fa-solid fa-stethoscope",
-        "spath": "",
+        "slogo": "fa-solid fa-stethoscope", 
         "chapters": [
           {
             "chaptertitle": "Class 11 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology11/",
-            "clogo": "fa-solid fa-flask"
+            "clogo": "fa-solid fa-flask",
+            "savekey":"N1B"
           },
           {
             "chaptertitle": "Class 12 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology12/",
-            "clogo": "fa-solid fa-flask"
+            "clogo": "fa-solid fa-flask",
+            "savekey":"N2B"
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry11/",
-            "clogo": "fa-solid fa-flask"
+            "clogo": "fa-solid fa-flask",
+            "savekey":"N1C"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry12/",
-            "clogo": "fa-solid fa-flask"
+            "clogo": "fa-solid fa-flask",
+            "savekey":"N2C"
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics11/",
-            "clogo": "fa-solid fa-flask"
+            "clogo": "fa-solid fa-flask",
+            "savekey":"N1P"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics12/",
-            "clogo": "fa-solid fa-user-pen"
+            "clogo": "fa-solid fa-user-pen",
+            "savekey":"N2P"
           }
           
         ]
       },
+       
       {
         "subjecttitle": "AIPMT Previous Papers",
-        "slogo": "fa-solid fa-stethoscope",
-        "subjectpath": "",
+        "slogo": "fa-solid fa-stethoscope", 
         "chapters": [
           {
             "chaptertitle": "AIPMT Previous Papers",
             "chapterpath": "exams/neet/aipmt/",
-            "clogo": "fa-solid fa-flask"
+            "clogo": "fa-solid fa-flask",
+            "savekey":"AIP"
           } 
         ]
       } 
@@ -76,8 +83,7 @@
     "subjects": [
       {
         "subjecttitle": "Biology Notes",
-        "slogo": "fa-solid fa-book",
-        "subjectpath": "",
+        "slogo": "fa-solid fa-book", 
         "chapters": [
           {
             "chaptertitle": "Biology Class 11 Notes",
@@ -94,8 +100,7 @@
       
       {
         "subjecttitle": "Chemistry Notes",
-        "slogo": "fa-solid fa-book",
-        "spath": "",
+        "slogo": "fa-solid fa-book", 
         "chapters": [
           {
             "chaptertitle": "Chemistry Class 11 Notes",
@@ -111,8 +116,7 @@
       },
       {
         "subjecttitle": "Physics Notes",
-        "slogo": "fa-solid fa-book",
-        "subjectpath": "",
+        "slogo": "fa-solid fa-book", 
         "chapters": [
           {
             "chaptertitle": "Physics Class 11 Notes",
