@@ -1,9 +1,15 @@
 [
     {
-      "title": "Home",
-      "icon": "fa-solid fa-house",
-      "link": "index.html",
-      "type": "action"
+      "title": "Review",
+      "icon": "fa-regular fa-star",
+      "link": "",
+      "type": "rate"
+    },
+    {
+      "title": "Share App",
+      "icon": "fa-solid fa-share",
+      "link": "Awesome App for Exam Preparation",
+      "type": "share"
     },
     {
       "title": "Themes",
