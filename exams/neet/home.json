@@ -10,13 +10,15 @@
             "chaptertitle": "NEET Previous Papers",
             "chapterpath": "exams/neet/previous/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"NPP"
+            "savekey":"NPP",
+            "datatype": "exams"
           },
           {
             "chaptertitle": "NEET Model Papers",
             "chapterpath": "exams/neet/model/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"NMP"
+            "savekey":"NMP",
+            "datatype": "exams"
           } 
         ]
       },
@@ -28,37 +30,43 @@
             "chaptertitle": "Class 11 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N1B"
+            "savekey":"N1B",
+            "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology12/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N2B"
+            "savekey":"N2B",
+            "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N1C"
+            "savekey":"N1C",
+            "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry12/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N2C"
+            "savekey":"N2C",
+            "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N1P"
+            "savekey":"N1P",
+            "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics12/",
             "clogo": "fa-solid fa-user-pen",
-            "savekey":"N2P"
+            "savekey":"N2P",
+            "datatype": "exams"
           }
           
         ]
@@ -72,7 +80,8 @@
             "chaptertitle": "AIPMT Previous Papers",
             "chapterpath": "exams/neet/aipmt/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"AIP"
+            "savekey":"AIP",
+            "datatype": "exams"
           } 
         ]
       } 
@@ -87,13 +96,15 @@
         "chapters": [
           {
             "chaptertitle": "Biology Class 11 Notes",
-            "chapterpath": "notes/hb/biology11",
-            "clogo": "fa-brands fa-readme"
+            "chapterpath": "notes/hb/biology11/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes"
           },
           {
             "chaptertitle": "Biology Class 12 Notes",
-            "chapterpath": "notes/hb/biology12",
-            "clogo": "fa-brands fa-readme"
+            "chapterpath": "notes/hb/biology12/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes"
           }
         ]
       },
@@ -104,13 +115,15 @@
         "chapters": [
           {
             "chaptertitle": "Chemistry Class 11 Notes",
-            "chapterpath": "notes/hb/chemistry11",
-            "clogo": "fa-brands fa-readme"
+            "chapterpath": "notes/hb/chemistry11/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes"
           },
           {
             "chaptertitle": "Chemistry Class 12 Notes",
-            "chapterpath": "notes/hb/chemistry12",
-            "clogo": "fa-brands fa-readme"
+            "chapterpath": "notes/hb/chemistry12/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes"
           }
         ]
       },
@@ -120,13 +133,15 @@
         "chapters": [
           {
             "chaptertitle": "Physics Class 11 Notes",
-            "chapterpath": "notes/hb/physics11",
-            "clogo": "fa-brands fa-readme"
+            "chapterpath": "notes/hb/physics11/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes"
           },
           {
             "chaptertitle": "Physics Class 12 Notes",
-            "chapterpath": "notes/hb/physicss12",
-            "clogo": "fa-brands fa-readme"
+            "chapterpath": "notes/hb/physicss12/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes"
           }
         ]
       } 
