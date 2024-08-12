@@ -3,19 +3,26 @@
     "categorytitle": "Entrance Exams",
     "subjects": [
       {
-        "subjecttitle": "NEET Practice Papers",
+        "subjecttitle": "JEE Main Papers",
         "slogo": "fa-solid fa-stethoscope", 
         "chapters": [
           {
-            "chaptertitle": "NEET Previous Papers",
-            "chapterpath": "exams/neet/previous/",
+            "chaptertitle": "JEE Main Previous Papers",
+            "chapterpath": "exams/jee/mainprevious/",
             "clogo": "fa-solid fa-flask",
             "savekey":"NPP",
             "datatype": "exams"
           },
           {
-            "chaptertitle": "NEET Model Papers",
-            "chapterpath": "exams/neet/model/",
+            "chaptertitle": "JEE Main Model Papers",
+            "chapterpath": "exams/jee/mainmodel/",
+            "clogo": "fa-solid fa-flask",
+            "savekey":"NMP",
+            "datatype": "exams"
+          },
+          {
+            "chaptertitle": "AIEEE Previous Papers",
+            "chapterpath": "exams/jee/aieee/",
             "clogo": "fa-solid fa-flask",
             "savekey":"NMP",
             "datatype": "exams"
@@ -23,47 +30,47 @@
         ]
       },
       {
-        "subjecttitle": "NEET Chapters Wise",
+        "subjecttitle": "JEE Main Chapters Wise",
         "slogo": "fa-solid fa-stethoscope", 
         "chapters": [
           {
-            "chaptertitle": "Class 11 Biology Questions",
-            "chapterpath": "exams/neet/chapters/biology11/",
+            "chaptertitle": "Class 11 Math Questions",
+            "chapterpath": "exams/jee/mainchapters/math11/",
             "clogo": "fa-solid fa-flask",
             "savekey":"N1B",
             "datatype": "exams"
           },
           {
-            "chaptertitle": "Class 12 Biology Questions",
-            "chapterpath": "exams/neet/chapters/biology12/",
+            "chaptertitle": "Class 12 Math Questions",
+            "chapterpath": "exams/jee/mainchapters/math12/",
             "clogo": "fa-solid fa-flask",
             "savekey":"N2B",
             "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
-            "chapterpath": "exams/neet/chapters/chemistry11/",
+            "chapterpath": "exams/jee/mainchapters/chemistry11/",
             "clogo": "fa-solid fa-flask",
             "savekey":"N1C",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
-            "chapterpath": "exams/neet/chapters/chemistry12/",
+            "chapterpath": "exams/jee/mainchapters/chemistry12/",
             "clogo": "fa-solid fa-flask",
             "savekey":"N2C",
             "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
-            "chapterpath": "exams/neet/chapters/physics11/",
+            "chapterpath": "exams/jee/mainchapters/physics11/",
             "clogo": "fa-solid fa-flask",
             "savekey":"N1P",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
-            "chapterpath": "exams/neet/chapters/physics12/",
+            "chapterpath": "exams/jee/mainchapters/physics12/",
             "clogo": "fa-solid fa-user-pen",
             "savekey":"N2P",
             "datatype": "exams"
@@ -72,16 +79,23 @@
         ]
       },       
       {
-        "subjecttitle": "AIPMT Previous Papers",
+        "subjecttitle": "JEE Advanced Papers",
         "slogo": "fa-solid fa-stethoscope", 
         "chapters": [
           {
-            "chaptertitle": "AIPMT Previous Papers",
-            "chapterpath": "exams/neet/aipmt/",
+            "chaptertitle": "JEE Advanced Previous Papers",
+            "chapterpath": "exams/jee/aipmt/",
             "clogo": "fa-solid fa-flask",
             "savekey":"AIP",
             "datatype": "exams"
-          } 
+          },
+          {
+            "chaptertitle": "JEE Advanced Model Papers",
+            "chapterpath": "exams/jee/aipmt/",
+            "clogo": "fa-solid fa-flask",
+            "savekey":"AIP",
+            "datatype": "exams"
+          }  
         ]
       } 
     ]
@@ -90,18 +104,18 @@
     "categorytitle": "Study Resources",
     "subjects": [
       {
-        "subjecttitle": "Biology Notes",
+        "subjecttitle": "Math Notes",
         "slogo": "fa-solid fa-book", 
         "chapters": [
           {
-            "chaptertitle": "Biology Class 11 Notes",
-            "chapterpath": "notes/hb/biology11/",
+            "chaptertitle": "Math Class 11 Notes",
+            "chapterpath": "notes/hb/math11/",
             "clogo": "fa-brands fa-readme",
             "datatype": "notes"
           },
           {
-            "chaptertitle": "Biology Class 12 Notes",
-            "chapterpath": "notes/hb/biology12/",
+            "chaptertitle": "Math Class 12 Notes",
+            "chapterpath": "notes/hb/math12/",
             "clogo": "fa-brands fa-readme",
             "datatype": "notes"
           }
