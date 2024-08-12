@@ -10,21 +10,21 @@
             "chaptertitle": "JEE Main Previous Papers",
             "chapterpath": "exams/jee/mainprevious/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"NPP",
+            "savekey":"JMP",
             "datatype": "exams"
           },
           {
             "chaptertitle": "JEE Main Model Papers",
             "chapterpath": "exams/jee/mainmodel/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"NMP",
+            "savekey":"JMM",
             "datatype": "exams"
           },
           {
             "chaptertitle": "AIEEE Previous Papers",
             "chapterpath": "exams/jee/aieee/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"NMP",
+            "savekey":"AIE",
             "datatype": "exams"
           } 
         ]
@@ -37,42 +37,42 @@
             "chaptertitle": "Class 11 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N1B",
+            "savekey":"J1M",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math12/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N2B",
+            "savekey":"J2M",
             "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N1C",
+            "savekey":"J1C",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry12/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N2C",
+            "savekey":"J2C",
             "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"N1P",
+            "savekey":"J1P",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics12/",
             "clogo": "fa-solid fa-user-pen",
-            "savekey":"N2P",
+            "savekey":"J2P",
             "datatype": "exams"
           }
           
@@ -86,14 +86,14 @@
             "chaptertitle": "JEE Advanced Previous Papers",
             "chapterpath": "exams/jee/aipmt/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"AIP",
+            "savekey":"JAP",
             "datatype": "exams"
           },
           {
             "chaptertitle": "JEE Advanced Model Papers",
             "chapterpath": "exams/jee/aipmt/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"AIP",
+            "savekey":"JAM",
             "datatype": "exams"
           }  
         ]
