@@ -96,13 +96,13 @@
           {
             "chaptertitle": "Biology Class 11 Notes",
             "chapterpath": "notes/hb/biology11/",
-            "clogo": "fa-regular fa-book-open",
+            "clogo": "fa-solid fa-book-open",
             "datatype": "notes"
           },
           {
             "chaptertitle": "Biology Class 12 Notes",
             "chapterpath": "notes/hb/biology12/",
-            "clogo": "fa-regular fa-book-open",
+            "clogo": "fa-solid fa-book-open",
             "datatype": "notes"
           }
         ]
@@ -114,13 +114,13 @@
           {
             "chaptertitle": "Chemistry Class 11 Notes",
             "chapterpath": "notes/hb/chemistry11/",
-            "clogo": "fa-regular fa-book-open",
+            "clogo": "fa-solid fa-book-open",
             "datatype": "notes"
           },
           {
             "chaptertitle": "Chemistry Class 12 Notes",
             "chapterpath": "notes/hb/chemistry12/",
-            "clogo": "fa-regular fa-book-open",
+            "clogo": "fa-solid fa-book-open",
             "datatype": "notes"
           }
         ]
@@ -132,13 +132,13 @@
           {
             "chaptertitle": "Physics Class 11 Notes",
             "chapterpath": "notes/hb/physics11/",
-            "clogo": "fa-regular fa-book-open",
+            "clogo": "fa-solid fa-book-open",
             "datatype": "notes"
           },
           {
             "chaptertitle": "Physics Class 12 Notes",
             "chapterpath": "notes/hb/physics12/",
-            "clogo": "fa-regular fa-book-open",
+            "clogo": "fa-solid fa-book-open",
             "datatype": "notes"
           }
         ]
