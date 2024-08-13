@@ -9,14 +9,14 @@
           {
             "chaptertitle": "NEET Previous Papers",
             "chapterpath": "exams/neet/previous/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"NPP",
             "datatype": "exams"
           },
           {
             "chaptertitle": "NEET Model Papers",
             "chapterpath": "exams/neet/model/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"NMP",
             "datatype": "exams"
           } 
@@ -29,42 +29,42 @@
           {
             "chaptertitle": "Class 11 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology11/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-dna",
             "savekey":"N1B",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology12/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-dna",
             "savekey":"N2B",
             "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry11/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-flask-vial",
             "savekey":"N1C",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry12/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-flask-vial",
             "savekey":"N2C",
             "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics11/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-magnet",
             "savekey":"N1P",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics12/",
-            "clogo": "fa-solid fa-user-pen",
+            "clogo": "fa-solid fa-magnet",
             "savekey":"N2P",
             "datatype": "exams"
           }
