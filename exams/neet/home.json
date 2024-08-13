@@ -29,42 +29,42 @@
           {
             "chaptertitle": "Class 11 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology11/",
-            "clogo": "fa-solid fa-dna",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"N1B",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Biology Questions",
             "chapterpath": "exams/neet/chapters/biology12/",
-            "clogo": "fa-solid fa-dna",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"N2B",
             "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry11/",
-            "clogo": "fa-solid fa-flask-vial",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"N1C",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/neet/chapters/chemistry12/",
-            "clogo": "fa-solid fa-flask-vial",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"N2C",
             "datatype": "exams"
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics11/",
-            "clogo": "fa-solid fa-magnet",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"N1P",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
             "chapterpath": "exams/neet/chapters/physics12/",
-            "clogo": "fa-solid fa-magnet",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"N2P",
             "datatype": "exams"
           }
@@ -78,7 +78,7 @@
           {
             "chaptertitle": "AIPMT Previous Papers",
             "chapterpath": "exams/neet/aipmt/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-highlighter",
             "savekey":"AIP",
             "datatype": "exams"
           } 
@@ -91,18 +91,18 @@
     "subjects": [
       {
         "subjecttitle": "Biology Notes",
-        "slogo": "fa-solid fa-book", 
+        "slogo": "fa-solid fa-book",   
         "chapters": [
           {
             "chaptertitle": "Biology Class 11 Notes",
             "chapterpath": "notes/hb/biology11/",
-            "clogo": "fa-brands fa-readme",
+            "clogo": "fa-regular fa-book-open",
             "datatype": "notes"
           },
           {
             "chaptertitle": "Biology Class 12 Notes",
             "chapterpath": "notes/hb/biology12/",
-            "clogo": "fa-brands fa-readme",
+            "clogo": "fa-regular fa-book-open",
             "datatype": "notes"
           }
         ]
@@ -114,13 +114,13 @@
           {
             "chaptertitle": "Chemistry Class 11 Notes",
             "chapterpath": "notes/hb/chemistry11/",
-            "clogo": "fa-brands fa-readme",
+            "clogo": "fa-regular fa-book-open",
             "datatype": "notes"
           },
           {
             "chaptertitle": "Chemistry Class 12 Notes",
             "chapterpath": "notes/hb/chemistry12/",
-            "clogo": "fa-brands fa-readme",
+            "clogo": "fa-regular fa-book-open",
             "datatype": "notes"
           }
         ]
@@ -132,13 +132,13 @@
           {
             "chaptertitle": "Physics Class 11 Notes",
             "chapterpath": "notes/hb/physics11/",
-            "clogo": "fa-brands fa-readme",
+            "clogo": "fa-regular fa-book-open",
             "datatype": "notes"
           },
           {
             "chaptertitle": "Physics Class 12 Notes",
             "chapterpath": "notes/hb/physics12/",
-            "clogo": "fa-brands fa-readme",
+            "clogo": "fa-regular fa-book-open",
             "datatype": "notes"
           }
         ]
