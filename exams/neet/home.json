@@ -87,7 +87,7 @@
     ]
   },
   {
-    "categorytitle": "Study Resources",
+    "categorytitle": "Study Notes",
     "subjects": [
       {
         "subjecttitle": "Biology Notes",
@@ -145,11 +145,63 @@
       } 
     ]
   },
-   
   {
-    "categorytitle": "NCERT Books",
+    "categorytitle": "Books",
     "subjects": [
-      
+      {
+        "subjecttitle": "NCERT Biology",
+        "slogo": "fa-solid fa-book",   
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Biology Class 11",
+            "chapterpath": "notes/hb/biology11/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "NCERT Biology Class 12",
+            "chapterpath": "notes/hb/biology12/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          }
+        ]
+      },      
+      {
+        "subjecttitle": "NCERT Chemistry",
+        "slogo": "fa-solid fa-book", 
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Chemistry Class 11",
+            "chapterpath": "notes/hb/chemistry11/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "NCERT Chemistry Class 12",
+            "chapterpath": "notes/hb/chemistry12/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Physics",
+        "slogo": "fa-solid fa-book", 
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Physics Class 11",
+            "chapterpath": "notes/hb/physics11/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "NCERT Physics Class 12",
+            "chapterpath": "notes/hb/physics12/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          }
+        ]
+      } 
     ]
   }
 ]
