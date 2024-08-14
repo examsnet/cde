@@ -1,6 +1,7 @@
 [
   {
     "categorytitle": "Entrance Exams",
+    "elogo": "fa-solid fa-file-pen", 
     "subjects": [
       {
         "subjecttitle": "NEET Practice Papers",
@@ -88,6 +89,7 @@
   },
   {
     "categorytitle": "Study Notes",
+    "elogo": "fa-solid fa-book-open-reader",
     "subjects": [
       {
         "subjecttitle": "Biology Notes",
@@ -147,6 +149,7 @@
   },
   {
     "categorytitle": "Books",
+    "elogo": "fas fa-file-pdf",
     "subjects": [
       {
         "subjecttitle": "NCERT Biology",
