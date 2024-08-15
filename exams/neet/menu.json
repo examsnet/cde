@@ -79,7 +79,7 @@
     "title": "Social",
     "icon": "fa-solid fa-share",
     "link": "#",
-    "type": "grid",
+    "type": "default",
     "submenu": [
       {
         "icon": "fa-brands fa-facebook",
