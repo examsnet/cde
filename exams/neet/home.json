@@ -174,13 +174,15 @@
             "chaptertitle": "NCERT Biology Class 11",
             "chapterpath": "drive/ncert/class11/biology/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link"
+            "datatype": "link",
+            "common":true
           },
           {
             "chaptertitle": "NCERT Biology Class 12",
             "chapterpath": "drive/ncert/class12/biology/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link"
+            "datatype": "link",
+            "common":true
           }
         ]
       },      
@@ -192,13 +194,15 @@
             "chaptertitle": "NCERT Chemistry Class 11",
             "chapterpath": "drive/ncert/class11/chemistry/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link"
+            "datatype": "link",
+            "common":true
           },
           {
             "chaptertitle": "NCERT Chemistry Class 12",
             "chapterpath": "drive/ncert/class12/chemistry/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link"
+            "datatype": "link",
+            "common":true
           }
         ]
       },
@@ -210,13 +214,15 @@
             "chaptertitle": "NCERT Physics Class 11",
             "chapterpath": "drive/ncert/class11/physics/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link"
+            "datatype": "link",
+            "common":true
           },
           {
             "chaptertitle": "NCERT Physics Class 12",
             "chapterpath": "drive/ncert/class12/physics/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link"
+            "datatype": "link",
+            "common":true
           }
         ]
       } 
