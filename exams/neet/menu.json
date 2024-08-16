@@ -19,7 +19,7 @@
   },
   {
     "title": "Themes",
-    "icon": "fa-solid fa-palette",
+    "icon": "theme-icon",
     "link": "#",
     "type": "grid",
     "submenu": [
