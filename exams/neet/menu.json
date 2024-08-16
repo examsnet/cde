@@ -28,11 +28,7 @@
         "link": "default",
         "color": "#143b59"
       },
-      {
-        "title": "Blue",
-        "link": "blue",
-        "color": "#0073e6"
-      },
+      
       {
         "title": "Cafe",
         "link": "cafe",
@@ -68,6 +64,11 @@
         "link": "red",
         "color": "#b74c5f"
       },
+      {
+        "title": "Prussian",
+        "link": "blue",
+        "color": "#012e47"
+      },      
       {
         "title": "Violet",
         "link": "violet",

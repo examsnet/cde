@@ -1,0 +1,210 @@
+[
+  {
+    "categorytitle": "Entrance Exams",
+    "elogo": "fa-solid fa-file-pen", 
+    "subjects": [
+      {
+        "subjecttitle": "NEET Practice Papers",
+        "slogo": "fa-solid fa-stethoscope", 
+        "chapters": [
+          {
+            "chaptertitle": "NEET Previous Papers",
+            "chapterpath": "exams/neet/previous/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"NPP",
+            "datatype": "exams"
+          },
+          {
+            "chaptertitle": "NEET Model Papers",
+            "chapterpath": "exams/neet/model/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"NMP",
+            "datatype": "exams"
+          } 
+        ]
+      },
+      {
+        "subjecttitle": "NEET Chapters Wise",
+        "slogo": "fa-solid fa-stethoscope", 
+        "chapters": [
+          {
+            "chaptertitle": "Class 11 Biology Questions",
+            "chapterpath": "exams/neet/chapters/biology11/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"N1B",
+            "datatype": "exams"
+          },
+          {
+            "chaptertitle": "Class 12 Biology Questions",
+            "chapterpath": "exams/neet/chapters/biology12/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"N2B",
+            "datatype": "exams"
+          },
+           {
+            "chaptertitle": "Class 11 Chemistry Questions",
+            "chapterpath": "exams/neet/chapters/chemistry11/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"N1C",
+            "datatype": "exams"
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Questions",
+            "chapterpath": "exams/neet/chapters/chemistry12/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"N2C",
+            "datatype": "exams"
+          },
+           {
+            "chaptertitle": "Class 11 Physics Questions",
+            "chapterpath": "exams/neet/chapters/physics11/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"N1P",
+            "datatype": "exams"
+          },
+          {
+            "chaptertitle": "Class 12 Physics Questions",
+            "chapterpath": "exams/neet/chapters/physics12/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"N2P",
+            "datatype": "exams"
+          }
+          
+        ]
+      },       
+      {
+        "subjecttitle": "AIPMT Previous Papers",
+        "slogo": "fa-solid fa-stethoscope", 
+        "chapters": [
+          {
+            "chaptertitle": "AIPMT Previous Papers",
+            "chapterpath": "exams/neet/aipmt/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"AIP",
+            "datatype": "exams"
+          } 
+        ]
+      } 
+    ]
+  },
+  {
+    "categorytitle": "Study Notes",
+    "elogo": "fa-solid fa-book-open-reader",
+    "subjects": [
+      {
+        "subjecttitle": "Biology Notes",
+        "slogo": "fa-solid fa-book",   
+        "chapters": [
+          {
+            "chaptertitle": "Biology Class 11 Notes",
+            "chapterpath": "notes/hb/biology11/",
+            "clogo": "fa-solid fa-book-open",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "Biology Class 12 Notes",
+            "chapterpath": "notes/hb/biology12/",
+            "clogo": "fa-solid fa-book-open",
+            "datatype": "notes"
+          }
+        ]
+      },      
+      {
+        "subjecttitle": "Chemistry Notes",
+        "slogo": "fa-solid fa-book", 
+        "chapters": [
+          {
+            "chaptertitle": "Chemistry Class 11 Notes",
+            "chapterpath": "notes/hb/chemistry11/",
+            "clogo": "fa-solid fa-book-open",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "Chemistry Class 12 Notes",
+            "chapterpath": "notes/hb/chemistry12/",
+            "clogo": "fa-solid fa-book-open",
+            "datatype": "notes"
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Physics Notes",
+        "slogo": "fa-solid fa-book", 
+        "chapters": [
+          {
+            "chaptertitle": "Physics Class 11 Notes",
+            "chapterpath": "notes/hb/physics11/",
+            "clogo": "fa-solid fa-book-open",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "Physics Class 12 Notes",
+            "chapterpath": "notes/hb/physics12/",
+            "clogo": "fa-solid fa-book-open",
+            "datatype": "notes"
+          }
+        ]
+      } 
+    ]
+  },
+  {
+    "categorytitle": "Books",
+    "elogo": "fas fa-file-pdf",
+    "subjects": [
+      {
+        "subjecttitle": "NCERT Biology",
+        "slogo": "fa-solid fa-book",   
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Biology Class 11",
+            "chapterpath": "drive/ncert/class11/biology/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "NCERT Biology Class 12",
+            "chapterpath": "drive/ncert/class12/biology/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          }
+        ]
+      },      
+      {
+        "subjecttitle": "NCERT Chemistry",
+        "slogo": "fa-solid fa-book", 
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Chemistry Class 11",
+            "chapterpath": "drive/ncert/class11/chemistry/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "NCERT Chemistry Class 12",
+            "chapterpath": "drive/ncert/class12/chemistry/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Physics",
+        "slogo": "fa-solid fa-book", 
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Physics Class 11",
+            "chapterpath": "drive/ncert/class11/physics/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          },
+          {
+            "chaptertitle": "NCERT Physics Class 12",
+            "chapterpath": "drive/ncert/class12/physics/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "notes"
+          }
+        ]
+      } 
+    ]
+  }
+]
