@@ -77,34 +77,34 @@
   },
   {
     "title": "Social",
-    "icon": "fa-solid fa-share",
+    "icon": "fa-solid fa-share-from-square",
     "link": "#",
-    "type": "default",
+    "type": "links",
     "submenu": [
       {
         "icon": "fa-brands fa-facebook",
         "title": "Facebook",
-        "link": "facebook"
+        "link": "https://www.facebook.com/Examsnet9/"
       },
       {
         "icon": "fa-brands fa-youtube",
         "title": "Youtube",
-        "link": "youtube"
+        "link": "https://www.youtube.com/c/examsnet"
       },
       {
         "icon": "fa-brands fa-instagram",
         "title": "Instagram",
-        "link": "instagram"
+        "link": "https://www.instagram.com/examsnet9/"
       },
       {
-        "icon": "fa-brands fa-x-twitter",
+        "icon": "fa-brands fa-twitter",
         "title": "Twitter",
-        "link": "twitter"
+        "link": "https://x.com/examsnet/"
       },
       {
         "icon": "fa-brands fa-linkedin",
         "title": "Linkedin",
-        "link": "linkedin"
+        "link": "https://in.linkedin.com/company/examsnet-website/"
       }
     ]
   },
