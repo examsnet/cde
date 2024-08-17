@@ -13,7 +13,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey":"CGL",
             "datatype": "exams",
-            "common":true
+            "common":false
           },
           {
             "chaptertitle": "SSC CGL Model Papers",
@@ -21,7 +21,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey":"CGM",
             "datatype": "exams",
-            "common":true
+            "common":false
           },
           {
             "chaptertitle": "SSC CGL Tier 2 Papers",
@@ -29,7 +29,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey":"CG2",
             "datatype": "exams",
-            "common":true
+            "common":false
           } 
         ]
       },
@@ -43,7 +43,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey":"CGL",
             "datatype": "exams",
-            "common":true
+            "common":false
           },
           {
             "chaptertitle": "SSC CHSL Model Papers",
@@ -51,7 +51,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey":"CGM",
             "datatype": "exams",
-            "common":true
+            "common":false
           } 
         ]
       },
@@ -65,7 +65,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey":"CGL",
             "datatype": "exams",
-            "common":true
+            "common":false
           },
           {
             "chaptertitle": "SSC MTS Model Papers",
@@ -73,7 +73,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey":"CGM",
             "datatype": "exams",
-            "common":true
+            "common":false
           },
           {
             "chaptertitle": "SSC CGL Tier 2 Papers",
@@ -81,7 +81,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey":"CG2",
             "datatype": "exams",
-            "common":true
+            "common":false
           } 
         ]
       },
@@ -92,10 +92,10 @@
           {
             "chaptertitle": "SSC Steno Previous Papers",
             "chapterpath": "exams/ssc/stenoprev/",
-            "clogo": "fa-solid fa-computer-mouse",
+            "clogo": "fa-solid fa-pen",
             "savekey":"STE",
             "datatype": "exams",
-            "common":true
+            "common":false
           } 
         ]
       },
@@ -106,18 +106,18 @@
           {
             "chaptertitle": "SSC CPO Previous Papers",
             "chapterpath": "exams/ssc/cpoprev/",
-            "clogo": "fa-solid fa-computer-mouse",
+            "clogo": "fa-solid fa-pen",
             "savekey":"CPP",
             "datatype": "exams",
-            "common":true
+            "common":false
           },
           {
             "chaptertitle": "SSC CPO Model Papers",
             "chapterpath": "exams/ssc/cpomodel/",
-            "clogo": "fa-solid fa-computer-mouse",
+            "clogo": "fa-solid fa-pen",
             "savekey":"CPM",
             "datatype": "exams",
-            "common":true
+            "common":false
           }  
         ]
       }
@@ -137,49 +137,56 @@
             "chapterpath": "exams/aptitude/algebra/",
             "clogo": "fa-solid fa-square-root-variable", 
             "savekey":"QA1",
-            "datatype": "exams"
+            "datatype": "exams",
+            "common":true
           },
           {
             "chaptertitle": "Arithmetic",
             "chapterpath": "exams/aptitude/arithmetic/",
             "clogo": "fa-solid fa-pen-ruler",
             "savekey":"QA2",
-            "datatype": "exams"
+            "datatype": "exams",
+            "common":true
           },
            {
             "chaptertitle": "Commercial Math",
             "chapterpath": "exams/aptitude/commercial/",
             "clogo": "fa-solid fa-hand-holding-dollar",
             "savekey":"QA3",
-            "datatype": "exams"
+            "datatype": "exams",
+            "common":true
           },
           {
             "chaptertitle": "Data Based Math",
             "chapterpath": "exams/aptitude/data/",
             "clogo": "fa-solid fa-chart-pie",
             "savekey":"QA4",
-            "datatype": "exams"
+            "datatype": "exams",
+            "common":true
           },
            {
             "chaptertitle": "Geometry and Mensuration",
             "chapterpath": "exams/aptitude/geometry/",
             "clogo": "fa-solid fa-shapes",
             "savekey":"QA5",
-            "datatype": "exams"
+            "datatype": "exams",
+            "common":true
           },
           {
             "chaptertitle": "Number System and Numeracy",
             "chapterpath": "exams/aptitude/numbers/",
             "clogo": "fa-solid fa-sort-numeric-up-alt",
             "savekey":"QA6",
-            "datatype": "exams"
+            "datatype": "exams",
+            "common":true
           },
           {
             "chaptertitle": "Problem Solving",
             "chapterpath": "exams/aptitude/problems/",
             "clogo": "fa-solid fa-puzzle-piece",
             "savekey":"QA7",
-            "datatype": "exams"
+            "datatype": "exams",
+            "common":true
           }
           
         ]
