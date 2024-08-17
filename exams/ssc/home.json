@@ -100,6 +100,35 @@
         ]
       },
       {
+        "subjecttitle": "SSC CPO Practice Tests",
+        "slogo": "fa-solid fa-user-group", 
+        "chapters": [
+          {
+            "chaptertitle": "SSC CPO Previous Papers",
+            "chapterpath": "exams/ssc/cpoprev/",
+            "clogo": "fa-solid fa-computer-mouse",
+            "savekey":"CPP",
+            "datatype": "exams",
+            "common":true
+          },
+          {
+            "chaptertitle": "SSC CPO Model Papers",
+            "chapterpath": "exams/ssc/cpomodel/",
+            "clogo": "fa-solid fa-computer-mouse",
+            "savekey":"CPM",
+            "datatype": "exams",
+            "common":true
+          }  
+        ]
+      }
+      
+    ]
+  },
+  {
+    "categorytitle": "Other Practice Tests",
+    "elogo": "fa-solid fa-file-pen", 
+    "subjects": [
+      {
         "subjecttitle": "Quantitative Aptitude",
         "slogo": "fa-solid fa-calculator", 
         "chapters": [
@@ -154,20 +183,8 @@
           }
           
         ]
-      },       
-      {
-        "subjecttitle": "AIPMT Previous Papers",
-        "slogo": "fa-solid fa-stethoscope", 
-        "chapters": [
-          {
-            "chaptertitle": "AIPMT Previous Papers",
-            "chapterpath": "exams/neet/aipmt/",
-            "clogo": "fa-solid fa-pen",
-            "savekey":"AIP",
-            "datatype": "exams"
-          } 
-        ]
       } 
+       
     ]
   }
    
