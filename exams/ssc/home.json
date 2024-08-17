@@ -17,7 +17,7 @@
           },
           {
             "chaptertitle": "SSC CGL Model Papers",
-            "chapterpath": "exams/ssc/cglmodel/ ",
+            "chapterpath": "exams/ssc/cglmodel/",
             "clogo": "fa-solid fa-pen",
             "savekey": "CGM",
             "datatype": "exams",
@@ -25,7 +25,7 @@
           },
           {
             "chaptertitle": "SSC CGL Tier 2 Papers",
-            "chapterpath": "exams/ssc/cgltier2/ ",
+            "chapterpath": "exams/ssc/cgltier2/",
             "clogo": "fa-solid fa-pen",
             "savekey": "CG2",
             "datatype": "exams",
@@ -47,7 +47,7 @@
           },
           {
             "chaptertitle": "SSC CHSL Model Papers",
-            "chapterpath": "exams/ssc/chslmodel/ ",
+            "chapterpath": "exams/ssc/chslmodel/",
             "clogo": "fa-solid fa-pen",
             "savekey": "CGM",
             "datatype": "exams",
@@ -69,7 +69,7 @@
           },
           {
             "chaptertitle": "SSC MTS Model Papers",
-            "chapterpath": "exams/ssc/mtsmodel/ ",
+            "chapterpath": "exams/ssc/mtsmodel/",
             "clogo": "fa-solid fa-pen",
             "savekey": "CGM",
             "datatype": "exams",
@@ -77,7 +77,7 @@
           },
           {
             "chaptertitle": "SSC CGL Tier 2 Papers",
-            "chapterpath": "exams/ssc/cgltier2/ ",
+            "chapterpath": "exams/ssc/cgltier2/",
             "clogo": "fa-solid fa-pen",
             "savekey": "CG2",
             "datatype": "exams",
