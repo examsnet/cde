@@ -1,198 +1,354 @@
 [
   {
     "categorytitle": "Entrance Exams",
-    "elogo": "fa-solid fa-file-pen", 
+    "elogo": "fa-solid fa-file-pen",
     "subjects": [
       {
         "subjecttitle": "SSC CGL Practice Tests",
-        "slogo": "fa-solid fa-user-group", 
+        "slogo": "fa-solid fa-user-group",
         "chapters": [
           {
             "chaptertitle": "SSC CGL Previous Papers",
             "chapterpath": "exams/ssc/cglprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CGL",
+            "savekey": "CGL",
             "datatype": "exams",
-            "common":false
+            "common": false
           },
           {
             "chaptertitle": "SSC CGL Model Papers",
             "chapterpath": "exams/ssc/cglmodel/ ",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CGM",
+            "savekey": "CGM",
             "datatype": "exams",
-            "common":false
+            "common": false
           },
           {
             "chaptertitle": "SSC CGL Tier 2 Papers",
             "chapterpath": "exams/ssc/cgltier2/ ",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CG2",
+            "savekey": "CG2",
             "datatype": "exams",
-            "common":false
-          } 
+            "common": false
+          }
         ]
       },
       {
         "subjecttitle": "SSC CHSL Practice Tests",
-        "slogo": "fa-solid fa-user-group", 
+        "slogo": "fa-solid fa-user-group",
         "chapters": [
           {
             "chaptertitle": "SSC CHSL Previous Papers",
             "chapterpath": "exams/ssc/chslprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CGL",
+            "savekey": "CGL",
             "datatype": "exams",
-            "common":false
+            "common": false
           },
           {
             "chaptertitle": "SSC CHSL Model Papers",
             "chapterpath": "exams/ssc/chslmodel/ ",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CGM",
+            "savekey": "CGM",
             "datatype": "exams",
-            "common":false
-          } 
+            "common": false
+          }
         ]
       },
       {
         "subjecttitle": "SSC MTS Practice Tests",
-        "slogo": "fa-solid fa-user-group", 
+        "slogo": "fa-solid fa-user-group",
         "chapters": [
           {
             "chaptertitle": "SSC MTS Previous Papers",
             "chapterpath": "exams/ssc/mtsprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CGL",
+            "savekey": "CGL",
             "datatype": "exams",
-            "common":false
+            "common": false
           },
           {
             "chaptertitle": "SSC MTS Model Papers",
             "chapterpath": "exams/ssc/mtsmodel/ ",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CGM",
+            "savekey": "CGM",
             "datatype": "exams",
-            "common":false
+            "common": false
           },
           {
             "chaptertitle": "SSC CGL Tier 2 Papers",
             "chapterpath": "exams/ssc/cgltier2/ ",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CG2",
+            "savekey": "CG2",
             "datatype": "exams",
-            "common":false
-          } 
+            "common": false
+          }
         ]
       },
       {
         "subjecttitle": "SSC Steno Practice Tests",
-        "slogo": "fa-solid fa-user-group", 
+        "slogo": "fa-solid fa-user-group",
         "chapters": [
           {
             "chaptertitle": "SSC Steno Previous Papers",
             "chapterpath": "exams/ssc/stenoprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey":"STE",
+            "savekey": "STE",
             "datatype": "exams",
-            "common":false
-          } 
+            "common": false
+          }
         ]
       },
       {
         "subjecttitle": "SSC CPO Practice Tests",
-        "slogo": "fa-solid fa-user-group", 
+        "slogo": "fa-solid fa-user-group",
         "chapters": [
           {
             "chaptertitle": "SSC CPO Previous Papers",
             "chapterpath": "exams/ssc/cpoprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CPP",
+            "savekey": "CPP",
             "datatype": "exams",
-            "common":false
+            "common": false
           },
           {
             "chaptertitle": "SSC CPO Model Papers",
             "chapterpath": "exams/ssc/cpomodel/",
             "clogo": "fa-solid fa-pen",
-            "savekey":"CPM",
+            "savekey": "CPM",
             "datatype": "exams",
-            "common":false
-          }  
+            "common": false
+          }
         ]
       }
-      
     ]
   },
   {
     "categorytitle": "Other Practice Tests",
-    "elogo": "fa-solid fa-file-pen", 
+    "elogo": "fa-solid fa-file-pen",
     "subjects": [
       {
         "subjecttitle": "Quantitative Aptitude",
-        "slogo": "fa-solid fa-calculator", 
+        "slogo": "fa-solid fa-calculator",
         "chapters": [
           {
             "chaptertitle": "Algebra and Higher Math",
             "chapterpath": "exams/aptitude/algebra/",
-            "clogo": "fa-solid fa-square-root-variable", 
-            "savekey":"QA1",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "QA1",
             "datatype": "exams",
-            "common":true
+            "common": true
           },
           {
             "chaptertitle": "Arithmetic",
             "chapterpath": "exams/aptitude/arithmetic/",
             "clogo": "fa-solid fa-pen-ruler",
-            "savekey":"QA2",
+            "savekey": "QA2",
             "datatype": "exams",
-            "common":true
+            "common": true
           },
-           {
+          {
             "chaptertitle": "Commercial Math",
             "chapterpath": "exams/aptitude/commercial/",
             "clogo": "fa-solid fa-hand-holding-dollar",
-            "savekey":"QA3",
+            "savekey": "QA3",
             "datatype": "exams",
-            "common":true
+            "common": true
           },
           {
             "chaptertitle": "Data Based Math",
             "chapterpath": "exams/aptitude/data/",
             "clogo": "fa-solid fa-chart-pie",
-            "savekey":"QA4",
+            "savekey": "QA4",
             "datatype": "exams",
-            "common":true
+            "common": true
           },
-           {
+          {
             "chaptertitle": "Geometry and Mensuration",
             "chapterpath": "exams/aptitude/geometry/",
             "clogo": "fa-solid fa-shapes",
-            "savekey":"QA5",
+            "savekey": "QA5",
             "datatype": "exams",
-            "common":true
+            "common": true
           },
           {
             "chaptertitle": "Number System and Numeracy",
             "chapterpath": "exams/aptitude/numbers/",
             "clogo": "fa-solid fa-sort-numeric-up-alt",
-            "savekey":"QA6",
+            "savekey": "QA6",
             "datatype": "exams",
-            "common":true
+            "common": true
           },
           {
             "chaptertitle": "Problem Solving",
             "chapterpath": "exams/aptitude/problems/",
             "clogo": "fa-solid fa-puzzle-piece",
-            "savekey":"QA7",
+            "savekey": "QA7",
             "datatype": "exams",
-            "common":true
+            "common": true
           }
-          
         ]
-      } 
-       
+      },
+      {
+        "subjecttitle": "English Practice",
+        "slogo": "fa-solid fa-calculator",
+        "chapters": [
+          {
+            "chaptertitle": "Antonyms Tests",
+            "chapterpath": "exams/english/antonyms/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN1",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Synonyms Tests",
+            "chapterpath": "exams/english/synonyms/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN2",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Spelling Check Tests",
+            "chapterpath": "exams/english/spelling/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN3",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Spotting Errors",
+            "chapterpath": "exams/english/errors/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN4",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "One Word Substitutes",
+            "chapterpath": "exams/english/oneword/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN5",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Selecting Words",
+            "chapterpath": "exams/english/selecting/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN6",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Sentence Correction",
+            "chapterpath": "exams/english/correction/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN7",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Idioms and Phrases",
+            "chapterpath": "exams/english/idioms/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN8",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Sentence Improvement",
+            "chapterpath": "exams/english/improvement/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN9",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Grammar Online",
+            "chapterpath": "exams/english/grammar/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN10",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Common Error Detection",
+            "chapterpath": "exams/english/commonerror/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN11",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Sentence Completion",
+            "chapterpath": "exams/english/completion/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN12",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Direct and Indirect Speech",
+            "chapterpath": "exams/english/speech/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN13",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Ordering Words",
+            "chapterpath": "exams/english/orderingwords/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN14",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Ordering Sentences",
+            "chapterpath": "exams/english/orderingsentence/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN15",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Verbal Analogies",
+            "chapterpath": "exams/english/verbal/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN16",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Sentence Formation",
+            "chapterpath": "exams/english/formation/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN17",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Completing Statements",
+            "chapterpath": "exams/english/statements/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN18",
+            "datatype": "exams",
+            "common": true
+          }
+          ,
+          {
+            "chaptertitle": "Change of Speech",
+            "chapterpath": "exams/english/change/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "EN19",
+            "datatype": "exams",
+            "common": true
+          }
+
+        ]
+      }
     ]
   }
-   
 ]
