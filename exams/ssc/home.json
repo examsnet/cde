@@ -4,69 +4,152 @@
     "elogo": "fa-solid fa-file-pen", 
     "subjects": [
       {
-        "subjecttitle": "NEET Practice Papers",
-        "slogo": "fa-solid fa-stethoscope", 
+        "subjecttitle": "SSC CGL Practice Tests",
+        "slogo": "fa-solid fa-user-group", 
         "chapters": [
           {
-            "chaptertitle": "NEET Previous Papers",
-            "chapterpath": "exams/neet/previous/",
+            "chaptertitle": "SSC CGL Previous Papers",
+            "chapterpath": "exams/ssc/cglprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey":"NPP",
-            "datatype": "exams"
+            "savekey":"CGL",
+            "datatype": "exams",
+            "common":true
           },
           {
-            "chaptertitle": "NEET Model Papers",
-            "chapterpath": "exams/neet/model/",
+            "chaptertitle": "SSC CGL Model Papers",
+            "chapterpath": "exams/ssc/cglmodel/ ",
             "clogo": "fa-solid fa-pen",
-            "savekey":"NMP",
-            "datatype": "exams"
+            "savekey":"CGM",
+            "datatype": "exams",
+            "common":true
+          },
+          {
+            "chaptertitle": "SSC CGL Tier 2 Papers",
+            "chapterpath": "exams/ssc/cgltier2/ ",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"CG2",
+            "datatype": "exams",
+            "common":true
           } 
         ]
       },
       {
-        "subjecttitle": "NEET Chapters Wise",
-        "slogo": "fa-solid fa-stethoscope", 
+        "subjecttitle": "SSC CHSL Practice Tests",
+        "slogo": "fa-solid fa-user-group", 
         "chapters": [
           {
-            "chaptertitle": "Class 11 Biology Questions",
-            "chapterpath": "exams/neet/chapters/biology11/",
+            "chaptertitle": "SSC CHSL Previous Papers",
+            "chapterpath": "exams/ssc/chslprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey":"N1B",
+            "savekey":"CGL",
+            "datatype": "exams",
+            "common":true
+          },
+          {
+            "chaptertitle": "SSC CHSL Model Papers",
+            "chapterpath": "exams/ssc/chslmodel/ ",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"CGM",
+            "datatype": "exams",
+            "common":true
+          } 
+        ]
+      },
+      {
+        "subjecttitle": "SSC MTS Practice Tests",
+        "slogo": "fa-solid fa-user-group", 
+        "chapters": [
+          {
+            "chaptertitle": "SSC MTS Previous Papers",
+            "chapterpath": "exams/ssc/mtsprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"CGL",
+            "datatype": "exams",
+            "common":true
+          },
+          {
+            "chaptertitle": "SSC MTS Model Papers",
+            "chapterpath": "exams/ssc/mtsmodel/ ",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"CGM",
+            "datatype": "exams",
+            "common":true
+          },
+          {
+            "chaptertitle": "SSC CGL Tier 2 Papers",
+            "chapterpath": "exams/ssc/cgltier2/ ",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"CG2",
+            "datatype": "exams",
+            "common":true
+          } 
+        ]
+      },
+      {
+        "subjecttitle": "SSC Steno Practice Tests",
+        "slogo": "fa-solid fa-user-group", 
+        "chapters": [
+          {
+            "chaptertitle": "SSC Steno Previous Papers",
+            "chapterpath": "exams/ssc/stenoprev/",
+            "clogo": "fa-solid fa-computer-mouse",
+            "savekey":"STE",
+            "datatype": "exams",
+            "common":true
+          } 
+        ]
+      },
+      {
+        "subjecttitle": "Quantitative Aptitude",
+        "slogo": "fa-solid fa-calculator", 
+        "chapters": [
+          {
+            "chaptertitle": "Algebra and Higher Math",
+            "chapterpath": "exams/aptitude/algebra/",
+            "clogo": "fa-solid fa-square-root-variable", 
+            "savekey":"QA1",
             "datatype": "exams"
           },
           {
-            "chaptertitle": "Class 12 Biology Questions",
-            "chapterpath": "exams/neet/chapters/biology12/",
-            "clogo": "fa-solid fa-pen",
-            "savekey":"N2B",
+            "chaptertitle": "Arithmetic",
+            "chapterpath": "exams/aptitude/arithmetic/",
+            "clogo": "fa-solid fa-pen-ruler",
+            "savekey":"QA2",
             "datatype": "exams"
           },
            {
-            "chaptertitle": "Class 11 Chemistry Questions",
-            "chapterpath": "exams/neet/chapters/chemistry11/",
-            "clogo": "fa-solid fa-pen",
-            "savekey":"N1C",
+            "chaptertitle": "Commercial Math",
+            "chapterpath": "exams/aptitude/commercial/",
+            "clogo": "fa-solid fa-hand-holding-dollar",
+            "savekey":"QA3",
             "datatype": "exams"
           },
           {
-            "chaptertitle": "Class 12 Chemistry Questions",
-            "chapterpath": "exams/neet/chapters/chemistry12/",
-            "clogo": "fa-solid fa-pen",
-            "savekey":"N2C",
+            "chaptertitle": "Data Based Math",
+            "chapterpath": "exams/aptitude/data/",
+            "clogo": "fa-solid fa-chart-pie",
+            "savekey":"QA4",
             "datatype": "exams"
           },
            {
-            "chaptertitle": "Class 11 Physics Questions",
-            "chapterpath": "exams/neet/chapters/physics11/",
-            "clogo": "fa-solid fa-pen",
-            "savekey":"N1P",
+            "chaptertitle": "Geometry and Mensuration",
+            "chapterpath": "exams/aptitude/geometry/",
+            "clogo": "fa-solid fa-shapes",
+            "savekey":"QA5",
             "datatype": "exams"
           },
           {
-            "chaptertitle": "Class 12 Physics Questions",
-            "chapterpath": "exams/neet/chapters/physics12/",
-            "clogo": "fa-solid fa-pen",
-            "savekey":"N2P",
+            "chaptertitle": "Number System and Numeracy",
+            "chapterpath": "exams/aptitude/numbers/",
+            "clogo": "fa-solid fa-sort-numeric-up-alt",
+            "savekey":"QA6",
+            "datatype": "exams"
+          },
+          {
+            "chaptertitle": "Problem Solving",
+            "chapterpath": "exams/aptitude/problems/",
+            "clogo": "fa-solid fa-puzzle-piece",
+            "savekey":"QA7",
             "datatype": "exams"
           }
           
@@ -86,125 +169,6 @@
         ]
       } 
     ]
-  },
-  {
-    "categorytitle": "Study Notes",
-    "elogo": "fa-solid fa-book-open-reader",
-    "subjects": [
-      {
-        "subjecttitle": "Biology Notes",
-        "slogo": "fa-solid fa-book",   
-        "chapters": [
-          {
-            "chaptertitle": "Biology Class 11 Notes",
-            "chapterpath": "notes/hb/biology11/",
-            "clogo": "fa-solid fa-book-open",
-            "datatype": "notes"
-          },
-          {
-            "chaptertitle": "Biology Class 12 Notes",
-            "chapterpath": "notes/hb/biology12/",
-            "clogo": "fa-solid fa-book-open",
-            "datatype": "notes"
-          }
-        ]
-      },      
-      {
-        "subjecttitle": "Chemistry Notes",
-        "slogo": "fa-solid fa-book", 
-        "chapters": [
-          {
-            "chaptertitle": "Chemistry Class 11 Notes",
-            "chapterpath": "notes/hb/chemistry11/",
-            "clogo": "fa-solid fa-book-open",
-            "datatype": "notes"
-          },
-          {
-            "chaptertitle": "Chemistry Class 12 Notes",
-            "chapterpath": "notes/hb/chemistry12/",
-            "clogo": "fa-solid fa-book-open",
-            "datatype": "notes"
-          }
-        ]
-      },
-      {
-        "subjecttitle": "Physics Notes",
-        "slogo": "fa-solid fa-book", 
-        "chapters": [
-          {
-            "chaptertitle": "Physics Class 11 Notes",
-            "chapterpath": "notes/hb/physics11/",
-            "clogo": "fa-solid fa-book-open",
-            "datatype": "notes"
-          },
-          {
-            "chaptertitle": "Physics Class 12 Notes",
-            "chapterpath": "notes/hb/physics12/",
-            "clogo": "fa-solid fa-book-open",
-            "datatype": "notes"
-          }
-        ]
-      } 
-    ]
-  },
-  {
-    "categorytitle": "Books",
-    "elogo": "fas fa-file-pdf",
-    "subjects": [
-      {
-        "subjecttitle": "NCERT Biology",
-        "slogo": "fa-solid fa-book",   
-        "chapters": [
-          {
-            "chaptertitle": "NCERT Biology Class 11",
-            "chapterpath": "drive/ncert/class11/biology/",
-            "clogo": "fa-solid fa-file-pdf",
-            "datatype": "notes"
-          },
-          {
-            "chaptertitle": "NCERT Biology Class 12",
-            "chapterpath": "drive/ncert/class12/biology/",
-            "clogo": "fa-solid fa-file-pdf",
-            "datatype": "notes"
-          }
-        ]
-      },      
-      {
-        "subjecttitle": "NCERT Chemistry",
-        "slogo": "fa-solid fa-book", 
-        "chapters": [
-          {
-            "chaptertitle": "NCERT Chemistry Class 11",
-            "chapterpath": "drive/ncert/class11/chemistry/",
-            "clogo": "fa-solid fa-file-pdf",
-            "datatype": "notes"
-          },
-          {
-            "chaptertitle": "NCERT Chemistry Class 12",
-            "chapterpath": "drive/ncert/class12/chemistry/",
-            "clogo": "fa-solid fa-file-pdf",
-            "datatype": "notes"
-          }
-        ]
-      },
-      {
-        "subjecttitle": "NCERT Physics",
-        "slogo": "fa-solid fa-book", 
-        "chapters": [
-          {
-            "chaptertitle": "NCERT Physics Class 11",
-            "chapterpath": "drive/ncert/class11/physics/",
-            "clogo": "fa-solid fa-file-pdf",
-            "datatype": "notes"
-          },
-          {
-            "chaptertitle": "NCERT Physics Class 12",
-            "chapterpath": "drive/ncert/class12/physics/",
-            "clogo": "fa-solid fa-file-pdf",
-            "datatype": "notes"
-          }
-        ]
-      } 
-    ]
   }
+   
 ]
