@@ -196,7 +196,7 @@
           {
             "chaptertitle": "Antonyms Tests",
             "chapterpath": "exams/english/antonyms/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN1",
             "datatype": "exams",
             "common": true
@@ -204,7 +204,7 @@
           {
             "chaptertitle": "Synonyms Tests",
             "chapterpath": "exams/english/synonyms/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN2",
             "datatype": "exams",
             "common": true
@@ -212,7 +212,7 @@
           {
             "chaptertitle": "Spelling Check Tests",
             "chapterpath": "exams/english/spelling/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN3",
             "datatype": "exams",
             "common": true
@@ -220,7 +220,7 @@
           {
             "chaptertitle": "Spotting Errors",
             "chapterpath": "exams/english/errors/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN4",
             "datatype": "exams",
             "common": true
@@ -228,7 +228,7 @@
           {
             "chaptertitle": "One Word Substitutes",
             "chapterpath": "exams/english/oneword/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN5",
             "datatype": "exams",
             "common": true
@@ -236,7 +236,7 @@
           {
             "chaptertitle": "Selecting Words",
             "chapterpath": "exams/english/selecting/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN6",
             "datatype": "exams",
             "common": true
@@ -244,7 +244,7 @@
           {
             "chaptertitle": "Sentence Correction",
             "chapterpath": "exams/english/correction/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN7",
             "datatype": "exams",
             "common": true
@@ -252,7 +252,7 @@
           {
             "chaptertitle": "Idioms and Phrases",
             "chapterpath": "exams/english/idioms/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN8",
             "datatype": "exams",
             "common": true
@@ -260,7 +260,7 @@
           {
             "chaptertitle": "Sentence Improvement",
             "chapterpath": "exams/english/improvement/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN9",
             "datatype": "exams",
             "common": true
@@ -268,7 +268,7 @@
           {
             "chaptertitle": "Grammar Online",
             "chapterpath": "exams/english/grammar/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN10",
             "datatype": "exams",
             "common": true
@@ -276,7 +276,7 @@
           {
             "chaptertitle": "Common Error Detection",
             "chapterpath": "exams/english/commonerror/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN11",
             "datatype": "exams",
             "common": true
@@ -284,7 +284,7 @@
           {
             "chaptertitle": "Sentence Completion",
             "chapterpath": "exams/english/completion/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN12",
             "datatype": "exams",
             "common": true
@@ -292,7 +292,7 @@
           {
             "chaptertitle": "Direct and Indirect Speech",
             "chapterpath": "exams/english/speech/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN13",
             "datatype": "exams",
             "common": true
@@ -300,7 +300,7 @@
           {
             "chaptertitle": "Ordering Words",
             "chapterpath": "exams/english/orderingwords/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN14",
             "datatype": "exams",
             "common": true
@@ -308,7 +308,7 @@
           {
             "chaptertitle": "Ordering Sentences",
             "chapterpath": "exams/english/orderingsentence/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN15",
             "datatype": "exams",
             "common": true
@@ -316,7 +316,7 @@
           {
             "chaptertitle": "Verbal Analogies",
             "chapterpath": "exams/english/verbal/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN16",
             "datatype": "exams",
             "common": true
@@ -324,7 +324,7 @@
           {
             "chaptertitle": "Sentence Formation",
             "chapterpath": "exams/english/formation/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN17",
             "datatype": "exams",
             "common": true
@@ -332,7 +332,7 @@
           {
             "chaptertitle": "Completing Statements",
             "chapterpath": "exams/english/statements/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN18",
             "datatype": "exams",
             "common": true
@@ -341,7 +341,7 @@
           {
             "chaptertitle": "Change of Speech",
             "chapterpath": "exams/english/change/",
-            "clogo": "fa-solid fa-square-root-variable",
+            "clogo": "fa-solid fa-pen",
             "savekey": "EN19",
             "datatype": "exams",
             "common": true
