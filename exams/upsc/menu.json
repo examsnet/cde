@@ -26,7 +26,7 @@
       {
         "title": "Default",
         "link": "default",
-        "color": "#143b59"
+        "color": "#205D8D"
       },
       
       {
@@ -37,7 +37,7 @@
       {
         "title": "Dark",
         "link": "dark",
-        "color": "#3a3b3c"
+        "color": "#414141"
       },
       {
         "title": "Gold",
@@ -47,22 +47,22 @@
       {
         "title": "Green",
         "link": "green",
-        "color": "#004b49"
+        "color": "#156b6b"
       },
       {
         "title": "Grey",
         "link": "grey",
-        "color": "#555555"
+        "color": "#4f565d"
       },
       {
         "title": "Olive",
         "link": "olive",
-        "color": "#58695C"
+        "color": "#667558"
       },
       {
-        "title": "Red",
+        "title": "Cadet",
         "link": "red",
-        "color": "#b74c5f"
+        "color": "#5f9ea0"
       },
       {
         "title": "Prussian",
@@ -72,7 +72,7 @@
       {
         "title": "Violet",
         "link": "violet",
-        "color": "#5f32a2"
+        "color": "#410093"
       }
     ]
   },

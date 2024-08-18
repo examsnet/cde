@@ -1,89 +1,138 @@
 [
-    {
-      "title": "Home",
-      "icon": "fa-solid fa-house",
-      "link": "index.html",
-      "type": "action"
-    },
-    {
-      "title": "Themes",
-      "icon": "themes",
-      "link": "#",
-      "type": "grid",
-      "submenu": [
-        {
-          "title": "Default",
-          "link": "default",
-          "color":"#143b59"
-        },
-        {
-          "title": "Blue",
-          "link": "blue",
-          "color":"#0073e6"
-        },
-        {
-          "title": "Dark",
-          "link": "dark",
-          "color":"#3a3b3c"
-        },
-        {
-          "title": "Gold",
-          "link": "gold",
-          "color":"#776236"
-        },
-        {
-          "title": "Green",
-          "link": "green",
-          "color":"#004b49"
-        },
-        {
-          "title": "Grey",
-          "link": "grey",
-          "color":"#555555"
-        },
-        {
-          "title": "Purple",
-          "link": "purple",
-          "color":"#5f32a2"
-        },
-        {
-          "title": "Red",
-          "link": "red",
-          "color":"#b74c5f"
-        },
-        {
-          "title": "Violet",
-          "link": "violet",
-          "color":"#5f32a2"
-        }
-      ]
-    },
-    {
-      "title": "Contact",
-      "icon": "fa-regular fa-envelope",
-      "link": "#",
-      "type": "list",
-      "submenu": [
-        {
-          "icon": "fa-regular fa-envelope",
-          "title": "examsnet9@gmail.com"  
-        } 
-        
-      ]
-    },
-    {
-      "title": "About",
-      "icon": "fa-solid fa-circle-info",
-      "link": "#",
-      "type": "text",
-      "submenu": [
-        {
-          "title":"Examsnet.com is an online platform that provides comprehensive practice tests and study materials for a wide range of competitive exams. "
-        },
-        {
-          "title":"It aims to help students and professionals prepare effectively with up-to-date questions and detailed solutions."
-        }
-      ]
-    }
-  ]
-  
+  {
+    "title": "Home",
+    "icon": "fa-solid fa-house",
+    "link": "#",
+    "type": "home"
+  },
+  {
+    "title": "Review App",
+    "icon": "fa-regular fa-star",
+    "link": "#",
+    "type": "rate"
+  },
+  {
+    "title": "Share App",
+    "icon": "fa-solid fa-share",
+    "link": "#",
+    "type": "share"
+  },
+  {
+    "title": "Themes",
+    "icon": "theme-icon",
+    "link": "#",
+    "type": "grid",
+    "submenu": [
+      {
+        "title": "Default",
+        "link": "default",
+        "color": "#205D8D"
+      },
+      
+      {
+        "title": "Cafe",
+        "link": "cafe",
+        "color": "#502112"
+      },
+      {
+        "title": "Dark",
+        "link": "dark",
+        "color": "#414141"
+      },
+      {
+        "title": "Gold",
+        "link": "gold",
+        "color": "#776236"
+      },
+      {
+        "title": "Green",
+        "link": "green",
+        "color": "#156b6b"
+      },
+      {
+        "title": "Grey",
+        "link": "grey",
+        "color": "#4f565d"
+      },
+      {
+        "title": "Olive",
+        "link": "olive",
+        "color": "#667558"
+      },
+      {
+        "title": "Cadet",
+        "link": "red",
+        "color": "#5f9ea0"
+      },
+      {
+        "title": "Prussian",
+        "link": "blue",
+        "color": "#012e47"
+      },      
+      {
+        "title": "Violet",
+        "link": "violet",
+        "color": "#410093"
+      }
+    ]
+  },
+  {
+    "title": "Social",
+    "icon": "fa-solid fa-share-from-square",
+    "link": "#",
+    "type": "links",
+    "submenu": [
+      {
+        "icon": "fa-brands fa-facebook",
+        "title": "Facebook",
+        "link": "https://www.facebook.com/Examsnet9/"
+      },
+      {
+        "icon": "fa-brands fa-youtube",
+        "title": "Youtube",
+        "link": "https://www.youtube.com/c/examsnet"
+      },
+      {
+        "icon": "fa-brands fa-instagram",
+        "title": "Instagram",
+        "link": "https://www.instagram.com/examsnet9/"
+      },
+      {
+        "icon": "fa-brands fa-twitter",
+        "title": "Twitter",
+        "link": "https://x.com/examsnet/"
+      },
+      {
+        "icon": "fa-brands fa-linkedin",
+        "title": "Linkedin",
+        "link": "https://in.linkedin.com/company/examsnet-website/"
+      }
+    ]
+  },
+  {
+    "title": "Contact",
+    "icon": "fa-regular fa-envelope",
+    "link": "#",
+    "type": "list",
+    "submenu": [
+      {
+        "icon": "fa-regular fa-envelope",
+        "title": "examsnet9@gmail.com"
+      }
+    ]
+  },
+  {
+    "title": "About",
+    "icon": "fa-solid fa-circle-info",
+    "link": "#",
+    "type": "text",
+    "submenu": [
+      {
+        "title": "Examsnet.com is an online platform that provides comprehensive practice tests and study materials for a wide range of competitive exams. "
+      },
+      {
+        "title": "It aims to help students and professionals prepare effectively with up-to-date questions and detailed solutions."
+      }
+    ]
+  }
+]
