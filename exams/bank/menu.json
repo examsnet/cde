@@ -128,10 +128,13 @@
     "type": "text",
     "submenu": [
       {
-        "title": "Examsnet.com is an online platform that provides comprehensive practice tests and study materials for a wide range of competitive exams. "
+        "title": "Examsnet is an online platform offering comprehensive practice tests and study materials for a variety of competitive exams"
       },
       {
-        "title": "It aims to help students and professionals prepare effectively with up-to-date questions and detailed solutions."
+        "title": "No login or registration is required—take your exam in just 2-3 clicks! Share the good news with your friends."
+      },
+      {
+        "title": "If our app has been helpful, please consider leaving a positive review to help us improve. Just as students forgive a flop movie by not asking for a refund, small app developers rarely receive the same understanding. Your support would mean a lot."
       }
     ]
   }
