@@ -7,15 +7,7 @@
         "subjecttitle": "UPSC CDS Papers",
         "slogo": "fa-solid fa-user-group",
         "chapters": [
-          {
-            "chaptertitle": "UPSC CDS Chapterwise Papers",
-            "chapterpath": "exams/upsc/cdschapter/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA1",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
+          
           {
             "chaptertitle": "UPSC CDS Model Papers",
             "chapterpath": "exams/upsc/cdsmodel/",
@@ -26,8 +18,51 @@
             "common": false
           },
           {
-            "chaptertitle": "UPSC CDS Previous Year Papers",
+            "chaptertitle": "UPSC CDS Previous Papers",
             "chapterpath": "exams/upsc/cds/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
+        "subjecttitle": "UPSC CDS Chapterwise Papers",
+        "slogo": "fa-solid fa-user-group",
+        "chapters": [
+         
+          {
+            "chaptertitle": "CDS English Questions",
+            "chapterpath": "exams/upsc/cdschapter/english/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CDS Math Questions",
+            "chapterpath": "exams/upsc/cdschapter/math/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CDS General Science Questions",
+            "chapterpath": "exams/upsc/cdschapter/science/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CDS General Studies Questions",
+            "chapterpath": "exams/upsc/cdschapter/gs/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA3",
             "datatype": "exams",
@@ -41,17 +76,9 @@
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
+          
           {
-            "chaptertitle": "UPSC NDA Chapters Wise Questions",
-            "chapterpath": "exams/upsc/ndachapter/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA7",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "UPSC NDA Exam Model Papers",
+            "chaptertitle": "UPSC NDA Model Papers",
             "chapterpath": "exams/upsc/ndamodel/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA8",
@@ -60,10 +87,53 @@
             "common": false
           },
           {
-            "chaptertitle": "UPSC NDA Exam Previous Papers",
+            "chaptertitle": "UPSC NDA Previous Papers",
             "chapterpath": "exams/upsc/nda/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
+        "subjecttitle": "UPSC NDA Chapters wise Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "NDA English Questions",
+            "chapterpath": "exams/upsc/ndachapter/english/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA7",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }, 
+          {
+            "chaptertitle": "NDA General Science Questions",
+            "chapterpath": "exams/upsc/ndachapter/science/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "NDA General Studies Questions",
+            "chapterpath": "exams/upsc/ndachapter/gs/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "NDA Math Questions",
+            "chapterpath": "exams/upsc/ndachapter/math/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA8",
             "datatype": "exams",
             "active": true,
             "common": false
@@ -101,7 +171,7 @@
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "UPSC CAPF Previous Question Papers",
+            "chaptertitle": "UPSC CAPF Previous Papers",
             "chapterpath": "exams/upsc/capf/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA0",
