@@ -2,10 +2,12 @@
   {
     "categorytitle": "Entrance Exams",
     "elogo": "fa-solid fa-file-pen",
+    "active": true,
     "subjects": [
       {
         "subjecttitle": "SSC CGL Practice Tests",
         "slogo": "fa-solid fa-user-group",
+        "active": true,
         "chapters": [
           {
             "chaptertitle": "SSC CGL Previous Papers",
@@ -13,6 +15,8 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "CGL",
             "datatype": "exams",
+            "active": true,
+            "active": true,
             "common": false
           },
           {
@@ -21,6 +25,8 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "CGM",
             "datatype": "exams",
+            "active": true,
+            "active": true,
             "common": false
           },
           {
@@ -28,7 +34,8 @@
             "chapterpath": "exams/ssc/cgltier2/",
             "clogo": "fa-solid fa-pen",
             "savekey": "CG2",
-            "datatype": "exams",
+            "datatype": "exams", 
+            "active": true,
             "common": false
           }
         ]
@@ -42,7 +49,8 @@
             "chapterpath": "exams/ssc/chslprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "CGL",
-            "datatype": "exams",
+            "datatype": "exams", 
+            "active": true,
             "common": false
           },
           {
@@ -51,6 +59,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "CGM",
             "datatype": "exams",
+            "active": true,
             "common": false
           }
         ]
@@ -58,6 +67,7 @@
       {
         "subjecttitle": "SSC MTS Practice Tests",
         "slogo": "fa-solid fa-user-group",
+        "active": true,
         "chapters": [
           {
             "chaptertitle": "SSC MTS Previous Papers",
@@ -65,6 +75,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "CGL",
             "datatype": "exams",
+            "active": true,
             "common": false
           },
           {
@@ -73,14 +84,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "CGM",
             "datatype": "exams",
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CGL Tier 2 Papers",
-            "chapterpath": "exams/ssc/cgltier2/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CG2",
-            "datatype": "exams",
+            "active": true,
             "common": false
           }
         ]
@@ -88,6 +92,7 @@
       {
         "subjecttitle": "SSC Steno Practice Tests",
         "slogo": "fa-solid fa-user-group",
+        "active": true,
         "chapters": [
           {
             "chaptertitle": "SSC Steno Previous Papers",
@@ -95,6 +100,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "STE",
             "datatype": "exams",
+            "active": true,
             "common": false
           }
         ]
@@ -102,6 +108,7 @@
       {
         "subjecttitle": "SSC CPO Practice Tests",
         "slogo": "fa-solid fa-user-group",
+        "active": true,
         "chapters": [
           {
             "chaptertitle": "SSC CPO Previous Papers",
@@ -109,6 +116,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "CPP",
             "datatype": "exams",
+            "active": true,
             "common": false
           },
           {
@@ -117,6 +125,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "CPM",
             "datatype": "exams",
+            "active": true,
             "common": false
           }
         ]
@@ -124,12 +133,14 @@
     ]
   },
   {
-    "categorytitle": "Other Practice Tests",
+    "categorytitle": "More Practice Tests",
     "elogo": "fa-solid fa-file-pen",
+    "active": true,
     "subjects": [
       {
         "subjecttitle": "Quantitative Aptitude",
         "slogo": "fa-solid fa-calculator",
+        "active": true,
         "chapters": [
           {
             "chaptertitle": "Algebra and Higher Math",
@@ -137,6 +148,7 @@
             "clogo": "fa-solid fa-square-root-variable",
             "savekey": "QA1",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -145,6 +157,7 @@
             "clogo": "fa-solid fa-pen-ruler",
             "savekey": "QA2",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -153,6 +166,7 @@
             "clogo": "fa-solid fa-hand-holding-dollar",
             "savekey": "QA3",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -161,6 +175,7 @@
             "clogo": "fa-solid fa-chart-pie",
             "savekey": "QA4",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -169,6 +184,7 @@
             "clogo": "fa-solid fa-shapes",
             "savekey": "QA5",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -177,6 +193,7 @@
             "clogo": "fa-solid fa-sort-numeric-up-alt",
             "savekey": "QA6",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -185,13 +202,15 @@
             "clogo": "fa-solid fa-puzzle-piece",
             "savekey": "QA7",
             "datatype": "exams",
+            "active": true,
             "common": true
           }
         ]
       },
       {
         "subjecttitle": "English Practice",
-        "slogo": "fa-solid fa-calculator",
+        "slogo": "fa-solid fa-user-tie",
+        "active": true,
         "chapters": [
           {
             "chaptertitle": "Antonyms Tests",
@@ -199,6 +218,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN1",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -207,6 +227,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN2",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -215,6 +236,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN3",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -223,6 +245,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN4",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -231,6 +254,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN5",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -239,6 +263,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN6",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -247,6 +272,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN7",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -255,6 +281,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN8",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -263,6 +290,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN9",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -271,6 +299,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN10",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -279,6 +308,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN11",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -287,6 +317,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN12",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -295,6 +326,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN13",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -303,6 +335,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN14",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -311,6 +344,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN15",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -319,6 +353,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN16",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -327,6 +362,7 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN17",
             "datatype": "exams",
+            "active": true,
             "common": true
           },
           {
@@ -335,18 +371,18 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN18",
             "datatype": "exams",
+            "active": true,
             "common": true
-          }
-          ,
+          },
           {
             "chaptertitle": "Change of Speech",
             "chapterpath": "exams/english/change/",
             "clogo": "fa-solid fa-pen",
             "savekey": "EN19",
             "datatype": "exams",
+            "active": true,
             "common": true
           }
-
         ]
       }
     ]
