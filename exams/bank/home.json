@@ -11,7 +11,7 @@
         "chapters": [
           {
             "chaptertitle": "IBPS PO Mains Previous Papers",
-            "chapterpath": "exams/bank/ibpspomain",
+            "chapterpath": "exams/bank/ibpspomain/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA3",
             "datatype": "exams",
@@ -20,7 +20,7 @@
           },
           {
             "chaptertitle": "IBPS PO Model Papers",
-            "chapterpath": "exams/bank/ibpspomodel",
+            "chapterpath": "exams/bank/ibpspomodel/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA4",
             "datatype": "exams",
@@ -29,7 +29,7 @@
           },
           {
             "chaptertitle": "IBPS PO Previous Papers",
-            "chapterpath": "exams/bank/ibpspoprev",
+            "chapterpath": "exams/bank/ibpspoprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA5",
             "datatype": "exams",
@@ -45,7 +45,7 @@
         "chapters": [
           {
             "chaptertitle": "IBPS Clerk Mains Previous Papers",
-            "chapterpath": "exams/bank/ibpsclerkmain",
+            "chapterpath": "exams/bank/ibpsclerkmain/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA0",
             "datatype": "exams",
@@ -54,7 +54,7 @@
           },
           {
             "chaptertitle": "IBPS Clerk Model Papers ",
-            "chapterpath": "exams/bank/ibpsclerkmodel",
+            "chapterpath": "exams/bank/ibpsclerkmodel/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA1",
             "datatype": "exams",
@@ -63,7 +63,7 @@
           },
           {
             "chaptertitle": "IBPS Clerk Previous Papers",
-            "chapterpath": "exams/bank/ibpsclerkprev",
+            "chapterpath": "exams/bank/ibpsclerkprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA2",
             "datatype": "exams",
@@ -79,7 +79,7 @@
         "chapters": [
           {
             "chaptertitle": "IBPS RRB Office Assistant Model Papers",
-            "chapterpath": "exams/bank/ibpsrrbofficeassistmd",
+            "chapterpath": "exams/bank/ibpsrrbofficeassistmd/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA6",
             "datatype": "exams",
@@ -88,7 +88,7 @@
           },
           {
             "chaptertitle": "IBPS RRB Office Assistant Previous Papers",
-            "chapterpath": "exams/bank/ibpsrrbofficeassistprev",
+            "chapterpath": "exams/bank/ibpsrrbofficeassistprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA7",
             "datatype": "exams",
@@ -97,7 +97,7 @@
           },
           {
             "chaptertitle": "IBPS RRB Officer Scale 1 Model Papers",
-            "chapterpath": "exams/bank/ibpsrrbofficersscale1mod",
+            "chapterpath": "exams/bank/ibpsrrbofficersscale1mod/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA8",
             "datatype": "exams",
@@ -106,7 +106,7 @@
           },
           {
             "chaptertitle": "IBPS RRB Officers Previous Question Papers",
-            "chapterpath": "exams/bank/ibpsrrbofficersprev",
+            "chapterpath": "exams/bank/ibpsrrbofficersprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA9",
             "datatype": "exams",
@@ -122,7 +122,7 @@
         "chapters": [
           {
             "chaptertitle": "RBI Assistant Exam Model Question Papers",
-            "chapterpath": "exams/bank/rbiassitantprev",
+            "chapterpath": "exams/bank/rbiassitantprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA12",
             "datatype": "exams",
@@ -131,7 +131,7 @@
           },
           {
             "chaptertitle": "RBI Assistant Prelims and Mains Previous Papers",
-            "chapterpath": "exams/bank/rbiassistantmodel",
+            "chapterpath": "exams/bank/rbiassistantmodel/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA13",
             "datatype": "exams",
@@ -140,7 +140,7 @@
           },
           {
             "chaptertitle": "RBI Grade B Officers Previous Papers",
-            "chapterpath": "exams/bank/rbigradeb",
+            "chapterpath": "exams/bank/rbigradeb/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA14",
             "datatype": "exams",
@@ -156,7 +156,7 @@
         "chapters": [
           {
             "chaptertitle": "SBI PO Mains Previous Papers",
-            "chapterpath": "exams/bank/sbipomains",
+            "chapterpath": "exams/bank/sbipomains/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA18",
             "datatype": "exams",
@@ -165,7 +165,7 @@
           },
           {
             "chaptertitle": "SBI PO Previous Papers",
-            "chapterpath": "exams/bank/sbipoprev",
+            "chapterpath": "exams/bank/sbipoprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA20",
             "datatype": "exams",
@@ -174,7 +174,7 @@
           },
           {
             "chaptertitle": "SBI Clerk Previous Papers",
-            "chapterpath": "exams/bank/sbiclerkprev",
+            "chapterpath": "exams/bank/sbiclerkprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA21",
             "datatype": "exams",
