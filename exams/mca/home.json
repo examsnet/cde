@@ -4,95 +4,68 @@
     "elogo": "fa-solid fa-file-pen",
     "subjects": [
       {
-        "subjecttitle": "UPSC CDS Papers",
+        "subjecttitle": "ICET Papers",
         "slogo": "fa-solid fa-user-group",
         "chapters": [
           {
-            "chaptertitle": "UPSC CDS Chapterwise Papers",
-            "chapterpath": "exams/upsc/cdschapter/",
+            "chaptertitle": "AP ICET Previous Papers",
+            "chapterpath": "exams/mba/icetprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "BA1",
+            "savekey": "BA0",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
+        },
+        {
+          "chaptertitle": "TS ICET Previous Papers",
+          "chapterpath": "exams/mba/tsicet/",
+          "clogo": "fa-solid fa-pen",
+          "savekey": "BA4",
+          "datatype": "exams",
+          "active": true,
+          "common": false
+      }
+        ]
+      },
+      {
+        "subjecttitle": "NIMCET Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
           {
-            "chaptertitle": "UPSC CDS Model Papers",
-            "chapterpath": "exams/upsc/cdsmodel/",
+            "chaptertitle": "NIMCET Previous Papers",
+            "chapterpath": "exams/mba/nimcet/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA2",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
-          {
-            "chaptertitle": "UPSC CDS Previous Year Papers",
-            "chapterpath": "exams/upsc/cds/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA3",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
+        } 
         ]
       },
       {
-        "subjecttitle": "UPSC NDA Papers",
+        "subjecttitle": "HCU MCA Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "UPSC NDA Chapters Wise Questions",
-            "chapterpath": "exams/upsc/ndachapter/",
+            "chaptertitle": "HCU MCA Previous Papers",
+            "chapterpath": "exams/mba/hcumca/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "BA7",
+            "savekey": "BA1",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
-          {
-            "chaptertitle": "UPSC NDA Exam Model Papers",
-            "chapterpath": "exams/upsc/ndamodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA8",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "UPSC NDA Exam Previous Papers",
-            "chapterpath": "exams/upsc/nda/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA9",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "UPSC Civils Papers",
-        "slogo": "fa-solid fa-user-group",
-        "active": true,
-        "chapters": [
-          {
-            "chaptertitle": "UPSC Civils Model Papers",
-            "chapterpath": "exams/upsc/civilsmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA5",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "UPSC Civils Previous Papers",
-            "chapterpath": "exams/upsc/civils/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA6",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
+        },
+        {
+          "chaptertitle": "PUNE MCA Previous Papers",
+          "chapterpath": "exams/mba/punemca/",
+          "clogo": "fa-solid fa-pen",
+          "savekey": "BA3",
+          "datatype": "exams",
+          "active": true,
+          "common": false
+      }
         ]
       },
       {
