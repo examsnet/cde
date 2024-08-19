@@ -1,15 +1,16 @@
 [
   {
-    "categorytitle": "Entrance Exams",
+    "categorytitle": "Choose Your Exam",
     "elogo": "fa-solid fa-file-pen",
     "subjects": [
       {
-        "subjecttitle": "UPSC CDS Papers",
+        "subjecttitle": "CAT Papers",
         "slogo": "fa-solid fa-user-group",
+        "active": true,
         "chapters": [
           {
-            "chaptertitle": "UPSC CDS Chapterwise Papers",
-            "chapterpath": "exams/upsc/cdschapter/",
+            "chaptertitle": "CAT Previous Papers",
+            "chapterpath": "exams/mba/catprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA1",
             "datatype": "exams",
@@ -17,98 +18,94 @@
             "common": false
           },
           {
-            "chaptertitle": "UPSC CDS Model Papers",
-            "chapterpath": "exams/upsc/cdsmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA2",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "UPSC CDS Previous Year Papers",
-            "chapterpath": "exams/upsc/cds/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA3",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "UPSC NDA Papers",
-        "slogo": "fa-solid fa-user-group",
-        "active": true,
-        "chapters": [
-          {
-            "chaptertitle": "UPSC NDA Chapters Wise Questions",
-            "chapterpath": "exams/upsc/ndachapter/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA7",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "UPSC NDA Exam Model Papers",
-            "chapterpath": "exams/upsc/ndamodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA8",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "UPSC NDA Exam Previous Papers",
-            "chapterpath": "exams/upsc/nda/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA9",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "UPSC Civils Papers",
-        "slogo": "fa-solid fa-user-group",
-        "active": true,
-        "chapters": [
-          {
-            "chaptertitle": "UPSC Civils Model Papers",
-            "chapterpath": "exams/upsc/civilsmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA5",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "UPSC Civils Previous Papers",
-            "chapterpath": "exams/upsc/civils/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA6",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "UPSC CAPF Papers",
-        "slogo": "fa-solid fa-user-group",
-        "active": true,
-        "chapters": [
-          {
-            "chaptertitle": "UPSC CAPF Previous Question Papers",
-            "chapterpath": "exams/upsc/capf/",
+            "chaptertitle": "CAT Model Papers",
+            "chapterpath": "exams/mba/catmodel/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA0",
             "datatype": "exams",
             "active": true,
             "common": false
           }
+        ]
+      },
+      {
+        "subjecttitle": "CMAT Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "CMAT Previous Papers",
+            "chapterpath": "exams/mba/cmatprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          } 
+        ]
+      },
+      {
+        "subjecttitle": "Indian Institute of Foreign Trade (IIFT)",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "IIFT Previous Papers",
+            "chapterpath": "exams/mba/iiftprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "MAT Previous Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "MAT Previous Papers",
+            "chapterpath": "exams/mba/matprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "SNAP Previous Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "SNAP Previous Papers",
+            "chapterpath": "exams/mba/snapprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "XAT Previous Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "XAT Previous Papers",
+            "chapterpath": "exams/mba/xatprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
         ]
       }
     ]
