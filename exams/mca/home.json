@@ -9,7 +9,7 @@
         "chapters": [
           {
             "chaptertitle": "AP ICET Previous Papers",
-            "chapterpath": "exams/mba/icetprev/",
+            "chapterpath": "exams/mca/icetprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA0",
             "datatype": "exams",
@@ -18,7 +18,7 @@
         },
         {
           "chaptertitle": "TS ICET Previous Papers",
-          "chapterpath": "exams/mba/tsicet/",
+          "chapterpath": "exams/mca/tsicet/",
           "clogo": "fa-solid fa-pen",
           "savekey": "BA4",
           "datatype": "exams",
@@ -34,7 +34,7 @@
         "chapters": [
           {
             "chaptertitle": "NIMCET Previous Papers",
-            "chapterpath": "exams/mba/nimcet/",
+            "chapterpath": "exams/mca/nimcet/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA2",
             "datatype": "exams",
@@ -50,7 +50,7 @@
         "chapters": [
           {
             "chaptertitle": "HCU MCA Previous Papers",
-            "chapterpath": "exams/mba/hcumca/",
+            "chapterpath": "exams/mca/hcumca/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA1",
             "datatype": "exams",
@@ -59,7 +59,7 @@
         },
         {
           "chaptertitle": "PUNE MCA Previous Papers",
-          "chapterpath": "exams/mba/punemca/",
+          "chapterpath": "exams/mca/punemca/",
           "clogo": "fa-solid fa-pen",
           "savekey": "BA3",
           "datatype": "exams",
