@@ -5,7 +5,7 @@
     "subjects": [
       {
         "subjecttitle": "UPSC CDS Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-user-shield",
         "chapters": [
           
           {
@@ -30,7 +30,7 @@
       },
       {
         "subjecttitle": "UPSC CDS Chapterwise Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-user-shield",
         "chapters": [
          
           {
@@ -73,7 +73,7 @@
       },
       {
         "subjecttitle": "UPSC NDA Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-user-shield",
         "active": true,
         "chapters": [
           
@@ -99,7 +99,7 @@
       },
       {
         "subjecttitle": "UPSC NDA Chapters wise Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-user-shield",
         "active": true,
         "chapters": [
           {
@@ -167,7 +167,7 @@
       },
       {
         "subjecttitle": "UPSC CAPF Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-user-shield",
         "active": true,
         "chapters": [
           {
