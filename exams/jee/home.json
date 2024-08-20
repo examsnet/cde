@@ -4,100 +4,99 @@
     "subjects": [
       {
         "subjecttitle": "JEE Main Papers",
-        "slogo": "fa-solid fa-stethoscope", 
+        "slogo": "fa-solid fa-stethoscope",
         "chapters": [
           {
             "chaptertitle": "JEE Main Previous Papers",
             "chapterpath": "exams/jee/mainprevious/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"JMP",
+            "savekey": "JMP",
             "datatype": "exams"
           },
           {
             "chaptertitle": "JEE Main Model Papers",
             "chapterpath": "exams/jee/mainmodel/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"JMM",
+            "savekey": "JMM",
             "datatype": "exams"
           },
           {
             "chaptertitle": "AIEEE Previous Papers",
             "chapterpath": "exams/jee/aieee/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"AIE",
+            "savekey": "AIE",
             "datatype": "exams"
-          } 
+          }
         ]
       },
       {
         "subjecttitle": "JEE Main Chapters Wise",
-        "slogo": "fa-solid fa-stethoscope", 
+        "slogo": "fa-solid fa-stethoscope",
         "chapters": [
           {
             "chaptertitle": "Class 11 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"J1M",
+            "savekey": "J1M",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math12/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"J2M",
+            "savekey": "J2M",
             "datatype": "exams"
           },
-           {
+          {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"J1C",
+            "savekey": "J1C",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry12/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"J2C",
+            "savekey": "J2C",
             "datatype": "exams"
           },
-           {
+          {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics11/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"J1P",
+            "savekey": "J1P",
             "datatype": "exams"
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics12/",
             "clogo": "fa-solid fa-user-pen",
-            "savekey":"J2P",
+            "savekey": "J2P",
             "datatype": "exams"
           }
-          
         ]
-      },       
+      },
       {
         "subjecttitle": "JEE Advanced Papers",
-        "slogo": "fa-solid fa-stethoscope", 
+        "slogo": "fa-solid fa-stethoscope",
         "chapters": [
           {
             "chaptertitle": "JEE Advanced Previous Papers",
             "chapterpath": "exams/jee/aipmt/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"JAP",
+            "savekey": "JAP",
             "datatype": "exams"
           },
           {
             "chaptertitle": "JEE Advanced Model Papers",
             "chapterpath": "exams/jee/aipmt/",
             "clogo": "fa-solid fa-flask",
-            "savekey":"JAM",
+            "savekey": "JAM",
             "datatype": "exams"
-          }  
+          }
         ]
-      } 
+      }
     ]
   },
   {
@@ -105,7 +104,7 @@
     "subjects": [
       {
         "subjecttitle": "Math Notes",
-        "slogo": "fa-solid fa-book", 
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Math Class 11 Notes",
@@ -120,10 +119,10 @@
             "datatype": "notes"
           }
         ]
-      },      
+      },
       {
         "subjecttitle": "Chemistry Notes",
-        "slogo": "fa-solid fa-book", 
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Chemistry Class 11 Notes",
@@ -141,7 +140,7 @@
       },
       {
         "subjecttitle": "Physics Notes",
-        "slogo": "fa-solid fa-book", 
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Physics Class 11 Notes",
@@ -156,14 +155,73 @@
             "datatype": "notes"
           }
         ]
-      } 
+      }
     ]
   },
-   
   {
-    "categorytitle": "NCERT Books",
+    "categorytitle": "Books",
+    "elogo": "fas fa-file-pdf",
     "subjects": [
-      
+      {
+        "subjecttitle": "NCERT Biology",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Biology Class 11",
+            "chapterpath": "drive/ncert/class11/biology/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common": true
+          },
+          {
+            "chaptertitle": "NCERT Biology Class 12",
+            "chapterpath": "drive/ncert/class12/biology/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Chemistry",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Chemistry Class 11",
+            "chapterpath": "drive/ncert/class11/chemistry/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common": true
+          },
+          {
+            "chaptertitle": "NCERT Chemistry Class 12",
+            "chapterpath": "drive/ncert/class12/chemistry/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Physics",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Physics Class 11",
+            "chapterpath": "drive/ncert/class11/physics/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common": true
+          },
+          {
+            "chaptertitle": "NCERT Physics Class 12",
+            "chapterpath": "drive/ncert/class12/physics/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common": true
+          }
+        ]
+      }
     ]
   }
 ]
