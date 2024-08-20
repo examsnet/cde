@@ -56,26 +56,18 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
-          "chaptertitle": "PUNE MCA Previous Papers",
-          "chapterpath": "exams/mca/punemca/",
-          "clogo": "fa-solid fa-pen",
-          "savekey": "BA3",
-          "datatype": "exams",
-          "active": true,
-          "common": false
-      }
+        } 
+        
         ]
       },
       {
-        "subjecttitle": "UPSC CAPF Papers",
+        "subjecttitle": "PUNE MCA Previous Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "UPSC CAPF Previous Question Papers",
-            "chapterpath": "exams/upsc/capf/",
+            "chaptertitle": "PUNE MCA Previous Papers",
+            "chapterpath": "exams/mca/punemca/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA0",
             "datatype": "exams",
