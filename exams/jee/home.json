@@ -101,7 +101,7 @@
         "chapters": [
           {
             "chaptertitle": "JEE Advanced Previous Papers",
-            "chapterpath": "exams/jee/aipmt/",
+            "chapterpath": "exams/jee/advprevious/",
             "clogo": "fa-solid fa-flask",
             "savekey": "JAP",
             "datatype": "exams", 
@@ -110,7 +110,7 @@
           },
           {
             "chaptertitle": "JEE Advanced Model Papers",
-            "chapterpath": "exams/jee/aipmt/",
+            "chapterpath": "exams/jee/advmodel/",
             "clogo": "fa-solid fa-flask",
             "savekey": "JAM",
             "datatype": "exams", 
