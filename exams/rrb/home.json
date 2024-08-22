@@ -5,129 +5,156 @@
     "active": true,
     "subjects": [
       {
-        "subjecttitle": "SSC CGL Practice Tests",
+        "subjecttitle": "RRB ALP Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC CGL Previous Papers",
-            "chapterpath": "exams/ssc/cglprev/",
+            "chaptertitle": "RRB ALP Previous Papers",
+            "chapterpath": "exams/rrb/rrbalp/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CGL Model Papers",
-            "chapterpath": "exams/ssc/cglmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CGL Tier 2 Papers",
-            "chapterpath": "exams/ssc/cgltier2/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CG2",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "SSC CHSL Practice Tests",
-        "slogo": "fa-solid fa-user-group",
-        "chapters": [
-          {
-            "chaptertitle": "SSC CHSL Previous Papers",
-            "chapterpath": "exams/ssc/chslprev/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CHSL Model Papers",
-            "chapterpath": "exams/ssc/chslmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
+            "savekey": "BA1",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        },
+        {
+            "chaptertitle": "RRB ALP Model Papers",
+            "chapterpath": "exams/rrb/rrbalpmodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
         ]
       },
       {
-        "subjecttitle": "SSC MTS Practice Tests",
+        "subjecttitle": "RRB Group D Papers",
+        "slogo": "fa-solid fa-user-group",
+        "chapters": [
+           
+          {
+            "chaptertitle": "RRB Group D Model Papers",
+            "chapterpath": "exams/rrb/rrbgdmodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "RRB Group D Previous Papers",
+            "chapterpath": "exams/rrb/rrbgdprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "RRB NTPC Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC MTS Previous Papers",
-            "chapterpath": "exams/ssc/mtsprev/",
+            "chaptertitle": "RRB NTPC Exam Model Papers",
+            "chapterpath": "exams/rrb/rrbntpcmd/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
+            "savekey": "BA7",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
-          {
-            "chaptertitle": "SSC MTS Model Papers",
-            "chapterpath": "exams/ssc/mtsmodel/",
+        },
+        {
+            "chaptertitle": "RRB NTPC Previous Papers",
+            "chapterpath": "exams/rrb/rrbntpcprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
+            "savekey": "BA8",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        }
         ]
       },
       {
-        "subjecttitle": "SSC Steno Practice Tests",
+        "subjecttitle": "RRB RPF Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC Steno Previous Papers",
-            "chapterpath": "exams/ssc/stenoprev/",
+            "chaptertitle": "RRB RPF Constable Previous Papers",
+            "chapterpath": "exams/rrb/rrbrpfconsprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "STE",
+            "savekey": "BA10",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        },
+        {
+            "chaptertitle": "RRB RPF SI Exam Model Papers",
+            "chapterpath": "exams/rrb/rrbrpfmodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA11",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "RRB RPF SI Exam Previous Papers",
+            "chapterpath": "exams/rrb/rrbrpfsiprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
         ]
       },
       {
-        "subjecttitle": "SSC CPO Practice Tests",
+        "subjecttitle": "RRB Junior Engineer Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC CPO Previous Papers",
-            "chapterpath": "exams/ssc/cpoprev/",
+            "chaptertitle": "RRB Junior Engineer Stage 1 Model Papers",
+            "chapterpath": "exams/rrb/rrbjestage1model/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CPP",
+            "savekey": "BA5",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
+        },
+        {
+            "chaptertitle": "RRB Junior Engineer Stage 1 Previous Papers",
+            "chapterpath": "exams/rrb/rrbjestage1/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "RRB Paramedical Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
           {
-            "chaptertitle": "SSC CPO Model Papers",
-            "chapterpath": "exams/ssc/cpomodel/",
+            "chaptertitle": "RRB Paramedical Nursing Model Papers",
+            "chapterpath": "exams/rrb/rrbmedicalmodel/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CPM",
+            "savekey": "BA9",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        }
         ]
       }
+      
     ]
   },
   {
