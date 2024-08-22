@@ -10,7 +10,7 @@
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "AP EAMCET Engineering Previous Papers",
+            "chaptertitle": "AP EAMCET Previous Papers",
             "chapterpath": "exams/engineering/eamcet/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA1",
@@ -37,7 +37,7 @@
             "common": false
           },
           {
-            "chaptertitle": "AP and TS EAMCET Engineering Model Papers",
+            "chaptertitle": "AP and TS EAMCET Model Papers",
             "chapterpath": "exams/engineering/eamcetmd/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA4",
@@ -48,7 +48,7 @@
         ]
       },
       {
-        "subjecttitle": "BITSAT Previous Papers",
+        "subjecttitle": "BITSAT Papers",
         "slogo": "fa-solid fa-user-group",
         "chapters": [
           {
