@@ -270,26 +270,7 @@
     "categorytitle": "Books",
     "elogo": "fas fa-file-pdf",
     "subjects": [
-      {
-        "subjecttitle": "NCERT Biology",
-        "slogo": "fa-solid fa-book",
-        "chapters": [
-          {
-            "chaptertitle": "NCERT Biology Class 11",
-            "chapterpath": "drive/ncert/class11/biology/",
-            "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link",
-            "common": true
-          },
-          {
-            "chaptertitle": "NCERT Biology Class 12",
-            "chapterpath": "drive/ncert/class12/biology/",
-            "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link",
-            "common": true
-          }
-        ]
-      },
+       
       {
         "subjecttitle": "NCERT Chemistry",
         "slogo": "fa-solid fa-book",

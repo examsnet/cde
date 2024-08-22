@@ -11,21 +11,27 @@
             "chapterpath": "exams/jee/mainprevious/",
             "clogo": "fa-solid fa-flask",
             "savekey": "JMP",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           },
           {
             "chaptertitle": "JEE Main Model Papers",
             "chapterpath": "exams/jee/mainmodel/",
             "clogo": "fa-solid fa-flask",
             "savekey": "JMM",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           },
           {
             "chaptertitle": "AIEEE Previous Papers",
             "chapterpath": "exams/jee/aieee/",
             "clogo": "fa-solid fa-flask",
             "savekey": "AIE",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           }
         ]
       },
@@ -38,42 +44,54 @@
             "chapterpath": "exams/jee/mainchapters/math11/",
             "clogo": "fa-solid fa-flask",
             "savekey": "J1M",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           },
           {
             "chaptertitle": "Class 12 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math12/",
             "clogo": "fa-solid fa-flask",
             "savekey": "J2M",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           },
           {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry11/",
             "clogo": "fa-solid fa-flask",
             "savekey": "J1C",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry12/",
             "clogo": "fa-solid fa-flask",
             "savekey": "J2C",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           },
           {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics11/",
             "clogo": "fa-solid fa-flask",
             "savekey": "J1P",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics12/",
             "clogo": "fa-solid fa-user-pen",
             "savekey": "J2P",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           }
         ]
       },
@@ -86,14 +104,18 @@
             "chapterpath": "exams/jee/aipmt/",
             "clogo": "fa-solid fa-flask",
             "savekey": "JAP",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           },
           {
             "chaptertitle": "JEE Advanced Model Papers",
             "chapterpath": "exams/jee/aipmt/",
             "clogo": "fa-solid fa-flask",
             "savekey": "JAM",
-            "datatype": "exams"
+            "datatype": "exams", 
+            "active": true,
+            "common": false
           }
         ]
       }
@@ -110,13 +132,17 @@
             "chaptertitle": "Math Class 11 Notes",
             "chapterpath": "notes/hb/math11/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes", 
+            "active": true,
+            "common": true
           },
           {
             "chaptertitle": "Math Class 12 Notes",
             "chapterpath": "notes/hb/math12/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes", 
+            "active": true,
+            "common": true
           }
         ]
       },
@@ -128,13 +154,17 @@
             "chaptertitle": "Chemistry Class 11 Notes",
             "chapterpath": "notes/hb/chemistry11/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes", 
+            "active": true,
+            "common": true
           },
           {
             "chaptertitle": "Chemistry Class 12 Notes",
             "chapterpath": "notes/hb/chemistry12/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes", 
+            "active": true,
+            "common": true
           }
         ]
       },
@@ -146,13 +176,17 @@
             "chaptertitle": "Physics Class 11 Notes",
             "chapterpath": "notes/hb/physics11/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes", 
+            "active": true,
+            "common": true
           },
           {
             "chaptertitle": "Physics Class 12 Notes",
             "chapterpath": "notes/hb/physics12/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes", 
+            "active": true,
+            "common": true
           }
         ]
       }
@@ -163,19 +197,19 @@
     "elogo": "fas fa-file-pdf",
     "subjects": [
       {
-        "subjecttitle": "NCERT Biology",
+        "subjecttitle": "NCERT Math",
         "slogo": "fa-solid fa-book",
         "chapters": [
           {
-            "chaptertitle": "NCERT Biology Class 11",
-            "chapterpath": "drive/ncert/class11/biology/",
+            "chaptertitle": "NCERT Math Class 11",
+            "chapterpath": "drive/ncert/class11/math/",
             "clogo": "fa-solid fa-file-pdf",
             "datatype": "link",
             "common": true
           },
           {
-            "chaptertitle": "NCERT Biology Class 12",
-            "chapterpath": "drive/ncert/class12/biology/",
+            "chaptertitle": "NCERT Math Class 12",
+            "chapterpath": "drive/ncert/class12/math/",
             "clogo": "fa-solid fa-file-pdf",
             "datatype": "link",
             "common": true
@@ -197,7 +231,8 @@
             "chaptertitle": "NCERT Chemistry Class 12",
             "chapterpath": "drive/ncert/class12/chemistry/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link",
+            "datatype": "link", 
+            "active": true,
             "common": true
           }
         ]
@@ -210,14 +245,16 @@
             "chaptertitle": "NCERT Physics Class 11",
             "chapterpath": "drive/ncert/class11/physics/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link",
+            "datatype": "link", 
+            "active": true,
             "common": true
           },
           {
             "chaptertitle": "NCERT Physics Class 12",
             "chapterpath": "drive/ncert/class12/physics/",
             "clogo": "fa-solid fa-file-pdf",
-            "datatype": "link",
+            "datatype": "link", 
+            "active": true,
             "common": true
           }
         ]
