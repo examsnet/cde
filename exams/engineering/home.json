@@ -3,7 +3,37 @@
     "categorytitle": "Choose Your Exam",
     "elogo": "fa-solid fa-file-pen",
     "active": true,
-    "subjects": [
+    "subjects": [ 
+      {
+        "subjecttitle": "BITSAT Papers",
+        "slogo": "fa-solid fa-user-group",
+        "chapters": [
+          {
+            "chaptertitle": "BITSAT Previous Papers",
+            "chapterpath": "exams/engineering/bitsat/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Chhattisgarh PET Papers",
+        "slogo": "fa-solid fa-user-group",
+        "chapters": [
+          {
+            "chaptertitle": "Chhattisgarh PET Previous Papers",
+            "chapterpath": "exams/engineering/cgpet/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
       {
         "subjecttitle": "EAMCET Practice Papers",
         "slogo": "fa-solid fa-user-group",
@@ -41,36 +71,6 @@
             "chapterpath": "exams/engineering/eamcetmd/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA4",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "BITSAT Papers",
-        "slogo": "fa-solid fa-user-group",
-        "chapters": [
-          {
-            "chaptertitle": "BITSAT Previous Papers",
-            "chapterpath": "exams/engineering/bitsat/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA5",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "Chhattisgarh PET Papers",
-        "slogo": "fa-solid fa-user-group",
-        "chapters": [
-          {
-            "chaptertitle": "Chhattisgarh PET Previous Papers",
-            "chapterpath": "exams/engineering/cgpet/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA6",
             "datatype": "exams",
             "active": true,
             "common": false
