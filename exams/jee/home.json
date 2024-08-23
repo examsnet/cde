@@ -4,12 +4,12 @@
     "subjects": [
       {
         "subjecttitle": "JEE Main Papers",
-        "slogo": "fa-solid fa-stethoscope",
+        "slogo": "fa-solid fa-user-pen",
         "chapters": [
           {
             "chaptertitle": "JEE Main Previous Papers",
             "chapterpath": "exams/jee/mainprevious/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "JMP",
             "datatype": "exams", 
             "active": true,
@@ -18,7 +18,7 @@
           {
             "chaptertitle": "JEE Main Model Papers",
             "chapterpath": "exams/jee/mainmodel/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "JMM",
             "datatype": "exams", 
             "active": true,
@@ -27,7 +27,7 @@
           {
             "chaptertitle": "AIEEE Previous Papers",
             "chapterpath": "exams/jee/aieee/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "AIE",
             "datatype": "exams", 
             "active": true,
@@ -37,12 +37,12 @@
       },
       {
         "subjecttitle": "JEE Main Chapters Wise",
-        "slogo": "fa-solid fa-stethoscope",
+        "slogo": "fa-solid fa-user-pen",
         "chapters": [
           {
             "chaptertitle": "Class 11 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math11/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "J1M",
             "datatype": "exams", 
             "active": true,
@@ -51,7 +51,7 @@
           {
             "chaptertitle": "Class 12 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math12/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "J2M",
             "datatype": "exams", 
             "active": true,
@@ -60,7 +60,7 @@
           {
             "chaptertitle": "Class 11 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry11/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "J1C",
             "datatype": "exams", 
             "active": true,
@@ -69,7 +69,7 @@
           {
             "chaptertitle": "Class 12 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry12/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "J2C",
             "datatype": "exams", 
             "active": true,
@@ -78,7 +78,7 @@
           {
             "chaptertitle": "Class 11 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics11/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "J1P",
             "datatype": "exams", 
             "active": true,
@@ -97,12 +97,12 @@
       },
       {
         "subjecttitle": "JEE Advanced Papers",
-        "slogo": "fa-solid fa-stethoscope",
+        "slogo": "fa-solid fa-user-pen",
         "chapters": [
           {
             "chaptertitle": "JEE Advanced Previous Papers",
             "chapterpath": "exams/jee/advprevious/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "JAP",
             "datatype": "exams", 
             "active": true,
@@ -111,7 +111,7 @@
           {
             "chaptertitle": "JEE Advanced Model Papers",
             "chapterpath": "exams/jee/advmodel/",
-            "clogo": "fa-solid fa-flask",
+            "clogo": "fa-solid fa-pencil",
             "savekey": "JAM",
             "datatype": "exams", 
             "active": true,
