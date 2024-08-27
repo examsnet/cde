@@ -1,0 +1,103 @@
+[
+  {
+    "categorytitle": "Choose Your Exam",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "Azure Practice Tests",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Azure Admin Associate (AZ-104)",
+            "chapterpath": "certs/tech/microsoft/az104/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "MA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Azure DevOps Solutions (AZ-400)",
+            "chapterpath": "certs/tech/microsoft/az400/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "MA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Azure Fundamentals (AZ-900)",
+            "chapterpath": "certs/tech/microsoft/az900/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "MA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Azure Data Engineering (DP-203)",
+            "chapterpath": "certs/tech/microsoft/dp203/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "MA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Security Technologies",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Comp TIA Practice",
+            "chapterpath": "certs/tech/comptia/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "SA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CISSP Practice",
+            "chapterpath": "certs/tech/cissp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "SA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "Cisco CCNA Practice",
+            "chapterpath": "certs/tech/cisco/ccna200/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "SA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Other Certifications",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "ITIL Certification Exams",
+            "chapterpath": "certs/tech/itil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "OA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      }
+        
+    ]
+  }
+ 
+]
