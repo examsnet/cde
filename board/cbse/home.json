@@ -87,7 +87,240 @@
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
-           
+          {
+            "chaptertitle": "Accountancy",
+            "chapterpath": "board/cbse/class12/accountancy/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Applied Mathematics",
+            "chapterpath": "board/cbse/class12/appliedmathematics/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/cbse/class12/biology/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Biotechnology",
+            "chapterpath": "board/cbse/class12/biotechnology/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Business Studies",
+            "chapterpath": "board/cbse/class12/businessstudies/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/cbse/class12/chemistry/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Computer Science",
+            "chapterpath": "board/cbse/class12/computerscience/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA14",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Economics",
+            "chapterpath": "board/cbse/class12/economics/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA15",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Engineering Graphics",
+            "chapterpath": "board/cbse/class12/engineeringgraphics/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA16",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "English",
+            "chapterpath": "board/cbse/class12/english/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA17",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Enterpreneurship",
+            "chapterpath": "board/cbse/class12/enterpreneurship/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA18",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Geography",
+            "chapterpath": "board/cbse/class12/geography/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA19",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Hindi Core",
+            "chapterpath": "board/cbse/class12/hindicore/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA20",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Hindi Elective",
+            "chapterpath": "board/cbse/class12/hindielective/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA21",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "History",
+            "chapterpath": "board/cbse/class12/history/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA22",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Home Science",
+            "chapterpath": "board/cbse/class12/homescience/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA23",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Informatics Practices",
+            "chapterpath": "board/cbse/class12/informaticspractices/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA24",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Legal Studies",
+            "chapterpath": "board/cbse/class12/legalstudies/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA25",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Math",
+            "chapterpath": "board/cbse/class12/math/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA26",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physical Education",
+            "chapterpath": "board/cbse/class12/physicaleducation/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA27",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/cbse/class12/physics/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA28",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Political Science",
+            "chapterpath": "board/cbse/class12/politicalscience/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA29",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Psychology",
+            "chapterpath": "board/cbse/class12/psychology/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA30",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Sociology",
+            "chapterpath": "board/cbse/class12/sociology/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA31",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "SanskritCore",
+            "chapterpath": "board/cbse/class12/sanskritcore/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA32",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "SanskritElective",
+            "chapterpath": "board/cbse/class12/sanskritelective/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA33",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
         ]
       } 
        
