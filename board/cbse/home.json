@@ -1,0 +1,163 @@
+[
+  {
+    "categorytitle": "CBSE Board",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "Class 10 Previous Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Computer Applications",
+            "chapterpath": "board/cbse/class10/computerapplications/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "English",
+            "chapterpath": "board/cbse/class10/english/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Hindi",
+            "chapterpath": "board/cbse/class10/hindi/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Math",
+            "chapterpath": "board/cbse/class10/math/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science",
+            "chapterpath": "board/cbse/class10/science/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Social Science",
+            "chapterpath": "board/cbse/class10/socialscience/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Sanskrit",
+            "chapterpath": "board/cbse/class10/sanskrit/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "InformationTechnology",
+            "chapterpath": "board/cbse/class10/informationtechnology/",
+            "clogo": "fa-solid fa-vector-square",
+            "savekey": "BA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Class 12 Previous Papers",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+           
+        ]
+      } 
+       
+       
+    ]
+  },
+  {
+    "categorytitle": "NCERT Books",
+    "elogo": "fas fa-file-pdf",
+    "subjects": [
+      {
+        "subjecttitle": "NCERT Biology",
+        "slogo": "fa-solid fa-book",   
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Biology Class 11",
+            "chapterpath": "drive/ncert/class11/biology/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common":true
+          },
+          {
+            "chaptertitle": "NCERT Biology Class 12",
+            "chapterpath": "drive/ncert/class12/biology/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common":true
+          }
+        ]
+      },      
+      {
+        "subjecttitle": "NCERT Chemistry",
+        "slogo": "fa-solid fa-book", 
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Chemistry Class 11",
+            "chapterpath": "drive/ncert/class11/chemistry/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common":true
+          },
+          {
+            "chaptertitle": "NCERT Chemistry Class 12",
+            "chapterpath": "drive/ncert/class12/chemistry/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common":true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Physics",
+        "slogo": "fa-solid fa-book", 
+        "chapters": [
+          {
+            "chaptertitle": "NCERT Physics Class 11",
+            "chapterpath": "drive/ncert/class11/physics/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common":true
+          },
+          {
+            "chaptertitle": "NCERT Physics Class 12",
+            "chapterpath": "drive/ncert/class12/physics/",
+            "clogo": "fa-solid fa-file-pdf",
+            "datatype": "link",
+            "common":true
+          }
+        ]
+      } 
+    ]
+  }
+]
