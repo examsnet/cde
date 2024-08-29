@@ -11,7 +11,7 @@
           {
             "chaptertitle": "Computer Applications",
             "chapterpath": "board/cbse/class10/computerapplications/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA0",
             "datatype": "link",
             "active": true,
@@ -20,7 +20,7 @@
           {
             "chaptertitle": "English",
             "chapterpath": "board/cbse/class10/english/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA1",
             "datatype": "link",
             "active": true,
@@ -29,7 +29,7 @@
           {
             "chaptertitle": "Hindi",
             "chapterpath": "board/cbse/class10/hindi/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA2",
             "datatype": "link",
             "active": true,
@@ -38,7 +38,7 @@
           {
             "chaptertitle": "Math",
             "chapterpath": "board/cbse/class10/math/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA3",
             "datatype": "link",
             "active": true,
@@ -47,7 +47,7 @@
           {
             "chaptertitle": "Science",
             "chapterpath": "board/cbse/class10/science/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA4",
             "datatype": "link",
             "active": true,
@@ -56,7 +56,7 @@
           {
             "chaptertitle": "Social Science",
             "chapterpath": "board/cbse/class10/socialscience/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA5",
             "datatype": "link",
             "active": true,
@@ -65,7 +65,7 @@
           {
             "chaptertitle": "Sanskrit",
             "chapterpath": "board/cbse/class10/sanskrit/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA6",
             "datatype": "link",
             "active": true,
@@ -74,7 +74,7 @@
           {
             "chaptertitle": "InformationTechnology",
             "chapterpath": "board/cbse/class10/informationtechnology/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA7",
             "datatype": "link",
             "active": true,
@@ -90,7 +90,7 @@
           {
             "chaptertitle": "Accountancy",
             "chapterpath": "board/cbse/class12/accountancy/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA8",
             "datatype": "link",
             "active": true,
@@ -99,7 +99,7 @@
           {
             "chaptertitle": "Applied Mathematics",
             "chapterpath": "board/cbse/class12/appliedmathematics/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA9",
             "datatype": "link",
             "active": true,
@@ -108,7 +108,7 @@
           {
             "chaptertitle": "Biology",
             "chapterpath": "board/cbse/class12/biology/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA10",
             "datatype": "link",
             "active": true,
@@ -117,7 +117,7 @@
           {
             "chaptertitle": "Biotechnology",
             "chapterpath": "board/cbse/class12/biotechnology/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA11",
             "datatype": "link",
             "active": true,
@@ -126,7 +126,7 @@
           {
             "chaptertitle": "Business Studies",
             "chapterpath": "board/cbse/class12/businessstudies/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA12",
             "datatype": "link",
             "active": true,
@@ -135,7 +135,7 @@
           {
             "chaptertitle": "Chemistry",
             "chapterpath": "board/cbse/class12/chemistry/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA13",
             "datatype": "link",
             "active": true,
@@ -144,7 +144,7 @@
           {
             "chaptertitle": "Computer Science",
             "chapterpath": "board/cbse/class12/computerscience/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA14",
             "datatype": "link",
             "active": true,
@@ -153,7 +153,7 @@
           {
             "chaptertitle": "Economics",
             "chapterpath": "board/cbse/class12/economics/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA15",
             "datatype": "link",
             "active": true,
@@ -162,7 +162,7 @@
           {
             "chaptertitle": "Engineering Graphics",
             "chapterpath": "board/cbse/class12/engineeringgraphics/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA16",
             "datatype": "link",
             "active": true,
@@ -171,7 +171,7 @@
           {
             "chaptertitle": "English",
             "chapterpath": "board/cbse/class12/english/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA17",
             "datatype": "link",
             "active": true,
@@ -180,7 +180,7 @@
           {
             "chaptertitle": "Enterpreneurship",
             "chapterpath": "board/cbse/class12/enterpreneurship/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA18",
             "datatype": "link",
             "active": true,
@@ -189,7 +189,7 @@
           {
             "chaptertitle": "Geography",
             "chapterpath": "board/cbse/class12/geography/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA19",
             "datatype": "link",
             "active": true,
@@ -198,7 +198,7 @@
           {
             "chaptertitle": "Hindi Core",
             "chapterpath": "board/cbse/class12/hindicore/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA20",
             "datatype": "link",
             "active": true,
@@ -207,7 +207,7 @@
           {
             "chaptertitle": "Hindi Elective",
             "chapterpath": "board/cbse/class12/hindielective/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA21",
             "datatype": "link",
             "active": true,
@@ -216,7 +216,7 @@
           {
             "chaptertitle": "History",
             "chapterpath": "board/cbse/class12/history/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA22",
             "datatype": "link",
             "active": true,
@@ -225,7 +225,7 @@
           {
             "chaptertitle": "Home Science",
             "chapterpath": "board/cbse/class12/homescience/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA23",
             "datatype": "link",
             "active": true,
@@ -234,7 +234,7 @@
           {
             "chaptertitle": "Informatics Practices",
             "chapterpath": "board/cbse/class12/informaticspractices/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA24",
             "datatype": "link",
             "active": true,
@@ -243,7 +243,7 @@
           {
             "chaptertitle": "Legal Studies",
             "chapterpath": "board/cbse/class12/legalstudies/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA25",
             "datatype": "link",
             "active": true,
@@ -252,7 +252,7 @@
           {
             "chaptertitle": "Math",
             "chapterpath": "board/cbse/class12/math/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA26",
             "datatype": "link",
             "active": true,
@@ -261,7 +261,7 @@
           {
             "chaptertitle": "Physical Education",
             "chapterpath": "board/cbse/class12/physicaleducation/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA27",
             "datatype": "link",
             "active": true,
@@ -270,7 +270,7 @@
           {
             "chaptertitle": "Physics",
             "chapterpath": "board/cbse/class12/physics/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA28",
             "datatype": "link",
             "active": true,
@@ -279,7 +279,7 @@
           {
             "chaptertitle": "Political Science",
             "chapterpath": "board/cbse/class12/politicalscience/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA29",
             "datatype": "link",
             "active": true,
@@ -288,7 +288,7 @@
           {
             "chaptertitle": "Psychology",
             "chapterpath": "board/cbse/class12/psychology/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA30",
             "datatype": "link",
             "active": true,
@@ -297,7 +297,7 @@
           {
             "chaptertitle": "Sociology",
             "chapterpath": "board/cbse/class12/sociology/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA31",
             "datatype": "link",
             "active": true,
@@ -306,7 +306,7 @@
           {
             "chaptertitle": "SanskritCore",
             "chapterpath": "board/cbse/class12/sanskritcore/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA32",
             "datatype": "link",
             "active": true,
@@ -315,16 +315,242 @@
           {
             "chaptertitle": "SanskritElective",
             "chapterpath": "board/cbse/class12/sanskritelective/",
-            "clogo": "fa-solid fa-vector-square",
+            "clogo": "fa-solid fa-book-open",
             "savekey": "BA33",
             "datatype": "link",
             "active": true,
             "common": true
           }
         ]
-      } 
-       
-       
+      }
+    ]
+  },
+  {
+    "categorytitle": "NCERT Exemplar Books",
+    "elogo": "fas fa-file-pdf",
+    "subjects": [
+      {
+        "subjecttitle": "NCERT Class 10 Exemplar",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/exemplar/class10/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science",
+            "chapterpath": "board/ncert/exemplar/class10/science/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 11 Exemplar",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/exemplar/class11/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/exemplar/class11/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/exemplar/class11/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/exemplar/class11/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 12 Exemplar",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/exemplar/class12/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/exemplar/class12/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/exemplar/class12/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/exemplar/class12/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "NCERT Exemplar Solutions",
+    "elogo": "fas fa-file-pdf",
+    "subjects": [
+      {
+        "subjecttitle": "Class 10 Exemplar Solutions",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/exemplarsolutions/class10/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science",
+            "chapterpath": "board/ncert/exemplarsolutions/class10/science/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Class 11 Exemplar Solutions",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/exemplarsolutions/class11/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/exemplarsolutions/class11/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/exemplarsolutions/class11/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/exemplarsolutions/class11/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Class 12 Exemplar Solutions",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/exemplarsolutions/class12/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/exemplarsolutions/class12/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/exemplarsolutions/class12/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/exemplarsolutions/class12/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
     ]
   },
   {
@@ -333,64 +559,64 @@
     "subjects": [
       {
         "subjecttitle": "NCERT Biology",
-        "slogo": "fa-solid fa-book",   
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "NCERT Biology Class 11",
             "chapterpath": "drive/ncert/class11/biology/",
             "clogo": "fa-solid fa-file-pdf",
             "datatype": "link",
-            "common":true
+            "common": true
           },
           {
             "chaptertitle": "NCERT Biology Class 12",
             "chapterpath": "drive/ncert/class12/biology/",
             "clogo": "fa-solid fa-file-pdf",
             "datatype": "link",
-            "common":true
+            "common": true
           }
         ]
-      },      
+      },
       {
         "subjecttitle": "NCERT Chemistry",
-        "slogo": "fa-solid fa-book", 
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "NCERT Chemistry Class 11",
             "chapterpath": "drive/ncert/class11/chemistry/",
             "clogo": "fa-solid fa-file-pdf",
             "datatype": "link",
-            "common":true
+            "common": true
           },
           {
             "chaptertitle": "NCERT Chemistry Class 12",
             "chapterpath": "drive/ncert/class12/chemistry/",
             "clogo": "fa-solid fa-file-pdf",
             "datatype": "link",
-            "common":true
+            "common": true
           }
         ]
       },
       {
         "subjecttitle": "NCERT Physics",
-        "slogo": "fa-solid fa-book", 
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "NCERT Physics Class 11",
             "chapterpath": "drive/ncert/class11/physics/",
             "clogo": "fa-solid fa-file-pdf",
             "datatype": "link",
-            "common":true
+            "common": true
           },
           {
             "chaptertitle": "NCERT Physics Class 12",
             "chapterpath": "drive/ncert/class12/physics/",
             "clogo": "fa-solid fa-file-pdf",
             "datatype": "link",
-            "common":true
+            "common": true
           }
         ]
-      } 
+      }
     ]
   }
 ]
