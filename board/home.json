@@ -1,6 +1,6 @@
 [
   {
-    "categorytitle": "CBSE Board",
+    "categorytitle": "CBSE Previous Papers",
     "elogo": "fa-solid fa-file-pen",
     "subjects": [
       {
@@ -554,69 +554,378 @@
     ]
   },
   {
-    "categorytitle": "NCERT Books",
+    "categorytitle": "NCERT Notes",
     "elogo": "fas fa-file-pdf",
     "subjects": [
       {
-        "subjecttitle": "NCERT Biology",
+        "subjecttitle": "NCERT Class 10 Notes",
         "slogo": "fa-solid fa-book",
         "chapters": [
           {
-            "chaptertitle": "NCERT Biology Class 11",
-            "chapterpath": "drive/ncert/class11/biology/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "English Communicative",
+            "chapterpath": "board/ncert/notes/class10/englishcommunicative/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT0",
             "datatype": "link",
+            "active": true,
             "common": true
           },
           {
-            "chaptertitle": "NCERT Biology Class 12",
-            "chapterpath": "drive/ncert/class12/biology/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/notes/class10/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT1",
             "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science",
+            "chapterpath": "board/ncert/notes/class10/science/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Social Science",
+            "chapterpath": "board/ncert/notes/class10/socialscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT3",
+            "datatype": "link",
+            "active": true,
             "common": true
           }
         ]
       },
       {
-        "subjecttitle": "NCERT Chemistry",
+        "subjecttitle": "NCERT Class 11 Notes",
         "slogo": "fa-solid fa-book",
         "chapters": [
           {
-            "chaptertitle": "NCERT Chemistry Class 11",
-            "chapterpath": "drive/ncert/class11/chemistry/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Accountancy",
+            "chapterpath": "board/ncert/notes/class11/accountancy/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT4",
             "datatype": "link",
+            "active": true,
             "common": true
           },
           {
-            "chaptertitle": "NCERT Chemistry Class 12",
-            "chapterpath": "drive/ncert/class12/chemistry/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/notes/class11/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT5",
             "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Business Studies",
+            "chapterpath": "board/ncert/notes/class11/businessstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/notes/class11/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Computer Science",
+            "chapterpath": "board/ncert/notes/class11/computerscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Economics",
+            "chapterpath": "board/ncert/notes/class11/economics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "English",
+            "chapterpath": "board/ncert/notes/class11/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Geography",
+            "chapterpath": "board/ncert/notes/class11/geography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "History",
+            "chapterpath": "board/ncert/notes/class11/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Economic Development",
+            "chapterpath": "board/ncert/notes/class11/indianeconomicdevelopment/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Informatics Practices",
+            "chapterpath": "board/ncert/notes/class11/informaticspractices/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT14",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/notes/class11/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT15",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physical Education",
+            "chapterpath": "board/ncert/notes/class11/physicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT16",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/notes/class11/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT17",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Political Science",
+            "chapterpath": "board/ncert/notes/class11/politicalscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT18",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Psychology",
+            "chapterpath": "board/ncert/notes/class11/psychology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT19",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Sociology",
+            "chapterpath": "board/ncert/notes/class11/sociology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT20",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Statistics For Economics",
+            "chapterpath": "board/ncert/notes/class11/statisticsforeconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT21",
+            "datatype": "link",
+            "active": true,
             "common": true
           }
         ]
       },
       {
-        "subjecttitle": "NCERT Physics",
+        "subjecttitle": "NCERT Class 12 Notes",
         "slogo": "fa-solid fa-book",
         "chapters": [
           {
-            "chaptertitle": "NCERT Physics Class 11",
-            "chapterpath": "drive/ncert/class11/physics/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Accountancy",
+            "chapterpath": "board/ncert/notes/class12/accountancy/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT22",
             "datatype": "link",
+            "active": true,
             "common": true
           },
           {
-            "chaptertitle": "NCERT Physics Class 12",
-            "chapterpath": "drive/ncert/class12/physics/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/notes/class12/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT23",
             "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Business Studies",
+            "chapterpath": "board/ncert/notes/class12/businessstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT24",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/notes/class12/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT25",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Computer Science",
+            "chapterpath": "board/ncert/notes/class12/computerscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT26",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Economics",
+            "chapterpath": "board/ncert/notes/class12/economics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT27",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "English Core",
+            "chapterpath": "board/ncert/notes/class12/englishcore/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT28",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Geography",
+            "chapterpath": "board/ncert/notes/class12/geography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT29",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "History",
+            "chapterpath": "board/ncert/notes/class12/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT30",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Economics",
+            "chapterpath": "board/ncert/notes/class12/indianeconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT31",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Information Practice",
+            "chapterpath": "board/ncert/notes/class12/informationpractice/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT32",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/notes/class12/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT33",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physical Education",
+            "chapterpath": "board/ncert/notes/class12/physicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT34",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/notes/class12/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT35",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Political Science",
+            "chapterpath": "board/ncert/notes/class12/politicalscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT36",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Psychology",
+            "chapterpath": "board/ncert/notes/class12/psychology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "NOT37",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Sociology",
+            "chapterpath": "board/ncert/notes/class12/sociology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA38",
+            "datatype": "link",
+            "active": true,
             "common": true
           }
         ]
-      }
+      } 
     ]
   }
 ]
