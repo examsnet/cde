@@ -331,12 +331,12 @@
     "subjects": [
       {
         "subjecttitle": "NCERT Class 10 Exemplar",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Mathematics",
             "chapterpath": "board/ncert/exemplar/class10/mathematics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA0",
             "datatype": "link",
             "active": true,
@@ -345,7 +345,7 @@
           {
             "chaptertitle": "Science",
             "chapterpath": "board/ncert/exemplar/class10/science/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA1",
             "datatype": "link",
             "active": true,
@@ -355,12 +355,12 @@
       },
       {
         "subjecttitle": "NCERT Class 11 Exemplar",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Biology",
             "chapterpath": "board/ncert/exemplar/class11/biology/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA2",
             "datatype": "link",
             "active": true,
@@ -369,7 +369,7 @@
           {
             "chaptertitle": "Chemistry",
             "chapterpath": "board/ncert/exemplar/class11/chemistry/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA3",
             "datatype": "link",
             "active": true,
@@ -378,7 +378,7 @@
           {
             "chaptertitle": "Mathematics",
             "chapterpath": "board/ncert/exemplar/class11/mathematics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA4",
             "datatype": "link",
             "active": true,
@@ -387,7 +387,7 @@
           {
             "chaptertitle": "Physics",
             "chapterpath": "board/ncert/exemplar/class11/physics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA5",
             "datatype": "link",
             "active": true,
@@ -397,12 +397,12 @@
       },
       {
         "subjecttitle": "NCERT Class 12 Exemplar",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Biology",
             "chapterpath": "board/ncert/exemplar/class12/biology/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA6",
             "datatype": "link",
             "active": true,
@@ -411,7 +411,7 @@
           {
             "chaptertitle": "Chemistry",
             "chapterpath": "board/ncert/exemplar/class12/chemistry/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA7",
             "datatype": "link",
             "active": true,
@@ -420,7 +420,7 @@
           {
             "chaptertitle": "Mathematics",
             "chapterpath": "board/ncert/exemplar/class12/mathematics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA8",
             "datatype": "link",
             "active": true,
@@ -429,7 +429,7 @@
           {
             "chaptertitle": "Physics",
             "chapterpath": "board/ncert/exemplar/class12/physics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA9",
             "datatype": "link",
             "active": true,
@@ -445,12 +445,12 @@
     "subjects": [
       {
         "subjecttitle": "Class 10 Exemplar Solutions",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Mathematics",
             "chapterpath": "board/ncert/exemplarsolutions/class10/mathematics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA0",
             "datatype": "link",
             "active": true,
@@ -459,7 +459,7 @@
           {
             "chaptertitle": "Science",
             "chapterpath": "board/ncert/exemplarsolutions/class10/science/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA1",
             "datatype": "link",
             "active": true,
@@ -469,12 +469,12 @@
       },
       {
         "subjecttitle": "Class 11 Exemplar Solutions",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Biology",
             "chapterpath": "board/ncert/exemplarsolutions/class11/biology/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA2",
             "datatype": "link",
             "active": true,
@@ -483,7 +483,7 @@
           {
             "chaptertitle": "Chemistry",
             "chapterpath": "board/ncert/exemplarsolutions/class11/chemistry/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA3",
             "datatype": "link",
             "active": true,
@@ -492,7 +492,7 @@
           {
             "chaptertitle": "Mathematics",
             "chapterpath": "board/ncert/exemplarsolutions/class11/mathematics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA4",
             "datatype": "link",
             "active": true,
@@ -501,7 +501,7 @@
           {
             "chaptertitle": "Physics",
             "chapterpath": "board/ncert/exemplarsolutions/class11/physics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA5",
             "datatype": "link",
             "active": true,
@@ -511,12 +511,12 @@
       },
       {
         "subjecttitle": "Class 12 Exemplar Solutions",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-book",
         "chapters": [
           {
             "chaptertitle": "Biology",
             "chapterpath": "board/ncert/exemplarsolutions/class12/biology/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA6",
             "datatype": "link",
             "active": true,
@@ -525,7 +525,7 @@
           {
             "chaptertitle": "Chemistry",
             "chapterpath": "board/ncert/exemplarsolutions/class12/chemistry/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA7",
             "datatype": "link",
             "active": true,
@@ -534,7 +534,7 @@
           {
             "chaptertitle": "Mathematics",
             "chapterpath": "board/ncert/exemplarsolutions/class12/mathematics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA8",
             "datatype": "link",
             "active": true,
@@ -543,7 +543,7 @@
           {
             "chaptertitle": "Physics",
             "chapterpath": "board/ncert/exemplarsolutions/class12/physics/",
-            "clogo": "fa-solid fa-receipt",
+            "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA9",
             "datatype": "link",
             "active": true,
@@ -559,7 +559,7 @@
     "subjects": [
       {
         "subjecttitle": "NCERT Class 10 Notes",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-note-sticky",
         "chapters": [
           {
             "chaptertitle": "English Communicative",
@@ -601,7 +601,7 @@
       },
       {
         "subjecttitle": "NCERT Class 11 Notes",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-note-sticky",
         "chapters": [
           {
             "chaptertitle": "Accountancy",
@@ -769,7 +769,7 @@
       },
       {
         "subjecttitle": "NCERT Class 12 Notes",
-        "slogo": "fa-solid fa-book-open",
+        "slogo": "fa-solid fa-note-sticky",
         "chapters": [
           {
             "chaptertitle": "Accountancy",
