@@ -218,13 +218,17 @@
             "chaptertitle": "Math Class 11 Notes",
             "chapterpath": "notes/hb/math11/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes",
+            "active": true,
+            "common": true
           },
           {
             "chaptertitle": "Math Class 12 Notes",
             "chapterpath": "notes/hb/math12/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes",
+            "active": true,
+            "common": true
           }
         ]
       },
@@ -236,13 +240,17 @@
             "chaptertitle": "Chemistry Class 11 Notes",
             "chapterpath": "notes/hb/chemistry11/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes",
+            "active": true,
+            "common": true
           },
           {
             "chaptertitle": "Chemistry Class 12 Notes",
             "chapterpath": "notes/hb/chemistry12/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes",
+            "active": true,
+            "common": true
           }
         ]
       },
@@ -254,13 +262,17 @@
             "chaptertitle": "Physics Class 11 Notes",
             "chapterpath": "notes/hb/physics11/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes",
+            "active": true,
+            "common": true
           },
           {
             "chaptertitle": "Physics Class 12 Notes",
             "chapterpath": "notes/hb/physics12/",
             "clogo": "fa-brands fa-readme",
-            "datatype": "notes"
+            "datatype": "notes",
+            "active": true,
+            "common": true
           }
         ]
       }
