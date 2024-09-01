@@ -303,5 +303,47 @@
         ]
       }
     ]
+  },
+  {
+    "categorytitle": "Study Material",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [ 
+      {
+        "subjecttitle": "Mind Maps",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Mind Maps Aptitude",
+            "chapterpath": "study/mindmaps/aptitude/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mind Maps Logical Reasoning",
+            "chapterpath": "study/mindmaps/logicalreasoning/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mind Maps Verbal",
+            "chapterpath": "study/mindmaps/verbal/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+      
+    ]
   }
 ]
