@@ -5,127 +5,334 @@
     "active": true,
     "subjects": [
       {
-        "subjecttitle": "SSC CGL Practice Tests",
+        "subjecttitle": "AP Police Exams",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC CGL Previous Papers",
-            "chapterpath": "exams/ssc/cglprev/",
+            "chaptertitle": "AP Police Constable Exam Practice",
+            "chapterpath": "exams/police/apconstmd/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CGL Model Papers",
-            "chapterpath": "exams/ssc/cglmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CGL Tier 2 Papers",
-            "chapterpath": "exams/ssc/cgltier2/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CG2",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "SSC CHSL Practice Tests",
-        "slogo": "fa-solid fa-user-group",
-        "chapters": [
-          {
-            "chaptertitle": "SSC CHSL Previous Papers",
-            "chapterpath": "exams/ssc/chslprev/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CHSL Model Papers",
-            "chapterpath": "exams/ssc/chslmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
+            "savekey": "BA0",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        },
+        {
+            "chaptertitle": "AP Police SI Exam Practice",
+            "chapterpath": "exams/police/apsiprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
         ]
       },
       {
-        "subjecttitle": "SSC MTS Practice Tests",
+        "subjecttitle": "AP & Telangana Chapterwise",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          
+        ]
+      },
+      {
+        "subjecttitle": "Bihar Police Exams",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC MTS Previous Papers",
-            "chapterpath": "exams/ssc/mtsprev/",
+            "chaptertitle": "Bihar Police Constable & SI Exam Papers",
+            "chapterpath": "exams/police/biharconst/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
+            "savekey": "BA3",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
-          {
-            "chaptertitle": "SSC MTS Model Papers",
-            "chapterpath": "exams/ssc/mtsmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
+        }
         ]
       },
       {
-        "subjecttitle": "SSC Steno Practice Tests",
+        "subjecttitle": "Delhi Police Exams",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC Steno Previous Papers",
-            "chapterpath": "exams/ssc/stenoprev/",
+            "chaptertitle": "Delhi Police  Head Constable Previous",
+            "chapterpath": "exams/police/dpheadprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "STE",
+            "savekey": "BA4",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        },
+        {
+            "chaptertitle": "Delhi Police Constable Model Papers",
+            "chapterpath": "exams/police/dpconstmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "Delhi Police Constable Previous Papers",
+            "chapterpath": "exams/police/dpconstprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
         ]
       },
       {
-        "subjecttitle": "SSC CPO Practice Tests",
+        "subjecttitle": "Haryana Police Exams",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC CPO Previous Papers",
-            "chapterpath": "exams/ssc/cpoprev/",
+            "chaptertitle": "Haryana Police Constable Exam Papers",
+            "chapterpath": "exams/police/haryconst/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CPP",
+            "savekey": "BA7",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Karnataka Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
           {
-            "chaptertitle": "SSC CPO Model Papers",
-            "chapterpath": "exams/ssc/cpomodel/",
+            "chaptertitle": "Karnataka Police Constable and SI Exam Practice Papers",
+            "chapterpath": "exams/police/knpolprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CPM",
+            "savekey": "BA8",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Maharashtra Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Maharashtra Police Constable Previous Papers",
+            "chapterpath": "exams/police/mhconstprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA11",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "MP Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "MP Police Constable Exam Papers",
+            "chapterpath": "exams/police/mpconstmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "MP Police Constable Previous Papers",
+            "chapterpath": "exams/police/mpcosntprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA10",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Odisha Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Odisha Police Constable and SI Papers",
+            "chapterpath": "exams/police/odconstsi/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Punjab Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Punjab Police Constable and SI Exam Practice",
+            "chapterpath": "exams/police/punconstmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA13",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Rajasthan Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Rajasthan Police Constable Exam Papers",
+            "chapterpath": "exams/police/rajconstmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA14",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "Rajasthan Police Constable Previous Papers",
+            "chapterpath": "exams/police/rajconstprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA15",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Tamilnadu Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Tamilnadu Police Constable and SI Exam Tests",
+            "chapterpath": "exams/police/tnpoliceprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA20",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Telangana Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "TS Police Constable Model Papers",
+            "chapterpath": "exams/police/tsconstmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA16",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "TS Police Constable Prev Papers",
+            "chapterpath": "exams/police/tsconsprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA17",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "TS Police SI Exam Model and Previous Papers",
+            "chapterpath": "exams/police/tssimodprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA18",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Telangana Police Chapterwise",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          
+        ]
+      },
+      
+      {
+        "subjecttitle": "UP Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "UP Police Constable Model Papers",
+            "chapterpath": "exams/police/upconstmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA21",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "UP Police Constable Previous Papers",
+            "chapterpath": "exams/police/upconstprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA22",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "UP Police SI Exam Model Papers",
+            "chapterpath": "exams/police/upsimodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA23",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+          "chaptertitle": "UP Police SI Previous Papers",
+          "chapterpath": "exams/police/upsiprev/",
+          "clogo": "fa-solid fa-pen",
+          "savekey": "BA24",
+          "datatype": "exams",
+          "active": true,
+          "common": false
+      }
+        ]
+      },
+      {
+        "subjecttitle": "West Bengal Police Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "West Bengal Police Constable and SI Papers",
+            "chapterpath": "exams/police/wbpolice/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA25",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
         ]
       }
     ]
