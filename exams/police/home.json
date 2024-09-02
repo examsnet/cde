@@ -17,8 +17,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "AP Police SI Exam Practice",
             "chapterpath": "exams/police/apsiprev/",
             "clogo": "fa-solid fa-pen",
@@ -26,15 +26,122 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
-        "subjecttitle": "AP & Telangana Chapterwise",
+        "subjecttitle": "AP and Telangana Chapterwise",
         "slogo": "fa-solid fa-user-police",
-        "active": false,
+        "active": true,
         "chapters": [
-          
+          {
+            "chaptertitle": "Indian History Chapters Wise",
+            "chapterpath": "exams/police/aptschapter/history/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "HA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian History Model Papers Set 1",
+            "chapterpath": "exams/police/aptschapter/historymp1/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "HA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian History Model Papers Set 2",
+            "chapterpath": "exams/police/aptschapter/historymp2/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "HA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian History Model Papers Set 3",
+            "chapterpath": "exams/police/aptschapter/historymp3/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "HA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian Geography Chapters Wise",
+            "chapterpath": "exams/police/aptschapter/geography/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "GA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian Geography Model Papers Set 1 ",
+            "chapterpath": "exams/police/aptschapter/igeography1/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "GA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian Geography Model Papers Set 2 ",
+            "chapterpath": "exams/police/aptschapter/igeography1/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "GA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "World Geography Chapters Wise",
+            "chapterpath": "exams/police/aptschapter/wgeography/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "GA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian Economy Chapters Wise",
+            "chapterpath": "exams/police/aptschapter/ieconomy/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "GA5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian Economy Model Papers",
+            "chapterpath": "exams/police/aptschapter/ieconomymp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "GA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian Polity Chapters Wise",
+            "chapterpath": "exams/police/aptschapter/ipolity/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "GA7",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Indian Polity Model Papers",
+            "chapterpath": "exams/police/aptschapter/ipolitymp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "GA8",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
         ]
       },
       {
@@ -50,7 +157,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -66,8 +173,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "Delhi Police Constable Model Papers",
             "chapterpath": "exams/police/dpconstmd/",
             "clogo": "fa-solid fa-pen",
@@ -75,8 +182,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "Delhi Police Constable Previous Papers",
             "chapterpath": "exams/police/dpconstprev/",
             "clogo": "fa-solid fa-pen",
@@ -84,7 +191,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -100,7 +207,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -116,7 +223,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -132,7 +239,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -148,8 +255,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "MP Police Constable Previous Papers",
             "chapterpath": "exams/police/mpcosntprev/",
             "clogo": "fa-solid fa-pen",
@@ -157,7 +264,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -173,7 +280,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -189,7 +296,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -205,8 +312,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "Rajasthan Police Constable Previous Papers",
             "chapterpath": "exams/police/rajconstprev/",
             "clogo": "fa-solid fa-pen",
@@ -214,7 +321,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -230,7 +337,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -246,8 +353,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "TS Police Constable Prev Papers",
             "chapterpath": "exams/police/tsconsprev/",
             "clogo": "fa-solid fa-pen",
@@ -255,8 +362,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "TS Police SI Exam Model and Previous Papers",
             "chapterpath": "exams/police/tssimodprev/",
             "clogo": "fa-solid fa-pen",
@@ -264,7 +371,7 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
         ]
       },
       {
@@ -272,10 +379,43 @@
         "slogo": "fa-solid fa-user-police",
         "active": false,
         "chapters": [
-          
+          {
+            "chaptertitle": "Telangana History Chapters Wise",
+            "chapterpath": "exams/police/tspolicechap/historycp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "TA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Telangana History Model Papers",
+            "chapterpath": "exams/police/tspolicechap/historymd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "TA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Telangana Geography Chapters wise",
+            "chapterpath": "exams/police/tspolicechap/geographycp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "TA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Telangana Geography Model Papers",
+            "chapterpath": "exams/police/tspolicechap/geographycp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "TA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
         ]
       },
-      
+
       {
         "subjecttitle": "UP Police Exams",
         "slogo": "fa-solid fa-user-police",
@@ -289,8 +429,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "UP Police Constable Previous Papers",
             "chapterpath": "exams/police/upconstprev/",
             "clogo": "fa-solid fa-pen",
@@ -298,8 +438,8 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
+          },
+          {
             "chaptertitle": "UP Police SI Exam Model Papers",
             "chapterpath": "exams/police/upsimodel/",
             "clogo": "fa-solid fa-pen",
@@ -307,16 +447,16 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        },
-        {
-          "chaptertitle": "UP Police SI Previous Papers",
-          "chapterpath": "exams/police/upsiprev/",
-          "clogo": "fa-solid fa-pen",
-          "savekey": "BA24",
-          "datatype": "exams",
-          "active": true,
-          "common": false
-      }
+          },
+          {
+            "chaptertitle": "UP Police SI Previous Papers",
+            "chapterpath": "exams/police/upsiprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA24",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
         ]
       },
       {
@@ -332,7 +472,102 @@
             "datatype": "exams",
             "active": true,
             "common": false
-        }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Study Material",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "General Studies",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "study/generalstudies/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "study/generalstudies/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Environment Ecology",
+            "chapterpath": "study/generalstudies/environmentecology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "History",
+            "chapterpath": "study/generalstudies/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "India and World Geography",
+            "chapterpath": "study/generalstudies/indiaandworldgeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Economy",
+            "chapterpath": "study/generalstudies/indianeconomy/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Politics",
+            "chapterpath": "study/generalstudies/indianpolitics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "study/generalstudies/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science and Technology",
+            "chapterpath": "study/generalstudies/scienceandtechnology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
         ]
       }
     ]
