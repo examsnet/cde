@@ -1,61 +1,28 @@
 [
   {
-    "categorytitle": "Entrance Exams",
+    "categorytitle": "Choose Your Exam",
     "elogo": "fa-solid fa-file-pen",
     "active": true,
     "subjects": [
       {
-        "subjecttitle": "SSC CGL Practice Tests",
+        "subjecttitle": "AP TET Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC CGL Previous Papers",
-            "chapterpath": "exams/ssc/cglprev/",
+            "chaptertitle": "APTET Model Papers",
+            "chapterpath": "exams/tets/aptetmod/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams", 
+            "savekey": "BA0",
+            "datatype": "exams",
             "active": true,
             "common": false
           },
           {
-            "chaptertitle": "SSC CGL Model Papers",
-            "chapterpath": "exams/ssc/cglmodel/",
+            "chaptertitle": "APTET Previous Papers",
+            "chapterpath": "exams/tets/aptetprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CGL Tier 2 Papers",
-            "chapterpath": "exams/ssc/cgltier2/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CG2",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "SSC CHSL Practice Tests",
-        "slogo": "fa-solid fa-user-group",
-        "chapters": [
-          {
-            "chaptertitle": "SSC CHSL Previous Papers",
-            "chapterpath": "exams/ssc/chslprev/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CHSL Model Papers",
-            "chapterpath": "exams/ssc/chslmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
+            "savekey": "BA1",
             "datatype": "exams",
             "active": true,
             "common": false
@@ -63,24 +30,16 @@
         ]
       },
       {
-        "subjecttitle": "SSC MTS Practice Tests",
+        "subjecttitle": "CG TET Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
+          
           {
-            "chaptertitle": "SSC MTS Previous Papers",
-            "chapterpath": "exams/ssc/mtsprev/",
+            "chaptertitle": "CG TET Previous Papers",
+            "chapterpath": "exams/tets/cgtetprev/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC MTS Model Papers",
-            "chapterpath": "exams/ssc/mtsmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
+            "savekey": "BA1",
             "datatype": "exams",
             "active": true,
             "common": false
@@ -88,15 +47,32 @@
         ]
       },
       {
-        "subjecttitle": "SSC Steno Practice Tests",
+        "subjecttitle": "CTET Exam Practice",
         "slogo": "fa-solid fa-user-group",
-        "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC Steno Previous Papers",
-            "chapterpath": "exams/ssc/stenoprev/",
+            "chaptertitle": "CTET 1 Previous Papers",
+            "chapterpath": "exams/tets/ctetiv/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "STE",
+            "savekey": "BA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CTET 2 Maths Science Past Papers",
+            "chapterpath": "exams/tets/ctetmath/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CTET 2 Social Science Past Papers ",
+            "chapterpath": "exams/tets/ctetsocial/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA6",
             "datatype": "exams",
             "active": true,
             "common": false
@@ -104,24 +80,99 @@
         ]
       },
       {
-        "subjecttitle": "SSC CPO Practice Tests",
+        "subjecttitle": "REET Practice Tests",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC CPO Previous Papers",
-            "chapterpath": "exams/ssc/cpoprev/",
+            "chaptertitle": "REET Level 1 Previous Papers",
+            "chapterpath": "exams/tets/reetiv/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CPP",
+            "savekey": "BA8",
             "datatype": "exams",
             "active": true,
             "common": false
           },
           {
-            "chaptertitle": "SSC CPO Model Papers",
-            "chapterpath": "exams/ssc/cpomodel/",
+            "chaptertitle": "REET Level 2 Math and Science Papers",
+            "chapterpath": "exams/tets/reetmath/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CPM",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "REET Level 2 Social and Science Papers",
+            "chapterpath": "exams/tets/reetsoc/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA10",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
+        "subjecttitle": "TN TET Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "TN TET Exam Model Papers",
+            "chapterpath": "exams/tets/tntetmodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
+        "subjecttitle": "UP TET Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "UPTET Paper 1 Previous Papers",
+            "chapterpath": "exams/tets/uptetiv/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA20",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "UPTET Paper 2 Math Previous Papers",
+            "chapterpath": "exams/tets/uptetmath/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA21",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "UPTET Paper 2 Social Previous Papers",
+            "chapterpath": "exams/tets/uptetsoc/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA22",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
+        "subjecttitle": "Uttarakand TET Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "UTET Practice Papers",
+            "chapterpath": "exams/tets/utetprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA24",
             "datatype": "exams",
             "active": true,
             "common": false
@@ -378,6 +429,101 @@
             "clogo": "fa-solid fa-pen",
             "savekey": "EN19",
             "datatype": "exams",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Study Material",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "General Studies",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "study/generalstudies/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "study/generalstudies/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Environment Ecology",
+            "chapterpath": "study/generalstudies/environmentecology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "History",
+            "chapterpath": "study/generalstudies/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "India and World Geography",
+            "chapterpath": "study/generalstudies/indiaandworldgeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Economy",
+            "chapterpath": "study/generalstudies/indianeconomy/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Politics",
+            "chapterpath": "study/generalstudies/indianpolitics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "study/generalstudies/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science and Technology",
+            "chapterpath": "study/generalstudies/scienceandtechnology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
             "active": true,
             "common": true
           }
