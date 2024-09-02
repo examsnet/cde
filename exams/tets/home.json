@@ -130,6 +130,103 @@
         ]
       },
       {
+        "subjecttitle": "TN TET Chapters wise",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "TN TET 1 தமிழ் Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "TN TET 1 English Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 1 Psychology Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 1 Maths Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 1 Environmental Studies Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 2 English Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 2 தமிழ் Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 2 Psychology Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 2 Maths Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 2 Science Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "TN TET 2 Social Science Questions",
+            "chapterpath": "exams/tets/tntetchap/tamil/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
         "subjecttitle": "UP TET Practice",
         "slogo": "fa-solid fa-user-group",
         "active": true,
