@@ -6,7 +6,7 @@
     "subjects": [
       {
         "subjecttitle": "AP Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -31,7 +31,7 @@
       },
       {
         "subjecttitle": "AP and Telangana Chapterwise",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -146,7 +146,7 @@
       },
       {
         "subjecttitle": "Bihar Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -162,7 +162,7 @@
       },
       {
         "subjecttitle": "Delhi Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -196,7 +196,7 @@
       },
       {
         "subjecttitle": "Haryana Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -212,7 +212,7 @@
       },
       {
         "subjecttitle": "Karnataka Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -228,7 +228,7 @@
       },
       {
         "subjecttitle": "Maharashtra Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -244,7 +244,7 @@
       },
       {
         "subjecttitle": "MP Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -269,7 +269,7 @@
       },
       {
         "subjecttitle": "Odisha Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -285,7 +285,7 @@
       },
       {
         "subjecttitle": "Punjab Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -301,7 +301,7 @@
       },
       {
         "subjecttitle": "Rajasthan Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -326,7 +326,7 @@
       },
       {
         "subjecttitle": "Tamilnadu Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -342,7 +342,7 @@
       },
       {
         "subjecttitle": "Telangana Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -376,7 +376,7 @@
       },
       {
         "subjecttitle": "Telangana Police Chapterwise",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": false,
         "chapters": [
           {
@@ -418,7 +418,7 @@
 
       {
         "subjecttitle": "UP Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
@@ -461,7 +461,7 @@
       },
       {
         "subjecttitle": "West Bengal Police Exams",
-        "slogo": "fa-solid fa-user-police",
+        "slogo": "fa-solid fa-shield-halved",
         "active": true,
         "chapters": [
           {
