@@ -6,7 +6,7 @@
     "subjects": [
       {
         "subjecttitle": "RRB ALP Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-train",
         "active": true,
         "chapters": [
           {
@@ -31,7 +31,7 @@
       },
       {
         "subjecttitle": "RRB Group D Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-train",
         "chapters": [
            
           {
@@ -56,7 +56,7 @@
       },
       {
         "subjecttitle": "RRB NTPC Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-train-subway",
         "active": true,
         "chapters": [
           {
@@ -81,7 +81,7 @@
       },
       {
         "subjecttitle": "RRB RPF Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-person-military-pointing",
         "active": true,
         "chapters": [
           {
@@ -115,7 +115,7 @@
       },
       {
         "subjecttitle": "RRB Junior Engineer Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-user-gear",
         "active": true,
         "chapters": [
           {
@@ -140,7 +140,7 @@
       },
       {
         "subjecttitle": "RRB Paramedical Papers",
-        "slogo": "fa-solid fa-user-group",
+        "slogo": "fa-solid fa-user-nurse",
         "active": true,
         "chapters": [
           {
@@ -155,6 +155,102 @@
         ]
       }
       
+    ]
+  },
+
+   {
+    "categorytitle": "Study Material",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "General Studies",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "study/generalstudies/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "study/generalstudies/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Environment Ecology",
+            "chapterpath": "study/generalstudies/environmentecology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "History",
+            "chapterpath": "study/generalstudies/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "India and World Geography",
+            "chapterpath": "study/generalstudies/indiaandworldgeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Economy",
+            "chapterpath": "study/generalstudies/indianeconomy/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Politics",
+            "chapterpath": "study/generalstudies/indianpolitics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "study/generalstudies/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science and Technology",
+            "chapterpath": "study/generalstudies/scienceandtechnology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
     ]
   },
   {
