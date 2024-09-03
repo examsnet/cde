@@ -326,6 +326,1692 @@
     ]
   },
   {
+    "categorytitle": "NCERT Books",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "NCERT Class 10 Books",
+        "slogo": "fa-solid fa-calculator",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Contemporary India",
+            "chapterpath": "board/ncert/books/class10/contemporaryindia/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Democratic Politics",
+            "chapterpath": "board/ncert/books/class10/democraticpolitics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Design Thinking and Innovation",
+            "chapterpath": "board/ncert/books/class10/designthinkingandinnovation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "First Flight",
+            "chapterpath": "board/ncert/books/class10/firstflight/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Footprints Without Feet",
+            "chapterpath": "board/ncert/books/class10/footprintswithoutfeet/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Health and Physical Education",
+            "chapterpath": "board/ncert/books/class10/healthandphysicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "India and the Contemporary World 2",
+            "chapterpath": "board/ncert/books/class10/indiaandthecontemporaryworld2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Interact in English Communicative Course",
+            "chapterpath": "board/ncert/books/class10/interactinenglishcommunicativecourse/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Interact in English Literature Reader",
+            "chapterpath": "board/ncert/books/class10/interactinenglishliteraturereader/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Interact in English Main Course Book Communicative",
+            "chapterpath": "board/ncert/books/class10/interactinenglishmaincoursebookcommunicative/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "board/ncert/books/class10/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Mathematics Lab Manual",
+            "chapterpath": "board/ncert/books/class10/mathematicslabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Practice Book Maths CBSE",
+            "chapterpath": "board/ncert/books/class10/practicebookmathscbse/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Practice Book Science CBSE",
+            "chapterpath": "board/ncert/books/class10/practicebooksciencecbse/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science",
+            "chapterpath": "board/ncert/books/class10/science/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA14",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science Lab Manual",
+            "chapterpath": "board/ncert/books/class10/sciencelabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA15",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "The Diary of a Young Girl",
+            "chapterpath": "board/ncert/books/class10/thediaryofayounggirl/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA16",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "The Story of My Life Novel",
+            "chapterpath": "board/ncert/books/class10/thestoryofmylifenovel/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA17",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Understanding Economic Development",
+            "chapterpath": "board/ncert/books/class10/understandingeconomicdevelopment/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA18",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Words and Expressions 2",
+            "chapterpath": "board/ncert/books/class10/wordsandexpressions2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA19",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 11 Books",
+        "slogo": "fa-solid fa-user-tie",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Class 11 An Introduction to Indian Art Part 1",
+            "chapterpath": "board/ncert/books/class11/anintroductiontoindianartpart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA20",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Applied Mathematics",
+            "chapterpath": "board/ncert/books/class11/appliedmathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA21",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Biology",
+            "chapterpath": "board/ncert/books/class11/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA22",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Biotechnology",
+            "chapterpath": "board/ncert/books/class11/biotechnology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA23",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Business Studies",
+            "chapterpath": "board/ncert/books/class11/businessstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA24",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Chemistry Part 1",
+            "chapterpath": "board/ncert/books/class11/chemistrypart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA25",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Chemistry Part 2",
+            "chapterpath": "board/ncert/books/class11/chemistrypart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA26",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Computers and Communication Technology Part 1",
+            "chapterpath": "board/ncert/books/class11/computersandcommunicationtechnologypart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA27",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Computers and Communication Technology Part 2",
+            "chapterpath": "board/ncert/books/class11/computersandcommunicationtechnologypart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA28",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Computer Science",
+            "chapterpath": "board/ncert/books/class11/computerscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA29",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Design Thinking and Innovation",
+            "chapterpath": "board/ncert/books/class11/designthinkingandinnovation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA30",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Exploring Craft Tradition of India",
+            "chapterpath": "board/ncert/books/class11/exploringcrafttraditionofindia/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA31",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Financial Accounting Part I",
+            "chapterpath": "board/ncert/books/class11/financialaccountingparti/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA32",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Financial Accounting Part II",
+            "chapterpath": "board/ncert/books/class11/financialaccountingpartii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA33",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Fundamentals of Physical Geography",
+            "chapterpath": "board/ncert/books/class11/fundamentalsofphysicalgeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA34",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Health and Physical Education",
+            "chapterpath": "board/ncert/books/class11/healthandphysicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA35",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Hornbill",
+            "chapterpath": "board/ncert/books/class11/hornbill/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA36",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Human Ecology and Family Sciences Part 1",
+            "chapterpath": "board/ncert/books/class11/humanecologyandfamilysciencespart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA37",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Human Ecology and Family Sciences Part 2",
+            "chapterpath": "board/ncert/books/class11/humanecologyandfamilysciencespart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA38",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 India Constitution at Work",
+            "chapterpath": "board/ncert/books/class11/indiaconstitutionatwork/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA39",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Indian Economic Development",
+            "chapterpath": "board/ncert/books/class11/indianeconomicdevelopment/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA40",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 India Physical Environment",
+            "chapterpath": "board/ncert/books/class11/indiaphysicalenvironment/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA41",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Informatics Practices",
+            "chapterpath": "board/ncert/books/class11/informaticspractices/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA42",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Introducing Sociology",
+            "chapterpath": "board/ncert/books/class11/introducingsociology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA43",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Living Craft Tradition of India",
+            "chapterpath": "board/ncert/books/class11/livingcrafttraditionofindia/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA44",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Mathematics",
+            "chapterpath": "board/ncert/books/class11/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA45",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Physical Education",
+            "chapterpath": "board/ncert/books/class11/physicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA46",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Physical Education CBSE",
+            "chapterpath": "board/ncert/books/class11/physicaleducationcbse/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA47",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Physics Part 1",
+            "chapterpath": "board/ncert/books/class11/physicspart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA48",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Physics Part 2",
+            "chapterpath": "board/ncert/books/class11/physicspart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA49",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Political Theory",
+            "chapterpath": "board/ncert/books/class11/politicaltheory/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA50",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Practical Work in Geography",
+            "chapterpath": "board/ncert/books/class11/practicalworkingeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA51",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Psychology",
+            "chapterpath": "board/ncert/books/class11/psychology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA52",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Srijan Part 1",
+            "chapterpath": "board/ncert/books/class11/srijanpart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA53",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Statistics for Economics",
+            "chapterpath": "board/ncert/books/class11/statisticsforeconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA54",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Themes in World History",
+            "chapterpath": "board/ncert/books/class11/themesinworldhistory/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA55",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 The Story of Graphic Design",
+            "chapterpath": "board/ncert/books/class11/thestoryofgraphicdesign/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA56",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Understanding Society",
+            "chapterpath": "board/ncert/books/class11/understandingsociety/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA57",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Woven Words",
+            "chapterpath": "board/ncert/books/class11/wovenwords/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA58",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 12 Books",
+        "slogo": "fa-solid fa-user-tie",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Class 12 Accountancy Part 1",
+            "chapterpath": "board/ncert/books/class12/accountancypart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA59",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Accountancy Part 2",
+            "chapterpath": "board/ncert/books/class12/accountancypart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA60",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 An Introduction to Indian Art",
+            "chapterpath": "board/ncert/books/class12/anintroductiontoindianart/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA61",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Applied Mathematics",
+            "chapterpath": "board/ncert/books/class12/appliedmathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA62",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Biology",
+            "chapterpath": "board/ncert/books/class12/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA63",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Biology Lab Manual",
+            "chapterpath": "board/ncert/books/class12/biologylabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA64",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Business Studies Part 1",
+            "chapterpath": "board/ncert/books/class12/businessstudiespart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA65",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Business Studies Part 2",
+            "chapterpath": "board/ncert/books/class12/businessstudiespart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA66",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Lab Manual",
+            "chapterpath": "board/ncert/books/class12/chemistrylabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA67",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Part I",
+            "chapterpath": "board/ncert/books/class12/chemistryparti/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA68",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Part II",
+            "chapterpath": "board/ncert/books/class12/chemistrypartii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA69",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Computerised Accounting System",
+            "chapterpath": "board/ncert/books/class12/computerisedaccountingsystem/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA70",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Computer Science",
+            "chapterpath": "board/ncert/books/class12/computerscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA71",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Contemporary World Politics",
+            "chapterpath": "board/ncert/books/class12/contemporaryworldpolitics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA72",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Craft Tradition of India",
+            "chapterpath": "board/ncert/books/class12/crafttraditionofindia/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA73",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Design Thinking and Innovation",
+            "chapterpath": "board/ncert/books/class12/designthinkingandinnovation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA74",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Exploring Craft Tradition of India Classes 11 and 12",
+            "chapterpath": "board/ncert/books/class12/exploringcrafttraditionofindiaclasses11and12/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA75",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Flamingo",
+            "chapterpath": "board/ncert/books/class12/flamingo/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA76",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Fundamentals of Human Geography",
+            "chapterpath": "board/ncert/books/class12/fundamentalsofhumangeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA77",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Human Ecology and Family Sciences Part I",
+            "chapterpath": "board/ncert/books/class12/humanecologyandfamilysciencesparti/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA78",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Human Ecology and Family Sciences Part II",
+            "chapterpath": "board/ncert/books/class12/humanecologyandfamilysciencespartii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA79",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Indian Society",
+            "chapterpath": "board/ncert/books/class12/indiansociety/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA80",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 India People and Economy",
+            "chapterpath": "board/ncert/books/class12/indiapeopleandeconomy/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA81",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Informatics Practices",
+            "chapterpath": "board/ncert/books/class12/informaticspractices/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA82",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Introductory Macroeconomics",
+            "chapterpath": "board/ncert/books/class12/introductorymacroeconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA83",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Introductory Microeconomics",
+            "chapterpath": "board/ncert/books/class12/introductorymicroeconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA84",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Kaleidoscope",
+            "chapterpath": "board/ncert/books/class12/kaleidoscope/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA85",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Legal Studies Revised",
+            "chapterpath": "board/ncert/books/class12/legalstudiesrevised/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA86",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Mathematics Lab Manual",
+            "chapterpath": "board/ncert/books/class12/mathematicslabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA87",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Mathematics Part 1",
+            "chapterpath": "board/ncert/books/class12/mathematicspart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA88",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Mathematics Part 2",
+            "chapterpath": "board/ncert/books/class12/mathematicspart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA89",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 New Age Graphics Design",
+            "chapterpath": "board/ncert/books/class12/newagegraphicsdesign/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA90",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physical Education",
+            "chapterpath": "board/ncert/books/class12/physicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA91",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physical Education Revised Edition",
+            "chapterpath": "board/ncert/books/class12/physicaleducationrevisededition/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA92",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physics Lab Manual",
+            "chapterpath": "board/ncert/books/class12/physicslabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA93",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physics Part 1",
+            "chapterpath": "board/ncert/books/class12/physicspart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA94",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physics Part 2",
+            "chapterpath": "board/ncert/books/class12/physicspart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA95",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Political Science Part II",
+            "chapterpath": "board/ncert/books/class12/politicalsciencepartii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA96",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Practical Work in Geography Part 2",
+            "chapterpath": "board/ncert/books/class12/practicalworkingeographypart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA97",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Psychology",
+            "chapterpath": "board/ncert/books/class12/psychology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA98",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Silas Marner by George Eliot Novel",
+            "chapterpath": "board/ncert/books/class12/silasmarnerbygeorgeeliotnovel/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA99",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Social Change and Development in India",
+            "chapterpath": "board/ncert/books/class12/socialchangeanddevelopmentinindia/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA100",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Srijan Part 2",
+            "chapterpath": "board/ncert/books/class12/srijanpart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA101",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 The Hound of the Baskervilles by Arthur Conan Doyle Novel",
+            "chapterpath": "board/ncert/books/class12/thehoundofthebaskervillesbyarthurconandoylenovel/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA102",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 The Invisible Man by H G Wells Novel",
+            "chapterpath": "board/ncert/books/class12/theinvisiblemanbyhgwellsnovel/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA103",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Themes in Indian History Part 1",
+            "chapterpath": "board/ncert/books/class12/themesinindianhistorypart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA104",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Themes in Indian History Part 2",
+            "chapterpath": "board/ncert/books/class12/themesinindianhistorypart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA105",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Themes in Indian History Part 3",
+            "chapterpath": "board/ncert/books/class12/themesinindianhistorypart3/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA106",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Vistas",
+            "chapterpath": "board/ncert/books/class12/vistas/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA107",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },{
+        "subjecttitle": "NCERT Class 10 Book Solutions",
+        "slogo": "fa-solid fa-calculator",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Abhyasvan Bhavah",
+            "chapterpath": "board/ncert/solutions/class10/abhyasvanbhavah/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "English",
+            "chapterpath": "board/ncert/solutions/class10/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "First Flight",
+            "chapterpath": "board/ncert/solutions/class10/firstflight/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Footprints Without Feet",
+            "chapterpath": "board/ncert/solutions/class10/footprintswithoutfeet/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Foundation of Information Technology",
+            "chapterpath": "board/ncert/solutions/class10/foundationofinformationtechnology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Hindi",
+            "chapterpath": "board/ncert/solutions/class10/hindi/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Hindi Kritika",
+            "chapterpath": "board/ncert/solutions/class10/hindikritika/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Hindi Kshitiz",
+            "chapterpath": "board/ncert/solutions/class10/hindikshitiz/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Manika",
+            "chapterpath": "board/ncert/solutions/class10/manika/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Maths",
+            "chapterpath": "board/ncert/solutions/class10/maths/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Maths Exemplar",
+            "chapterpath": "board/ncert/solutions/class10/mathsexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science",
+            "chapterpath": "board/ncert/solutions/class10/science/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science Exemplar",
+            "chapterpath": "board/ncert/solutions/class10/scienceexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Shemushi",
+            "chapterpath": "board/ncert/solutions/class10/shemushi/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Social Science",
+            "chapterpath": "board/ncert/solutions/class10/socialscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA14",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Words and Expressions",
+            "chapterpath": "board/ncert/solutions/class10/wordsandexpressions/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA15",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 11 Book Solutions",
+        "slogo": "fa-solid fa-user-tie",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Class 11 Accountancy",
+            "chapterpath": "board/ncert/solutions/class11/accountancy/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA16",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Antra",
+            "chapterpath": "board/ncert/solutions/class11/antra/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA17",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Antral",
+            "chapterpath": "board/ncert/solutions/class11/antral/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA18",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Biology",
+            "chapterpath": "board/ncert/solutions/class11/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA19",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Biology Exemplar",
+            "chapterpath": "board/ncert/solutions/class11/biologyexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA20",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Business Studies",
+            "chapterpath": "board/ncert/solutions/class11/businessstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA21",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Chemistry",
+            "chapterpath": "board/ncert/solutions/class11/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA22",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Chemistry Exemplar",
+            "chapterpath": "board/ncert/solutions/class11/chemistryexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA23",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Computer Science",
+            "chapterpath": "board/ncert/solutions/class11/computerscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA24",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Economics",
+            "chapterpath": "board/ncert/solutions/class11/economics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA25",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 English Hornbill",
+            "chapterpath": "board/ncert/solutions/class11/englishhornbill/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA26",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 English Snapshots",
+            "chapterpath": "board/ncert/solutions/class11/englishsnapshots/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA27",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 English Woven Words Essays",
+            "chapterpath": "board/ncert/solutions/class11/englishwovenwordsessays/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA28",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 English Woven Words Poetry",
+            "chapterpath": "board/ncert/solutions/class11/englishwovenwordspoetry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA29",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 English Woven Words Short Stories",
+            "chapterpath": "board/ncert/solutions/class11/englishwovenwordsshortstories/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA30",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Entrepreneurship",
+            "chapterpath": "board/ncert/solutions/class11/entrepreneurship/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA31",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Financial Accounting",
+            "chapterpath": "board/ncert/solutions/class11/financialaccounting/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA32",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Fundamentals of Physical Geography",
+            "chapterpath": "board/ncert/solutions/class11/fundamentalsofphysicalgeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA33",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Hindi Aroh Bhag I",
+            "chapterpath": "board/ncert/solutions/class11/hindiarohbhagi/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA34",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Hindi Vitan Bhag I",
+            "chapterpath": "board/ncert/solutions/class11/hindivitanbhagi/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA35",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 History",
+            "chapterpath": "board/ncert/solutions/class11/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA36",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 India Constitution at Work",
+            "chapterpath": "board/ncert/solutions/class11/indiaconstitutionatwork/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA37",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Indian Economic Development",
+            "chapterpath": "board/ncert/solutions/class11/indianeconomicdevelopment/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA38",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 India Physical Environment",
+            "chapterpath": "board/ncert/solutions/class11/indiaphysicalenvironment/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA39",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Maths",
+            "chapterpath": "board/ncert/solutions/class11/maths/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA40",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Maths Exemplar",
+            "chapterpath": "board/ncert/solutions/class11/mathsexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA41",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Physical Education",
+            "chapterpath": "board/ncert/solutions/class11/physicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA42",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Physics",
+            "chapterpath": "board/ncert/solutions/class11/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA43",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Physics Exemplar",
+            "chapterpath": "board/ncert/solutions/class11/physicsexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA44",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Political Theory",
+            "chapterpath": "board/ncert/solutions/class11/politicaltheory/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA45",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Practical Work in Geography",
+            "chapterpath": "board/ncert/solutions/class11/practicalworkingeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA46",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Psychology",
+            "chapterpath": "board/ncert/solutions/class11/psychology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA47",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Sociology",
+            "chapterpath": "board/ncert/solutions/class11/sociology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA48",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Urdu",
+            "chapterpath": "board/ncert/solutions/class11/urdu/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA49",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 12 Book Solutions",
+        "slogo": "fa-solid fa-user-tie",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Class 12 Biology Exemplar",
+            "chapterpath": "board/ncert/solutions/class12/biologyexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA50",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry",
+            "chapterpath": "board/ncert/solutions/class12/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA51",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Exemplar",
+            "chapterpath": "board/ncert/solutions/class12/chemistryexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA52",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Computer Science C",
+            "chapterpath": "board/ncert/solutions/class12/computersciencec/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA53",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Computer Science Python",
+            "chapterpath": "board/ncert/solutions/class12/computersciencepython/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA54",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 English Flamingo",
+            "chapterpath": "board/ncert/solutions/class12/englishflamingo/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA55",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 English Vistas",
+            "chapterpath": "board/ncert/solutions/class12/englishvistas/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA56",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Geography",
+            "chapterpath": "board/ncert/solutions/class12/geography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA57",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Geography Practical",
+            "chapterpath": "board/ncert/solutions/class12/geographypractical/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA58",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Hindi Antra",
+            "chapterpath": "board/ncert/solutions/class12/hindiantra/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA59",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Hindi Antral",
+            "chapterpath": "board/ncert/solutions/class12/hindiantral/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA60",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Hindi Aroh",
+            "chapterpath": "board/ncert/solutions/class12/hindiaroh/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA61",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Hindi Vitan",
+            "chapterpath": "board/ncert/solutions/class12/hindivitan/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA62",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Kaleidoscope",
+            "chapterpath": "board/ncert/solutions/class12/kaleidoscope/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA63",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Macroeconomics",
+            "chapterpath": "board/ncert/solutions/class12/macroeconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA64",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Maths",
+            "chapterpath": "board/ncert/solutions/class12/maths/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA65",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Maths Exemplar",
+            "chapterpath": "board/ncert/solutions/class12/mathsexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA66",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Microeconomics",
+            "chapterpath": "board/ncert/solutions/class12/microeconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA67",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physics",
+            "chapterpath": "board/ncert/solutions/class12/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA68",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physics Exemplar",
+            "chapterpath": "board/ncert/solutions/class12/physicsexemplar/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA69",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Political Science",
+            "chapterpath": "board/ncert/solutions/class12/politicalscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA70",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Psychology",
+            "chapterpath": "board/ncert/solutions/class12/psychology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA71",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Sanskrit",
+            "chapterpath": "board/ncert/solutions/class12/sanskrit/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA72",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Sociology",
+            "chapterpath": "board/ncert/solutions/class12/sociology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA73",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
     "categorytitle": "NCERT Exemplar Books",
     "elogo": "fas fa-file-pdf",
     "subjects": [
