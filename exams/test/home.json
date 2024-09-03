@@ -153,7 +153,7 @@
     "subjects": [
       {
         "subjecttitle": "NCERT Class 10 Books",
-        "slogo": "fa-solid fa-calculator",
+        "slogo": "fa-solid fa-book",
         "active": true,
         "chapters": [
           {
@@ -340,7 +340,7 @@
       },
       {
         "subjecttitle": "NCERT Class 11 Books",
-        "slogo": "fa-solid fa-user-tie",
+        "slogo": "fa-solid fa-book",
         "active": true,
         "chapters": [
           {
@@ -698,7 +698,7 @@
       },
       {
         "subjecttitle": "NCERT Class 12 Books",
-        "slogo": "fa-solid fa-user-tie",
+        "slogo": "fa-solid fa-book",
         "active": true,
         "chapters": [
           {
@@ -1143,9 +1143,17 @@
             "common": true
           }
         ]
-      },{
+      }
+    ]
+  },
+  {
+      "categorytitle": "NCERT Book Solutions",
+      "elogo": "fa-solid fa-file-pen",
+      "active": true,
+      "subjects": [
+      {
         "subjecttitle": "NCERT Class 10 Book Solutions",
-        "slogo": "fa-solid fa-calculator",
+        "slogo": "fa-solid fa-book",
         "active": true,
         "chapters": [
           {
@@ -1296,7 +1304,7 @@
       },
       {
         "subjecttitle": "NCERT Class 11 Book Solutions",
-        "slogo": "fa-solid fa-user-tie",
+        "slogo": "fa-solid fa-book",
         "active": true,
         "chapters": [
           {
@@ -1609,7 +1617,7 @@
       },
       {
         "subjecttitle": "NCERT Class 12 Book Solutions",
-        "slogo": "fa-solid fa-user-tie",
+        "slogo": "fa-solid fa-book",
         "active": true,
         "chapters": [
           {
