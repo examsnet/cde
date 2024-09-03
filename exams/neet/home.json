@@ -163,69 +163,351 @@
     ]
   },
   {
-    "categorytitle": "Books",
-    "elogo": "fas fa-file-pdf",
+    "categorytitle": "NCERT Books",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
     "subjects": [
       {
-        "subjecttitle": "NCERT Biology",
-        "slogo": "fa-solid fa-book",   
+        "subjecttitle": "NCERT Class 11 Books",
+        "slogo": "fa-solid fa-book",
+        "active": true,
         "chapters": [
           {
-            "chaptertitle": "NCERT Biology Class 11",
-            "chapterpath": "drive/ncert/class11/biology/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Class 11 Biology",
+            "chapterpath": "board/ncert/books/class11/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA22",
             "datatype": "link",
-            "common":true
+            "active": true,
+            "common": true
           },
           {
-            "chaptertitle": "NCERT Biology Class 12",
-            "chapterpath": "drive/ncert/class12/biology/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Class 11 Chemistry Part 1",
+            "chapterpath": "board/ncert/books/class11/chemistrypart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA25",
             "datatype": "link",
-            "common":true
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Chemistry Part 2",
+            "chapterpath": "board/ncert/books/class11/chemistrypart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA26",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          
+          {
+            "chaptertitle": "Class 11 Physics Part 1",
+            "chapterpath": "board/ncert/books/class11/physicspart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA48",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Physics Part 2",
+            "chapterpath": "board/ncert/books/class11/physicspart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA49",
+            "datatype": "link",
+            "active": true,
+            "common": true
           }
+           
         ]
-      },      
+      },
       {
-        "subjecttitle": "NCERT Chemistry",
-        "slogo": "fa-solid fa-book", 
+        "subjecttitle": "NCERT Class 11 Solutions",
+        "slogo": "fa-solid fa-book",
+        "active": true,
         "chapters": [
           {
-            "chaptertitle": "NCERT Chemistry Class 11",
-            "chapterpath": "drive/ncert/class11/chemistry/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Class 11 Biology",
+            "chapterpath": "board/ncert/solutions/class11/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA19",
             "datatype": "link",
-            "common":true
+            "active": true,
+            "common": true
           },
           {
-            "chaptertitle": "NCERT Chemistry Class 12",
-            "chapterpath": "drive/ncert/class12/chemistry/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Class 11 Chemistry",
+            "chapterpath": "board/ncert/solutions/class11/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA22",
             "datatype": "link",
-            "common":true
+            "active": true,
+            "common": true
+          },
+         
+          {
+            "chaptertitle": "Class 11 Physics",
+            "chapterpath": "board/ncert/solutions/class11/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA43",
+            "datatype": "link",
+            "active": true,
+            "common": true
           }
         ]
       },
       {
-        "subjecttitle": "NCERT Physics",
-        "slogo": "fa-solid fa-book", 
+        "subjecttitle": "NCERT Class 12 Books",
+        "slogo": "fa-solid fa-book",
+        "active": true,
         "chapters": [
           {
-            "chaptertitle": "NCERT Physics Class 11",
-            "chapterpath": "drive/ncert/class11/physics/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Class 12 Biology",
+            "chapterpath": "board/ncert/books/class12/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA63",
             "datatype": "link",
-            "common":true
+            "active": true,
+            "common": true
           },
           {
-            "chaptertitle": "NCERT Physics Class 12",
-            "chapterpath": "drive/ncert/class12/physics/",
-            "clogo": "fa-solid fa-file-pdf",
+            "chaptertitle": "Class 12 Biology Lab Manual",
+            "chapterpath": "board/ncert/books/class12/biologylabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA64",
             "datatype": "link",
-            "common":true
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Lab Manual",
+            "chapterpath": "board/ncert/books/class12/chemistrylabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA67",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Part I",
+            "chapterpath": "board/ncert/books/class12/chemistryparti/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA68",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Chemistry Part II",
+            "chapterpath": "board/ncert/books/class12/chemistrypartii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA69",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+         
+          {
+            "chaptertitle": "Class 12 Physics Lab Manual",
+            "chapterpath": "board/ncert/books/class12/physicslabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA93",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physics Part 1",
+            "chapterpath": "board/ncert/books/class12/physicspart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA94",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Physics Part 2",
+            "chapterpath": "board/ncert/books/class12/physicspart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA95",
+            "datatype": "link",
+            "active": true,
+            "common": true
           }
+           
         ]
-      } 
+      },
+      {
+        "subjecttitle": "NCERT Class 12 Solutions",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Class 12 Chemistry",
+            "chapterpath": "board/ncert/solutions/class12/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA51",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+           
+          {
+            "chaptertitle": "Class 12 Physics",
+            "chapterpath": "board/ncert/solutions/class12/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA68",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+           
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 11 Excemplar",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/exemplar/class11/biology/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/exemplar/class11/chemistry/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/exemplar/class11/physics/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+           
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 11 Excemplar Solutions",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/exemplarsolutions/class11/biology/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/exemplarsolutions/class11/chemistry/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/exemplarsolutions/class11/physics/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+           
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 12 Excemplar",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/exemplar/class12/biology/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/exemplar/class12/chemistry/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/exemplar/class12/physics/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+           
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 12 Excemplar Solutions",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "board/ncert/exemplarsolutions/class12/biology/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "board/ncert/exemplarsolutions/class12/chemistry/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+           
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "board/ncert/exemplarsolutions/class12/physics/",
+            "clogo": "fa-solid fa-file-lines",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+           
+        ]
+      }
     ]
   }
 ]
