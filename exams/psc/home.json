@@ -1,388 +1,243 @@
 [
   {
-    "categorytitle": "Entrance Exams",
+    "categorytitle": "Publice Service Commision (PSC) Exams",
     "elogo": "fa-solid fa-file-pen",
     "active": true,
     "subjects": [
       {
-        "subjecttitle": "SSC CGL Practice Tests",
+        "subjecttitle": "Andhra Pradesh PSC Practice",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC CGL Previous Papers",
-            "chapterpath": "exams/ssc/cglprev/",
+            "chaptertitle": "APPSC Exam Model Papers",
+            "chapterpath": "exams/psc/appscmd/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CGL Model Papers",
-            "chapterpath": "exams/ssc/cglmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CGL Tier 2 Papers",
-            "chapterpath": "exams/ssc/cgltier2/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CG2",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "SSC CHSL Practice Tests",
-        "slogo": "fa-solid fa-user-group",
-        "chapters": [
-          {
-            "chaptertitle": "SSC CHSL Previous Papers",
-            "chapterpath": "exams/ssc/chslprev/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "SSC CHSL Model Papers",
-            "chapterpath": "exams/ssc/chslmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
+            "savekey": "BA0",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        },
+        {
+            "chaptertitle": "APPSC Previous papers",
+            "chapterpath": "exams/psc/appscprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
         ]
       },
       {
-        "subjecttitle": "SSC MTS Practice Tests",
+        "subjecttitle": "Bihar PSC Exam Practice",
+        "slogo": "fa-solid fa-user-group",
+        "chapters": [
+          {
+            "chaptertitle": "BPSC Exam Previous Papers",
+            "chapterpath": "exams/psc/bpsc/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Chhattisgarh PSC Practice",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC MTS Previous Papers",
-            "chapterpath": "exams/ssc/mtsprev/",
+            "chaptertitle": "Chhattisgarh PSC Previous Papers",
+            "chapterpath": "exams/psc/appscmd/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CGL",
+            "savekey": "BA3",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
-          {
-            "chaptertitle": "SSC MTS Model Papers",
-            "chapterpath": "exams/ssc/mtsmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "CGM",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
+        }
         ]
       },
       {
-        "subjecttitle": "SSC Steno Practice Tests",
+        "subjecttitle": "Jharkhand PSC Practice",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC Steno Previous Papers",
-            "chapterpath": "exams/ssc/stenoprev/",
+            "chaptertitle": "Jharkhand PSC Previous Papers",
+            "chapterpath": "exams/psc/jpsc/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "STE",
+            "savekey": "BA4",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        }
         ]
       },
       {
-        "subjecttitle": "SSC CPO Practice Tests",
+        "subjecttitle": "Kerala PSC Exam Practice",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "SSC CPO Previous Papers",
-            "chapterpath": "exams/ssc/cpoprev/",
+            "chaptertitle": "Kerala State PSC Papers",
+            "chapterpath": "exams/psc/kpsc/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CPP",
+            "savekey": "BA5",
             "datatype": "exams",
             "active": true,
             "common": false
-          },
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Madhya Pradesh PSC Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
           {
-            "chaptertitle": "SSC CPO Model Papers",
-            "chapterpath": "exams/ssc/cpomodel/",
+            "chaptertitle": "MPPSC Previous Papers",
+            "chapterpath": "exams/psc/mppsc/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "CPM",
+            "savekey": "BA7",
             "datatype": "exams",
             "active": true,
             "common": false
-          }
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Maharashtra PSC Exam Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Maharashtra PSC Papers",
+            "chapterpath": "exams/psc/appscmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA8",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Odisha PSC Exam Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "OPSC OAS Exam Previous Papers",
+            "chapterpath": "exams/psc/opscoas/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "Odisha PSC Exam Previous Papers",
+            "chapterpath": "exams/psc/opsc/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA10",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Tamilnadu PSC Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Tamilnadu PSC Model Papers",
+            "chapterpath": "exams/psc/tnpsc/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA11",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Telangana PSC Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Telangana PSC Model Papers",
+            "chapterpath": "exams/psc/tspscmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "Telangana PSC Previous Papers",
+            "chapterpath": "exams/psc/tspscprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA13",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Uttar Pradesh PSC Exam Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "UPPSC Exam Previous Papers",
+            "chapterpath": "exams/psc/uppsc/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA14",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "West Bengal PSC Exam Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "WBPSC Exam Previous Papers",
+            "chapterpath": "exams/psc/wbpsc/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA15",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      },
+      {
+        "subjecttitle": "Punjab PSC Exam Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Punjab Civil Service Previous Papers",
+            "chapterpath": "exams/psc/punjab/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA16",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
         ]
       }
     ]
-  },
-  {
-    "categorytitle": "More Practice Tests",
-    "elogo": "fa-solid fa-file-pen",
-    "active": true,
-    "subjects": [
-      {
-        "subjecttitle": "Quantitative Aptitude",
-        "slogo": "fa-solid fa-calculator",
-        "active": true,
-        "chapters": [
-          {
-            "chaptertitle": "Algebra and Higher Math",
-            "chapterpath": "exams/aptitude/algebra/",
-            "clogo": "fa-solid fa-square-root-variable",
-            "savekey": "QA1",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Arithmetic",
-            "chapterpath": "exams/aptitude/arithmetic/",
-            "clogo": "fa-solid fa-pen-ruler",
-            "savekey": "QA2",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Commercial Math",
-            "chapterpath": "exams/aptitude/commercial/",
-            "clogo": "fa-solid fa-hand-holding-dollar",
-            "savekey": "QA3",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Data Based Math",
-            "chapterpath": "exams/aptitude/data/",
-            "clogo": "fa-solid fa-chart-pie",
-            "savekey": "QA4",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Geometry and Mensuration",
-            "chapterpath": "exams/aptitude/geometry/",
-            "clogo": "fa-solid fa-shapes",
-            "savekey": "QA5",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Number System and Numeracy",
-            "chapterpath": "exams/aptitude/numbers/",
-            "clogo": "fa-solid fa-sort-numeric-up-alt",
-            "savekey": "QA6",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Problem Solving",
-            "chapterpath": "exams/aptitude/problems/",
-            "clogo": "fa-solid fa-puzzle-piece",
-            "savekey": "QA7",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          }
-        ]
-      },
-      {
-        "subjecttitle": "English Practice",
-        "slogo": "fa-solid fa-user-tie",
-        "active": true,
-        "chapters": [
-          {
-            "chaptertitle": "Antonyms Tests",
-            "chapterpath": "exams/english/antonyms/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN1",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Synonyms Tests",
-            "chapterpath": "exams/english/synonyms/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN2",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Spelling Check Tests",
-            "chapterpath": "exams/english/spelling/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN3",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Spotting Errors",
-            "chapterpath": "exams/english/errors/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN4",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "One Word Substitutes",
-            "chapterpath": "exams/english/oneword/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN5",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Selecting Words",
-            "chapterpath": "exams/english/selecting/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN6",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Sentence Correction",
-            "chapterpath": "exams/english/correction/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN7",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Idioms and Phrases",
-            "chapterpath": "exams/english/idioms/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN8",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Sentence Improvement",
-            "chapterpath": "exams/english/improvement/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN9",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Grammar Online",
-            "chapterpath": "exams/english/grammar/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN10",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Common Error Detection",
-            "chapterpath": "exams/english/commonerror/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN11",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Sentence Completion",
-            "chapterpath": "exams/english/completion/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN12",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Direct and Indirect Speech",
-            "chapterpath": "exams/english/speech/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN13",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Ordering Words",
-            "chapterpath": "exams/english/orderingwords/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN14",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Ordering Sentences",
-            "chapterpath": "exams/english/orderingsentence/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN15",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Verbal Analogies",
-            "chapterpath": "exams/english/verbal/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN16",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Sentence Formation",
-            "chapterpath": "exams/english/formation/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN17",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Completing Statements",
-            "chapterpath": "exams/english/statements/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN18",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Change of Speech",
-            "chapterpath": "exams/english/change/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "EN19",
-            "datatype": "exams",
-            "active": true,
-            "common": true
-          }
-        ]
-      }
-    ]
-  }
+  } 
 ]
