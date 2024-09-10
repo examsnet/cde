@@ -19,10 +19,19 @@
             "common": false
         },
         {
-            "chaptertitle": "APPSC Previous papers",
+            "chaptertitle": "APPSC Group I & II Previous papers",
             "chapterpath": "exams/psc/appscprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        },
+        {
+            "chaptertitle": "APPSC Group III & IV Previous papers",
+            "chapterpath": "exams/psc/appscgroup3/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "PA1",
             "datatype": "exams",
             "active": true,
             "common": false
