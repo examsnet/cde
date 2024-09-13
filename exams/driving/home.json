@@ -1,0 +1,34 @@
+[
+  {
+    "categorytitle": "Choose Your Exam",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "UK 2024 Car Theory Practice",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Mock Theory Tests",
+            "chapterpath": "exams/driving/mock/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Theory Tests Category",
+            "chapterpath": "exams/driving/category/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA0",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      }
+     
+    ]
+  } 
+]
