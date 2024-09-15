@@ -137,5 +137,80 @@
         "title": "If our app has been helpful, please consider leaving a positive review to help us improve. Just as students forgive a flop movie by not asking for a refund, small app developers rarely receive the same understanding. Your support would mean a lot."
       }
     ]
+  },
+  {
+    "title": "Try Our Apps",
+    "icon": "fa-brands fa-google-play",  
+    "link": "#",
+    "type": "links",
+    "submenu": [
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Bank Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.bankexams"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "CBSE Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.cbsepapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Engineering Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.engineering"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "JEE Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "MBA Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.mbapapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "MCA Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.mcapapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "NEET Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.neetpapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "PSC Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.pscpapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Police Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.policpapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "RRB Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.rrbpapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "SSC Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.sscpapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "TET Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.tetpapers"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "UPSC Papers",
+        "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers"
+      }
+      
+       
+    ]
   }
 ]
