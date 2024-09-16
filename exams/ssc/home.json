@@ -63,6 +63,22 @@
         ]
       },
       {
+        "subjecttitle": "SSC GD Constable Papers",
+        "slogo": "fa-solid fa-shield-halved",  
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "SSC GD Constable Previous Papers",
+            "chapterpath": "exams/ssc/gdconstable/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "SSCGD",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          } 
+        ]
+      },
+      {
         "subjecttitle": "SSC MTS Practice Tests",
         "slogo": "fa-solid fa-user-group",
         "active": true,
