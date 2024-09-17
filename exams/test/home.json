@@ -442,7 +442,7 @@
           
           {
             "chaptertitle": "Number System",
-            "chapterpath": "study/aptitude/numbers/",
+            "chapterpath": "notes/aptitude/numbers/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "notes",
@@ -451,7 +451,7 @@
           },
           {
             "chaptertitle": "Basic Arithmetic",
-            "chapterpath": "study/aptitude/arithmetic/",
+            "chapterpath": "notes/aptitude/arithmetic/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "notes",
@@ -460,7 +460,7 @@
           },
           {
             "chaptertitle": "Problem Solving",
-            "chapterpath": "study/aptitude/solving/",
+            "chapterpath": "notes/aptitude/solving/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "notes",
@@ -470,7 +470,7 @@
 
           {
             "chaptertitle": "Commercial Math",
-            "chapterpath": "study/aptitude/commercial/",
+            "chapterpath": "notes/aptitude/commercial/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "notes",
@@ -479,7 +479,7 @@
           },
           {
             "chaptertitle": "Algebra and Higher Math",
-            "chapterpath": "study/aptitude/algebra/",
+            "chapterpath": "notes/aptitude/algebra/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "notes",
@@ -488,7 +488,7 @@
           },
           {
             "chaptertitle": "Data based Math",
-            "chapterpath": "study/aptitude/data/",
+            "chapterpath": "notes/aptitude/data/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "notes",
