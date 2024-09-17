@@ -435,6 +435,70 @@
     "active": true,
     "subjects": [
       {
+        "subjecttitle": "Aptitude Formulas",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          
+          {
+            "chaptertitle": "Number System",
+            "chapterpath": "study/aptitude/numbers/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "notes",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Basic Arithmetic",
+            "chapterpath": "study/aptitude/arithmetic/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "notes",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Problem Solving",
+            "chapterpath": "study/aptitude/solving/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "notes",
+            "active": true,
+            "common": true
+          },
+
+          {
+            "chaptertitle": "Commercial Math",
+            "chapterpath": "study/aptitude/commercial/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "notes",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Algebra and Higher Math",
+            "chapterpath": "study/aptitude/algebra/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "notes",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Data based Math",
+            "chapterpath": "study/aptitude/data/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "notes",
+            "active": true,
+            "common": true
+          }
+           
+        ]
+      },
+      {
         "subjecttitle": "TET Notes",
         "slogo": "fa-solid fa-book",
         "active": true,
