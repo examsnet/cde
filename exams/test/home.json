@@ -5,6 +5,40 @@
     "active": true,
     "subjects": [
       {
+        "subjecttitle": "SSC CGL Practice Tests",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "SSC CGL Previous Papers",
+            "chapterpath": "exams/ssc/cglprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "CGL",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "SSC CGL Model Papers",
+            "chapterpath": "exams/ssc/cglmodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "CGM",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "SSC CGL Tier 2 Papers",
+            "chapterpath": "exams/ssc/cgltier2/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "CG2",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
         "subjecttitle": "NCERT Class 11 Books",
         "slogo": "fa-solid fa-book",
         "active": true,
