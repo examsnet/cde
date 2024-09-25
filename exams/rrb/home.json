@@ -153,6 +153,22 @@
             "common": false
         }
         ]
+      },
+      {
+        "subjecttitle": "RRB Pharmacist Papers",
+        "slogo": "fa-solid fa-user-nurse",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "RRB Pharmacist Papers",
+            "chapterpath": "exams/rrb/pharma/",
+            "clogo": "fa-solid fa-pills",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
       }
       
     ]
