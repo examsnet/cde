@@ -35,6 +35,11 @@
         "color": "#502112"
       },
       {
+        "title": "Crimson",
+        "link": "crimson",
+        "color": "#012e47"
+      },   
+      {
         "title": "Dark",
         "link": "dark",
         "color": "#414141"
@@ -68,7 +73,8 @@
         "title": "Prussian",
         "link": "blue",
         "color": "#012e47"
-      },      
+      },  
+       
       {
         "title": "Violet",
         "link": "violet",
