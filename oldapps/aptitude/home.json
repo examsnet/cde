@@ -1,0 +1,72 @@
+[
+   
+  {
+    "categorytitle": "Aptitude Practice",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "Quantitative Aptitude",
+        "slogo": "fa-solid fa-calculator",
+        "chapters": [
+          {
+            "chaptertitle": "Algebra and Higher Math",
+            "chapterpath": "exams/aptitude/algebra/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "QA1",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Arithmetic",
+            "chapterpath": "exams/aptitude/arithmetic/",
+            "clogo": "fa-solid fa-pen-ruler",
+            "savekey": "QA2",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Commercial Math",
+            "chapterpath": "exams/aptitude/commercial/",
+            "clogo": "fa-solid fa-hand-holding-dollar",
+            "savekey": "QA3",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Data Based Math",
+            "chapterpath": "exams/aptitude/data/",
+            "clogo": "fa-solid fa-chart-pie",
+            "savekey": "QA4",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Geometry and Mensuration",
+            "chapterpath": "exams/aptitude/geometry/",
+            "clogo": "fa-solid fa-shapes",
+            "savekey": "QA5",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Number System and Numeracy",
+            "chapterpath": "exams/aptitude/numbers/",
+            "clogo": "fa-solid fa-sort-numeric-up-alt",
+            "savekey": "QA6",
+            "datatype": "exams",
+            "common": true
+          },
+          {
+            "chaptertitle": "Problem Solving",
+            "chapterpath": "exams/aptitude/problems/",
+            "clogo": "fa-solid fa-puzzle-piece",
+            "savekey": "QA7",
+            "datatype": "exams",
+            "common": true
+          }
+        ]
+      } 
+       
+    ]
+  } 
+]

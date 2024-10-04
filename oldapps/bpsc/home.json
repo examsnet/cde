@@ -1,0 +1,25 @@
+[
+  {
+    "categorytitle": "Choose Your Exam",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [ 
+      {
+        "subjecttitle": "Bihar PSC Exam Papers",
+        "slogo": "fa-solid fa-user-group",
+        "chapters": [
+          {
+            "chaptertitle": "BPSC Previous Papers",
+            "chapterpath": "exams/psc/bpsc/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA2",
+            "datatype": "exams",
+            "expand": true,
+            "active": true,
+            "common": false
+        }
+        ]
+      } 
+    ]
+  } 
+]
