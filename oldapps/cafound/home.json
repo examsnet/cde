@@ -18,18 +18,10 @@
             "active": true,
             "common": false
           },
-          {
-            "chaptertitle": "CA Foundation Model Papers",
-            "chapterpath": "exams/caexam/cafoundmodel/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "BA3",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          },
+          
           {
             "chaptertitle": "CA Foundation By Chapter",
-            "chapterpath": "exams/caexam/cafoundchapter/",
+            "chapterpath": "exams/caexam/cafoundchapter/math/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA2",
             "datatype": "exams",
