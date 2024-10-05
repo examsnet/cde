@@ -137,5 +137,19 @@
         "title": "If our app has been helpful, please consider leaving a positive review to help us improve. Just as students forgive a flop movie by not asking for a refund, small app developers rarely receive the same understanding. Your support would mean a lot."
       }
     ]
+  },
+  {
+    "title": "Disclaimer",
+    "icon": "fa-solid fa-circle-info",
+    "link": "#",
+    "type": "text",
+    "submenu": [
+      {
+        "title": "This app is an independent educational tool and is not affiliated with, endorsed by, or connected to any government entity, including UPSC. The exam papers and study materials provided here are sourced from publicly available resources and user contributions after exams are conducted"
+      },
+      {
+        "title": "All question papers and materials are freely available to the public after the exams and are contributed by students and teachers across India. This app serves as a study aid and is not an official source of government information."
+      }
+    ]
   }
 ]
