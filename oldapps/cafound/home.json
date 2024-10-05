@@ -1,0 +1,61 @@
+[
+  {
+    "categorytitle": "Choose Your Exam",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "CA Exam Papers",
+        "slogo": "fa-solid fa-user-group",
+        "chapters": [
+          {
+            "chaptertitle": "CA Foundation Previous Papers",
+            "chapterpath": "exams/caexam/cafoundprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CA Foundation Model Papers",
+            "chapterpath": "exams/caexam/cafoundmodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CA Foundation By Chapter",
+            "chapterpath": "exams/caexam/cafoundchapter/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+
+          {
+            "chaptertitle": "CA CPT Model Papers",
+            "chapterpath": "exams/caexam/cptmodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA0",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CA CPT Previous Papers",
+            "chapterpath": "exams/caexam/cptprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      }
+    ]
+  }
+]
