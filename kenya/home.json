@@ -10,268 +10,408 @@
         "expand": true,
         "chapters": [
           {
-    "chaptertitle": "KCSE Agriculture",
-    "chapterpath": "kenya/kcse/agriculture/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA0",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Arabic",
-    "chapterpath": "kenya/kcse/arabic/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA1",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Art Design",
-    "chapterpath": "kenya/kcse/artdesign/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA2",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Aviation Technology",
-    "chapterpath": "kenya/kcse/aviationtechnology/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA3",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Biology",
-    "chapterpath": "kenya/kcse/biology/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA4",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Building Construction",
-    "chapterpath": "kenya/kcse/buildingconstruction/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA5",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Business Studies",
-    "chapterpath": "kenya/kcse/businessstudies/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA6",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Chemistry",
-    "chapterpath": "kenya/kcse/chemistry/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA7",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Christian Religion Studies",
-    "chapterpath": "kenya/kcse/christianreligionstudies/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA8",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Computers",
-    "chapterpath": "kenya/kcse/computers/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA9",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Drawing Design",
-    "chapterpath": "kenya/kcse/drawingdesign/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA10",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Electricity",
-    "chapterpath": "kenya/kcse/electricity/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA11",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE English",
-    "chapterpath": "kenya/kcse/english/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA12",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE French",
-    "chapterpath": "kenya/kcse/french/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA13",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE General Science",
-    "chapterpath": "kenya/kcse/generalscience/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA14",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Geography",
-    "chapterpath": "kenya/kcse/geography/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA15",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE German",
-    "chapterpath": "kenya/kcse/german/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA16",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Hindu Religion Studies",
-    "chapterpath": "kenya/kcse/hindureligionstudies/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA17",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE History",
-    "chapterpath": "kenya/kcse/history/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA18",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE HomeScience",
-    "chapterpath": "kenya/kcse/homescience/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA19",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Islamic Religion Studies",
-    "chapterpath": "kenya/kcse/islamicreligionstudies/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA20",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Kiswahili",
-    "chapterpath": "kenya/kcse/kiswahili/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA21",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Mathematics",
-    "chapterpath": "kenya/kcse/mathematics/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA22",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Metal Works",
-    "chapterpath": "kenya/kcse/metalworks/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA23",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Music",
-    "chapterpath": "kenya/kcse/music/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA24",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Physics",
-    "chapterpath": "kenya/kcse/physics/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA25",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Power Mechanics",
-    "chapterpath": "kenya/kcse/powermechanics/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA26",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Sign Language",
-    "chapterpath": "kenya/kcse/signlanguage/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA27",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  },
-  {
-    "chaptertitle": "KCSE Wood Work",
-    "chapterpath": "kenya/kcse/woodwork/",
-    "clogo": "fa-solid fa-book-open",
-    "savekey": "EXA28",
-    "datatype": "link",
-    "active": true,
-    "common": true
-  }
+            "chaptertitle": "KCSE Agriculture",
+            "chapterpath": "kenya/kcse/agriculture/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Arabic",
+            "chapterpath": "kenya/kcse/arabic/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Art Design",
+            "chapterpath": "kenya/kcse/artdesign/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Aviation Technology",
+            "chapterpath": "kenya/kcse/aviationtechnology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Biology",
+            "chapterpath": "kenya/kcse/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Building Construction",
+            "chapterpath": "kenya/kcse/buildingconstruction/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Business Studies",
+            "chapterpath": "kenya/kcse/businessstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Chemistry",
+            "chapterpath": "kenya/kcse/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Christian Religion Studies",
+            "chapterpath": "kenya/kcse/christianreligionstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Computers",
+            "chapterpath": "kenya/kcse/computers/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Drawing Design",
+            "chapterpath": "kenya/kcse/drawingdesign/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Electricity",
+            "chapterpath": "kenya/kcse/electricity/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE English",
+            "chapterpath": "kenya/kcse/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE French",
+            "chapterpath": "kenya/kcse/french/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE General Science",
+            "chapterpath": "kenya/kcse/generalscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA14",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Geography",
+            "chapterpath": "kenya/kcse/geography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA15",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE German",
+            "chapterpath": "kenya/kcse/german/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA16",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Hindu Religion Studies",
+            "chapterpath": "kenya/kcse/hindureligionstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA17",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE History",
+            "chapterpath": "kenya/kcse/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA18",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE HomeScience",
+            "chapterpath": "kenya/kcse/homescience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA19",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Islamic Religion Studies",
+            "chapterpath": "kenya/kcse/islamicreligionstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA20",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Kiswahili",
+            "chapterpath": "kenya/kcse/kiswahili/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA21",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Mathematics",
+            "chapterpath": "kenya/kcse/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA22",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Metal Works",
+            "chapterpath": "kenya/kcse/metalworks/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA23",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Music",
+            "chapterpath": "kenya/kcse/music/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA24",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Physics",
+            "chapterpath": "kenya/kcse/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA25",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Power Mechanics",
+            "chapterpath": "kenya/kcse/powermechanics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA26",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Sign Language",
+            "chapterpath": "kenya/kcse/signlanguage/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA27",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Wood Work",
+            "chapterpath": "kenya/kcse/woodwork/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA28",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
         ]
-      } 
+      }
     ]
-  } 
+  },
+  {
+    "categorytitle": "KCSE Exam Notes",
+    "elogo": "fa-solid fa-book",
+    "subjects": [
+      {
+        "subjecttitle": "KCSE Notes",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "KCSE Notes Agriculture",
+            "chapterpath": "kenya/kcsenotes/agriculture/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Biology",
+            "chapterpath": "kenya/kcsenotes/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Business Studies",
+            "chapterpath": "kenya/kcsenotes/businessstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Chemistry",
+            "chapterpath": "kenya/kcsenotes/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Christian Religion Education",
+            "chapterpath": "kenya/kcsenotes/christianreligioneducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Computer Studies",
+            "chapterpath": "kenya/kcsenotes/computerstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes English",
+            "chapterpath": "kenya/kcsenotes/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Geography",
+            "chapterpath": "kenya/kcsenotes/geography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes History",
+            "chapterpath": "kenya/kcsenotes/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Home Science",
+            "chapterpath": "kenya/kcsenotes/homescience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Kiswahili",
+            "chapterpath": "kenya/kcsenotes/kiswahili/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Mathematics",
+            "chapterpath": "kenya/kcsenotes/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Physics",
+            "chapterpath": "kenya/kcsenotes/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCSE Notes Set Books",
+            "chapterpath": "kenya/kcsenotes/setbooks/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  }
 ]
