@@ -33,7 +33,13 @@
         "title": "Cafe",
         "link": "cafe",
         "color": "#502112"
-      },
+      }
+      ,
+       {
+        "title": "Crimson",
+        "link": "crimson",
+        "color": "#a02a52"
+      },  
       {
         "title": "Dark",
         "link": "dark",
