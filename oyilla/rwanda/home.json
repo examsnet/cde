@@ -1,17 +1,17 @@
 [
   {
-    "categorytitle": "KCSE Exam Papers",
+    "categorytitle": "Primary School P6",
     "elogo": "fa-solid fa-file-pen",
     "subjects": [
       {
-        "subjecttitle": "KCSE Previous Papers",
+        "subjecttitle": "P6 Previous Papers",
         "slogo": "fa-solid fa-user-astronaut",
         "active": true,
         "expand": false,
-        "chapters": [
+        "chapters":  [
           {
-            "chaptertitle": "KCSE Agriculture",
-            "chapterpath": "kenya/kcse/agriculture/",
+            "chaptertitle": "RWANDA P6 English",
+            "chapterpath": "oyilla/rwanda/PrimarySchool-P6/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -19,8 +19,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Arabic",
-            "chapterpath": "kenya/kcse/arabic/",
+            "chaptertitle": "RWANDA P6 Ikinyarwanda",
+            "chapterpath": "oyilla/rwanda/PrimarySchool-P6/ikinyarwanda/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -28,8 +28,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Art Design",
-            "chapterpath": "kenya/kcse/artdesign/",
+            "chaptertitle": "RWANDA P6 Languages",
+            "chapterpath": "oyilla/rwanda/PrimarySchool-P6/languages/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -37,8 +37,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Aviation Technology",
-            "chapterpath": "kenya/kcse/aviationtechnology/",
+            "chaptertitle": "RWANDA P6 Mathematics",
+            "chapterpath": "oyilla/rwanda/PrimarySchool-P6/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -46,8 +46,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Biology",
-            "chapterpath": "kenya/kcse/biology/",
+            "chaptertitle": "RWANDA P6 ScienceAndElementaryTechnology",
+            "chapterpath": "oyilla/rwanda/PrimarySchool-P6/scienceandelementarytechnology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA4",
             "datatype": "link",
@@ -55,8 +55,76 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Building Construction",
-            "chapterpath": "kenya/kcse/buildingconstruction/",
+            "chaptertitle": "RWANDA P6 SocialReligiousStudies",
+            "chapterpath": "oyilla/rwanda/PrimarySchool-P6/socialreligiousstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Ordinary Level (S3) Papers",
+    "elogo": "fa-solid fa-book",
+    "subjects": [
+      {
+        "subjecttitle": "S3 Previous Papers",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "RWANDA S3 BiologyHealthSciences",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/biologyhealthsciences/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S3 Chemistry",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S3 English",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S3 Entrepreneurship",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/entrepreneurship/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S3 Francais",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/francais/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S3 GeographyAndEnvironment-I",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/geographyandenvironment-i/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
             "datatype": "link",
@@ -64,8 +132,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Business Studies",
-            "chapterpath": "kenya/kcse/businessstudies/",
+            "chaptertitle": "RWANDA S3 GeographyAndEnvironment-II",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/geographyandenvironment-ii/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
             "datatype": "link",
@@ -73,8 +141,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Chemistry",
-            "chapterpath": "kenya/kcse/chemistry/",
+            "chaptertitle": "RWANDA S3 History and Citizenship-II",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/historyandcitizenship-ii/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA7",
             "datatype": "link",
@@ -82,8 +150,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Christian Religion Studies",
-            "chapterpath": "kenya/kcse/christianreligionstudies/",
+            "chaptertitle": "RWANDA S3 HistoryAndCitizenship-I",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/historyandcitizenship-i/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA8",
             "datatype": "link",
@@ -91,8 +159,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Computers",
-            "chapterpath": "kenya/kcse/computers/",
+            "chaptertitle": "RWANDA S3 Ikinyarwanda",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/ikinyarwanda/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA9",
             "datatype": "link",
@@ -100,8 +168,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Drawing Design",
-            "chapterpath": "kenya/kcse/drawingdesign/",
+            "chaptertitle": "RWANDA S3 Mathematics",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA10",
             "datatype": "link",
@@ -109,8 +177,130 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Electricity",
-            "chapterpath": "kenya/kcse/electricity/",
+            "chaptertitle": "RWANDA S3 Physics",
+            "chapterpath": "oyilla/rwanda/OrdinaryLevel-S3/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Advanced Level S6 Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "Advanced S6 Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "RWANDA S6 Biology-II",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/biology-ii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Biology-III",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/biology-iii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Chemistry-II",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/chemistry-ii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Chemistry-III",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/chemistry-iii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 ComputerScience",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/computerscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Economics-I",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/economics-i/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Economics-II",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/economics-ii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Entreprenurship",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/entreprenurship/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Francais",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/francais/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 GeneralPaper",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/generalpaper/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Geography-III",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/geography-iii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "RWANDA S6 Geography-IV",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/geography-iv/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA11",
             "datatype": "link",
@@ -118,8 +308,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE English",
-            "chapterpath": "kenya/kcse/english/",
+            "chaptertitle": "RWANDA S6 History-III",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/history-iii/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA12",
             "datatype": "link",
@@ -127,8 +317,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE French",
-            "chapterpath": "kenya/kcse/french/",
+            "chaptertitle": "RWANDA S6 History-IV",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/history-iv/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA13",
             "datatype": "link",
@@ -136,8 +326,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE General Science",
-            "chapterpath": "kenya/kcse/generalscience/",
+            "chaptertitle": "RWANDA S6 Ikinyarwanda",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/ikinyarwanda/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA14",
             "datatype": "link",
@@ -145,8 +335,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Geography",
-            "chapterpath": "kenya/kcse/geography/",
+            "chaptertitle": "RWANDA S6 IntegratedSciences",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/integratedsciences/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA15",
             "datatype": "link",
@@ -154,8 +344,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE German",
-            "chapterpath": "kenya/kcse/german/",
+            "chaptertitle": "RWANDA S6 Kiswahili",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/kiswahili/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA16",
             "datatype": "link",
@@ -163,8 +353,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Hindu Religion Studies",
-            "chapterpath": "kenya/kcse/hindureligionstudies/",
+            "chaptertitle": "RWANDA S6 LitratureInEnglish",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/litratureinenglish/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA17",
             "datatype": "link",
@@ -172,8 +362,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE History",
-            "chapterpath": "kenya/kcse/history/",
+            "chaptertitle": "RWANDA S6 Mathematics-II",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/mathematics-ii/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA18",
             "datatype": "link",
@@ -181,8 +371,8 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE HomeScience",
-            "chapterpath": "kenya/kcse/homescience/",
+            "chaptertitle": "RWANDA S6 Physics-II",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/physics-ii/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA19",
             "datatype": "link",
@@ -190,382 +380,17 @@
             "common": true
           },
           {
-            "chaptertitle": "KCSE Islamic Religion Studies",
-            "chapterpath": "kenya/kcse/islamicreligionstudies/",
+            "chaptertitle": "RWANDA S6 Physics-III",
+            "chapterpath": "oyilla/rwanda/AdvancedLevel-S6/physics-iii/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA20",
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "KCSE Kiswahili",
-            "chapterpath": "kenya/kcse/kiswahili/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA21",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Mathematics",
-            "chapterpath": "kenya/kcse/mathematics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA22",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Metal Works",
-            "chapterpath": "kenya/kcse/metalworks/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA23",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Music",
-            "chapterpath": "kenya/kcse/music/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA24",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Physics",
-            "chapterpath": "kenya/kcse/physics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA25",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Power Mechanics",
-            "chapterpath": "kenya/kcse/powermechanics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA26",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Sign Language",
-            "chapterpath": "kenya/kcse/signlanguage/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA27",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Wood Work",
-            "chapterpath": "kenya/kcse/woodwork/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA28",
-            "datatype": "link",
-            "active": true,
-            "common": true
           }
         ]
       }
     ]
-  },
-  {
-    "categorytitle": "KCSE Exam Notes",
-    "elogo": "fa-solid fa-book",
-    "subjects": [
-      {
-        "subjecttitle": "KCSE Notes",
-        "slogo": "fa-solid fa-book",
-        "active": true,
-        "expand": false,
-        "chapters": [
-          {
-            "chaptertitle": "KCSE Notes Agriculture",
-            "chapterpath": "kenya/kcsenotes/agriculture/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA0",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Biology",
-            "chapterpath": "kenya/kcsenotes/biology/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA1",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Business Studies",
-            "chapterpath": "kenya/kcsenotes/businessstudies/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA2",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Chemistry",
-            "chapterpath": "kenya/kcsenotes/chemistry/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA3",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Christian Religion Education",
-            "chapterpath": "kenya/kcsenotes/christianreligioneducation/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA4",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Computer Studies",
-            "chapterpath": "kenya/kcsenotes/computerstudies/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA5",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes English",
-            "chapterpath": "kenya/kcsenotes/english/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA6",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Geography",
-            "chapterpath": "kenya/kcsenotes/geography/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA7",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes History",
-            "chapterpath": "kenya/kcsenotes/history/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA8",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Home Science",
-            "chapterpath": "kenya/kcsenotes/homescience/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA9",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Kiswahili",
-            "chapterpath": "kenya/kcsenotes/kiswahili/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA10",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Mathematics",
-            "chapterpath": "kenya/kcsenotes/mathematics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA11",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Physics",
-            "chapterpath": "kenya/kcsenotes/physics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA12",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCSE Notes Set Books",
-            "chapterpath": "kenya/kcsenotes/setbooks/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA13",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "categorytitle": "KCPE Exam Papers",
-    "elogo": "fa-solid fa-file-pen",
-    "subjects": [
-      {
-        "subjecttitle": "KCPE Previous Papers",
-        "slogo": "fa-solid fa-user-astronaut",
-        "active": true,
-        "expand": false,
-        "chapters": [
-          {
-            "chaptertitle": "KCPE Composition",
-            "chapterpath": "kenya/kcpe/composition/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA0",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE English",
-            "chapterpath": "kenya/kcpe/english/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA1",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Insha",
-            "chapterpath": "kenya/kcpe/insha/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA2",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Kiswahili",
-            "chapterpath": "kenya/kcpe/kiswahili/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA3",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Mathematics",
-            "chapterpath": "kenya/kcpe/mathematics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA4",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Science",
-            "chapterpath": "kenya/kcpe/science/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA5",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Social Studies",
-            "chapterpath": "kenya/kcpe/socialstudies/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA6",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "categorytitle": "KCPE Exam Notes",
-    "elogo": "fa-solid fa-file-pen",
-    "subjects": [
-      {
-        "subjecttitle": "KCPE Exam Notes",
-        "slogo": "fa-solid fa-user-astronaut",
-        "active": true,
-        "expand": false,
-        "chapters": [
-          {
-            "chaptertitle": "KCPE Composition",
-            "chapterpath": "kenya/kcpenotes/composition/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA7",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE English",
-            "chapterpath": "kenya/kcpenotes/english/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA8",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Insha",
-            "chapterpath": "kenya/kcpenotes/insha/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA9",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Kiswahili",
-            "chapterpath": "kenya/kcpenotes/kiswahili/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA10",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Mathematics",
-            "chapterpath": "kenya/kcpenotes/mathematics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA11",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Science",
-            "chapterpath": "kenya/kcpenotes/science/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA12",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "KCPE Social Studies",
-            "chapterpath": "kenya/kcpenotes/socialstudies/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA13",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
-        ]
-      }
-    ]
-  }
+  } 
+  
 ]
