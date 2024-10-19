@@ -1,0 +1,243 @@
+[
+  {
+    "categorytitle": "ESAT Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "ESAT Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "ENGAA Previous Papers",
+            "chapterpath": "europe/ukuat/engaa/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "NSAA Previous Papers",
+            "chapterpath": "europe/ukuat/nsaa/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+           
+        ]
+      }
+    ]
+  },
+   
+  {
+    "categorytitle": "BMAT Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "BMAT Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "BMAT Previous Papers",
+            "chapterpath": "europe/ukuat/bmat/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "ECAA Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "ECAA Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "ECAA Previous Papers",
+            "chapterpath": "europe/ukuat/ecaa/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          } 
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "ELAT Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "ELAT Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "ELAT Previous Papers",
+            "chapterpath": "europe/ukuat/elat/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "HAT Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "HAT Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "HAT Previous Papers",
+            "chapterpath": "europe/ukuat/hat/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "MAT Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "MAT Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "MAT Previous Papers",
+            "chapterpath": "europe/ukuat/mat/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "PAT Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "PAT Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "PAT Previous Papers",
+            "chapterpath": "europe/ukuat/pat/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "STEP Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "STEP Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "STEP Previous Papers",
+            "chapterpath": "europe/ukuat/step/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "TMUA Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "TMUA Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "TMUA Previous Papers",
+            "chapterpath": "europe/ukuat/tmua/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "TSA Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "TSA Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "TSA Previous Papers",
+            "chapterpath": "europe/ukuat/tsa/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  }
+]
