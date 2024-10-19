@@ -7,7 +7,7 @@
         "subjecttitle": "KCSE Previous Papers",
         "slogo": "fa-solid fa-user-astronaut",
         "active": true,
-        "expand": true,
+        "expand": false,
         "chapters": [
           {
             "chaptertitle": "KCSE Agriculture",
@@ -282,7 +282,7 @@
         "subjecttitle": "KCSE Notes",
         "slogo": "fa-solid fa-book",
         "active": true,
-        "expand": true,
+        "expand": false,
         "chapters": [
           {
             "chaptertitle": "KCSE Notes Agriculture",
@@ -406,6 +406,83 @@
             "chapterpath": "kenya/kcsenotes/setbooks/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "KCPE Exam Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "KCPE Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters": [
+          {
+            "chaptertitle": "KCPE Composition",
+            "chapterpath": "kenya/kcpe/composition/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE English",
+            "chapterpath": "kenya/kcpe/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Insha",
+            "chapterpath": "kenya/kcpe/insha/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Kiswahili",
+            "chapterpath": "kenya/kcpe/kiswahili/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Mathematics",
+            "chapterpath": "kenya/kcpe/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Science",
+            "chapterpath": "kenya/kcpe/science/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Social Studies",
+            "chapterpath": "kenya/kcpe/socialstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
             "datatype": "link",
             "active": true,
             "common": true
