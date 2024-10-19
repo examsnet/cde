@@ -490,5 +490,82 @@
         ]
       }
     ]
+  },
+  {
+    "categorytitle": "KCPE Exam Notes",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "KCPE Exam Notes",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters": [
+          {
+            "chaptertitle": "KCPE Composition",
+            "chapterpath": "kenya/kcpenotes/composition/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE English",
+            "chapterpath": "kenya/kcpenotes/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Insha",
+            "chapterpath": "kenya/kcpenotes/insha/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Kiswahili",
+            "chapterpath": "kenya/kcpenotes/kiswahili/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Mathematics",
+            "chapterpath": "kenya/kcpenotes/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Science",
+            "chapterpath": "kenya/kcpenotes/science/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KCPE Social Studies",
+            "chapterpath": "kenya/kcpenotes/socialstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
   }
 ]
