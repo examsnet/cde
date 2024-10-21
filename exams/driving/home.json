@@ -40,7 +40,7 @@
             "chapterpath": "europe/ukdriving/theory/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "BA1",
-            "datatype": "exams",
+            "datatype": "link",
             "active": true,
             "common": true
           }
