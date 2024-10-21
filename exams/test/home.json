@@ -5,6 +5,24 @@
     "active": true,
     "subjects": [
       {
+        "subjecttitle": "UK Theory Study",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "Theory Study Materials",
+            "chapterpath": "europe/ukdriving/theory/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+           
+        ]
+      },
+      {
         "subjecttitle": "SSC CGL Practice Tests",
         "slogo": "fa-solid fa-user-group",
         "active": true,
