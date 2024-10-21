@@ -7,6 +7,7 @@
         "subjecttitle": "UK 2024 Car Theory Practice",
         "slogo": "fa-solid fa-user-group",
         "active": true,
+        "expand": true,
         "chapters": [
           {
             "chaptertitle": "Mock Theory Tests",
@@ -26,6 +27,24 @@
             "active": true,
             "common": false
           }
+        ]
+      },
+      {
+        "subjecttitle": "UK Theory Study",
+        "slogo": "fa-solid fa-user-book",
+        "active": true,
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "Theory Study",
+            "chapterpath": "europe/ukdriving/theory/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+           
         ]
       }
      
