@@ -42,7 +42,7 @@
             "savekey": "BA1",
             "datatype": "exams",
             "active": true,
-            "common": false
+            "common": true
           }
            
         ]
