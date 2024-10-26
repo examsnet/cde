@@ -11,7 +11,7 @@
         "chapters":  [
           {
             "chaptertitle": "Uganda PLE English",
-            "chapterpath": "africa/Uganda/PLE/english/",
+            "chapterpath": "africa/uganda/PLE/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -20,7 +20,7 @@
           },
           {
             "chaptertitle": "Uganda PLE Mathematics",
-            "chapterpath": "africa/Uganda/PLE/mathematics/",
+            "chapterpath": "africa/uganda/PLE/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -29,7 +29,7 @@
           },
           {
             "chaptertitle": "Uganda PLE Science",
-            "chapterpath": "africa/Uganda/PLE/science/",
+            "chapterpath": "africa/uganda/PLE/science/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -38,7 +38,7 @@
           },
           {
             "chaptertitle": "Uganda PLE SocialScience",
-            "chapterpath": "africa/Uganda/PLE/socialscience/",
+            "chapterpath": "africa/uganda/PLE/socialscience/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -61,7 +61,7 @@
         "chapters":  [
           {
             "chaptertitle": "Uganda UCE Agriculture",
-            "chapterpath": "africa/Uganda/UCE/agriculture/",
+            "chapterpath": "africa/uganda/UCE/agriculture/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -70,7 +70,7 @@
           },
           {
             "chaptertitle": "Uganda UCE Biology",
-            "chapterpath": "africa/Uganda/UCE/biology/",
+            "chapterpath": "africa/uganda/UCE/biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -79,7 +79,7 @@
           },
           {
             "chaptertitle": "Uganda UCE Chemistry",
-            "chapterpath": "africa/Uganda/UCE/chemistry/",
+            "chapterpath": "africa/uganda/UCE/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -88,7 +88,7 @@
           },
           {
             "chaptertitle": "Uganda UCE Commerce",
-            "chapterpath": "africa/Uganda/UCE/commerce/",
+            "chapterpath": "africa/uganda/UCE/commerce/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -97,7 +97,7 @@
           },
           {
             "chaptertitle": "Uganda UCE English",
-            "chapterpath": "africa/Uganda/UCE/english/",
+            "chapterpath": "africa/uganda/UCE/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA4",
             "datatype": "link",
@@ -106,7 +106,7 @@
           },
           {
             "chaptertitle": "Uganda UCE History",
-            "chapterpath": "africa/Uganda/UCE/history/",
+            "chapterpath": "africa/uganda/UCE/history/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
             "datatype": "link",
@@ -115,7 +115,7 @@
           },
           {
             "chaptertitle": "Uganda UCE ICT",
-            "chapterpath": "africa/Uganda/UCE/ict/",
+            "chapterpath": "africa/uganda/UCE/ict/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
             "datatype": "link",
@@ -124,7 +124,7 @@
           },
           {
             "chaptertitle": "Uganda UCE IRE",
-            "chapterpath": "africa/Uganda/UCE/ire/",
+            "chapterpath": "africa/uganda/UCE/ire/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA7",
             "datatype": "link",
@@ -133,7 +133,7 @@
           },
           {
             "chaptertitle": "Uganda UCE Mathematics",
-            "chapterpath": "africa/Uganda/UCE/mathematics/",
+            "chapterpath": "africa/uganda/UCE/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA8",
             "datatype": "link",
@@ -142,7 +142,7 @@
           },
           {
             "chaptertitle": "Uganda UCE Physics",
-            "chapterpath": "africa/Uganda/UCE/physics/",
+            "chapterpath": "africa/uganda/UCE/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA9",
             "datatype": "link",
@@ -166,7 +166,7 @@
           [
             {
               "chaptertitle": "Uganda UACE Biology",
-              "chapterpath": "africa/Uganda/UACE/biology/",
+              "chapterpath": "africa/uganda/UACE/biology/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA0",
               "datatype": "link",
@@ -175,7 +175,7 @@
             },
             {
               "chaptertitle": "Uganda UACE Chemistry",
-              "chapterpath": "africa/Uganda/UACE/chemistry/",
+              "chapterpath": "africa/uganda/UACE/chemistry/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA1",
               "datatype": "link",
@@ -184,7 +184,7 @@
             },
             {
               "chaptertitle": "Uganda UACE CRE",
-              "chapterpath": "africa/Uganda/UACE/cre/",
+              "chapterpath": "africa/uganda/UACE/cre/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA2",
               "datatype": "link",
@@ -193,7 +193,7 @@
             },
             {
               "chaptertitle": "Uganda UACE Economics",
-              "chapterpath": "africa/Uganda/UACE/economics/",
+              "chapterpath": "africa/uganda/UACE/economics/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA3",
               "datatype": "link",
@@ -202,7 +202,7 @@
             },
             {
               "chaptertitle": "Uganda UACE GeneralPaper",
-              "chapterpath": "africa/Uganda/UACE/generalpaper/",
+              "chapterpath": "africa/uganda/UACE/generalpaper/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA4",
               "datatype": "link",
@@ -211,7 +211,7 @@
             },
             {
               "chaptertitle": "Uganda UACE History",
-              "chapterpath": "africa/Uganda/UACE/history/",
+              "chapterpath": "africa/uganda/UACE/history/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA5",
               "datatype": "link",
@@ -220,7 +220,7 @@
             },
             {
               "chaptertitle": "Uganda UACE IRE",
-              "chapterpath": "africa/Uganda/UACE/ire/",
+              "chapterpath": "africa/uganda/UACE/ire/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA6",
               "datatype": "link",
@@ -229,7 +229,7 @@
             },
             {
               "chaptertitle": "Uganda UACE Mathematics",
-              "chapterpath": "africa/Uganda/UACE/mathematics/",
+              "chapterpath": "africa/uganda/UACE/mathematics/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA7",
               "datatype": "link",
@@ -238,7 +238,7 @@
             },
             {
               "chaptertitle": "Uganda UACE Physics",
-              "chapterpath": "africa/Uganda/UACE/physics/",
+              "chapterpath": "africa/uganda/UACE/physics/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA8",
               "datatype": "link",
@@ -247,7 +247,7 @@
             },
             {
               "chaptertitle": "Uganda UACE SubsidiaryICT",
-              "chapterpath": "africa/Uganda/UACE/subsidiaryict/",
+              "chapterpath": "africa/uganda/UACE/subsidiaryict/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA9",
               "datatype": "link",
@@ -256,7 +256,7 @@
             },
             {
               "chaptertitle": "Uganda UACE SubsidiaryMathematics",
-              "chapterpath": "africa/Uganda/UACE/subsidiarymathematics/",
+              "chapterpath": "africa/uganda/UACE/subsidiarymathematics/",
               "clogo": "fa-solid fa-book-open",
               "savekey": "EXA10",
               "datatype": "link",
