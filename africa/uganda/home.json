@@ -1,10 +1,10 @@
 [
   {
-    "categorytitle": "Primary School P6",
+    "categorytitle": "Uganda PLE Papers",
     "elogo": "fa-solid fa-file-pen",
     "subjects": [
       {
-        "subjecttitle": "Primary P6 Previous Papers",
+        "subjecttitle": "PLE Previous Papers",
         "slogo": "fa-solid fa-user-astronaut",
         "active": true,
         "expand": false,
@@ -50,18 +50,18 @@
     ]
   },
   {
-    "categorytitle": "Ordinary Level (S3) Papers",
+    "categorytitle": "UCE Exam Papers",
     "elogo": "fa-solid fa-book",
     "subjects": [
       {
-        "subjecttitle": "Ordinary S3 Previous Papers",
+        "subjecttitle": "UCE Previous Papers",
         "slogo": "fa-solid fa-book",
         "active": true,
         "expand": false,
         "chapters":  [
           {
-            "chaptertitle": "RWANDA S3 BiologyHealthSciences",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/biologyhealthsciences/",
+            "chaptertitle": "UGANDA UCE Agriculture",
+            "chapterpath": "africa/uganda/UCE/agriculture/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -69,8 +69,8 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 Chemistry",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/chemistry/",
+            "chaptertitle": "UGANDA UCE Biology",
+            "chapterpath": "africa/uganda/UCE/biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -78,8 +78,8 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 English",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/english/",
+            "chaptertitle": "UGANDA UCE Chemistry",
+            "chapterpath": "africa/uganda/UCE/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -87,8 +87,8 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 Entrepreneurship",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/entrepreneurship/",
+            "chaptertitle": "UGANDA UCE Commerce",
+            "chapterpath": "africa/uganda/UCE/commerce/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -96,8 +96,8 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 Francais",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/francais/",
+            "chaptertitle": "UGANDA UCE English",
+            "chapterpath": "africa/uganda/UCE/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA4",
             "datatype": "link",
@@ -105,8 +105,8 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 GeographyAndEnvironment-I",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/geographyandenvironment-i/",
+            "chaptertitle": "UGANDA UCE History",
+            "chapterpath": "africa/uganda/UCE/history/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
             "datatype": "link",
@@ -114,8 +114,8 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 GeographyAndEnvironment-II",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/geographyandenvironment-ii/",
+            "chaptertitle": "UGANDA UCE ICT",
+            "chapterpath": "africa/uganda/UCE/ict/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
             "datatype": "link",
@@ -123,8 +123,8 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 History and Citizenship-II",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/historyandcitizenship-ii/",
+            "chaptertitle": "UGANDA UCE IRE",
+            "chapterpath": "africa/uganda/UCE/ire/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA7",
             "datatype": "link",
@@ -132,8 +132,8 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 HistoryAndCitizenship-I",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/historyandcitizenship-i/",
+            "chaptertitle": "UGANDA UCE Mathematics",
+            "chapterpath": "africa/uganda/UCE/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA8",
             "datatype": "link",
@@ -141,28 +141,10 @@
             "common": true
           },
           {
-            "chaptertitle": "RWANDA S3 Ikinyarwanda",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/ikinyarwanda/",
+            "chaptertitle": "UGANDA UCE Physics",
+            "chapterpath": "africa/uganda/UCE/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA9",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "RWANDA S3 Mathematics",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/mathematics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA10",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "RWANDA S3 Physics",
-            "chapterpath": "africa/uganda/OrdinaryLevel-S3/physics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA11",
             "datatype": "link",
             "active": true,
             "common": true
