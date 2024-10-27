@@ -1,10 +1,10 @@
 [
   {
-    "categorytitle": "Kasneb Papers",
+    "categorytitle": "KASNEB Papers",
     "elogo": "fa-solid fa-file-pen",
     "subjects": [
       {
-        "subjecttitle": "Kasneb Previous Papers",
+        "subjecttitle": "KASNEB Previous Papers",
         "slogo": "fa-solid fa-user-astronaut",
         "active": true,
         "expand": false,
@@ -194,11 +194,11 @@
     ]
   },
   {
-    "categorytitle": "Kasneb Notes",
+    "categorytitle": "KASNEB Notes",
     "elogo": "fa-solid fa-book",
     "subjects": [
       {
-        "subjecttitle": "Kasneb Notes",
+        "subjecttitle": "KASNEB Notes",
         "slogo": "fa-solid fa-book",
         "active": true,
         "expand": false,
