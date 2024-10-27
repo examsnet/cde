@@ -1,0 +1,220 @@
+[
+  {
+    "categorytitle": "Kasneb Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "Kasneb Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters": [
+          {
+            "chaptertitle": "Advanced Auditing And Assurance",
+            "chapterpath": "africa/kenya/kasneb/advancedauditingandassurance/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Advanced Financial Management",
+            "chapterpath": "africa/kenya/kasneb/advancedfinancialmanagement/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Advanced Financial Reporting",
+            "chapterpath": "africa/kenya/kasneb/advancedfinancialreporting/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Advanced Management Accounting",
+            "chapterpath": "africa/kenya/kasneb/advancedmanagementaccounting/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Advanced Public Finance And Taxation",
+            "chapterpath": "africa/kenya/kasneb/advancedpublicfinanceandtaxation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Advanced Public Financial Management",
+            "chapterpath": "africa/kenya/kasneb/advancedpublicfinancialmanagement/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Auditing And Assurance",
+            "chapterpath": "africa/kenya/kasneb/auditingandassurance/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Communication Skills",
+            "chapterpath": "africa/kenya/kasneb/communicationskills/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Company Law",
+            "chapterpath": "africa/kenya/kasneb/companylaw/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Economics",
+            "chapterpath": "africa/kenya/kasneb/economics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Financial Accounting",
+            "chapterpath": "africa/kenya/kasneb/financialaccounting/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Financial Management",
+            "chapterpath": "africa/kenya/kasneb/financialmanagement/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Financial Reporting And Analysis",
+            "chapterpath": "africa/kenya/kasneb/financialreportingandanalysis/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Information Communication Technology",
+            "chapterpath": "africa/kenya/kasneb/informationcommunicationtechnology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA13",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Introduction To Law And Governance",
+            "chapterpath": "africa/kenya/kasneb/introductiontolawandgovernance/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA14",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Law And Governance",
+            "chapterpath": "africa/kenya/kasneb/lawandgovernance/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA15",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Leadership And Management",
+            "chapterpath": "africa/kenya/kasneb/leadershipandmanagement/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA16",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Management Accounting",
+            "chapterpath": "africa/kenya/kasneb/managementaccounting/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA17",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Public Finance And Taxation",
+            "chapterpath": "africa/kenya/kasneb/publicfinanceandtaxation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA18",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Quantitative Analysis",
+            "chapterpath": "africa/kenya/kasneb/quantitativeanalysis/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA19",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Kasneb Notes",
+    "elogo": "fa-solid fa-book",
+    "subjects": [
+      {
+        "subjecttitle": "Kasneb Notes",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "Kenya KASNEB Notes",
+            "chapterpath": "africa/kenya/kasnebnotes/notes/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ] 
+      }
+    ]
+  } 
+  
+]
