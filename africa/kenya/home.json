@@ -1430,11 +1430,11 @@
   },
   {
     "categorytitle": "KASNEB Notes",
-    "elogo": "fa-solid fabook",
+    "elogo": "fa-solid fa-book",
     "subjects": [
       {
         "subjecttitle": "KASNEB Notes",
-        "slogo": "fa-solid fabook",
+        "slogo": "fa-solid fa-book",
         "active": true,
         "expand": false,
         "chapters": [
