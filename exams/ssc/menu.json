@@ -34,11 +34,11 @@
         "link": "cafe",
         "color": "#502112"
       },
-       {
+      {
         "title": "Crimson",
         "link": "crimson",
         "color": "#a02a52"
-      },  
+      }, 
       {
         "title": "Dark",
         "link": "dark",
@@ -140,6 +140,34 @@
       },
       {
         "title": "If our app has been helpful, please consider leaving a positive review to help us improve. Just as students forgive a flop movie by not asking for a refund, small app developers rarely receive the same understanding. Your support would mean a lot."
+      }
+    ]
+  },
+  { 
+    "title": "Best Apps",
+    "icon": "fa-solid fa-mobile-screen",
+    "link": "#",
+    "type": "links",
+    "submenu": [ 
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Math Formulas",
+        "link": "market://details?id=com.whitesof.mathformulas"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "MPCB Notes",
+        "link": "market://details?id=com.examsnet.pcmbnotes"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Periodic Table",
+        "link": "market://details?id=com.whitesof.periodictable"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Physics Notes",
+        "link": "market://details?id=com.whitesof.physicsnotes"
       }
     ]
   }
