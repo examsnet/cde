@@ -152,22 +152,22 @@
       {
         "icon": "fa-brands fa-android",
         "title": "Math Formulas",
-        "link": "https://play.google.com/store/apps/details?id=com.whitesof.mathformulas"
+        "link": "market://launch?id=com.whitesof.mathformulas"
       },
       {
         "icon": "fa-brands fa-android",
         "title": "MPCB Notes",
-        "link": "https://play.google.com/store/apps/details?id=com.examsnet.pcmbnotes"
+        "link": "market://launch?id=com.examsnet.pcmbnotes"
       },
       {
         "icon": "fa-brands fa-android",
         "title": "Periodic Table",
-        "link": "https://play.google.com/store/apps/details?id=com.whitesof.periodictable"
+        "link": "market://launch?id=com.whitesof.periodictable"
       },
       {
         "icon": "fa-brands fa-android",
         "title": "Physics Notes",
-        "link": "https://play.google.com/store/apps/details?id=com.whitesof.physicsnotes"
+        "link": "market://launch?id=com.whitesof.physicsnotes"
       }
     ]
   }
