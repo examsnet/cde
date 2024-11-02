@@ -1,0 +1,26 @@
+[
+  {
+    "categorytitle": "Choose Your Exam",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "한국 수능 시험지",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "expand": true,
+        "chapters": [ 
+          {
+            "chaptertitle": "한국 대학수학능력시험 기출문제",
+            "chapterpath": "asia/korea/csat/prev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+        }
+        ]
+      }  
+    ]
+  } 
+]
