@@ -35,6 +35,11 @@
         "color": "#502112"
       },
       {
+        "title": "Crimson",
+        "link": "crimson",
+        "color": "#a02a52"
+      }, 
+      {
         "title": "Dark",
         "link": "dark",
         "color": "#414141"
@@ -137,5 +142,5 @@
         "title": "If our app has been helpful, please consider leaving a positive review to help us improve. Just as students forgive a flop movie by not asking for a refund, small app developers rarely receive the same understanding. Your support would mean a lot."
       }
     ]
-  }
+  } 
 ]
