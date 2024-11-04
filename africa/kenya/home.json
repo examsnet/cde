@@ -17,52 +17,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Economics",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpafoundation/economics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA86",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Financial Accounting",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpafoundation/financialaccounting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA87",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Information Communication Technology",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpafoundation/informationcommunicationtechnology/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA88",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Introduction To Law Governance",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpafoundation/introductiontolawgovernance/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA89",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Quantitative Analysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpafoundation/quantitativeanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA90",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -79,52 +34,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Company Law",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaintermediate/companylaw/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA92",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Financial Management",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaintermediate/financialmanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA93",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Financial Reporting And Analysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaintermediate/financialreportingandanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA94",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Management Accounting",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaintermediate/managementaccounting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA95",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Public Finance And Taxation",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaintermediate/publicfinanceandtaxation/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA96",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -141,70 +51,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Financial Management",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaadvanced/advancedfinancialmanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA78",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Financial ReportingandAnalysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaadvanced/advancedfinancialreportingandanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA79",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Management Accounting",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaadvanced/advancedmanagementaccounting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA80",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Public Finance Management",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaadvanced/advancedpublicfinancemanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA81",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Taxation",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaadvanced/advancedtaxation/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA82",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Business Data Analytics",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaadvanced/businessdataanalytics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA83",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Leadership And Management",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedPublicAccountants/cpaadvanced/leadershipandmanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA84",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       }
     ]
@@ -227,52 +74,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "FinancialAccounting",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifafoundationlevel/financialaccounting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA119",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "IntroductiontoFinanceandInvestments",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifafoundationlevel/introductiontofinanceandinvestments/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA120",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "ProfessionalEthicsandGovernance",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifafoundationlevel/professionalethicsandgovernance/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA121",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "QuantitativeAnalysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifafoundationlevel/quantitativeanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA122",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "RegulationofFinancialMarkets",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifafoundationlevel/regulationoffinancialmarkets/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA123",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -289,43 +91,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Equity Investments Analysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifaintermediatelevel/equityinvestmentsanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA125",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Financial Statements Analysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifaintermediatelevel/financialstatementsanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA126",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Portfolio Management",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifaintermediatelevel/portfoliomanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA127",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Public Finance And Taxation",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifaintermediatelevel/publicfinanceandtaxation/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA128",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -342,43 +108,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Alternative Investments Analysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifaadvancedlevel/alternativeinvestmentsanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA114",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Derivatives Analysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifaadvancedlevel/derivativesanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA115",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Fixed Income Investments Analysis",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifaadvancedlevel/fixedincomeinvestmentsanalysis/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA116",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Leadership And Management",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifinedInvestmentAndFinancialAnalysts/cifaadvancedlevel/leadershipandmanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA117",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       }
     ]
@@ -401,52 +131,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Human Resources Management",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csfoundationlevel/humanresourcesmanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA102",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Information Communication Technology",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csfoundationlevel/informationcommunicationtechnology/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA103",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Introduction To Law And Governance",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csfoundationlevel/introductiontolawandgovernance/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA104",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Management Principles And Practice",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csfoundationlevel/managementprinciplesandpractice/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA105",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Principles of Accounting And Taxation",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csfoundationlevel/principlesofaccountingandtaxation/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA106",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -463,52 +148,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Corporate Governance And Ethics",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csintermediatelevel/corporategovernanceandethics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA108",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Financial Markets and Specialised Institution",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csintermediatelevel/financialmarketsandspecialisedinstitution/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA109",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Meetings Compliance and Administration",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csintermediatelevel/meetingscomplianceandadministration/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA110",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Public Sector Governance Policy and Administration",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csintermediatelevel/publicsectorgovernancepolicyandadministr/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA111",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Research Consultancy And Advisory",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csintermediatelevel/researchconsultancyandadvisory/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA112",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -525,34 +165,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Finance for Decision Making",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csadvancedlevel/financefordecisionmaking/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA98",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Governance and Compliance Audit",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csadvancedlevel/governanceandcomplianceaudit/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA99",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Strategic Management",
-            "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedSecretaries/csadvancedlevel/strategicmanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA100",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       }
     ]
@@ -574,52 +187,7 @@
           "datatype": "link",
           "active": true,
           "common": true
-        },
-        {
-          "chaptertitle": "Communication and Customer Relations",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpfoundationlevel/communicationandcustomerrelations/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA49",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Credit Management",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpfoundationlevel/creditmanagement/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA50",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Credit Risk Management",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpfoundationlevel/creditriskmanagement/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA51",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Introduction to Law and Governance",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpfoundationlevel/introductiontolawandgovernance/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA52",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Principles of Accounting",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpfoundationlevel/principlesofaccounting/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA53",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        }]
+        } ]
       },
       {
         "subjecttitle": "CCP INTERMEDIATE LEVEL PAST PAPERS",
@@ -634,34 +202,7 @@
           "datatype": "link",
           "active": true,
           "common": true
-        },
-        {
-          "chaptertitle": "Corporate Credit Analysis",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpintermediatelevel/corporatecreditanalysis/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA55",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Credit Governance and Compliance",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpintermediatelevel/creditgovernanceandcompliance/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA56",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Financial Statements Analysis for Credit Managers",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpintermediatelevel/financialstatementsanalysisforcreditmanagers/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA57",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        }]
+        } ]
       },
       {
         "subjecttitle": "CCP ADVANCED LEVEL PAST PAPERS",
@@ -676,34 +217,7 @@
           "datatype": "link",
           "active": true,
           "common": true
-        },
-        {
-          "chaptertitle": "Credit Risk Management",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpadvancedlevel/creditriskmanagement/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA45",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Debt Recovery Management",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpadvancedlevel/debtrecoverymanagement/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA46",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Leadership and Management",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedCreditProfessionals/ccpadvancedlevel/leadershipandmanagement/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA47",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        }]
+        } ]
       }
     ]
   },
@@ -724,43 +238,7 @@
           "datatype": "link",
           "active": true,
           "common": true
-        },
-        {
-          "chaptertitle": "Computer Information Systems Applications",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedInformationSystemsSolutionsExpert/cissefoundationlevel/computerinformationsystemsapplications/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA68",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Computing Systems",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedInformationSystemsSolutionsExpert/cissefoundationlevel/computingsystems/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA69",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Entrepreneurship and Innovation",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedInformationSystemsSolutionsExpert/cissefoundationlevel/entrepreneurshipandinnovation/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA70",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Information Systems Support and Integration",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedInformationSystemsSolutionsExpert/cissefoundationlevel/informationsystemssupportandintegration/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA71",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        }]
+        } ]
       },
       {
         "subjecttitle": "CISSE Intermediate Level Past Papers",
@@ -775,43 +253,7 @@
           "datatype": "link",
           "active": true,
           "common": true
-        },
-        {
-          "chaptertitle": "Information Systems Strategy Governance and Ethics",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedInformationSystemsSolutionsExpert/cisseintermediatelevel/informationsystemsstrategygovernanceandethics/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA73",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Networking and Data Communication",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedInformationSystemsSolutionsExpert/cisseintermediatelevel/networkinganddatacommunication/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA74",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Programming and Systems Analysis and Design",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedInformationSystemsSolutionsExpert/cisseintermediatelevel/programmingandsystemsanalysisanddesign/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA75",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Research and Project Management",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedInformationSystemsSolutionsExpert/cisseintermediatelevel/researchandprojectmanagement/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA76",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        }]
+        } ]
       } 
     ]
   },
@@ -832,25 +274,7 @@
           "datatype": "link",
           "active": true,
           "common": true
-        },
-        {
-          "chaptertitle": "Introduction to Forensic Accounting and Audit",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedForensicFraudExaminer/cffemodulei/introductiontoforensicaccountingandaudit/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA59",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Overview of The Legal and Justice System",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedForensicFraudExaminer/cffemodulei/overviewofthelegalandjusticesystem/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA60",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        }]
+        } ]
       },
       {
         "subjecttitle": "CFFE Module II Past Papers",
@@ -865,25 +289,7 @@
           "datatype": "link",
           "active": true,
           "common": true
-        },
-        {
-          "chaptertitle": "Planning and Conducting Formal Investigations",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedForensicFraudExaminer/cffemoduleii/planningandconductingformalinvestigations/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA62",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Principles of Law of Evidence and the Trial Process",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedForensicFraudExaminer/cffemoduleii/principlesoflawofevidenceandthetrialprocess/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA63",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        }]
+        } ]
       },
       {
         "subjecttitle": "CFFE Module III Past Papers",
@@ -898,25 +304,7 @@
           "datatype": "link",
           "active": true,
           "common": true
-        },
-        {
-          "chaptertitle": "Fraud Risk Management",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedForensicFraudExaminer/cffemoduleiii/fraudriskmanagement/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA65",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        },
-        {
-          "chaptertitle": "Integrated Case Study and Workshop",
-          "chapterpath": "africa/kenya/kasneb/ProfessionalExaminations/CertifiedForensicFraudExaminer/cffemoduleiii/integratedcasestudyandworkshop/",
-          "clogo": "fa-solid fa-book-open",
-          "savekey": "EXA66",
-          "datatype": "link",
-          "active": true,
-          "common": true
-        }]
+        } ]
       }
     ]
   },
@@ -938,34 +326,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Information Communication Technology",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdleveli/informationcommunicationtechnology/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA11",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Introduction to Financial Accounting",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdleveli/introductiontofinancialaccounting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA12",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Introduction to Law and Ethics",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdleveli/introductiontolawandethics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA13",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -982,34 +343,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Financial Accounting",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdlevelii/financialaccounting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA15",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Principles of Management",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdlevelii/principlesofmanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA16",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Principles of Taxation",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdlevelii/principlesoftaxation/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA17",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -1026,34 +360,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Fundamentals of Management Accounting",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdleveliii/fundamentalsofmanagementaccounting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA19",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Principles of Auditing",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdleveliii/principlesofauditing/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA20",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Principles of Economics",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/AccountingTechniciansDiploma/atdleveliii/principlesofeconomics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA21",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       }
     ]
@@ -1076,34 +383,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Computer Information Systems Applications",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInComputerNetworksAndSystemsAdministration/dcnsaleveli/computerinformationsystemsapplications/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA23",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Information Systems Support and Integration",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInComputerNetworksAndSystemsAdministration/dcnsaleveli/informationsystemssupportandintegration/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA24",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Introduction to Computing Systems",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInComputerNetworksAndSystemsAdministration/dcnsaleveli/introductiontocomputingsystems/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA25",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -1120,34 +400,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Network Operating Systems",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInComputerNetworksAndSystemsAdministration/dcnsalevelii/networkoperatingsystems/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA27",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Network Security",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInComputerNetworksAndSystemsAdministration/dcnsalevelii/networksecurity/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA28",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Windows Servers Roles and Features",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInComputerNetworksAndSystemsAdministration/dcnsalevelii/windowsserversrolesandfeatures/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA29",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -1164,25 +417,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Network Trouble shooting",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInComputerNetworksAndSystemsAdministration/dcnsaleveliii/networktroubleshooting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA31",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Server Maintenance",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInComputerNetworksAndSystemsAdministration/dcnsaleveliii/servermaintenance/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA32",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       }
     ]
@@ -1205,34 +440,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Computer Information Systems Applications",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInDataManagementAndAnalytics/ddmaleveli/computerinformationsystemsapplications/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA34",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Information Systems Support and Integration",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInDataManagementAndAnalytics/ddmaleveli/informationsystemssupportandintegration/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA35",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Introduction to Computing Systems",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInDataManagementAndAnalytics/ddmaleveli/introductiontocomputingsystems/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA36",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -1249,34 +457,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Mathematical Concepts in DataScience",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInDataManagementAndAnalytics/ddmalevelii/mathematicalconceptsindatascience/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA38",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Quantitative Modelling Skills",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInDataManagementAndAnalytics/ddmalevelii/quantitativemodellingskills/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA39",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Warehousing and Data Mining",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInDataManagementAndAnalytics/ddmalevelii/warehousinganddatamining/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA40",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -1293,25 +474,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Data Management and Analytics",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInDataManagementAndAnalytics/ddmaleveliii/datamanagementandanalytics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA42",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Python Data Visualisation",
-            "chapterpath": "africa/kenya/kasneb/DiplomaExaminations/DiplomaInDataManagementAndAnalytics/ddmaleveliii/pythondatavisualisation/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA43",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       }
     ]
@@ -1334,34 +497,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Fundamentals of Business Mathematics",
-            "chapterpath": "africa/kenya/kasneb/CertificateExaminations/CertificateInAccountingAndManagmentSkills/camslevel1/fundamentalsofbusinessmathematics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA1",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Introduction to Law and Ethics",
-            "chapterpath": "africa/kenya/kasneb/CertificateExaminations/CertificateInAccountingAndManagmentSkills/camslevel1/introductiontolawandethics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA2",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Principles of Entrepreneurship and Management",
-            "chapterpath": "africa/kenya/kasneb/CertificateExaminations/CertificateInAccountingAndManagmentSkills/camslevel1/principlesofentrepreneurshipandmanagement/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA3",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       },
       {
@@ -1378,25 +514,7 @@
             "datatype": "link",
             "active": true,
             "common": true
-          },
-          {
-            "chaptertitle": "Foundations of Accounting",
-            "chapterpath": "africa/kenya/kasneb/CertificateExaminations/CertificateInAccountingAndManagmentSkills/camslevel2/foundationsofaccounting/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA8",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Principles of Marketing and Communication",
-            "chapterpath": "africa/kenya/kasneb/CertificateExaminations/CertificateInAccountingAndManagmentSkills/camslevel2/principlesofmarketingandcommunication/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA9",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          }
+          } 
         ]
       }
     ]
