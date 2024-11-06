@@ -31,7 +31,7 @@
         "subjecttitle": "한국 수능 시험지",
         "slogo": "fa-solid fa-book",
         "active": true,
-        "expand": false,
+        "expand": true,
         "chapters": [
           {
             "chaptertitle": "과학탐구",
