@@ -1,0 +1,130 @@
+[
+  {
+    "categorytitle": "수능 시험지 테스트 형식",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "한국 수능 시험지",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "한국 대학수학능력시험 기출문제",
+            "chapterpath": "asia/korea/csat/prev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "수능 시험지 PDF 형식",
+    "elogo": "fa-solid fa-book",
+    "subjects": [
+      {
+        "subjecttitle": "한국 수능 시험지",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "과학탐구",
+            "chapterpath": "asia/korea/csat/과학탐구/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "국어",
+            "chapterpath": "asia/korea/csat/국어/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "사회탐구",
+            "chapterpath": "asia/korea/csat/사회탐구/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "수학",
+            "chapterpath": "asia/korea/csat/수학/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "언어",
+            "chapterpath": "asia/korea/csat/언어/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "영어",
+            "chapterpath": "asia/korea/csat/영어/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "외국어",
+            "chapterpath": "asia/korea/csat/외국어/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "직업탐구",
+            "chapterpath": "asia/korea/csat/직업탐구/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "한국사",
+            "chapterpath": "asia/korea/csat/한국사/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "한문",
+            "chapterpath": "asia/korea/csat/한문/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  }
+]
