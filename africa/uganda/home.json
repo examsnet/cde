@@ -11,7 +11,7 @@
         "chapters":   [
           {
             "chaptertitle": "PLE English",
-            "chapterpath": "africa/uganda/PLE/english/",
+            "chapterpath": "africa/uganda/ple/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -20,7 +20,7 @@
           },
           {
             "chaptertitle": "PLE Mathematics",
-            "chapterpath": "africa/uganda/PLE/mathematics/",
+            "chapterpath": "africa/uganda/ple/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -29,7 +29,7 @@
           },
           {
             "chaptertitle": "PLE Science",
-            "chapterpath": "africa/uganda/PLE/science/",
+            "chapterpath": "africa/uganda/ple/science/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -38,7 +38,7 @@
           },
           {
             "chaptertitle": "PLE SocialScience",
-            "chapterpath": "africa/uganda/PLE/socialscience/",
+            "chapterpath": "africa/uganda/ple/socialscience/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
