@@ -88,30 +88,15 @@
     "type": "links",
     "submenu": [
       {
-        "icon": "fa-brands fa-facebook",
-        "title": "Facebook",
-        "link": "https://www.facebook.com/Examsnet9/"
+        "icon": "fa-solid fa-globe",
+        "title": "Africa Exams",
+        "link": "https://www.africaexams.com"
       },
       {
         "icon": "fa-brands fa-youtube",
         "title": "Youtube",
-        "link": "https://www.youtube.com/c/examsnet"
-      },
-      {
-        "icon": "fa-brands fa-instagram",
-        "title": "Instagram",
-        "link": "https://www.instagram.com/examsnet9/"
-      },
-      {
-        "icon": "fa-brands fa-twitter",
-        "title": "Twitter",
-        "link": "https://x.com/examsnet/"
-      },
-      {
-        "icon": "fa-brands fa-linkedin",
-        "title": "Linkedin",
-        "link": "https://in.linkedin.com/company/examsnet-website/"
-      }
+        "link": "https://www.youtube.com/@africaexams"
+      } 
     ]
   },
   {
@@ -122,7 +107,7 @@
     "submenu": [
       {
         "icon": "fa-regular fa-envelope",
-        "title": "examsnet9@gmail.com"
+        "title": "africaexams@gmail.com"
       }
     ]
   },
@@ -133,42 +118,14 @@
     "type": "text",
     "submenu": [
       {
-        "title": "Examsnet is an online platform offering comprehensive practice tests and study materials for a variety of competitive exams"
+        "title": "www.africaexams.com is an online platform offering comprehensive practice tests and study materials for a variety of competitive exams across Africa"
       },
       {
         "title": "No login or registration is required—take your exam in just 2-3 clicks! Share the good news with your friends."
       },
       {
-        "title": "If our app has been helpful, please consider leaving a positive review to help us improve. Just as students forgive a flop movie by not asking for a refund, small app developers rarely receive the same understanding. Your support would mean a lot."
+        "title": "If our app has been helpful, please consider leaving a positive review to help us improve. Your support would mean a lot."
       }
     ]
-  },
-  { 
-    "title": "Best Apps",
-    "icon": "fa-solid fa-mobile-screen",
-    "link": "#",
-    "type": "links",
-    "submenu": [ 
-      {
-        "icon": "fa-brands fa-android",
-        "title": "Math Formulas",
-        "link": "market://details?id=com.whitesof.mathformulas"
-      },
-      {
-        "icon": "fa-brands fa-android",
-        "title": "MPCB Notes",
-        "link": "market://details?id=com.examsnet.pcmbnotes"
-      },
-      {
-        "icon": "fa-brands fa-android",
-        "title": "Periodic Table",
-        "link": "market://details?id=com.whitesof.periodictable"
-      },
-      {
-        "icon": "fa-brands fa-android",
-        "title": "Physics Notes",
-        "link": "market://details?id=com.whitesof.physicsnotes"
-      }
-    ]
-  }
+  } 
 ]
