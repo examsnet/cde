@@ -1,5 +1,196 @@
 [
   {
+    "categorytitle": "Youtube Tutorials",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "NEET Exam Tutorials",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "NEET Biology Tutorials",
+            "chapterpath": "board/ncert/books/class10/contemporaryindia/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Democratic Politics",
+            "chapterpath": "board/ncert/books/class10/democraticpolitics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Design Thinking and Innovation",
+            "chapterpath": "board/ncert/books/class10/designthinkingandinnovation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "First Flight",
+            "chapterpath": "board/ncert/books/class10/firstflight/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Footprints Without Feet",
+            "chapterpath": "board/ncert/books/class10/footprintswithoutfeet/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Health and Physical Education",
+            "chapterpath": "board/ncert/books/class10/healthandphysicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "India and the Contemporary World 2",
+            "chapterpath": "board/ncert/books/class10/indiaandthecontemporaryworld2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Interact in English Communicative Course",
+            "chapterpath": "board/ncert/books/class10/interactinenglishcommunicativecourse/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Interact in English Literature Reader",
+            "chapterpath": "board/ncert/books/class10/interactinenglishliteraturereader/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Interact in English Main Course Book Communicative",
+            "chapterpath": "board/ncert/books/class10/interactinenglishmaincoursebookcommunicative/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          } 
+           
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 11 Books",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Class 11 An Introduction to Indian Art Part 1",
+            "chapterpath": "board/ncert/books/class11/anintroductiontoindianartpart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA20",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 11 Applied Mathematics",
+            "chapterpath": "board/ncert/books/class11/appliedmathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA21",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          } 
+        ]
+      },
+      {
+        "subjecttitle": "NCERT Class 12 Books",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Class 12 Accountancy Part 1",
+            "chapterpath": "board/ncert/books/class12/accountancypart1/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA59",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Accountancy Part 2",
+            "chapterpath": "board/ncert/books/class12/accountancypart2/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA60",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 An Introduction to Indian Art",
+            "chapterpath": "board/ncert/books/class12/anintroductiontoindianart/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA61",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Applied Mathematics",
+            "chapterpath": "board/ncert/books/class12/appliedmathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA62",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Biology",
+            "chapterpath": "board/ncert/books/class12/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA63",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Class 12 Biology Lab Manual",
+            "chapterpath": "board/ncert/books/class12/biologylabmanual/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA64",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          } 
+        ]
+      }
+    ]
+  },
+  {
     "categorytitle": "NCERT Books",
     "elogo": "fa-solid fa-file-pen",
     "active": true,
