@@ -103,27 +103,24 @@
         ]
       },
       {
-        "subjecttitle": "NCERT Class 11 Books",
-        "slogo": "fa-solid fa-book",
-        "active": true,
+        "subjecttitle": "NEET Practice Papers",
+        "slogo": "fa-solid fa-stethoscope", 
         "chapters": [
           {
-            "chaptertitle": "Class 11 An Introduction to Indian Art Part 1",
-            "chapterpath": "board/ncert/books/class11/anintroductiontoindianartpart1/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA20",
-            "datatype": "link",
-            "active": true,
-            "common": true
+            "chaptertitle": "NEET Previous Papers",
+            "chapterpath": "exams/neet/previous/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"NPP",
+            "datatype": "exams",
+            "common":false
           },
           {
-            "chaptertitle": "Class 11 Applied Mathematics",
-            "chapterpath": "board/ncert/books/class11/appliedmathematics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA21",
-            "datatype": "link",
-            "active": true,
-            "common": true
+            "chaptertitle": "NEET Model Papers",
+            "chapterpath": "exams/neet/model/",
+            "clogo": "fa-solid fa-pen",
+            "savekey":"NMP",
+            "datatype": "exams",
+            "common":false
           } 
         ]
       },
