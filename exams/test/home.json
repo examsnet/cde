@@ -10,8 +10,8 @@
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "NEET Biology Tutorials",
-            "chapterpath": "board/ncert/books/class10/contemporaryindia/",
+            "chaptertitle": "NEET Biology Class 11 Tutorials",
+            "chapterpath": "exams/neet/youtube/class11biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -19,7 +19,7 @@
             "common": true
           },
           {
-            "chaptertitle": "Democratic Politics",
+            "chaptertitle": "NEET Biology Class 12 Tutorials",
             "chapterpath": "board/ncert/books/class10/democraticpolitics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
