@@ -97,6 +97,29 @@
     ]
   },
   {
+    "categorytitle": "Youtube Tutorials",
+    "elogo": "fa-brands fa-youtube",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "NEET Video Tutorials",
+        "slogo": "fa-solid fa-video",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "NEET Biology Class 11 Lecture",
+            "chapterpath": "exams/neet/youtube/class11biology/",
+            "clogo": "fa-brands fa-youtube",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
     "categorytitle": "Study Notes",
     "elogo": "fa-solid fa-book-open-reader",
     "subjects": [
