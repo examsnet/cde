@@ -146,7 +146,7 @@
     "submenu": [  
       {
         "icon": "fa-brands fa-android",
-        "title": "Engineering Papers",
+        "title": "CBSE Papers",
         "link": "market://details?id=com.examsnet.cbsepapers"
       },
       {
