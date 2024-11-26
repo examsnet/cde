@@ -391,6 +391,136 @@
         ]
       }
     ]
+  },{
+    "categorytitle": "Advanced S6 ANP Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "Advanced S6 ANP Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters":  [
+          {
+            "chaptertitle": "S6 ANP Biology-ii",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/biology-ii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Biology-iii",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/biology-iii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Chemistry-ii",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/chemistry-ii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Chemistry-iii",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/chemistry-iii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP English",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Ethics Professional Code",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/ethicsprofessionalcode/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Fundamentals Of Nursing",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/fundamentalsofnursing/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Maternal Child Health",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/maternalchildhealth/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Medical Pathology",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/medicalpathology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Pharmacology",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/pharmacology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Physics",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Physics-iii",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/physics-iii/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "S6 ANP Surgical Pathology",
+            "chapterpath": "africa/rwanda/Advanced-S6-ANP/surgicalpathology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA12",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
   } 
   
 ]
