@@ -1,0 +1,310 @@
+[ 
+  {
+    "categorytitle": "Nigeria Exam Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "JAMB Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters": [
+          {
+            "chaptertitle": "Accounts Principles of Accounts",
+            "chapterpath": "africa/nigeria/jamb/accounts/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Agricultural Science",
+            "chapterpath": "africa/nigeria/jamb/agriculture/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "africa/nigeria/jamb/biology/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Chemistry",
+            "chapterpath": "africa/nigeria/jamb/chemistry/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Christian Religious Knowledge",
+            "chapterpath": "africa/nigeria/jamb/crk/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Commerce",
+            "chapterpath": "africa/nigeria/jamb/commerce/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Computer Studies",
+            "chapterpath": "africa/nigeria/jamb/computer/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA7",
+            "datatype": "exams",
+            "active": false,
+            "common": false
+          },
+          {
+            "chaptertitle": "Economics",
+            "chapterpath": "africa/nigeria/jamb/economics/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA8",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "English Language",
+            "chapterpath": "africa/nigeria/jamb/english/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "English Literature",
+            "chapterpath": "africa/nigeria/jamb/englishliterature/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA10",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Geography",
+            "chapterpath": "africa/nigeria/jamb/geography/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA11",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Government",
+            "chapterpath": "africa/nigeria/jamb/government/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "History",
+            "chapterpath": "africa/nigeria/jamb/history/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA13",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Islamic Religious Knowledge",
+            "chapterpath": "africa/nigeria/jamb/irk/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA14",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Mathematics",
+            "chapterpath": "africa/nigeria/jamb/math/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA15",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Physics",
+            "chapterpath": "africa/nigeria/jamb/physics/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA16",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          } 
+           
+        ]
+      } 
+       
+    ]
+  },
+  {
+    "categorytitle": "WAEC Exam Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "WAEC Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters": [
+          {
+            "chaptertitle": "Accounting",
+            "chapterpath": "africa/nigeria/waec/accounting/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Agricultural",
+            "chapterpath": "africa/nigeria/waec/agriculture/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "africa/nigeria/waec/biology/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Chemistry",
+            "chapterpath": "africa/nigeria/waec/chemistry/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Christian Religious Studies",
+            "chapterpath": "africa/nigeria/waec/crs/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Commerce",
+            "chapterpath": "africa/nigeria/waec/commerce/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Computer Studies",
+            "chapterpath": "africa/nigeria/waec/ict/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE7",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Economics",
+            "chapterpath": "africa/nigeria/waec/economics/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE8",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "English Language",
+            "chapterpath": "africa/nigeria/waec/english/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "English Literature",
+            "chapterpath": "africa/nigeria/waec/englishliterature/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE10",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Geography",
+            "chapterpath": "africa/nigeria/waec/geography/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE11",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Government",
+            "chapterpath": "africa/nigeria/waec/governament/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE12",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Civic Education",
+            "chapterpath": "africa/nigeria/waec/civiceducation/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE13",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Islamic Religious Studies",
+            "chapterpath": "africa/nigeria/waec/irs/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE14",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "africa/nigeria/waec/math/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE15",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }, 
+          {
+            "chaptertitle": "Further Mathematics",
+            "chapterpath": "africa/nigeria/waec/furmath/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE16",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "Physics",
+            "chapterpath": "africa/nigeria/waec/physics/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "WAE17",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          } 
+        ]
+      }
+    ]
+  } 
+   
+   
+]
