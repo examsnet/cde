@@ -11,7 +11,7 @@
         "expand": true,
         "chapters": [
           {
-            "chaptertitle": "cbse Class 10 concepts Biology Papers",
+            "chaptertitle": "Class 10 Biology Concepts",
             "chapterpath": "cbse/concepts/Class10/biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
@@ -20,7 +20,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 10 concepts Chemistry Papers",
+            "chaptertitle": "Class 10 Chemistry Concepts",
             "chapterpath": "cbse/concepts/Class10/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
@@ -29,7 +29,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 10 concepts Math Papers",
+            "chaptertitle": "Class 10 Math Concepts",
             "chapterpath": "cbse/concepts/Class10/math/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
@@ -38,7 +38,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 10 concepts Physics Papers",
+            "chaptertitle": "Class 10 Physics Concepts",
             "chapterpath": "cbse/concepts/Class10/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
@@ -47,7 +47,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 10 concepts Social Science Papers",
+            "chaptertitle": "Class 10 Social Science Concepts",
             "chapterpath": "cbse/concepts/Class10/socialscience/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA4",
@@ -63,7 +63,7 @@
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "cbse Class 11 concepts Chemistry Papers",
+            "chaptertitle": "Class 11 Chemistry Concepts",
             "chapterpath": "cbse/concepts/Class11/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
@@ -72,7 +72,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 11 concepts Math Papers",
+            "chaptertitle": "Class 11 Math Concepts",
             "chapterpath": "cbse/concepts/Class11/math/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
@@ -81,7 +81,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 11 concepts Physics Papers",
+            "chaptertitle": "Class 11 Physics Concepts",
             "chapterpath": "cbse/concepts/Class11/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA7",
@@ -97,7 +97,7 @@
         "active": true,
         "chapters": [
           {
-            "chaptertitle": "cbse Class 12 concepts Biology Papers",
+            "chaptertitle": "Class 12 Biology Concepts",
             "chapterpath": "cbse/concepts/Class12/biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA8",
@@ -106,7 +106,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 12 concepts Chemistry Papers",
+            "chaptertitle": "Class 12 Chemistry Concepts",
             "chapterpath": "cbse/concepts/Class12/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA9",
@@ -115,7 +115,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 12 concepts Math Papers",
+            "chaptertitle": "Class 12 Math Concepts",
             "chapterpath": "cbse/concepts/Class12/math/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA10",
@@ -124,7 +124,7 @@
             "common": true
           },
           {
-            "chaptertitle": "cbse Class 12 concepts Physics Papers",
+            "chaptertitle": "Class 12 Physics Concepts",
             "chapterpath": "cbse/concepts/Class12/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA11",
