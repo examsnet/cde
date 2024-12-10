@@ -1,17 +1,18 @@
 [
   {
-    "categorytitle": "Youtube Tutorials",
+    "categorytitle": "CBSE Concepts",
     "elogo": "fa-solid fa-file-pen",
     "active": true,
     "subjects": [
       {
-        "subjecttitle": "NEET Exam Tutorials",
+        "subjecttitle": "CBSE Class 10 Concepts",
         "slogo": "fa-solid fa-book",
         "active": true,
+        "expand": true,
         "chapters": [
           {
-            "chaptertitle": "NEET Biology Class 11 Tutorials",
-            "chapterpath": "exams/neet/youtube/class11biology/",
+            "chaptertitle": "cbse Class 10 concepts Biology Papers",
+            "chapterpath": "cbse/concepts/Class10/biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -19,8 +20,8 @@
             "common": true
           },
           {
-            "chaptertitle": "NEET Biology Class 12 Tutorials",
-            "chapterpath": "board/ncert/books/class10/democraticpolitics/",
+            "chaptertitle": "cbse Class 10 concepts Chemistry Papers",
+            "chapterpath": "cbse/concepts/Class10/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -28,8 +29,8 @@
             "common": true
           },
           {
-            "chaptertitle": "Design Thinking and Innovation",
-            "chapterpath": "board/ncert/books/class10/designthinkingandinnovation/",
+            "chaptertitle": "cbse Class 10 concepts Math Papers",
+            "chapterpath": "cbse/concepts/Class10/math/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -37,8 +38,8 @@
             "common": true
           },
           {
-            "chaptertitle": "First Flight",
-            "chapterpath": "board/ncert/books/class10/firstflight/",
+            "chaptertitle": "cbse Class 10 concepts Physics Papers",
+            "chapterpath": "cbse/concepts/Class10/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -46,17 +47,24 @@
             "common": true
           },
           {
-            "chaptertitle": "Footprints Without Feet",
-            "chapterpath": "board/ncert/books/class10/footprintswithoutfeet/",
+            "chaptertitle": "cbse Class 10 concepts Social Science Papers",
+            "chapterpath": "cbse/concepts/Class10/socialscience/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA4",
             "datatype": "link",
             "active": true,
             "common": true
-          },
+          }
+        ]
+      },
+      {
+        "subjecttitle": "CBSE Class 11 Concepts",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
           {
-            "chaptertitle": "Health and Physical Education",
-            "chapterpath": "board/ncert/books/class10/healthandphysicaleducation/",
+            "chaptertitle": "cbse Class 11 concepts Chemistry Papers",
+            "chapterpath": "cbse/concepts/Class11/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
             "datatype": "link",
@@ -64,8 +72,8 @@
             "common": true
           },
           {
-            "chaptertitle": "India and the Contemporary World 2",
-            "chapterpath": "board/ncert/books/class10/indiaandthecontemporaryworld2/",
+            "chaptertitle": "cbse Class 11 concepts Math Papers",
+            "chapterpath": "cbse/concepts/Class11/math/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
             "datatype": "link",
@@ -73,17 +81,24 @@
             "common": true
           },
           {
-            "chaptertitle": "Interact in English Communicative Course",
-            "chapterpath": "board/ncert/books/class10/interactinenglishcommunicativecourse/",
+            "chaptertitle": "cbse Class 11 concepts Physics Papers",
+            "chapterpath": "cbse/concepts/Class11/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA7",
             "datatype": "link",
             "active": true,
             "common": true
-          },
+          }
+        ]
+      },
+      {
+        "subjecttitle": "CBSE Class 12 Concepts",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
           {
-            "chaptertitle": "Interact in English Literature Reader",
-            "chapterpath": "board/ncert/books/class10/interactinenglishliteraturereader/",
+            "chaptertitle": "cbse Class 12 concepts Biology Papers",
+            "chapterpath": "cbse/concepts/Class12/biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA8",
             "datatype": "link",
@@ -91,100 +106,40 @@
             "common": true
           },
           {
-            "chaptertitle": "Interact in English Main Course Book Communicative",
-            "chapterpath": "board/ncert/books/class10/interactinenglishmaincoursebookcommunicative/",
+            "chaptertitle": "cbse Class 12 concepts Chemistry Papers",
+            "chapterpath": "cbse/concepts/Class12/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA9",
             "datatype": "link",
             "active": true,
             "common": true
-          } 
+          },
+          {
+            "chaptertitle": "cbse Class 12 concepts Math Papers",
+            "chapterpath": "cbse/concepts/Class12/math/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA10",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "cbse Class 12 concepts Physics Papers",
+            "chapterpath": "cbse/concepts/Class12/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA11",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
            
         ]
-      },
-      {
-        "subjecttitle": "NEET Practice Papers",
-        "slogo": "fa-solid fa-stethoscope", 
-        "chapters": [
-          {
-            "chaptertitle": "NEET Previous Papers",
-            "chapterpath": "exams/neet/previous/",
-            "clogo": "fa-solid fa-pen",
-            "savekey":"NPP",
-            "datatype": "exams",
-            "common":false
-          },
-          {
-            "chaptertitle": "NEET Model Papers",
-            "chapterpath": "exams/neet/model/",
-            "clogo": "fa-solid fa-pen",
-            "savekey":"NMP",
-            "datatype": "exams",
-            "common":false
-          } 
-        ]
-      },
-      {
-        "subjecttitle": "NCERT Class 12 Books",
-        "slogo": "fa-solid fa-book",
-        "active": true,
-        "chapters": [
-          {
-            "chaptertitle": "Class 12 Accountancy Part 1",
-            "chapterpath": "board/ncert/books/class12/accountancypart1/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA59",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Class 12 Accountancy Part 2",
-            "chapterpath": "board/ncert/books/class12/accountancypart2/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA60",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Class 12 An Introduction to Indian Art",
-            "chapterpath": "board/ncert/books/class12/anintroductiontoindianart/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA61",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Class 12 Applied Mathematics",
-            "chapterpath": "board/ncert/books/class12/appliedmathematics/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA62",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Class 12 Biology",
-            "chapterpath": "board/ncert/books/class12/biology/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA63",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          },
-          {
-            "chaptertitle": "Class 12 Biology Lab Manual",
-            "chapterpath": "board/ncert/books/class12/biologylabmanual/",
-            "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA64",
-            "datatype": "link",
-            "active": true,
-            "common": true
-          } 
-        ]
       }
+       
+      
+       
+      
+       
     ]
   },
   {
