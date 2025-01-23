@@ -144,7 +144,7 @@
     ]
   },
   { 
-    "title": "Best Apps",
+    "title": "Best Study Apps",
     "icon": "fa-solid fa-mobile-screen",
     "link": "#",
     "type": "links",
@@ -172,14 +172,14 @@
     ]
   },
   { 
-    "title": "Best Apps",
+    "title": "Best Practice Apps",
     "icon": "fa-solid fa-mobile-screen",
     "link": "#",
     "type": "links",
     "submenu": [ 
       {
         "icon": "fa-brands fa-android",
-        "title": "Engineering Papers",
+        "title": "CBSE Papers",
         "link": "market://details?id=com.examsnet.cbsepapers"
       },
       {
@@ -191,29 +191,8 @@
         "icon": "fa-brands fa-android",
         "title": "JEE Papers",
         "link": "market://details?id=com.examsnet.jeepapers"
-      },
-      {
-        "icon": "fa-brands fa-android",
-        "title": "Math Formulas",
-        "link": "market://details?id=com.whitesof.mathformulas"
-      },
-     
-      {
-        "icon": "fa-brands fa-android",
-        "title": "MPCB Notes",
-        "link": "market://details?id=com.examsnet.pcmbnotes"
-      },
-     
-      {
-        "icon": "fa-brands fa-android",
-        "title": "Periodic Table",
-        "link": "market://details?id=com.whitesof.periodictable"
-      },
-      {
-        "icon": "fa-brands fa-android",
-        "title": "Physics Notes",
-        "link": "market://details?id=com.whitesof.physicsnotes"
       }
+       
     ]
   },
   {
