@@ -37,7 +37,7 @@
         "chapters": [
           {
             "chaptertitle": "Theory Study Materials",
-            "chapterpath": "europe/ukdriving/theory/",
+            "chapterpath": "europe/uk/driving/theory/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "BA1",
             "datatype": "link",
