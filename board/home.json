@@ -45,6 +45,24 @@
             "common": true
           },
           {
+            "chaptertitle": "CBSE Class 10 Math Basic Papers",
+            "chapterpath": "cbse/Class10/mathbasic/",
+            "clogo": "fa-solid fa-list",
+            "savekey": "BEXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "CBSE Class 10 Math Standard Papers",
+            "chapterpath": "cbse/Class10/mathstandard/",
+            "clogo": "fa-solid fa-list",
+            "savekey": "BEXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
             "chaptertitle": "Science",
             "chapterpath": "board/cbse/class10/science/",
             "clogo": "fa-solid fa-list",
@@ -458,14 +476,8 @@
             "active": true,
             "common": true
           }
-           
         ]
       }
-       
-      
-       
-      
-       
     ]
   },
   {
@@ -1469,10 +1481,10 @@
     ]
   },
   {
-      "categorytitle": "NCERT Book Solutions",
-      "elogo": "fa-solid fa-file-pen",
-      "active": true,
-      "subjects": [
+    "categorytitle": "NCERT Book Solutions",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
       {
         "subjecttitle": "NCERT Class 10 Book Solutions",
         "slogo": "fa-solid fa-book",
@@ -2762,7 +2774,7 @@
             "common": true
           }
         ]
-      } 
+      }
     ]
   }
 ]
