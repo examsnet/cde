@@ -20,7 +20,7 @@
           },  
           {
             "chaptertitle": "CA Foundation Prev Papers",
-            "chapterpath": "india/cafound/previous/",
+            "chapterpath": "india/cafoundation/previous/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA4",
             "datatype": "link",
@@ -29,7 +29,7 @@
           },
           {
             "chaptertitle": "CA Foundation RTP",
-            "chapterpath": "india/cafound/rtp/",
+            "chapterpath": "india/cafoundation/rtp/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA4",
             "datatype": "link",
@@ -38,7 +38,7 @@
           },
           {
             "chaptertitle": "CA Foundation MTP",
-            "chapterpath": "india/cafound/mtp/",
+            "chapterpath": "india/cafoundation/mtp/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA4",
             "datatype": "link",
@@ -89,7 +89,7 @@
         "chapters": [
           {
             "chaptertitle": "Accounting",
-            "chapterpath": "study/cafound/accounting/",
+            "chapterpath": "study/cafoundation/accounting/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -98,7 +98,7 @@
           },
           {
             "chaptertitle": "Business Laws",
-            "chapterpath": "study/cafound/businesslaws/",
+            "chapterpath": "study/cafoundation/businesslaws/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -107,7 +107,7 @@
           },
           {
             "chaptertitle": "Quantitative Aptitude",
-            "chapterpath": "study/cafound/quantitativeaptitude/",
+            "chapterpath": "study/cafoundation/quantitativeaptitude/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -116,7 +116,7 @@
           },
           {
             "chaptertitle": "Business Economics",
-            "chapterpath": "study/cafound/businesseconomics/",
+            "chapterpath": "study/cafoundation/businesseconomics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -125,7 +125,7 @@
           }, 
           {
             "chaptertitle": "Last Mile Referencer",
-            "chapterpath": "study/cafound/lastmilereferencer/",
+            "chapterpath": "study/cafoundation/lastmilereferencer/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
             "datatype": "link",
