@@ -86,6 +86,7 @@
         "subjecttitle": "Books",
         "slogo": "fa-solid fa-book",
         "active": true,
+        "expand":true,
         "chapters": [
           {
             "chaptertitle": "Accounting",
