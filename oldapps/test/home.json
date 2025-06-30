@@ -1,0 +1,139 @@
+[
+  {
+    "categorytitle": "Choose Your Exam",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "CA Exam Papers",
+        "slogo": "fa-solid fa-user-group",
+        "expand":true,
+        "chapters": [
+          {
+            "chaptertitle": "CA Foundation Prev Tests",
+            "chapterpath": "exams/caexam/cafoundprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },  
+          {
+            "chaptertitle": "CA Foundation Prev Papers",
+            "chapterpath": "india/cafound/previous/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "CA Foundation RTP",
+            "chapterpath": "india/cafound/rtp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "CA Foundation MTP",
+            "chapterpath": "india/cafound/mtp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },             
+          {
+            "chaptertitle": "CA Foundation By Chapter",
+            "chapterpath": "exams/caexam/cafoundchapter/math/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+
+          {
+            "chaptertitle": "CA CPT Model Papers",
+            "chapterpath": "exams/caexam/cptmodel/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA0",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "CA CPT Previous Papers",
+            "chapterpath": "exams/caexam/cptprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      }        
+    ]
+  }, 
+  {
+    "categorytitle": "Study Material",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "Books",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Accounting",
+            "chapterpath": "study/cafound/accounting/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Business Laws",
+            "chapterpath": "study/cafound/businesslaws/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Quantitative Aptitude",
+            "chapterpath": "study/cafound/quantitativeaptitude/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Business Economics",
+            "chapterpath": "study/cafound/businesseconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }, 
+          {
+            "chaptertitle": "Last Mile Referencer",
+            "chapterpath": "study/cafound/lastmilereferencer/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          } 
+        ]
+      }
+    ]
+  }
+]
