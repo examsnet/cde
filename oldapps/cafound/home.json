@@ -10,15 +10,41 @@
         "expand":true,
         "chapters": [
           {
-            "chaptertitle": "CA Foundation Previous Papers",
+            "chaptertitle": "CA Foundation Prev Tests",
             "chapterpath": "exams/caexam/cafoundprev/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA4",
             "datatype": "exams",
             "active": true,
             "common": false
+          },  
+          {
+            "chaptertitle": "CA Foundation Prev Papers",
+            "chapterpath": "india/cafoundation/previous/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
           },
-          
+          {
+            "chaptertitle": "CA Foundation RTP",
+            "chapterpath": "india/cafoundation/rtp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "CA Foundation MTP",
+            "chapterpath": "india/cafoundation/mtp/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },             
           {
             "chaptertitle": "CA Foundation By Chapter",
             "chapterpath": "exams/caexam/cafoundchapter/math/",
@@ -47,6 +73,66 @@
             "active": true,
             "common": false
           }
+        ]
+      }        
+    ]
+  }, 
+  {
+    "categorytitle": "Study Material",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "Books",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "expand":true,
+        "chapters": [
+          {
+            "chaptertitle": "Accounting",
+            "chapterpath": "study/cafoundation/accounting/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Business Laws",
+            "chapterpath": "study/cafoundation/businesslaws/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Quantitative Aptitude",
+            "chapterpath": "study/cafoundation/quantitativeaptitude/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Business Economics",
+            "chapterpath": "study/cafoundation/businesseconomics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }, 
+          {
+            "chaptertitle": "Last Mile Referencer",
+            "chapterpath": "study/cafoundation/lastmilereferencer/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          } 
         ]
       }
     ]
