@@ -90,6 +90,28 @@
             "common": true
           }
         ]
+      },
+      {
+        "subjecttitle": "Biology Notes",
+        "slogo": "fa-solid fa-book",
+        "chapters": [
+          {
+            "chaptertitle": "Biology Class 11 Notes",
+            "chapterpath": "notes/hb/biology11/",
+            "clogo": "fa-solid fa-book-open",
+            "datatype": "notes",
+            "active" : true,
+            "common":true
+          },
+          {
+            "chaptertitle": "Biology Class 12 Notes",
+            "chapterpath": "notes/hb/biology12/",
+            "clogo": "fa-solid fa-book-open",
+            "datatype": "notes",
+            "active" : true,
+            "common":true
+          }
+        ]
       }
     ]
   },
