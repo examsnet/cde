@@ -1,0 +1,395 @@
+[
+  {
+    "categorytitle": "Choose your exam",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      
+      {
+        "subjecttitle": "Delhi Police Exams",
+        "slogo": "fa-solid fa-shield-halved",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Delhi Police  Head Constable Previous",
+            "chapterpath": "exams/police/dpheadprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Delhi Police Constable Model Papers",
+            "chapterpath": "exams/police/dpconstmd/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "Delhi Police Constable Previous Papers",
+            "chapterpath": "exams/police/dpconstprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      }
+       
+    ]
+  },
+  {
+    "categorytitle": "Study Material",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "General Studies",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "study/generalstudies/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "study/generalstudies/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Environment Ecology",
+            "chapterpath": "study/generalstudies/environmentecology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "History",
+            "chapterpath": "study/generalstudies/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "India and World Geography",
+            "chapterpath": "study/generalstudies/indiaandworldgeography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Economy",
+            "chapterpath": "study/generalstudies/indianeconomy/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Indian Politics",
+            "chapterpath": "study/generalstudies/indianpolitics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "study/generalstudies/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Science and Technology",
+            "chapterpath": "study/generalstudies/scienceandtechnology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "More Practice Tests",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "Quantitative Aptitude",
+        "slogo": "fa-solid fa-calculator",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Algebra and Higher Math",
+            "chapterpath": "exams/aptitude/algebra/",
+            "clogo": "fa-solid fa-square-root-variable",
+            "savekey": "QA1",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Arithmetic",
+            "chapterpath": "exams/aptitude/arithmetic/",
+            "clogo": "fa-solid fa-pen-ruler",
+            "savekey": "QA2",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Commercial Math",
+            "chapterpath": "exams/aptitude/commercial/",
+            "clogo": "fa-solid fa-hand-holding-dollar",
+            "savekey": "QA3",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Data Based Math",
+            "chapterpath": "exams/aptitude/data/",
+            "clogo": "fa-solid fa-chart-pie",
+            "savekey": "QA4",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Geometry and Mensuration",
+            "chapterpath": "exams/aptitude/geometry/",
+            "clogo": "fa-solid fa-shapes",
+            "savekey": "QA5",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Number System and Numeracy",
+            "chapterpath": "exams/aptitude/numbers/",
+            "clogo": "fa-solid fa-sort-numeric-up-alt",
+            "savekey": "QA6",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Problem Solving",
+            "chapterpath": "exams/aptitude/problems/",
+            "clogo": "fa-solid fa-puzzle-piece",
+            "savekey": "QA7",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "English Practice",
+        "slogo": "fa-solid fa-user-tie",
+        "active": true,
+        "chapters": [
+          {
+            "chaptertitle": "Antonyms Tests",
+            "chapterpath": "exams/english/antonyms/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN1",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Synonyms Tests",
+            "chapterpath": "exams/english/synonyms/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN2",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Spelling Check Tests",
+            "chapterpath": "exams/english/spelling/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN3",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Spotting Errors",
+            "chapterpath": "exams/english/errors/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN4",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "One Word Substitutes",
+            "chapterpath": "exams/english/oneword/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN5",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Selecting Words",
+            "chapterpath": "exams/english/selecting/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN6",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Sentence Correction",
+            "chapterpath": "exams/english/correction/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN7",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Idioms and Phrases",
+            "chapterpath": "exams/english/idioms/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN8",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Sentence Improvement",
+            "chapterpath": "exams/english/improvement/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN9",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Grammar Online",
+            "chapterpath": "exams/english/grammar/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN10",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Common Error Detection",
+            "chapterpath": "exams/english/commonerror/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN11",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Sentence Completion",
+            "chapterpath": "exams/english/completion/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN12",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Direct and Indirect Speech",
+            "chapterpath": "exams/english/speech/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN13",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Ordering Words",
+            "chapterpath": "exams/english/orderingwords/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN14",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Ordering Sentences",
+            "chapterpath": "exams/english/orderingsentence/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN15",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Verbal Analogies",
+            "chapterpath": "exams/english/verbal/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN16",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Sentence Formation",
+            "chapterpath": "exams/english/formation/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN17",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Completing Statements",
+            "chapterpath": "exams/english/statements/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN18",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Change of Speech",
+            "chapterpath": "exams/english/change/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EN19",
+            "datatype": "exams",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  }
+]
