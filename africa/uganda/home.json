@@ -8,7 +8,7 @@
         "slogo": "fa-solid fa-user-astronaut",
         "active": true,
         "expand": false,
-        "chapters":   [
+        "chapters": [
           {
             "chaptertitle": "PLE English",
             "chapterpath": "africa/uganda/ple/english/",
@@ -58,12 +58,21 @@
         "slogo": "fa-solid fa-book",
         "active": true,
         "expand": false,
-        "chapters":   [
+        "chapters": [
           {
             "chaptertitle": "UCE Agriculture",
             "chapterpath": "africa/uganda/uce/agriculture/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "UCE Art Papers",
+            "chapterpath": "africa/uganda/uce/artpapers/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA23",
             "datatype": "link",
             "active": true,
             "common": true
@@ -114,10 +123,55 @@
             "common": true
           },
           {
+            "chaptertitle": "UCE Enterprenureship",
+            "chapterpath": "africa/uganda/uce/enterprenureship/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA20",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
             "chaptertitle": "UCE Food Nutrition",
             "chapterpath": "africa/uganda/uce/foodnutrition/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "UCE French",
+            "chapterpath": "africa/uganda/uce/french/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA21",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "UCE General Science",
+            "chapterpath": "africa/uganda/uce/generalscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA16",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "UCE Geography",
+            "chapterpath": "africa/uganda/uce/geography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA22",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "UCE German",
+            "chapterpath": "africa/uganda/uce/german/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA18",
             "datatype": "link",
             "active": true,
             "common": true
@@ -186,10 +240,37 @@
             "common": true
           },
           {
+            "chaptertitle": "UCE Lumasaaba",
+            "chapterpath": "africa/uganda/uce/lumasaaba/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA17",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "UCE Lusoga",
+            "chapterpath": "africa/uganda/uce/lusoga/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA19",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
             "chaptertitle": "UCE Mathematics",
             "chapterpath": "africa/uganda/uce/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA14",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "UCE Physical Education",
+            "chapterpath": "africa/uganda/uce/physicaleducation/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA24",
             "datatype": "link",
             "active": true,
             "common": true
@@ -216,7 +297,7 @@
         "slogo": "fa-solid fa-user-astronaut",
         "active": true,
         "expand": false,
-        "chapters":    [
+        "chapters": [
           {
             "chaptertitle": "UACE Agriculture",
             "chapterpath": "africa/uganda/uace/agriculture/",
@@ -418,6 +499,5 @@
         ]
       }
     ]
-  } 
-  
+  }
 ]
