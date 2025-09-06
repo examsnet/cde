@@ -28,7 +28,7 @@
           },
           {
             "chaptertitle": "UPSC CDS Papers PDF",
-            "chapterpath": "india/upsc/cds/previous/",
+            "chapterpath": "india/upsc/cds/previouspapers/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -106,7 +106,7 @@
           },
           {
             "chaptertitle": "UPSC NDA Papers PDF",
-            "chapterpath": "india/upsc/nda/previous/",
+            "chapterpath": "india/upsc/nda/previouspapers/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -183,7 +183,7 @@
           },
           {
             "chaptertitle": "UPSC Civils Papers PDF",
-            "chapterpath": "india/upsc/civils/previous/",
+            "chapterpath": "india/upsc/civils/previouspapers/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -208,7 +208,7 @@
           },
           {
             "chaptertitle": "CAPF Previous PDF",
-            "chapterpath": "india/upsc/capf/previous/",
+            "chapterpath": "india/upsc/capf/previouspapers/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -217,6 +217,54 @@
         }   
         ]
       }
+    ]
+  },
+  {
+    "categorytitle": "More UPSC Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "UPSC Previous Papers PDF",
+        "slogo": "fa-solid fa-calculator",
+        "chapters": [
+          {
+            "chaptertitle": "CISF Previous Papers",
+            "chapterpath": "india/upsc/cisf/previouspapers/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },   
+          {
+            "chaptertitle": "CMS Previous Papers",
+            "chapterpath": "india/upsc/cms/previouspapers/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },     
+          {
+            "chaptertitle": "Engineering Mains Previous Papers",
+            "chapterpath": "india/upsc/engineering/mainspreviouspapers/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Engineering Prelims Previous Papers",
+            "chapterpath": "india/upsc/engineering/prelimspreviouspapers/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      } 
     ]
   },
   {
