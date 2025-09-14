@@ -97,7 +97,34 @@
             "common": false
           },
           {
-            "chaptertitle": "IBPS RRB Officer Scale 1 Model Papers",
+            "chaptertitle": "IBPS RRB Office Assistant Mains Papers",
+            "chapterpath": "exams/bank/ibpsrrboamains/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "IBPS RRB PO Previous Papers",
+            "chapterpath": "exams/bank/ibpsrrbofficersprev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "IBPS RRB PO Mains Papers",
+            "chapterpath": "exams/bank/ibpsrrbpomains/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "BA9",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "IBPS RRB Officer Scale 1 Papers",
             "chapterpath": "exams/bank/ibpsrrbofficersscale1mod/",
             "clogo": "fa-solid fa-pen",
             "savekey": "BA8",
