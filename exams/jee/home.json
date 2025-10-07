@@ -36,11 +36,11 @@
         ]
       },
       {
-        "subjecttitle": "JEE Main Chapters Wise",
+        "subjecttitle": "JEE Main Chapters Wise Questions",
         "slogo": "fa-solid fa-user-pen",
         "chapters": [
           {
-            "chaptertitle": "Class 11 Math Questions",
+            "chaptertitle": "JEE Main Class 11 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J1M",
@@ -49,7 +49,7 @@
             "common": false
           },
           {
-            "chaptertitle": "Class 12 Math Questions",
+            "chaptertitle": "JEE Main Class 12 Math Questions",
             "chapterpath": "exams/jee/mainchapters/math12/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J2M",
@@ -58,7 +58,7 @@
             "common": false
           },
           {
-            "chaptertitle": "Class 11 Chemistry Questions",
+            "chaptertitle": "JEE Main Class 11 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J1C",
@@ -67,7 +67,7 @@
             "common": false
           },
           {
-            "chaptertitle": "Class 12 Chemistry Questions",
+            "chaptertitle": "JEE Main Class 12 Chemistry Questions",
             "chapterpath": "exams/jee/mainchapters/chemistry12/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J2C",
@@ -76,7 +76,7 @@
             "common": false
           },
           {
-            "chaptertitle": "Class 11 Physics Questions",
+            "chaptertitle": "JEE Main Class 11 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J1P",
@@ -85,7 +85,7 @@
             "common": false
           },
           {
-            "chaptertitle": "Class 12 Physics Questions",
+            "chaptertitle": "JEE Main Class 12 Physics Questions",
             "chapterpath": "exams/jee/mainchapters/physics12/",
             "clogo": "fa-solid fa-user-pen",
             "savekey": "J2P",
@@ -113,6 +113,66 @@
             "chapterpath": "exams/jee/advmodel/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "JAM",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          }
+        ]
+      },
+      {
+        "subjecttitle": "JEE Advanced Chapters Wise Questions",
+        "slogo": "fa-solid fa-user-pen",
+        "chapters": [
+          {
+            "chaptertitle": "JEE Adv Class 11 Math Questions",
+            "chapterpath": "exams/jee/advchapters/math11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "J1AD",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "JEE Adv Class 12 Math Questions",
+            "chapterpath": "exams/jee/advchapters/math12/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "J2AD",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "JEE Adv Class 11 Chemistry Questions",
+            "chapterpath": "exams/jee/advchapters/chemistry11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "J3AD",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "JEE Adv Class 12 Chemistry Questions",
+            "chapterpath": "exams/jee/advchapters/chemistry12/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "J4AD",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "JEE Adv Class 11 Physics Questions",
+            "chapterpath": "exams/jee/advchapters/physics11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "J5AD",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "JEE Adv Class 12 Physics Questions",
+            "chapterpath": "exams/jee/advchapters/physics12/",
+            "clogo": "fa-solid fa-user-pen",
+            "savekey": "J6AD",
             "datatype": "exams", 
             "active": true,
             "common": false
@@ -200,7 +260,7 @@
         "subjecttitle": "CBSE Class 10 Concepts",
         "slogo": "fa-solid fa-book",
         "active": true,
-        "expand": true,
+        "expand": false,
         "chapters": [
           {
             "chaptertitle": "Class 10 Biology Concepts",
