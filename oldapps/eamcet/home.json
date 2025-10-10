@@ -28,7 +28,67 @@
             "common": false
           } 
         ]
-      },    
+      },   
+      {
+        "subjecttitle": "AP EAPCET Chapters Wise Questions",
+        "slogo": "fa-solid fa-user-pen",
+        "chapters": [
+          {
+            "chaptertitle": "AP EAPCET Class 11 Math Questions",
+            "chapterpath": "exams/engineering/apeapcetchapters/math11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "AP1M",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "AP EAPCET Class 12 Math Questions",
+            "chapterpath": "exams/engineering/apeapcetchapters/math12/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "AP2M",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "AP EAPCET Class 11 Chemistry Questions",
+            "chapterpath": "exams/engineering/apeapcetchapters/chemistry11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "AP1C",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "AP EAPCET Class 12 Chemistry Questions",
+            "chapterpath": "exams/engineering/apeapcetchapters/chemistry12/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "AP2C",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "AP EAPCET Class 11 Physics Questions",
+            "chapterpath": "exams/engineering/apeapcetchapters/physics11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "AP1P",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "AP EAPCET Class 12 Physics Questions",
+            "chapterpath": "exams/engineering/apeapcetchapters/physics12/",
+            "clogo": "fa-solid fa-user-pen",
+            "savekey": "AP2P",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          }
+        ]
+      }, 
       {
         "subjecttitle": "TS EAMCET Papers",
         "slogo": "fa-solid fa-user-group",
@@ -47,6 +107,66 @@
         ]
       },
       {
+        "subjecttitle": "TG EAPCET Chapters Wise Questions",
+        "slogo": "fa-solid fa-user-pen",
+        "chapters": [
+          {
+            "chaptertitle": "TG EAPCET Class 11 Math Questions",
+            "chapterpath": "exams/engineering/tgeapcetchapters/math11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "TG1M",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "TG EAPCET Class 12 Math Questions",
+            "chapterpath": "exams/engineering/tgeapcetchapters/math12/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "TG2M",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "TG EAPCET Class 11 Chemistry Questions",
+            "chapterpath": "exams/engineering/tgeapcetchapters/chemistry11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "TG1C",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "TG EAPCET Class 12 Chemistry Questions",
+            "chapterpath": "exams/engineering/tgeapcetchapters/chemistry12/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "TG2C",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "TG EAPCET Class 11 Physics Questions",
+            "chapterpath": "exams/engineering/tgeapcetchapters/physics11/",
+            "clogo": "fa-solid fa-pencil",
+            "savekey": "TG1P",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "TG EAPCET Class 12 Physics Questions",
+            "chapterpath": "exams/engineering/tgeapcetchapters/physics12/",
+            "clogo": "fa-solid fa-user-pen",
+            "savekey": "TG2P",
+            "datatype": "exams", 
+            "active": true,
+            "common": false
+          }
+        ]
+      }, 
+      {
         "subjecttitle": "EAMCET Model Papers",
         "slogo": "fa-solid fa-user-group",
         "active": true,
@@ -63,6 +183,7 @@
            
         ]
       }
+      
       
     ]
   },
