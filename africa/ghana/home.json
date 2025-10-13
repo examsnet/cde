@@ -1,0 +1,88 @@
+[ 
+  {
+    "categorytitle": "BECE Exam Previous Papers",
+    "elogo": "fa-solid fa-file-pen",
+    "subjects": [
+      {
+        "subjecttitle": "BECE Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "BECE English Papers",
+            "chapterpath": "africa/ghana/bece/english/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "BECE Home Economics Papers",
+            "chapterpath": "africa/ghana/bece/homeeconimcs/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA2",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+            "chaptertitle": "BECE ICT Papers",
+             "chapterpath": "africa/ghana/bece/ict/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+           "chaptertitle": "BECE Mathematics Papers",
+            "chapterpath": "africa/ghana/bece/math/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA4",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "BECE Pre Technical Papers",
+            "chapterpath": "africa/ghana/bece/pretech/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA5",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },{
+            "chaptertitle": "BECE RME Papers",
+            "chapterpath": "africa/ghana/bece/rme/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA6",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          },
+          {
+           "chaptertitle": "BECE Science Papers",
+            "chapterpath": "africa/ghana/bece/science/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA7",
+            "datatype": "exams",
+            "active": false,
+            "common": false
+          },
+          {
+            "chaptertitle": "BECE Social Studies Papers",
+            "chapterpath": "africa/ghana/bece/social/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "EXA8",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          } 
+        ]
+      } 
+       
+    ]
+  } 
+   
+   
+]

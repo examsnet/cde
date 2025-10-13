@@ -1,0 +1,174 @@
+[
+  {
+    "title": "Home",
+    "icon": "fa-solid fa-house",
+    "link": "#",
+    "type": "home"
+  },
+  {
+    "title": "Review App",
+    "icon": "fa-regular fa-star",
+    "link": "#",
+    "type": "rate"
+  },
+  {
+    "title": "Share App",
+    "icon": "fa-solid fa-share",
+    "link": "#",
+    "type": "share"
+  },
+  {
+    "title": "Themes",
+    "icon": "theme-icon",
+    "link": "#",
+    "type": "grid",
+    "submenu": [
+      {
+        "title": "Default",
+        "link": "default",
+        "color": "#205D8D"
+      },
+      
+      {
+        "title": "Cafe",
+        "link": "cafe",
+        "color": "#502112"
+      },
+      {
+        "title": "Crimson",
+        "link": "crimson",
+        "color": "#a02a52"
+      }, 
+      {
+        "title": "Dark",
+        "link": "dark",
+        "color": "#414141"
+      },
+      {
+        "title": "Gold",
+        "link": "gold",
+        "color": "#776236"
+      },
+      {
+        "title": "Green",
+        "link": "green",
+        "color": "#156b6b"
+      },
+      {
+        "title": "Grey",
+        "link": "grey",
+        "color": "#4f565d"
+      },
+      {
+        "title": "Olive",
+        "link": "olive",
+        "color": "#667558"
+      },
+      {
+        "title": "Cadet",
+        "link": "red",
+        "color": "#5f9ea0"
+      },
+      {
+        "title": "Prussian",
+        "link": "blue",
+        "color": "#012e47"
+      },      
+      {
+        "title": "Violet",
+        "link": "violet",
+        "color": "#410093"
+      }
+    ]
+  },
+  {
+    "title": "Social",
+    "icon": "fa-solid fa-share-from-square",
+    "link": "#",
+    "type": "links",
+    "submenu": [
+      {
+        "icon": "fa-solid fa-globe",
+        "title": "Africa Exams",
+        "link": "https://www.africaexams.com"
+      },
+      {
+        "icon": "fa-brands fa-youtube",
+        "title": "Youtube",
+        "link": "https://www.youtube.com/@africaexams"
+      } 
+    ]
+  },
+  {
+    "title": "Contact",
+    "icon": "fa-regular fa-envelope",
+    "link": "#",
+    "type": "list",
+    "submenu": [
+      {
+        "icon": "fa-regular fa-envelope",
+        "title": "africaexams@gmail.com"
+      }
+    ]
+  },
+  {
+    "title": "About",
+    "icon": "fa-solid fa-circle-info",
+    "link": "#",
+    "type": "text",
+    "submenu": [
+      {
+        "title": "www.africaexams.com is an online platform offering comprehensive practice tests and study materials for a variety of competitive exams across Africa"
+      },
+      {
+        "title": "No login or registration is required—take your exam in just 2-3 clicks! Share the good news with your friends."
+      },
+      {
+        "title": "If our app has been helpful, please consider leaving a positive review to help us improve. Your support would mean a lot."
+      }
+    ]
+  } ,
+  { 
+    "title": "Best Apps Must Try",
+    "icon": "fa-solid fa-mobile-screen",
+    "link": "#",
+    "type": "links",
+    "submenu": [ 
+     
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Math Formulas",
+        "link": "market://details?id=com.whitesof.mathformulas"
+      },
+     
+      {
+        "icon": "fa-brands fa-android",
+        "title": "MPCB Notes",
+        "link": "market://details?id=com.examsnet.pcmbnotes"
+      },
+       
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Periodic Table",
+        "link": "market://details?id=com.whitesof.periodictable"
+      },
+      {
+        "icon": "fa-brands fa-android",
+        "title": "Physics Notes",
+        "link": "market://details?id=com.whitesof.physicsnotes"
+      }
+    ]
+  }
+  ,
+  {
+    "title": "Quote of the Day",
+    "icon": "fa-solid fa-heart",
+    "link": "#",
+    "type": "text",
+    "submenu": [
+      {
+        "title": "<div style='text-align:center !important'><h4>If you are kind, people may accuse you of selfish, interior motives.</h4><h3>BE KIND ANYWAY.</h3><h4>What you spend years building, someone could destroy overnight.</h4><h3>BUILD ANYWAY.</h3><h4>The good you do today, people will often forget tomorrow.</h4><h3>DO GOOD ANYWAY.</h3><h4>Give the world the best you have, and it may never be enough.</h4><h3>GIVE THE WORLD THE BEST YOU'VE GOT ANYWAY.</h3><h4>You see, in the final analysis, it is between you and your God ...</h4><h3>ANYWAY</h3><h4>-Written on the wall of an orphanage</h4></div>"
+      } 
+    ]
+  }
+]
