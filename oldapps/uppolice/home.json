@@ -8,6 +8,7 @@
         "subjecttitle": "UP Police Exams",
         "slogo": "fa-solid fa-shield-halved",
         "active": true,
+        "expand":true,
         "chapters": [
           {
             "chaptertitle": "UP Police Constable Model Papers",
