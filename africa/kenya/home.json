@@ -13,7 +13,7 @@
         "chapters": [
           {
             "chaptertitle": "KCPE Composition",
-            "chapterpath": "kenya/kcpe/composition/",
+            "chapterpath": "africa/kenya/kcpe/composition/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -22,7 +22,7 @@
           },
           {
             "chaptertitle": "KCPE English",
-            "chapterpath": "kenya/kcpe/english/",
+            "chapterpath": "africa/kenya/kcpe/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -31,7 +31,7 @@
           },
           {
             "chaptertitle": "KCPE Insha",
-            "chapterpath": "kenya/kcpe/insha/",
+            "chapterpath": "africa/kenya/kcpe/insha/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -40,7 +40,7 @@
           },
           {
             "chaptertitle": "KCPE Kiswahili",
-            "chapterpath": "kenya/kcpe/kiswahili/",
+            "chapterpath": "africa/kenya/kcpe/kiswahili/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -49,7 +49,7 @@
           },
           {
             "chaptertitle": "KCPE Mathematics",
-            "chapterpath": "kenya/kcpe/mathematics/",
+            "chapterpath": "africa/kenya/kcpe/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA4",
             "datatype": "link",
@@ -58,7 +58,7 @@
           },
           {
             "chaptertitle": "KCPE Science",
-            "chapterpath": "kenya/kcpe/science/",
+            "chapterpath": "africa/kenya/kcpe/science/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
             "datatype": "link",
@@ -67,7 +67,7 @@
           },
           {
             "chaptertitle": "KCPE Social Studies",
-            "chapterpath": "kenya/kcpe/socialstudies/",
+            "chapterpath": "africa/kenya/kcpe/socialstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
             "datatype": "link",
@@ -84,7 +84,7 @@
         "chapters": [
           {
             "chaptertitle": "KCPE Composition",
-            "chapterpath": "kenya/kcpenotes/composition/",
+            "chapterpath": "africa/kenya/kcpenotes/composition/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA7",
             "datatype": "link",
@@ -93,7 +93,7 @@
           },
           {
             "chaptertitle": "KCPE English",
-            "chapterpath": "kenya/kcpenotes/english/",
+            "chapterpath": "africa/kenya/kcpenotes/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA8",
             "datatype": "link",
@@ -102,7 +102,7 @@
           },
           {
             "chaptertitle": "KCPE Insha",
-            "chapterpath": "kenya/kcpenotes/insha/",
+            "chapterpath": "africa/kenya/kcpenotes/insha/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA9",
             "datatype": "link",
@@ -111,7 +111,7 @@
           },
           {
             "chaptertitle": "KCPE Kiswahili",
-            "chapterpath": "kenya/kcpenotes/kiswahili/",
+            "chapterpath": "africa/kenya/kcpenotes/kiswahili/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA10",
             "datatype": "link",
@@ -120,7 +120,7 @@
           },
           {
             "chaptertitle": "KCPE Mathematics",
-            "chapterpath": "kenya/kcpenotes/mathematics/",
+            "chapterpath": "africa/kenya/kcpenotes/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA11",
             "datatype": "link",
@@ -129,7 +129,7 @@
           },
           {
             "chaptertitle": "KCPE Science",
-            "chapterpath": "kenya/kcpenotes/science/",
+            "chapterpath": "africa/kenya/kcpenotes/science/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA12",
             "datatype": "link",
@@ -138,7 +138,7 @@
           },
           {
             "chaptertitle": "KCPE Social Studies",
-            "chapterpath": "kenya/kcpenotes/socialstudies/",
+            "chapterpath": "africa/kenya/kcpenotes/socialstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA13",
             "datatype": "link",
@@ -161,7 +161,7 @@
         "chapters": [
           {
             "chaptertitle": "KCSE Agriculture",
-            "chapterpath": "kenya/kcse/agriculture/",
+            "chapterpath": "africa/kenya/kcse/agriculture/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -170,7 +170,7 @@
           },
           {
             "chaptertitle": "KCSE Arabic",
-            "chapterpath": "kenya/kcse/arabic/",
+            "chapterpath": "africa/kenya/kcse/arabic/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -179,7 +179,7 @@
           },
           {
             "chaptertitle": "KCSE Art Design",
-            "chapterpath": "kenya/kcse/artdesign/",
+            "chapterpath": "africa/kenya/kcse/artdesign/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -188,7 +188,7 @@
           },
           {
             "chaptertitle": "KCSE Aviation Technology",
-            "chapterpath": "kenya/kcse/aviationtechnology/",
+            "chapterpath": "africa/kenya/kcse/aviationtechnology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -197,7 +197,7 @@
           },
           {
             "chaptertitle": "KCSE Biology",
-            "chapterpath": "kenya/kcse/biology/",
+            "chapterpath": "africa/kenya/kcse/biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA4",
             "datatype": "link",
@@ -206,7 +206,7 @@
           },
           {
             "chaptertitle": "KCSE Building Construction",
-            "chapterpath": "kenya/kcse/buildingconstruction/",
+            "chapterpath": "africa/kenya/kcse/buildingconstruction/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
             "datatype": "link",
@@ -215,7 +215,7 @@
           },
           {
             "chaptertitle": "KCSE Business Studies",
-            "chapterpath": "kenya/kcse/businessstudies/",
+            "chapterpath": "africa/kenya/kcse/businessstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
             "datatype": "link",
@@ -224,7 +224,7 @@
           },
           {
             "chaptertitle": "KCSE Chemistry",
-            "chapterpath": "kenya/kcse/chemistry/",
+            "chapterpath": "africa/kenya/kcse/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA7",
             "datatype": "link",
@@ -233,7 +233,7 @@
           },
           {
             "chaptertitle": "KCSE Christian Religion Studies",
-            "chapterpath": "kenya/kcse/christianreligionstudies/",
+            "chapterpath": "africa/kenya/kcse/christianreligionstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA8",
             "datatype": "link",
@@ -242,7 +242,7 @@
           },
           {
             "chaptertitle": "KCSE Computers",
-            "chapterpath": "kenya/kcse/computers/",
+            "chapterpath": "africa/kenya/kcse/computers/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA9",
             "datatype": "link",
@@ -251,7 +251,7 @@
           },
           {
             "chaptertitle": "KCSE Drawing Design",
-            "chapterpath": "kenya/kcse/drawingdesign/",
+            "chapterpath": "africa/kenya/kcse/drawingdesign/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA10",
             "datatype": "link",
@@ -260,7 +260,7 @@
           },
           {
             "chaptertitle": "KCSE Electricity",
-            "chapterpath": "kenya/kcse/electricity/",
+            "chapterpath": "africa/kenya/kcse/electricity/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA11",
             "datatype": "link",
@@ -269,7 +269,7 @@
           },
           {
             "chaptertitle": "KCSE English",
-            "chapterpath": "kenya/kcse/english/",
+            "chapterpath": "africa/kenya/kcse/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA12",
             "datatype": "link",
@@ -278,7 +278,7 @@
           },
           {
             "chaptertitle": "KCSE French",
-            "chapterpath": "kenya/kcse/french/",
+            "chapterpath": "africa/kenya/kcse/french/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA13",
             "datatype": "link",
@@ -287,7 +287,7 @@
           },
           {
             "chaptertitle": "KCSE General Science",
-            "chapterpath": "kenya/kcse/generalscience/",
+            "chapterpath": "africa/kenya/kcse/generalscience/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA14",
             "datatype": "link",
@@ -296,7 +296,7 @@
           },
           {
             "chaptertitle": "KCSE Geography",
-            "chapterpath": "kenya/kcse/geography/",
+            "chapterpath": "africa/kenya/kcse/geography/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA15",
             "datatype": "link",
@@ -305,7 +305,7 @@
           },
           {
             "chaptertitle": "KCSE German",
-            "chapterpath": "kenya/kcse/german/",
+            "chapterpath": "africa/kenya/kcse/german/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA16",
             "datatype": "link",
@@ -314,7 +314,7 @@
           },
           {
             "chaptertitle": "KCSE Hindu Religion Studies",
-            "chapterpath": "kenya/kcse/hindureligionstudies/",
+            "chapterpath": "africa/kenya/kcse/hindureligionstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA17",
             "datatype": "link",
@@ -323,7 +323,7 @@
           },
           {
             "chaptertitle": "KCSE History",
-            "chapterpath": "kenya/kcse/history/",
+            "chapterpath": "africa/kenya/kcse/history/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA18",
             "datatype": "link",
@@ -332,7 +332,7 @@
           },
           {
             "chaptertitle": "KCSE HomeScience",
-            "chapterpath": "kenya/kcse/homescience/",
+            "chapterpath": "africa/kenya/kcse/homescience/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA19",
             "datatype": "link",
@@ -341,7 +341,7 @@
           },
           {
             "chaptertitle": "KCSE Islamic Religion Studies",
-            "chapterpath": "kenya/kcse/islamicreligionstudies/",
+            "chapterpath": "africa/kenya/kcse/islamicreligionstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA20",
             "datatype": "link",
@@ -350,7 +350,7 @@
           },
           {
             "chaptertitle": "KCSE Kiswahili",
-            "chapterpath": "kenya/kcse/kiswahili/",
+            "chapterpath": "africa/kenya/kcse/kiswahili/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA21",
             "datatype": "link",
@@ -359,7 +359,7 @@
           },
           {
             "chaptertitle": "KCSE Mathematics",
-            "chapterpath": "kenya/kcse/mathematics/",
+            "chapterpath": "africa/kenya/kcse/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA22",
             "datatype": "link",
@@ -368,7 +368,7 @@
           },
           {
             "chaptertitle": "KCSE Metal Works",
-            "chapterpath": "kenya/kcse/metalworks/",
+            "chapterpath": "africa/kenya/kcse/metalworks/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA23",
             "datatype": "link",
@@ -377,7 +377,7 @@
           },
           {
             "chaptertitle": "KCSE Music",
-            "chapterpath": "kenya/kcse/music/",
+            "chapterpath": "africa/kenya/kcse/music/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA24",
             "datatype": "link",
@@ -386,7 +386,7 @@
           },
           {
             "chaptertitle": "KCSE Physics",
-            "chapterpath": "kenya/kcse/physics/",
+            "chapterpath": "africa/kenya/kcse/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA25",
             "datatype": "link",
@@ -395,7 +395,7 @@
           },
           {
             "chaptertitle": "KCSE Power Mechanics",
-            "chapterpath": "kenya/kcse/powermechanics/",
+            "chapterpath": "africa/kenya/kcse/powermechanics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA26",
             "datatype": "link",
@@ -404,7 +404,7 @@
           },
           {
             "chaptertitle": "KCSE Sign Language",
-            "chapterpath": "kenya/kcse/signlanguage/",
+            "chapterpath": "africa/kenya/kcse/signlanguage/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA27",
             "datatype": "link",
@@ -413,7 +413,7 @@
           },
           {
             "chaptertitle": "KCSE Wood Work",
-            "chapterpath": "kenya/kcse/woodwork/",
+            "chapterpath": "africa/kenya/kcse/woodwork/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA28",
             "datatype": "link",
@@ -430,7 +430,7 @@
         "chapters": [
           {
             "chaptertitle": "KCSE Notes Agriculture",
-            "chapterpath": "kenya/kcsenotes/agriculture/",
+            "chapterpath": "africa/kenya/kcsenotes/agriculture/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA0",
             "datatype": "link",
@@ -439,7 +439,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Biology",
-            "chapterpath": "kenya/kcsenotes/biology/",
+            "chapterpath": "africa/kenya/kcsenotes/biology/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA1",
             "datatype": "link",
@@ -448,7 +448,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Business Studies",
-            "chapterpath": "kenya/kcsenotes/businessstudies/",
+            "chapterpath": "africa/kenya/kcsenotes/businessstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA2",
             "datatype": "link",
@@ -457,7 +457,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Chemistry",
-            "chapterpath": "kenya/kcsenotes/chemistry/",
+            "chapterpath": "africa/kenya/kcsenotes/chemistry/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA3",
             "datatype": "link",
@@ -466,7 +466,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Christian Religion Education",
-            "chapterpath": "kenya/kcsenotes/christianreligioneducation/",
+            "chapterpath": "africa/kenya/kcsenotes/christianreligioneducation/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA4",
             "datatype": "link",
@@ -475,7 +475,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Computer Studies",
-            "chapterpath": "kenya/kcsenotes/computerstudies/",
+            "chapterpath": "africa/kenya/kcsenotes/computerstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA5",
             "datatype": "link",
@@ -484,7 +484,7 @@
           },
           {
             "chaptertitle": "KCSE Notes English",
-            "chapterpath": "kenya/kcsenotes/english/",
+            "chapterpath": "africa/kenya/kcsenotes/english/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
             "datatype": "link",
@@ -493,7 +493,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Geography",
-            "chapterpath": "kenya/kcsenotes/geography/",
+            "chapterpath": "africa/kenya/kcsenotes/geography/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA7",
             "datatype": "link",
@@ -502,7 +502,7 @@
           },
           {
             "chaptertitle": "KCSE Notes History",
-            "chapterpath": "kenya/kcsenotes/history/",
+            "chapterpath": "africa/kenya/kcsenotes/history/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA8",
             "datatype": "link",
@@ -511,7 +511,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Home Science",
-            "chapterpath": "kenya/kcsenotes/homescience/",
+            "chapterpath": "africa/kenya/kcsenotes/homescience/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA9",
             "datatype": "link",
@@ -520,7 +520,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Kiswahili",
-            "chapterpath": "kenya/kcsenotes/kiswahili/",
+            "chapterpath": "africa/kenya/kcsenotes/kiswahili/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA10",
             "datatype": "link",
@@ -529,7 +529,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Mathematics",
-            "chapterpath": "kenya/kcsenotes/mathematics/",
+            "chapterpath": "africa/kenya/kcsenotes/mathematics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA11",
             "datatype": "link",
@@ -538,7 +538,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Physics",
-            "chapterpath": "kenya/kcsenotes/physics/",
+            "chapterpath": "africa/kenya/kcsenotes/physics/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA12",
             "datatype": "link",
@@ -547,7 +547,7 @@
           },
           {
             "chaptertitle": "KCSE Notes Set Books",
-            "chapterpath": "kenya/kcsenotes/setbooks/",
+            "chapterpath": "africa/kenya/kcsenotes/setbooks/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA13",
             "datatype": "link",
