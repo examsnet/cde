@@ -1,9 +1,14 @@
 {
-  "NEETPT": { "imgname": "neetbanner.jpg", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
+  "NEETPT": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
   "AIPMTEXAM": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
-  "NEET": { "imgname": "neetbanner.jpg", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
+  "NEET": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
   "NEETMOD": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
   "EAMCETMEDPREV": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
   "EAMCETMEDMOD": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
-  "EAMCETMEDPRE": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" }
+  "EAMCETMEDPRE": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
+  "neet-exam-previous-question-papers-online": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" }
+
+
+
+  
 }
