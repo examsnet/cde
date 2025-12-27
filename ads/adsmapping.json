@@ -14,17 +14,93 @@
 
 
 
-   "jee-mains-previous-question-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
-   "jee-advanced-model-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
-   "jee-advanced-previous-question-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
-   "jee-mains-chapterwise-previous-year-questions-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
-   "jee-advanced-chapterwise-previous-year-questions": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
+   "jee-mains-previous-question-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } ,
+   "jee-advanced-model-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } ,
+   "jee-advanced-previous-question-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } ,
+   "jee-mains-chapterwise-previous-year-questions-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } ,
+   "jee-advanced-chapterwise-previous-year-questions": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } ,
+
+
+
+
+   "jee-main-chapter-wise-questions": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } , 
+   "IITMAINMODEL": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } , 
+   "IITMAIN": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } , 
+   "jee-advanced-chapter-wise-questions": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } , 
+   "IITJEE": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } , 
+   "IITADVMODEL": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } , 
+   "AIEEE": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeemainschapterwise" } , 
+
+   
+
+
+   
+
+   
+
+   
+
+   
+
+   
+
+
+
+
+
+
+
+
+"apeapcetprev": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
+"APEAMCETCPT": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
+"AMUEXAM": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
+"EAMCETMD": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
+"TSEAMCET": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
+"TGEAPCETCHAPTER": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
+"EAMCET": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
   
 "ap-eapcet-previous-question-papers-online": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
 "eamcet-previous-question-papers-online": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
 "ap-eapcet-previous-year-chapters-wise-questions": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,  
 "ts-eamcet-previous-question-papers-online": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } , 
-"ts-eapcet-previous-year-chapters-wise-questions": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" }   
+"ts-eapcet-previous-year-chapters-wise-questions": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" }  ,
+
+
+
+
+
+
+
+"UPSC": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+
+"UPSCMOD": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"upsc-cds-exam-chapters-wise": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"upsc-cds-model-papers": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"UPSCCDS": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"UPSCCAPF": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"UPSCCISFAC": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"UPSCCMSPAPERS": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"UPSCENGINEERING": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"UPSCNDACP": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"UPSCNDAMOD": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"UPSCNDA": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"upsc-cds-exam-chapters-wise-questions-online": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+
+
+"upsc-cds-previous-question-papers-online": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"upsc-capf-ac-previous-question-papers-online": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"upsc-civils-previous-question-papers": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+"upsc-nda-chapter-wise-question-papers-online": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+
+"upsc-nda-previous-question-papers-online": { "imgname": "upscapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.upscpapers" } ,
+
+
+
+
+
+
+
+
 
 
 
