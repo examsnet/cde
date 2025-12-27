@@ -6,9 +6,27 @@
   "EAMCETMEDPREV": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
   "EAMCETMEDMOD": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
   "EAMCETMEDPRE": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
-  "neet-exam-previous-question-papers-online": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" }
+  "neet-exam-previous-question-papers-online": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
+  "ts-eamcet-medical-exam-previous-question-papers-online": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
+  "neet-chapterwise-previous-question-papers-online": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
+  "ap-eamcet-medical-exam-previous-question-papers-online": { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" },
+   "aipmt-exam-previous-question-papers-online" : { "imgname": "neetbanner.png", "link": "https://www.youtube.com/watch?v=BhUdv__mMBI&list=PLJAZj2grKHUNaUUGhtKZix7XEqtsxccFn" }, 
 
 
 
+   "jee-mains-previous-question-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
+   "jee-advanced-model-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
+   "jee-advanced-previous-question-papers-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
+   "jee-mains-chapterwise-previous-year-questions-online": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
+   "jee-advanced-chapterwise-previous-year-questions": { "imgname": "jeeapp.png", "link": "https://play.google.com/store/apps/details?id=com.examsnet.jeepapers" } ,
   
+"ap-eapcet-previous-question-papers-online": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
+"eamcet-previous-question-papers-online": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,
+"ap-eapcet-previous-year-chapters-wise-questions": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } ,  
+"ts-eamcet-previous-question-papers-online": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" } , 
+"ts-eapcet-previous-year-chapters-wise-questions": { "imgname": "eamcetapp.png", "link": "https://play.google.com/store/apps/details?id=com.iexamonline.eamcetengineerprev" }   
+
+
+
+
 }
