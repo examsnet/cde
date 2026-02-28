@@ -1,7 +1,7 @@
 [
    
   {
-    "categorytitle": "Study Resources",
+    "categorytitle": "",
     "subjects": [
       {
         "subjecttitle": "Physics Notes",
@@ -9,7 +9,7 @@
         "expand": true,
         "chapters": [
           {
-            "chaptertitle": "Physics Class 11 Notes",
+            "chaptertitle": "Physics Notes Class 11",
             "chapterpath": "notes/physics/phy11/",
             "clogo": "fa-brands fa-readme",
             "datatype": "notes", 
@@ -17,7 +17,7 @@
             "common": true
           },
           {
-            "chaptertitle": "Physics Class 12 Notes",
+            "chaptertitle": "Physics Notes Class 12",
             "chapterpath": "notes/physics/phy12/",
             "clogo": "fa-brands fa-readme",
             "datatype": "notes", 
