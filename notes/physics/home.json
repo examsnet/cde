@@ -1,0 +1,32 @@
+[
+   
+  {
+    "categorytitle": "Study Resources",
+    "subjects": [
+      {
+        "subjecttitle": "Physics Notes",
+        "slogo": "fa-solid fa-book",
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "Physics Class 11 Notes",
+            "chapterpath": "notes/physics/phy11/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes", 
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics Class 12 Notes",
+            "chapterpath": "notes/physics/phy12/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes", 
+            "active": true,
+            "common": true
+          }
+        ]
+      } 
+    ]
+  }
+   
+]
