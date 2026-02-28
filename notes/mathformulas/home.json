@@ -1,0 +1,24 @@
+[
+   
+  {
+    "categorytitle": "",
+    "subjects": [
+      {
+        "subjecttitle": "Math Formulas",
+        "slogo": "fa-solid fa-book",
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "All Math Formulas",
+            "chapterpath": "notes/mathformulas/all/",
+            "clogo": "fa-brands fa-readme",
+            "datatype": "notes", 
+            "active": true,
+            "common": true
+          } 
+        ]
+      } 
+    ]
+  }
+   
+]
