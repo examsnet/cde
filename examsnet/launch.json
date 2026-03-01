@@ -1,0 +1,71 @@
+{
+  "title": "What are you preparing for?",
+  "subtitle": "Pick a category, then choose your exam",
+  "searchPlaceholder": "Search exams, subjects...",
+  "favoritesTitle": "Favorites",
+  "categoriesTitle": "Exam Categories",
+  "stats": [
+    { "value": "15+", "label": "Exams" },
+    { "value": "500+", "label": "Mock Tests" },
+    { "value": "10K+", "label": "Students" }
+  ],
+  "categories": [
+    {
+      "id": "engineering",
+      "title": "Engineering",
+      "subtitle": "JEE and other entrance exams",
+      "icon": "fa-solid fa-microchip",
+      "borderColor": "#c9bef0",
+      "cardColor": "#f0ecfb",
+      "iconColor": "#7f53dc",
+      "exams": [
+        {
+          "id": "jee-main",
+          "title": "JEE Main",
+          "subtitle": "Joint Entrance Examination",
+          "testsLabel": "42 Tests",
+          "icon": "fa-solid fa-calculator",
+          "homePath": "exams/jee/"
+        }
+      ]
+    },
+    {
+      "id": "medical",
+      "title": "Medical",
+      "subtitle": "NEET and medical entrance exams",
+      "icon": "fa-solid fa-heart-pulse",
+      "borderColor": "#bbe4d2",
+      "cardColor": "#eaf7f0",
+      "iconColor": "#2ca86b",
+      "exams": [
+        {
+          "id": "neet",
+          "title": "NEET",
+          "subtitle": "National Eligibility Test",
+          "testsLabel": "38 Tests",
+          "icon": "fa-solid fa-stethoscope",
+          "homePath": "exams/neet/"
+        }
+      ]
+    },
+    {
+      "id": "ssc",
+      "title": "SSC",
+      "subtitle": "CGL, CHSL and govt exams",
+      "icon": "fa-solid fa-shield-halved",
+      "borderColor": "#f0d1be",
+      "cardColor": "#fbf3ed",
+      "iconColor": "#f0862f",
+      "exams": [
+        {
+          "id": "ssc-cgl",
+          "title": "SSC CGL",
+          "subtitle": "Combined Graduate Level",
+          "testsLabel": "45 Tests",
+          "icon": "fa-solid fa-building-shield",
+          "homePath": "exams/ssc/"
+        }
+      ]
+    }
+  ]
+}
