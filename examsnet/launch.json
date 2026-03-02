@@ -17,6 +17,7 @@
     "title": "🎉 New Year Offer - 50% Off Premium!",
     "subtitle": "Unlock all mock tests, detailed analytics and ad-free experience.",
     "ctaText": "Grab Now",
+    "ctaUrl": "https://examsnet.com/premium/offer",
     "ctaPath": "premium/offer/",
     "dismissible": true,
     "backgroundColor": "#f8c47f",
@@ -30,7 +31,7 @@
       "id": "engineering",
       "title": "Engineering",
       "subtitle": "JEE and other entrance exams",
-      "expanded": false,
+      "expanded": true,
       "icon": "fa-solid fa-microchip",
       "borderColor": "#c9bef0",
       "cardColor": "#f0ecfb",
@@ -43,6 +44,46 @@
           "testsLabel": "42 Tests",
           "icon": "fa-solid fa-calculator",
           "homePath": "exams/jee/"
+        },
+        {
+          "id": "eamcet",
+          "title": "EAMCET",
+          "subtitle": "AP/TS Engineering",
+          "testsLabel": "50 Tests",
+          "icon": "fa-solid fa-graduation-cap",
+          "homePath": "exams/eamcet/"
+        },
+        {
+          "id": "viteee",
+          "title": "VITEEE",
+          "subtitle": "VIT Engineering",
+          "testsLabel": "30 Tests",
+          "icon": "fa-solid fa-flask",
+          "homePath": "exams/viteee/"
+        },
+        {
+          "id": "bitsat",
+          "title": "BITSAT",
+          "subtitle": "BITS Pilani",
+          "testsLabel": "28 Tests",
+          "icon": "fa-regular fa-lightbulb",
+          "homePath": "exams/bitsat/"
+        },
+        {
+          "id": "wbjee",
+          "title": "WBJEE",
+          "subtitle": "West Bengal JEE",
+          "testsLabel": "25 Tests",
+          "icon": "fa-solid fa-atom",
+          "homePath": "exams/wbjee/"
+        },
+        {
+          "id": "mht-cet",
+          "title": "MHT CET",
+          "subtitle": "Maharashtra CET",
+          "testsLabel": "34 Tests",
+          "icon": "fa-solid fa-compass-drafting",
+          "homePath": "exams/mhtcet/"
         }
       ]
     },
@@ -63,6 +104,22 @@
           "testsLabel": "38 Tests",
           "icon": "fa-solid fa-stethoscope",
           "homePath": "exams/neet/"
+        },
+        {
+          "id": "aiims",
+          "title": "AIIMS",
+          "subtitle": "Medical Entrance",
+          "testsLabel": "18 Tests",
+          "icon": "fa-solid fa-user-doctor",
+          "homePath": "exams/aiims/"
+        },
+        {
+          "id": "jipmer",
+          "title": "JIPMER",
+          "subtitle": "MBBS Entrance",
+          "testsLabel": "14 Tests",
+          "icon": "fa-solid fa-notes-medical",
+          "homePath": "exams/jipmer/"
         }
       ]
     },
