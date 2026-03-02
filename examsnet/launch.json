@@ -2,6 +2,7 @@
   "title": "What are you preparing for?",
   "subtitle": "Pick a category, then choose your exam",
   "searchPlaceholder": "Search exams, subjects...",
+  "expandByDefault": false,
   "favoritesTitle": "Favorites",
   "categoriesTitle": "Exam Categories",
   "stats": [
@@ -9,16 +10,31 @@
     { "value": "500+", "label": "Mock Tests" },
     { "value": "10K+", "label": "Students" }
   ],
+  "banner": {
+    "id": "new-year-offer",
+    "enabled": true,
+    "icon": "fa-regular fa-paper-plane",
+    "title": "🎉 New Year Offer - 50% Off Premium!",
+    "subtitle": "Unlock all mock tests, detailed analytics and ad-free experience.",
+    "ctaText": "Grab Now",
+    "ctaPath": "premium/offer/",
+    "dismissible": true,
+    "backgroundColor": "#f8c47f",
+    "borderColor": "#f29c1f",
+    "textColor": "#2c2b3d",
+    "ctaBackgroundColor": "#2d58d8",
+    "ctaTextColor": "#ffffff"
+  },
   "categories": [
     {
       "id": "engineering",
       "title": "Engineering",
-      "subtitle": "JEE and Engineering entrance exams",
+      "subtitle": "JEE and other entrance exams",
+      "expanded": false,
       "icon": "fa-solid fa-microchip",
       "borderColor": "#c9bef0",
       "cardColor": "#f0ecfb",
       "iconColor": "#7f53dc",
-      "expanded": false,
       "exams": [
         {
           "id": "jee-main",
@@ -34,11 +50,11 @@
       "id": "medical",
       "title": "Medical",
       "subtitle": "NEET and medical entrance exams",
+      "expanded": false,
       "icon": "fa-solid fa-heart-pulse",
       "borderColor": "#bbe4d2",
       "cardColor": "#eaf7f0",
       "iconColor": "#2ca86b",
-      "expanded": false,
       "exams": [
         {
           "id": "neet",
@@ -54,11 +70,11 @@
       "id": "ssc",
       "title": "SSC",
       "subtitle": "CGL, CHSL and govt exams",
+      "expanded": false,
       "icon": "fa-solid fa-shield-halved",
       "borderColor": "#f0d1be",
       "cardColor": "#fbf3ed",
       "iconColor": "#f0862f",
-      "expanded": true,
       "exams": [
         {
           "id": "ssc-cgl",
