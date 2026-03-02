@@ -13,11 +13,12 @@
     {
       "id": "engineering",
       "title": "Engineering",
-      "subtitle": "JEE and other entrance exams",
+      "subtitle": "JEE and Engineering entrance exams",
       "icon": "fa-solid fa-microchip",
       "borderColor": "#c9bef0",
       "cardColor": "#f0ecfb",
       "iconColor": "#7f53dc",
+      "expanded": false,
       "exams": [
         {
           "id": "jee-main",
@@ -37,6 +38,7 @@
       "borderColor": "#bbe4d2",
       "cardColor": "#eaf7f0",
       "iconColor": "#2ca86b",
+      "expanded": false,
       "exams": [
         {
           "id": "neet",
@@ -56,6 +58,7 @@
       "borderColor": "#f0d1be",
       "cardColor": "#fbf3ed",
       "iconColor": "#f0862f",
+      "expanded": true,
       "exams": [
         {
           "id": "ssc-cgl",
