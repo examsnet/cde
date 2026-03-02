@@ -31,7 +31,7 @@
       "id": "engineering",
       "title": "Engineering",
       "subtitle": "JEE and other entrance exams",
-      "expanded": true,
+      "expanded": false,
       "icon": "fa-solid fa-microchip",
       "exams": [
         {
@@ -131,6 +131,193 @@
           "testsLabel": "45 Tests",
           "icon": "fa-solid fa-building-shield",
           "homePath": "exams/ssc/"
+        }
+      ]
+    },
+    {
+      "id": "banking",
+      "title": "Banking",
+      "subtitle": "PO, Clerk and specialist officer exams",
+      "expanded": false,
+      "icon": "fa-solid fa-building-columns",
+      "exams": [
+        {
+          "id": "ibps-po",
+          "title": "IBPS PO",
+          "subtitle": "Probationary Officer",
+          "testsLabel": "36 Tests",
+          "icon": "fa-solid fa-money-check-dollar",
+          "homePath": "exams/ibps-po/"
+        }
+      ]
+    },
+    {
+      "id": "railways",
+      "title": "Railways",
+      "subtitle": "RRB NTPC, Group D and ALP",
+      "expanded": false,
+      "icon": "fa-solid fa-train",
+      "exams": [
+        {
+          "id": "rrb-ntpc",
+          "title": "RRB NTPC",
+          "subtitle": "Railway Non Technical",
+          "testsLabel": "31 Tests",
+          "icon": "fa-solid fa-train-subway",
+          "homePath": "exams/rrb-ntpc/"
+        }
+      ]
+    },
+    {
+      "id": "defence",
+      "title": "Defence",
+      "subtitle": "NDA, CDS and AFCAT exams",
+      "expanded": false,
+      "icon": "fa-solid fa-jet-fighter",
+      "exams": [
+        {
+          "id": "nda",
+          "title": "NDA",
+          "subtitle": "National Defence Academy",
+          "testsLabel": "27 Tests",
+          "icon": "fa-solid fa-shield",
+          "homePath": "exams/nda/"
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "title": "Teaching",
+      "subtitle": "CTET and state teacher eligibility",
+      "expanded": false,
+      "icon": "fa-solid fa-chalkboard-user",
+      "exams": [
+        {
+          "id": "ctet",
+          "title": "CTET",
+          "subtitle": "Central Teacher Eligibility Test",
+          "testsLabel": "24 Tests",
+          "icon": "fa-solid fa-book-open-reader",
+          "homePath": "exams/ctet/"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "Law",
+      "subtitle": "CLAT and other law entrances",
+      "expanded": false,
+      "icon": "fa-solid fa-scale-balanced",
+      "exams": [
+        {
+          "id": "clat",
+          "title": "CLAT",
+          "subtitle": "Common Law Admission Test",
+          "testsLabel": "22 Tests",
+          "icon": "fa-solid fa-gavel",
+          "homePath": "exams/clat/"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "subtitle": "CAT, XAT and MBA entrances",
+      "expanded": false,
+      "icon": "fa-solid fa-chart-line",
+      "exams": [
+        {
+          "id": "cat",
+          "title": "CAT",
+          "subtitle": "Common Admission Test",
+          "testsLabel": "29 Tests",
+          "icon": "fa-solid fa-briefcase",
+          "homePath": "exams/cat/"
+        }
+      ]
+    },
+    {
+      "id": "civil-services",
+      "title": "Civil Services",
+      "subtitle": "UPSC prelims and mains",
+      "expanded": false,
+      "icon": "fa-solid fa-landmark-dome",
+      "exams": [
+        {
+          "id": "upsc-cse",
+          "title": "UPSC CSE",
+          "subtitle": "Civil Services Examination",
+          "testsLabel": "33 Tests",
+          "icon": "fa-solid fa-scroll",
+          "homePath": "exams/upsc-cse/"
+        }
+      ]
+    },
+    {
+      "id": "state-pcs",
+      "title": "State PCS",
+      "subtitle": "State civil service exams",
+      "expanded": false,
+      "icon": "fa-solid fa-map-location-dot",
+      "exams": [
+        {
+          "id": "appsc",
+          "title": "APPSC",
+          "subtitle": "Andhra Public Service",
+          "testsLabel": "20 Tests",
+          "icon": "fa-solid fa-file-signature",
+          "homePath": "exams/appsc/"
+        }
+      ]
+    },
+    {
+      "id": "police",
+      "title": "Police",
+      "subtitle": "Constable and SI recruitment",
+      "expanded": false,
+      "icon": "fa-solid fa-user-shield",
+      "exams": [
+        {
+          "id": "si-exam",
+          "title": "Sub Inspector",
+          "subtitle": "Police SI Recruitment",
+          "testsLabel": "19 Tests",
+          "icon": "fa-solid fa-id-badge",
+          "homePath": "exams/police-si/"
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "title": "Insurance",
+      "subtitle": "LIC and NIACL recruitment",
+      "expanded": false,
+      "icon": "fa-solid fa-umbrella",
+      "exams": [
+        {
+          "id": "lic-aao",
+          "title": "LIC AAO",
+          "subtitle": "Assistant Administrative Officer",
+          "testsLabel": "17 Tests",
+          "icon": "fa-solid fa-hand-holding-heart",
+          "homePath": "exams/lic-aao/"
+        }
+      ]
+    },
+    {
+      "id": "commerce",
+      "title": "Commerce",
+      "subtitle": "CA, CS and CMA pathways",
+      "expanded": false,
+      "icon": "fa-solid fa-calculator",
+      "exams": [
+        {
+          "id": "ca-foundation",
+          "title": "CA Foundation",
+          "subtitle": "Chartered Accountancy Entry",
+          "testsLabel": "21 Tests",
+          "icon": "fa-solid fa-receipt",
+          "homePath": "exams/ca-foundation/"
         }
       ]
     }
