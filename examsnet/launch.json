@@ -58,6 +58,62 @@
               "testsLabel": "30 Tests",
               "icon": "fa-solid fa-flask",
               "homePath": "exams/viteee/"
+            },
+            {
+              "id": "bitsat",
+              "title": "BITSAT",
+              "subtitle": "BITS Pilani",
+              "testsLabel": "28 Tests",
+              "icon": "fa-regular fa-lightbulb",
+              "homePath": "exams/bitsat/"
+            },
+            {
+              "id": "wbjee",
+              "title": "WBJEE",
+              "subtitle": "West Bengal JEE",
+              "testsLabel": "25 Tests",
+              "icon": "fa-solid fa-atom",
+              "homePath": "exams/wbjee/"
+            },
+            {
+              "id": "mht-cet",
+              "title": "MHT CET",
+              "subtitle": "Maharashtra CET",
+              "testsLabel": "34 Tests",
+              "icon": "fa-solid fa-compass-drafting",
+              "homePath": "exams/mhtcet/"
+            },
+            {
+              "id": "keam",
+              "title": "KEAM",
+              "subtitle": "Kerala Engineering",
+              "testsLabel": "19 Tests",
+              "icon": "fa-solid fa-pencil-ruler",
+              "homePath": "exams/keam/"
+            },
+            {
+              "id": "gujcet",
+              "title": "GUJCET",
+              "subtitle": "Gujarat CET",
+              "testsLabel": "16 Tests",
+              "icon": "fa-solid fa-diagram-project",
+              "homePath": "exams/gujcet/"
+            },
+            {
+              "id": "ts-eamcet",
+              "title": "TS EAMCET",
+              "subtitle": "Telangana Engineering",
+              "testsLabel": "27 Tests",
+              "icon": "fa-solid fa-gears",
+              "homePath": "exams/ts-eamcet/"
+            },
+            {
+              "id": "comedk",
+              "title": "COMEDK",
+              "subtitle": "Karnataka Entrance",
+              "testsLabel": "21 Tests",
+              "icon": "fa-solid fa-building-columns",
+              "homePath": "exams/comedk/"
             }
           ]
         },
@@ -181,6 +237,70 @@
               "testsLabel": "22 Tests",
               "icon": "fa-solid fa-certificate",
               "homePath": "exams/nptel/"
+            },
+            {
+              "id": "ugc-net-cs",
+              "title": "UGC NET CS",
+              "subtitle": "Computer Science NET",
+              "testsLabel": "24 Tests",
+              "icon": "fa-solid fa-network-wired",
+              "homePath": "exams/ugc-net-cs/"
+            },
+            {
+              "id": "isro-tech",
+              "title": "ISRO Tech",
+              "subtitle": "Technical Recruitment",
+              "testsLabel": "18 Tests",
+              "icon": "fa-solid fa-satellite",
+              "homePath": "exams/isro-tech/"
+            },
+            {
+              "id": "drdo-tech",
+              "title": "DRDO Tech",
+              "subtitle": "Scientist & Engineer",
+              "testsLabel": "17 Tests",
+              "icon": "fa-solid fa-user-gear",
+              "homePath": "exams/drdo-tech/"
+            },
+            {
+              "id": "python-cert",
+              "title": "Python Cert",
+              "subtitle": "Programming Certification",
+              "testsLabel": "14 Tests",
+              "icon": "fa-brands fa-python",
+              "homePath": "exams/python-cert/"
+            },
+            {
+              "id": "java-cert",
+              "title": "Java Cert",
+              "subtitle": "Developer Certification",
+              "testsLabel": "15 Tests",
+              "icon": "fa-brands fa-java",
+              "homePath": "exams/java-cert/"
+            },
+            {
+              "id": "cloud-fund",
+              "title": "Cloud Fundamentals",
+              "subtitle": "Cloud Associate",
+              "testsLabel": "20 Tests",
+              "icon": "fa-solid fa-cloud",
+              "homePath": "exams/cloud-fund/"
+            },
+            {
+              "id": "devops-assoc",
+              "title": "DevOps Associate",
+              "subtitle": "CI/CD and infra",
+              "testsLabel": "13 Tests",
+              "icon": "fa-solid fa-infinity",
+              "homePath": "exams/devops-assoc/"
+            },
+            {
+              "id": "cyber-sec",
+              "title": "Cyber Security",
+              "subtitle": "Security Fundamentals",
+              "testsLabel": "16 Tests",
+              "icon": "fa-solid fa-shield-virus",
+              "homePath": "exams/cyber-sec/"
             }
           ]
         }
