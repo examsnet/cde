@@ -1,10 +1,7 @@
 {
-  "title": "What are you preparing for?",
-  "subtitle": "Pick a category, then choose your exam",
   "searchPlaceholder": "Search exams, subjects...",
   "expandByDefault": false,
   "favoritesTitle": "Favorites",
-  "categoriesTitle": "Exam Categories",
   "stats": [
     { "value": "15+", "label": "Exams" },
     { "value": "500+", "label": "Mock Tests" },
@@ -18,7 +15,6 @@
     "subtitle": "Unlock all mock tests, detailed analytics and ad-free experience.",
     "ctaText": "Grab Now",
     "ctaUrl": "https://examsnet.com/premium/offer",
-    "ctaPath": "premium/offer/",
     "dismissible": true,
     "backgroundColor": "#f8c47f",
     "borderColor": "#f29c1f",
@@ -26,298 +22,167 @@
     "ctaBackgroundColor": "#2d58d8",
     "ctaTextColor": "#ffffff"
   },
-  "categories": [
+  "sections": [
     {
-      "id": "engineering",
-      "title": "Engineering",
-      "subtitle": "JEE and other entrance exams",
-      "expanded": false,
-      "icon": "fa-solid fa-microchip",
-      "exams": [
+      "id": "exam-categories",
+      "title": "Exam Categories",
+      "emptyMessage": "No matching exam categories found.",
+      "categories": [
         {
-          "id": "jee-main",
-          "title": "JEE Main",
-          "subtitle": "Joint Entrance Examination",
-          "testsLabel": "42 Tests",
-          "icon": "fa-solid fa-calculator",
-          "homePath": "exams/jee/"
+          "id": "engineering",
+          "title": "Engineering",
+          "subtitle": "JEE and other entrance exams",
+          "expanded": true,
+          "icon": "fa-solid fa-microchip",
+          "exams": [
+            {
+              "id": "jee-main",
+              "title": "JEE Main",
+              "subtitle": "Joint Entrance Examination",
+              "testsLabel": "42 Tests",
+              "icon": "fa-solid fa-calculator",
+              "homePath": "exams/jee/"
+            },
+            {
+              "id": "eamcet",
+              "title": "EAMCET",
+              "subtitle": "AP/TS Engineering",
+              "testsLabel": "50 Tests",
+              "icon": "fa-solid fa-graduation-cap",
+              "homePath": "exams/eamcet/"
+            },
+            {
+              "id": "viteee",
+              "title": "VITEEE",
+              "subtitle": "VIT Engineering",
+              "testsLabel": "30 Tests",
+              "icon": "fa-solid fa-flask",
+              "homePath": "exams/viteee/"
+            }
+          ]
         },
         {
-          "id": "eamcet",
-          "title": "EAMCET",
-          "subtitle": "AP/TS Engineering",
-          "testsLabel": "50 Tests",
-          "icon": "fa-solid fa-graduation-cap",
-          "homePath": "exams/eamcet/"
+          "id": "medical",
+          "title": "Medical",
+          "subtitle": "NEET and medical entrance exams",
+          "expanded": false,
+          "icon": "fa-solid fa-heart-pulse",
+          "exams": [
+            {
+              "id": "neet",
+              "title": "NEET",
+              "subtitle": "National Eligibility Test",
+              "testsLabel": "38 Tests",
+              "icon": "fa-solid fa-stethoscope",
+              "homePath": "exams/neet/"
+            },
+            {
+              "id": "aiims",
+              "title": "AIIMS",
+              "subtitle": "Medical Entrance",
+              "testsLabel": "18 Tests",
+              "icon": "fa-solid fa-user-doctor",
+              "homePath": "exams/aiims/"
+            }
+          ]
         },
         {
-          "id": "viteee",
-          "title": "VITEEE",
-          "subtitle": "VIT Engineering",
-          "testsLabel": "30 Tests",
-          "icon": "fa-solid fa-flask",
-          "homePath": "exams/viteee/"
-        },
-        {
-          "id": "bitsat",
-          "title": "BITSAT",
-          "subtitle": "BITS Pilani",
-          "testsLabel": "28 Tests",
-          "icon": "fa-regular fa-lightbulb",
-          "homePath": "exams/bitsat/"
-        },
-        {
-          "id": "wbjee",
-          "title": "WBJEE",
-          "subtitle": "West Bengal JEE",
-          "testsLabel": "25 Tests",
-          "icon": "fa-solid fa-atom",
-          "homePath": "exams/wbjee/"
-        },
-        {
-          "id": "mht-cet",
-          "title": "MHT CET",
-          "subtitle": "Maharashtra CET",
-          "testsLabel": "34 Tests",
-          "icon": "fa-solid fa-compass-drafting",
-          "homePath": "exams/mhtcet/"
+          "id": "ssc",
+          "title": "SSC",
+          "subtitle": "CGL, CHSL and govt exams",
+          "expanded": false,
+          "icon": "fa-solid fa-shield-halved",
+          "exams": [
+            {
+              "id": "ssc-cgl",
+              "title": "SSC CGL",
+              "subtitle": "Combined Graduate Level",
+              "testsLabel": "45 Tests",
+              "icon": "fa-solid fa-building-shield",
+              "homePath": "exams/ssc/"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "medical",
-      "title": "Medical",
-      "subtitle": "NEET and medical entrance exams",
-      "expanded": false,
-      "icon": "fa-solid fa-heart-pulse",
-      "exams": [
+      "id": "study-notes",
+      "title": "Study Notes",
+      "emptyMessage": "No matching notes categories found.",
+      "categories": [
         {
-          "id": "neet",
-          "title": "NEET",
-          "subtitle": "National Eligibility Test",
-          "testsLabel": "38 Tests",
-          "icon": "fa-solid fa-stethoscope",
-          "homePath": "exams/neet/"
+          "id": "engineering-notes",
+          "title": "Engineering Notes",
+          "subtitle": "Quick revision notes",
+          "expanded": false,
+          "icon": "fa-solid fa-book-open",
+          "exams": [
+            {
+              "id": "jee-physics-notes",
+              "title": "Physics Notes",
+              "subtitle": "JEE Main Notes",
+              "testsLabel": "42 Notes",
+              "icon": "fa-solid fa-atom",
+              "homePath": "notes/jee/physics/"
+            },
+            {
+              "id": "jee-chem-notes",
+              "title": "Chemistry Notes",
+              "subtitle": "JEE Main Notes",
+              "testsLabel": "38 Notes",
+              "icon": "fa-solid fa-flask",
+              "homePath": "notes/jee/chemistry/"
+            }
+          ]
         },
         {
-          "id": "aiims",
-          "title": "AIIMS",
-          "subtitle": "Medical Entrance",
-          "testsLabel": "18 Tests",
-          "icon": "fa-solid fa-user-doctor",
-          "homePath": "exams/aiims/"
-        },
-        {
-          "id": "jipmer",
-          "title": "JIPMER",
-          "subtitle": "MBBS Entrance",
-          "testsLabel": "14 Tests",
+          "id": "medical-notes",
+          "title": "Medical Notes",
+          "subtitle": "NEET chapter-wise notes",
+          "expanded": false,
           "icon": "fa-solid fa-notes-medical",
-          "homePath": "exams/jipmer/"
+          "exams": [
+            {
+              "id": "neet-botany-notes",
+              "title": "Botany Notes",
+              "subtitle": "NEET Notes",
+              "testsLabel": "24 Notes",
+              "icon": "fa-solid fa-seedling",
+              "homePath": "notes/neet/botany/"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "ssc",
-      "title": "SSC",
-      "subtitle": "CGL, CHSL and govt exams",
-      "expanded": false,
-      "icon": "fa-solid fa-shield-halved",
-      "exams": [
+      "id": "technical-exams",
+      "title": "Technical Exams",
+      "emptyMessage": "No matching technical categories found.",
+      "categories": [
         {
-          "id": "ssc-cgl",
-          "title": "SSC CGL",
-          "subtitle": "Combined Graduate Level",
-          "testsLabel": "45 Tests",
-          "icon": "fa-solid fa-building-shield",
-          "homePath": "exams/ssc/"
-        }
-      ]
-    },
-    {
-      "id": "banking",
-      "title": "Banking",
-      "subtitle": "PO, Clerk and specialist officer exams",
-      "expanded": false,
-      "icon": "fa-solid fa-building-columns",
-      "exams": [
-        {
-          "id": "ibps-po",
-          "title": "IBPS PO",
-          "subtitle": "Probationary Officer",
-          "testsLabel": "36 Tests",
-          "icon": "fa-solid fa-money-check-dollar",
-          "homePath": "exams/ibps-po/"
-        }
-      ]
-    },
-    {
-      "id": "railways",
-      "title": "Railways",
-      "subtitle": "RRB NTPC, Group D and ALP",
-      "expanded": false,
-      "icon": "fa-solid fa-train",
-      "exams": [
-        {
-          "id": "rrb-ntpc",
-          "title": "RRB NTPC",
-          "subtitle": "Railway Non Technical",
-          "testsLabel": "31 Tests",
-          "icon": "fa-solid fa-train-subway",
-          "homePath": "exams/rrb-ntpc/"
-        }
-      ]
-    },
-    {
-      "id": "defence",
-      "title": "Defence",
-      "subtitle": "NDA, CDS and AFCAT exams",
-      "expanded": false,
-      "icon": "fa-solid fa-jet-fighter",
-      "exams": [
-        {
-          "id": "nda",
-          "title": "NDA",
-          "subtitle": "National Defence Academy",
-          "testsLabel": "27 Tests",
-          "icon": "fa-solid fa-shield",
-          "homePath": "exams/nda/"
-        }
-      ]
-    },
-    {
-      "id": "teaching",
-      "title": "Teaching",
-      "subtitle": "CTET and state teacher eligibility",
-      "expanded": false,
-      "icon": "fa-solid fa-chalkboard-user",
-      "exams": [
-        {
-          "id": "ctet",
-          "title": "CTET",
-          "subtitle": "Central Teacher Eligibility Test",
-          "testsLabel": "24 Tests",
-          "icon": "fa-solid fa-book-open-reader",
-          "homePath": "exams/ctet/"
-        }
-      ]
-    },
-    {
-      "id": "law",
-      "title": "Law",
-      "subtitle": "CLAT and other law entrances",
-      "expanded": false,
-      "icon": "fa-solid fa-scale-balanced",
-      "exams": [
-        {
-          "id": "clat",
-          "title": "CLAT",
-          "subtitle": "Common Law Admission Test",
-          "testsLabel": "22 Tests",
-          "icon": "fa-solid fa-gavel",
-          "homePath": "exams/clat/"
-        }
-      ]
-    },
-    {
-      "id": "management",
-      "title": "Management",
-      "subtitle": "CAT, XAT and MBA entrances",
-      "expanded": false,
-      "icon": "fa-solid fa-chart-line",
-      "exams": [
-        {
-          "id": "cat",
-          "title": "CAT",
-          "subtitle": "Common Admission Test",
-          "testsLabel": "29 Tests",
-          "icon": "fa-solid fa-briefcase",
-          "homePath": "exams/cat/"
-        }
-      ]
-    },
-    {
-      "id": "civil-services",
-      "title": "Civil Services",
-      "subtitle": "UPSC prelims and mains",
-      "expanded": false,
-      "icon": "fa-solid fa-landmark-dome",
-      "exams": [
-        {
-          "id": "upsc-cse",
-          "title": "UPSC CSE",
-          "subtitle": "Civil Services Examination",
-          "testsLabel": "33 Tests",
-          "icon": "fa-solid fa-scroll",
-          "homePath": "exams/upsc-cse/"
-        }
-      ]
-    },
-    {
-      "id": "state-pcs",
-      "title": "State PCS",
-      "subtitle": "State civil service exams",
-      "expanded": false,
-      "icon": "fa-solid fa-map-location-dot",
-      "exams": [
-        {
-          "id": "appsc",
-          "title": "APPSC",
-          "subtitle": "Andhra Public Service",
-          "testsLabel": "20 Tests",
-          "icon": "fa-solid fa-file-signature",
-          "homePath": "exams/appsc/"
-        }
-      ]
-    },
-    {
-      "id": "police",
-      "title": "Police",
-      "subtitle": "Constable and SI recruitment",
-      "expanded": false,
-      "icon": "fa-solid fa-user-shield",
-      "exams": [
-        {
-          "id": "si-exam",
-          "title": "Sub Inspector",
-          "subtitle": "Police SI Recruitment",
-          "testsLabel": "19 Tests",
-          "icon": "fa-solid fa-id-badge",
-          "homePath": "exams/police-si/"
-        }
-      ]
-    },
-    {
-      "id": "insurance",
-      "title": "Insurance",
-      "subtitle": "LIC and NIACL recruitment",
-      "expanded": false,
-      "icon": "fa-solid fa-umbrella",
-      "exams": [
-        {
-          "id": "lic-aao",
-          "title": "LIC AAO",
-          "subtitle": "Assistant Administrative Officer",
-          "testsLabel": "17 Tests",
-          "icon": "fa-solid fa-hand-holding-heart",
-          "homePath": "exams/lic-aao/"
-        }
-      ]
-    },
-    {
-      "id": "commerce",
-      "title": "Commerce",
-      "subtitle": "CA, CS and CMA pathways",
-      "expanded": false,
-      "icon": "fa-solid fa-calculator",
-      "exams": [
-        {
-          "id": "ca-foundation",
-          "title": "CA Foundation",
-          "subtitle": "Chartered Accountancy Entry",
-          "testsLabel": "21 Tests",
-          "icon": "fa-solid fa-receipt",
-          "homePath": "exams/ca-foundation/"
+          "id": "computer-science",
+          "title": "Computer Science",
+          "subtitle": "Placement and certification tests",
+          "expanded": false,
+          "icon": "fa-solid fa-laptop-code",
+          "exams": [
+            {
+              "id": "gate-cse",
+              "title": "GATE CSE",
+              "subtitle": "Graduate Aptitude Test",
+              "testsLabel": "32 Tests",
+              "icon": "fa-solid fa-code",
+              "homePath": "exams/gate-cse/"
+            },
+            {
+              "id": "nptel",
+              "title": "NPTEL",
+              "subtitle": "Certification Practice",
+              "testsLabel": "22 Tests",
+              "icon": "fa-solid fa-certificate",
+              "homePath": "exams/nptel/"
+            }
+          ]
         }
       ]
     }
