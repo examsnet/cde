@@ -33,9 +33,6 @@
       "subtitle": "JEE and other entrance exams",
       "expanded": true,
       "icon": "fa-solid fa-microchip",
-      "borderColor": "#c9bef0",
-      "cardColor": "#f0ecfb",
-      "iconColor": "#7f53dc",
       "exams": [
         {
           "id": "jee-main",
@@ -93,9 +90,6 @@
       "subtitle": "NEET and medical entrance exams",
       "expanded": false,
       "icon": "fa-solid fa-heart-pulse",
-      "borderColor": "#bbe4d2",
-      "cardColor": "#eaf7f0",
-      "iconColor": "#2ca86b",
       "exams": [
         {
           "id": "neet",
@@ -129,9 +123,6 @@
       "subtitle": "CGL, CHSL and govt exams",
       "expanded": false,
       "icon": "fa-solid fa-shield-halved",
-      "borderColor": "#f0d1be",
-      "cardColor": "#fbf3ed",
-      "iconColor": "#f0862f",
       "exams": [
         {
           "id": "ssc-cgl",
