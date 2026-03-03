@@ -2,6 +2,7 @@
   {
     "categorytitle": "Entrance Exams",
     "elogo": "fa-solid fa-file-pen", 
+    "showCategoryTitle": false,
     "subjects": [
       {
         "subjecttitle": "NEET Practice Papers",
@@ -153,7 +154,7 @@
             "chaptertitle": "Chemistry Class 11 Notes",
             "chapterpath": "notes/hb/chemistry11/",
             "clogo": "fa-solid fa-book-open",
-            "datatype": "notes",
+            "datatype": "notes",           
             "active" : true,
             "common":true
           },
@@ -505,6 +506,7 @@
         "subjecttitle": "NCERT Class 12 Exemplar Solutions",
         "slogo": "fa-solid fa-book",
         "active": true,
+        "expand": true,
         "chapters": [
           {
             "chaptertitle": "Biology",
@@ -530,6 +532,7 @@
             "chapterpath": "board/ncert/exemplarsolutions/class12/physics/",
             "clogo": "fa-solid fa-file-lines",
             "savekey": "EXA9",
+
             "datatype": "link",
             "active": true,
             "common": true
