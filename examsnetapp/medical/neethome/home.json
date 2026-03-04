@@ -11,7 +11,7 @@
         "chapters": [
           {
             "chaptertitle": "NEET Previous Papers",
-            "chapterpath": "examsnetapp/neet/previous/",
+            "chapterpath": "examsnetapp/neet/neetprevious/",
             "clogo": "fa-solid fa-pen",
             "savekey":"NPP",
             "datatype": "exams",
@@ -19,7 +19,7 @@
           },
           {
             "chaptertitle": "NEET Model Papers",
-            "chapterpath": "examsnetapp/neet/model/",
+            "chapterpath": "examsnetapp/neet/neetmodel/",
             "clogo": "fa-solid fa-pen",
             "savekey":"NMP",
             "datatype": "exams",
@@ -34,7 +34,7 @@
         "chapters": [
           {
             "chaptertitle": "Class 11 Biology Questions",
-            "chapterpath": "examsnetapp/neet/chapters/biology11/",
+            "chapterpath": "examsnetapp/neet/neetchapters/biology11/",
             "clogo": "fa-solid fa-pen",
             "savekey":"N1B",
             "datatype": "exams",
@@ -42,7 +42,7 @@
           },
           {
             "chaptertitle": "Class 12 Biology Questions",
-            "chapterpath": "examsnetapp/neet/chapters/biology12/",
+            "chapterpath": "examsnetapp/neet/neetchapters/biology12/",
             "clogo": "fa-solid fa-pen",
             "savekey":"N2B",
             "datatype": "exams",
@@ -50,7 +50,7 @@
           },
            {
             "chaptertitle": "Class 11 Chemistry Questions",
-            "chapterpath": "examsnetapp/neet/chapters/chemistry11/",
+            "chapterpath": "examsnetapp/neet/neetchapters/chemistry11/",
             "clogo": "fa-solid fa-pen",
             "savekey":"N1C",
             "datatype": "exams",
@@ -58,7 +58,7 @@
           },
           {
             "chaptertitle": "Class 12 Chemistry Questions",
-            "chapterpath": "examsnetapp/neet/chapters/chemistry12/",
+            "chapterpath": "examsnetapp/neet/neetchapters/chemistry12/",
             "clogo": "fa-solid fa-pen",
             "savekey":"N2C",
             "datatype": "exams",
@@ -66,7 +66,7 @@
           },
            {
             "chaptertitle": "Class 11 Physics Questions",
-            "chapterpath": "examsnetapp/neet/chapters/physics11/",
+            "chapterpath": "examsnetapp/neet/neetchapters/physics11/",
             "clogo": "fa-solid fa-pen",
             "savekey":"N1P",
             "datatype": "exams",
@@ -74,7 +74,7 @@
           },
           {
             "chaptertitle": "Class 12 Physics Questions",
-            "chapterpath": "examsnetapp/neet/chapters/physics12/",
+            "chapterpath": "examsnetapp/neet/neetchapters/physics12/",
             "clogo": "fa-solid fa-pen",
             "savekey":"N2P",
             "datatype": "exams",
