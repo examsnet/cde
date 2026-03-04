@@ -43,134 +43,65 @@
             {
               "id": "jee-main",
               "title": "JEE Main",
-              "subtitle": "JEE Mains Exam",
+              "subtitle": "JEE Mains",
               "testsLabel": "42 Tests",
               "icon": "fa-solid fa-calculator",
-              "homePath": "examsnetapp/jee/mainprevious/"
+              "homePath": "examsnetapp/jee/mainshome/"
             },
             {
               "id": "jee-advanced",
-              "title": "JEE Advanced Exam",
+              "title": "JEE Advanced",
               "subtitle": "JEE Advanced Exam",
               "testsLabel": "50 Tests",
               "icon": "fa-solid fa-graduation-cap",
-              "homePath": "examsnetapp/jee/mainchapters/"
-            },
-            {
-              "id": "viteee",
-              "title": "VITEEE",
-              "subtitle": "VIT Engineering",
-              "testsLabel": "30 Tests",
-              "icon": "fa-solid fa-flask",
-              "homePath": "examsnetapp/viteee/"
-            },
-            {
-              "id": "bitsat",
-              "title": "BITSAT",
-              "subtitle": "BITS Pilani",
-              "testsLabel": "28 Tests",
-              "icon": "fa-regular fa-lightbulb",
-              "homePath": "examsnetapp/bitsat/"
-            },
-            {
-              "id": "wbjee",
-              "title": "WBJEE",
-              "subtitle": "West Bengal JEE",
-              "testsLabel": "25 Tests",
-              "icon": "fa-solid fa-atom",
-              "homePath": "examsnetapp/wbjee/"
-            },
-            {
-              "id": "mht-cet",
-              "title": "MHT CET",
-              "subtitle": "Maharashtra CET",
-              "testsLabel": "34 Tests",
-              "icon": "fa-solid fa-compass-drafting",
-              "homePath": "examsnetapp/mhtcet/"
-            },
-            {
-              "id": "keam",
-              "title": "KEAM",
-              "subtitle": "Kerala Engineering",
-              "testsLabel": "19 Tests",
-              "icon": "fa-solid fa-pencil-ruler",
-              "homePath": "examsnetapp/keam/"
-            },
-            {
-              "id": "gujcet",
-              "title": "GUJCET",
-              "subtitle": "Gujarat CET",
-              "testsLabel": "16 Tests",
-              "icon": "fa-solid fa-diagram-project",
-              "homePath": "examsnetapp/gujcet/"
-            },
-            {
-              "id": "ts-eamcet",
-              "title": "TS EAMCET",
-              "subtitle": "Telangana Engineering",
-              "testsLabel": "27 Tests",
-              "icon": "fa-solid fa-gears",
-              "homePath": "examsnetapp/ts-eamcet/"
-            },
-            {
-              "id": "comedk",
-              "title": "COMEDK",
-              "subtitle": "Karnataka Entrance",
-              "testsLabel": "21 Tests",
-              "icon": "fa-solid fa-building-columns",
-              "homePath": "examsnetapp/comedk/"
-            }
+              "homePath": "examsnetapp/jee/advhome/"
+            } 
+                      
           ]
         },
         {
           "id": "medical",
           "active": true,
           "title": "Medical",
-          "subtitle": "NEET and medical entrance exams",
+          "subtitle": "NEET Entrance exams",
           "expanded": false,
           "icon": "fa-solid fa-heart-pulse",
           "exams": [
             {
               "id": "neet",
               "title": "NEET",
-              "subtitle": "National Eligibility Test",
+              "subtitle": "NEET Exam Preparation",
               "testsLabel": "38 Tests",
               "icon": "fa-solid fa-stethoscope",
-              "homePath": "examsnetapp/neet/"
-            },
+              "homePath": "examsnetapp/medical/neethome"
+            }
+            ,
             {
-              "id": "aiims",
-              "title": "AIIMS",
-              "subtitle": "Medical Entrance",
+              "id": "aipmt",
+              "title": "AIPMT",
+              "subtitle": "AIPMT Exam Preparation",
               "testsLabel": "18 Tests",
               "icon": "fa-solid fa-user-doctor",
-              "homePath": "examsnetapp/aiims/"
-            }
+              "homePath": "examsnetapp/medical/aipmthome/"
+            } 
           ]
         },
         {
-          "id": "jeeexams",
+          "id": "engineering",
           "active": true,
-          "title": "JEE Exams",
-          "subtitle": "JEE entrance exams",
+          "title": "Engineering",
+          "subtitle": "Engineering Exams",
           "expanded": false,
           "icon": "fa-solid fa-microchip",
           "exams": [
-            {
-              "id": "jee-main",
-              "title": "JEE Main",
-              "subtitle": "JEE Mains Exam",
-              "testsLabel": "42 Tests",
-              "icon": "fa-solid fa-calculator",
-              "homePath": "examsnetapp/jee/"
-            },
+           
             {
               "id": "eamcet",
               "title": "EAMCET",
               "subtitle": "AP/TS Engineering",
               "testsLabel": "50 Tests",
               "icon": "fa-solid fa-graduation-cap",
-              "homePath": "examsnetapp/eamcet/"
+              "homePath": "examsnetapp/engineering/eamcet/"
             },
             {
               "id": "viteee",
@@ -178,7 +109,7 @@
               "subtitle": "VIT Engineering",
               "testsLabel": "30 Tests",
               "icon": "fa-solid fa-flask",
-              "homePath": "examsnetapp/viteee/"
+              "homePath": "examsnetapp/engineering/viteee/"
             },
             {
               "id": "bitsat",
@@ -186,7 +117,7 @@
               "subtitle": "BITS Pilani",
               "testsLabel": "28 Tests",
               "icon": "fa-regular fa-lightbulb",
-              "homePath": "examsnetapp/bitsat/"
+              "homePath": "examsnetapp/engineering/bitsat/"
             },
             {
               "id": "wbjee",
@@ -194,7 +125,7 @@
               "subtitle": "West Bengal JEE",
               "testsLabel": "25 Tests",
               "icon": "fa-solid fa-atom",
-              "homePath": "examsnetapp/wbjee/"
+              "homePath": "examsnetapp/engineering/wbjee/"
             },
             {
               "id": "mht-cet",
@@ -202,7 +133,7 @@
               "subtitle": "Maharashtra CET",
               "testsLabel": "34 Tests",
               "icon": "fa-solid fa-compass-drafting",
-              "homePath": "examsnetapp/mhtcet/"
+              "homePath": "examsnetapp/engineering/mhtcet/"
             },
             {
               "id": "keam",
@@ -210,7 +141,7 @@
               "subtitle": "Kerala Engineering",
               "testsLabel": "19 Tests",
               "icon": "fa-solid fa-pencil-ruler",
-              "homePath": "examsnetapp/keam/"
+              "homePath": "examsnetapp/engineering/keam/"
             },
             {
               "id": "gujcet",
@@ -218,7 +149,7 @@
               "subtitle": "Gujarat CET",
               "testsLabel": "16 Tests",
               "icon": "fa-solid fa-diagram-project",
-              "homePath": "examsnetapp/gujcet/"
+              "homePath": "examsnetapp/engineering/gujcet/"
             },
             {
               "id": "ts-eamcet",
@@ -226,7 +157,7 @@
               "subtitle": "Telangana Engineering",
               "testsLabel": "27 Tests",
               "icon": "fa-solid fa-gears",
-              "homePath": "examsnetapp/ts-eamcet/"
+              "homePath": "examsnetapp/engineering/ts-eamcet/"
             },
             {
               "id": "comedk",
@@ -234,7 +165,7 @@
               "subtitle": "Karnataka Entrance",
               "testsLabel": "21 Tests",
               "icon": "fa-solid fa-building-columns",
-              "homePath": "examsnetapp/comedk/"
+              "homePath": "examsnetapp/engineering/comedk/"
             }
           ]
         },

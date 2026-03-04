@@ -1,6 +1,6 @@
 [
   {
-    "categorytitle": "Entrance Exams",
+    "categorytitle": "JEE Exams",
     "subjects": [
       {
         "subjecttitle": "JEE Main Papers",
@@ -94,91 +94,7 @@
             "common": false
           }
         ]
-      },
-      {
-        "subjecttitle": "JEE Advanced Papers",
-        "slogo": "fa-solid fa-user-pen",
-        "chapters": [
-          {
-            "chaptertitle": "JEE Advanced Previous Papers",
-            "chapterpath": "exams/jee/advprevious/",
-            "clogo": "fa-solid fa-pencil",
-            "savekey": "JAP",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "JEE Advanced Model Papers",
-            "chapterpath": "exams/jee/advmodel/",
-            "clogo": "fa-solid fa-pencil",
-            "savekey": "JAM",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          }
-        ]
-      },
-      {
-        "subjecttitle": "JEE Advanced Chapters Wise Questions",
-        "slogo": "fa-solid fa-user-pen",
-        "chapters": [
-          {
-            "chaptertitle": "JEE Adv Class 11 Math Questions",
-            "chapterpath": "exams/jee/advchapters/math11/",
-            "clogo": "fa-solid fa-pencil",
-            "savekey": "J1AD",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "JEE Adv Class 12 Math Questions",
-            "chapterpath": "exams/jee/advchapters/math12/",
-            "clogo": "fa-solid fa-pencil",
-            "savekey": "J2AD",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "JEE Adv Class 11 Chemistry Questions",
-            "chapterpath": "exams/jee/advchapters/chemistry11/",
-            "clogo": "fa-solid fa-pencil",
-            "savekey": "J3AD",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "JEE Adv Class 12 Chemistry Questions",
-            "chapterpath": "exams/jee/advchapters/chemistry12/",
-            "clogo": "fa-solid fa-pencil",
-            "savekey": "J4AD",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "JEE Adv Class 11 Physics Questions",
-            "chapterpath": "exams/jee/advchapters/physics11/",
-            "clogo": "fa-solid fa-pencil",
-            "savekey": "J5AD",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          },
-          {
-            "chaptertitle": "JEE Adv Class 12 Physics Questions",
-            "chapterpath": "exams/jee/advchapters/physics12/",
-            "clogo": "fa-solid fa-user-pen",
-            "savekey": "J6AD",
-            "datatype": "exams", 
-            "active": true,
-            "common": false
-          }
-        ]
-      }
+      } 
     ]
   },
   {
@@ -251,7 +167,8 @@
         ]
       }
     ]
-  }, {
+  }, 
+  {
     "categorytitle": "CBSE Concepts",
     "elogo": "fa-solid fa-file-pen",
     "active": true,
@@ -386,12 +303,7 @@
           }
            
         ]
-      }
-       
-      
-       
-      
-       
+      } 
     ]
   }
   ,
