@@ -5,10 +5,11 @@
       {
         "subjecttitle": "JEE Main Papers",
         "slogo": "fa-solid fa-user-pen",
+        "expand" : true,
         "chapters": [
           {
             "chaptertitle": "JEE Main Previous Papers",
-            "chapterpath": "exams/jee/mainprevious/",
+            "chapterpath": "examsnetapp/jee/mainprevious/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "JMP",
             "datatype": "exams", 
@@ -17,7 +18,7 @@
           },
           {
             "chaptertitle": "JEE Main Model Papers",
-            "chapterpath": "exams/jee/mainmodel/",
+            "chapterpath": "examsnetapp/jee/mainmodel/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "JMM",
             "datatype": "exams", 
@@ -26,7 +27,7 @@
           },
           {
             "chaptertitle": "AIEEE Previous Papers",
-            "chapterpath": "exams/jee/aieee/",
+            "chapterpath": "examsnetapp/jee/aieee/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "AIE",
             "datatype": "exams", 
@@ -38,10 +39,11 @@
       {
         "subjecttitle": "JEE Main Chapters Wise Questions",
         "slogo": "fa-solid fa-user-pen",
+        "expand" : true,
         "chapters": [
           {
             "chaptertitle": "JEE Main Class 11 Math Questions",
-            "chapterpath": "exams/jee/mainchapters/math11/",
+            "chapterpath": "examsnetapp/jee/mainchapters/math11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J1M",
             "datatype": "exams", 
@@ -50,7 +52,7 @@
           },
           {
             "chaptertitle": "JEE Main Class 12 Math Questions",
-            "chapterpath": "exams/jee/mainchapters/math12/",
+            "chapterpath": "examsnetapp/jee/mainchapters/math12/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J2M",
             "datatype": "exams", 
@@ -59,7 +61,7 @@
           },
           {
             "chaptertitle": "JEE Main Class 11 Chemistry Questions",
-            "chapterpath": "exams/jee/mainchapters/chemistry11/",
+            "chapterpath": "examsnetapp/jee/mainchapters/chemistry11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J1C",
             "datatype": "exams", 
@@ -68,7 +70,7 @@
           },
           {
             "chaptertitle": "JEE Main Class 12 Chemistry Questions",
-            "chapterpath": "exams/jee/mainchapters/chemistry12/",
+            "chapterpath": "examsnetapp/jee/mainchapters/chemistry12/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J2C",
             "datatype": "exams", 
@@ -77,7 +79,7 @@
           },
           {
             "chaptertitle": "JEE Main Class 11 Physics Questions",
-            "chapterpath": "exams/jee/mainchapters/physics11/",
+            "chapterpath": "examsnetapp/jee/mainchapters/physics11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J1P",
             "datatype": "exams", 
@@ -86,7 +88,7 @@
           },
           {
             "chaptertitle": "JEE Main Class 12 Physics Questions",
-            "chapterpath": "exams/jee/mainchapters/physics12/",
+            "chapterpath": "examsnetapp/jee/mainchapters/physics12/",
             "clogo": "fa-solid fa-user-pen",
             "savekey": "J2P",
             "datatype": "exams", 

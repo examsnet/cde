@@ -6,10 +6,11 @@
       {
         "subjecttitle": "JEE Advanced Papers",
         "slogo": "fa-solid fa-user-pen",
+        "expand" : true,
         "chapters": [
           {
             "chaptertitle": "JEE Advanced Previous Papers",
-            "chapterpath": "exams/jee/advprevious/",
+            "chapterpath": "examsnetapp/jee/advprevious/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "JAP",
             "datatype": "exams", 
@@ -18,7 +19,7 @@
           },
           {
             "chaptertitle": "JEE Advanced Model Papers",
-            "chapterpath": "exams/jee/advmodel/",
+            "chapterpath": "examsnetapp/jee/advmodel/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "JAM",
             "datatype": "exams", 
@@ -30,10 +31,11 @@
       {
         "subjecttitle": "JEE Advanced Chapters Wise Questions",
         "slogo": "fa-solid fa-user-pen",
+        "expand" : true,
         "chapters": [
           {
             "chaptertitle": "JEE Adv Class 11 Math Questions",
-            "chapterpath": "exams/jee/advchapters/math11/",
+            "chapterpath": "examsnetapp/jee/advchapters/math11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J1AD",
             "datatype": "exams", 
@@ -42,7 +44,7 @@
           },
           {
             "chaptertitle": "JEE Adv Class 12 Math Questions",
-            "chapterpath": "exams/jee/advchapters/math12/",
+            "chapterpath": "examsnetapp/jee/advchapters/math12/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J2AD",
             "datatype": "exams", 
@@ -51,7 +53,7 @@
           },
           {
             "chaptertitle": "JEE Adv Class 11 Chemistry Questions",
-            "chapterpath": "exams/jee/advchapters/chemistry11/",
+            "chapterpath": "examsnetapp/jee/advchapters/chemistry11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J3AD",
             "datatype": "exams", 
@@ -60,7 +62,7 @@
           },
           {
             "chaptertitle": "JEE Adv Class 12 Chemistry Questions",
-            "chapterpath": "exams/jee/advchapters/chemistry12/",
+            "chapterpath": "examsnetapp/jee/advchapters/chemistry12/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J4AD",
             "datatype": "exams", 
@@ -69,7 +71,7 @@
           },
           {
             "chaptertitle": "JEE Adv Class 11 Physics Questions",
-            "chapterpath": "exams/jee/advchapters/physics11/",
+            "chapterpath": "examsnetapp/jee/advchapters/physics11/",
             "clogo": "fa-solid fa-pencil",
             "savekey": "J5AD",
             "datatype": "exams", 
@@ -78,7 +80,7 @@
           },
           {
             "chaptertitle": "JEE Adv Class 12 Physics Questions",
-            "chapterpath": "exams/jee/advchapters/physics12/",
+            "chapterpath": "examsnetapp/jee/advchapters/physics12/",
             "clogo": "fa-solid fa-user-pen",
             "savekey": "J6AD",
             "datatype": "exams", 
