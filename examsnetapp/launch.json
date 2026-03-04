@@ -10,20 +10,9 @@
     { "value": "500+", "label": "Mock Tests" },
     { "value": "10K+", "label": "Students" }
   ],
-  "banner": {
-    "id": "new-year-offer",
-    "active": true,
-    "icon": "fa-regular fa-paper-plane",
-    "title": "🎉 New Year Offer - 50% Off Premium!",
-    "subtitle": "Unlock all mock tests, detailed analytics and ad-free experience.",
-    "ctaText": "Grab Now",
-    "ctaUrl": "https://examsnet.com/premium/offer",
-    "dismissible": true,
-    "backgroundColor": "#f8c47f",
-    "borderColor": "#f29c1f",
-    "textColor": "#2c2b3d",
-    "ctaBackgroundColor": "#2d58d8",
-    "ctaTextColor": "#ffffff"
+  "bannerConfig": {
+    "active": false,
+    "path": "examsnetapp/launch-banners"
   },
   "sections": [
     {

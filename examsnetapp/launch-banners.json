@@ -1,0 +1,61 @@
+{
+  "wishes": {
+    "parentType": "wish",
+    "items": [
+      {
+        "id": "diwali-wishes",
+        "active": true,
+        "kind": "text",
+        "priority": 100,
+        "title": "Happy Diwali!",
+        "subtitle": "Wishing you light, success and great exam results.",
+        "icon": "fa-solid fa-sparkles",
+        "startDate": "2026-11-08",
+        "endDate": "2026-11-16",
+        "dismissible": true,
+        "backgroundColor": "#ffe8a3",
+        "borderColor": "#f3b300",
+        "textColor": "#3b2a00"
+      },
+      {
+        "id": "christmas-wishes",
+        "active": true,
+        "kind": "text",
+        "priority": 100,
+        "title": "Merry Christmas!",
+        "subtitle": "Keep learning and keep shining. Best wishes from Examsnet.",
+        "icon": "fa-solid fa-gift",
+        "startDate": "2026-12-20",
+        "endDate": "2026-12-27",
+        "dismissible": true,
+        "backgroundColor": "#e8fff0",
+        "borderColor": "#2fbf71",
+        "textColor": "#063d22"
+      }
+    ]
+  },
+  "products": {
+    "parentType": "product",
+    "items": [
+      {
+        "id": "new-product-ad",
+        "active": true,
+        "kind": "image",
+        "priority": 50,
+        "title": "New Product: Premium Mock Pack",
+        "subtitle": "Unlock full-length tests, analytics and detailed review.",
+        "imageUrl": "https://examsnet.github.io/cdn/img/launch/premium-pack.jpg",
+        "ctaText": "Learn More",
+        "ctaUrl": "https://examsnet.com/premium",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31",
+        "dismissible": true,
+        "backgroundColor": "#f4f7ff",
+        "borderColor": "#5e78ff",
+        "textColor": "#1d2459",
+        "ctaBackgroundColor": "#2d58d8",
+        "ctaTextColor": "#ffffff"
+      }
+    ]
+  }
+}
