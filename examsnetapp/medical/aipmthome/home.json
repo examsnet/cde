@@ -454,5 +454,37 @@
         }
       ]
     }
-  ]
+  ],
+  "productBanner": {
+    "id": "premium-home-product",
+    "active": true,
+    "type": "product",
+    "title": "Premium Mock Pack",
+    "subtitle": "Unlock full tests, analytics and smart review.",
+    "imageUrl": "https://examsnet.github.io/cdn/img/launch/premium-pack.jpg",
+    "ctaText": "Explore Premium",
+    "ctaUrl": "https://examsnet.com/premium",
+    "startDate": "2026-03-01",
+    "endDate": "2026-12-31",
+    "dismissible": true,
+    "backgroundColor": "#f4f7ff",
+    "borderColor": "#5e78ff",
+    "textColor": "#1d2459",
+    "ctaBackgroundColor": "#2d58d8",
+    "ctaTextColor": "#ffffff"
+  },
+  "banner": {
+    "id": "home-wish-banner",
+    "active": true,
+    "type": "wish",
+    "icon": "fa-solid fa-gift",
+    "title": "Best Wishes from Examsnet",
+    "subtitle": "Keep learning every day and keep moving up.",
+    "startDate": "2026-03-01",
+    "endDate": "2026-12-31",
+    "dismissible": true,
+    "backgroundColor": "#fff3d6",
+    "borderColor": "#f29c1f",
+    "textColor": "#2c2b3d"
+  }
 }
