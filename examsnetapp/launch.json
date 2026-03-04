@@ -11,7 +11,7 @@
     { "value": "10K+", "label": "Students" }
   ],
   "bannerConfig": {
-    "active": false,
+    "active": true,
     "path": "examsnetapp/launch-banners"
   },
   "sections": [
