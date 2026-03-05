@@ -7,7 +7,7 @@
     {
       "categorytitle": "AIPMT Exams",
       "elogo": "fa-solid fa-file-pen",
-      "showCategoryTitle": false,
+      "showCategoryTitle": true,
       "subjects": [
         {
           "subjecttitle": "AIPMT Papers",
