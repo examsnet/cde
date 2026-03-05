@@ -1,15 +1,27 @@
 {
-  "searchPlaceholder": "Search exams, subjects...",
   "searchBar": {
-    "active": true
+    "active": true,
+    "placeholder": "Search exams, subjects..."
   },
   "expandByDefault": false,
   "favoritesTitle": "Favorites",
-  "stats": [
-    { "value": "15+", "label": "Exams" },
-    { "value": "500+", "label": "Mock Tests" },
-    { "value": "10K+", "label": "Students" }
-  ],
+  "stats": {
+    "active": true,
+    "items": [
+      {
+        "value": "15+",
+        "label": "Exams"
+      },
+      {
+        "value": "500+",
+        "label": "Mock Tests"
+      },
+      {
+        "value": "10K+",
+        "label": "Students"
+      }
+    ]
+  },
   "bannerConfig": {
     "active": true,
     "path": "examsnetapp/launch-banners"
@@ -44,8 +56,7 @@
               "testsLabel": "50 Tests",
               "icon": "fa-solid fa-graduation-cap",
               "homePath": "examsnetapp/jee/advhome/"
-            } 
-                      
+            }
           ]
         },
         {
@@ -63,8 +74,7 @@
               "testsLabel": "38 Tests",
               "icon": "fa-solid fa-stethoscope",
               "homePath": "examsnetapp/medical/neethome"
-            }
-            ,
+            },
             {
               "id": "aipmt",
               "title": "AIPMT",
@@ -72,7 +82,7 @@
               "testsLabel": "18 Tests",
               "icon": "fa-solid fa-user-doctor",
               "homePath": "examsnetapp/medical/aipmthome/"
-            } 
+            }
           ]
         },
         {
@@ -83,7 +93,6 @@
           "expanded": false,
           "icon": "fa-solid fa-microchip",
           "exams": [
-           
             {
               "id": "eamcet",
               "title": "EAMCET",
