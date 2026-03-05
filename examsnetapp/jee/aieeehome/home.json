@@ -602,19 +602,5 @@
     "textColor": "#1d2459",
     "ctaBackgroundColor": "#2d58d8",
     "ctaTextColor": "#ffffff"
-  },
-  "banner": {
-    "id": "home-wish-banner",
-    "active": true,
-    "type": "wish",
-    "icon": "fa-solid fa-gift",
-    "title": "Best Wishes from Examsnet",
-    "subtitle": "Keep learning every day and keep moving up.",
-    "startDate": "2026-03-01",
-    "endDate": "2026-12-31",
-    "dismissible": true,
-    "backgroundColor": "#fff3d6",
-    "borderColor": "#f29c1f",
-    "textColor": "#2c2b3d"
   }
 }
