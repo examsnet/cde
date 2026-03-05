@@ -4,7 +4,7 @@
     "items": [
       {
         "id": "diwali-wishes",
-        "active": true,
+        "active": false,
         "kind": "text",
         "priority": 100,
         "title": "Happy Diwali!",
@@ -19,7 +19,7 @@
       },
       {
         "id": "christmas-wishes",
-        "active": true,
+        "active": false,
         "kind": "text",
         "priority": 100,
         "title": "Merry Christmas!",
@@ -39,7 +39,7 @@
     "items": [
       {
         "id": "new-product-ad",
-        "active": true,
+        "active": false,
         "kind": "image",
         "priority": 50,
         "title": "NEET Biology Full Course",

@@ -524,7 +524,7 @@
     "items": [
       {
         "id": "new-product-ad",
-        "active": true,
+        "active": false,
         "kind": "image",
         "priority": 50,
         "title": "",
