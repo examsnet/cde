@@ -9,15 +9,15 @@
     "active": true,
     "items": [
       {
-        "value": "15+",
+        "value": "27",
         "label": "Exams"
       },
       {
-        "value": "500+",
+        "value": "770",
         "label": "Mock Tests"
       },
       {
-        "value": "10K+",
+        "value": "1M+",
         "label": "Students"
       }
     ]
@@ -45,7 +45,7 @@
               "id": "jee-main",
               "title": "JEE Main",
               "subtitle": "JEE Mains",
-              "testsLabel": "42 Tests",
+              "testsLabel": "391 Tests",
               "icon": "fa-solid fa-calculator",
               "homePath": "examsnetapp/jee/mainshome/"
             },
@@ -53,7 +53,7 @@
               "id": "jee-advanced",
               "title": "JEE Advanced",
               "subtitle": "JEE Advanced Exam",
-              "testsLabel": "50 Tests",
+              "testsLabel": "170 Tests",
               "icon": "fa-solid fa-graduation-cap",
               "homePath": "examsnetapp/jee/advhome/"
             }
@@ -71,7 +71,7 @@
               "id": "neet",
               "title": "NEET",
               "subtitle": "NEET Exam Preparation",
-              "testsLabel": "38 Tests",
+              "testsLabel": "179 Tests",
               "icon": "fa-solid fa-stethoscope",
               "homePath": "examsnetapp/medical/neethome"
             },
@@ -79,7 +79,7 @@
               "id": "aipmt",
               "title": "AIPMT",
               "subtitle": "AIPMT Exam Preparation",
-              "testsLabel": "18 Tests",
+              "testsLabel": "30 Tests",
               "icon": "fa-solid fa-user-doctor",
               "homePath": "examsnetapp/medical/aipmthome/"
             }

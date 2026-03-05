@@ -20,7 +20,13 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "NPP",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "NEET"
+              ],
+              "totalTests": 40,
+              "testsLabel": "40 Tests",
+              "badgeText": "40 Tests"
             },
             {
               "chaptertitle": "NEET Model Papers",
@@ -28,7 +34,13 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "NMP",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "NEETMOD"
+              ],
+              "totalTests": 41,
+              "testsLabel": "41 Tests",
+              "badgeText": "41 Tests"
             }
           ]
         },
@@ -43,7 +55,13 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "N1B",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "NEETPT"
+              ],
+              "totalTests": 27,
+              "testsLabel": "27 Tests",
+              "badgeText": "27 Tests"
             },
             {
               "chaptertitle": "Class 12 Biology Questions",
@@ -51,7 +69,11 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "N2B",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [],
+              "totalTests": 0,
+              "testsLabel": "0 Tests",
+              "badgeText": "0 Tests"
             },
             {
               "chaptertitle": "Class 11 Chemistry Questions",
@@ -59,7 +81,13 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "N1C",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "NEETPT"
+              ],
+              "totalTests": 13,
+              "testsLabel": "13 Tests",
+              "badgeText": "13 Tests"
             },
             {
               "chaptertitle": "Class 12 Chemistry Questions",
@@ -67,7 +95,13 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "N2C",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "NEETPT"
+              ],
+              "totalTests": 12,
+              "testsLabel": "12 Tests",
+              "badgeText": "12 Tests"
             },
             {
               "chaptertitle": "Class 11 Physics Questions",
@@ -75,7 +109,13 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "N1P",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "NEETPT"
+              ],
+              "totalTests": 11,
+              "testsLabel": "11 Tests",
+              "badgeText": "11 Tests"
             },
             {
               "chaptertitle": "Class 12 Physics Questions",
@@ -83,7 +123,13 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "N2P",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "NEETPT"
+              ],
+              "totalTests": 15,
+              "testsLabel": "15 Tests",
+              "badgeText": "15 Tests"
             }
           ]
         }

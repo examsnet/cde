@@ -19,7 +19,11 @@
               "savekey": "AIE",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [],
+              "totalTests": 0,
+              "testsLabel": "0 Tests",
+              "badgeText": "0 Tests"
             }
           ]
         }

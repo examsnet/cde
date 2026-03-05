@@ -19,7 +19,13 @@
               "savekey": "JAP",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "IITJEE"
+              ],
+              "totalTests": 39,
+              "testsLabel": "39 Tests",
+              "badgeText": "39 Tests"
             },
             {
               "chaptertitle": "JEE Advanced Model Papers",
@@ -28,7 +34,13 @@
               "savekey": "JAM",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "IITADVMODEL"
+              ],
+              "totalTests": 52,
+              "testsLabel": "52 Tests",
+              "badgeText": "52 Tests"
             }
           ]
         },
@@ -44,7 +56,13 @@
               "savekey": "J1AD",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "jee-advanced-chapter-wise-questions"
+              ],
+              "totalTests": 14,
+              "testsLabel": "14 Tests",
+              "badgeText": "14 Tests"
             },
             {
               "chaptertitle": "JEE Adv Class 12 Math Questions",
@@ -53,7 +71,13 @@
               "savekey": "J2AD",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "jee-advanced-chapter-wise-questions"
+              ],
+              "totalTests": 12,
+              "testsLabel": "12 Tests",
+              "badgeText": "12 Tests"
             },
             {
               "chaptertitle": "JEE Adv Class 11 Chemistry Questions",
@@ -62,7 +86,13 @@
               "savekey": "J3AD",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "jee-advanced-chapter-wise-questions"
+              ],
+              "totalTests": 15,
+              "testsLabel": "15 Tests",
+              "badgeText": "15 Tests"
             },
             {
               "chaptertitle": "JEE Adv Class 12 Chemistry Questions",
@@ -71,7 +101,13 @@
               "savekey": "J4AD",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "jee-advanced-chapter-wise-questions"
+              ],
+              "totalTests": 16,
+              "testsLabel": "16 Tests",
+              "badgeText": "16 Tests"
             },
             {
               "chaptertitle": "JEE Adv Class 11 Physics Questions",
@@ -80,7 +116,13 @@
               "savekey": "J5AD",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "jee-advanced-chapter-wise-questions"
+              ],
+              "totalTests": 11,
+              "testsLabel": "11 Tests",
+              "badgeText": "11 Tests"
             },
             {
               "chaptertitle": "JEE Adv Class 12 Physics Questions",
@@ -89,7 +131,13 @@
               "savekey": "J6AD",
               "datatype": "exams",
               "active": true,
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "jee-advanced-chapter-wise-questions"
+              ],
+              "totalTests": 11,
+              "testsLabel": "11 Tests",
+              "badgeText": "11 Tests"
             }
           ]
         }

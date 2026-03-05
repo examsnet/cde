@@ -20,7 +20,13 @@
               "clogo": "fa-solid fa-pen",
               "savekey": "AIPMT",
               "datatype": "exams",
-              "common": false
+              "common": false,
+              "subjectKeys": [
+                "AIPMTEXAM"
+              ],
+              "totalTests": 30,
+              "testsLabel": "30 Tests",
+              "badgeText": "30 Tests"
             }
           ]
         }
