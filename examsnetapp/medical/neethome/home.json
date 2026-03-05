@@ -65,15 +65,17 @@
             },
             {
               "chaptertitle": "Class 12 Biology Questions",
-              "chapterpath": "examsnetapp/neet/neetchapters/biology12/",
+              "chapterpath": "examsnetapp/medical/neetchapters/biology12/",
               "clogo": "fa-solid fa-pen",
               "savekey": "N2B",
               "datatype": "exams",
               "common": false,
-              "subjectKeys": [],
-              "totalTests": 0,
-              "testsLabel": "0 Tests",
-              "badgeText": "0 Tests"
+              "subjectKeys": [
+                "NEETPT"
+              ],
+              "totalTests": 20,
+              "testsLabel": "20 Tests",
+              "badgeText": "20 Tests"
             },
             {
               "chaptertitle": "Class 11 Chemistry Questions",

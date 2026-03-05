@@ -14,16 +14,18 @@
           "chapters": [
             {
               "chaptertitle": "AIEEE Previous Papers",
-              "chapterpath": "exams/jee/aieee/",
+              "chapterpath": "examsnetapp/jee/aieee/",
               "clogo": "fa-solid fa-pencil",
               "savekey": "AIE",
               "datatype": "exams",
               "active": true,
               "common": false,
-              "subjectKeys": [],
-              "totalTests": 0,
-              "testsLabel": "0 Tests",
-              "badgeText": "0 Tests"
+              "subjectKeys": [
+                "AIEEE"
+              ],
+              "totalTests": 19,
+              "testsLabel": "19 Tests",
+              "badgeText": "19 Tests"
             }
           ]
         }
