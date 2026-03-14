@@ -115,6 +115,33 @@
             "datatype": "link",
             "active": true,
             "common": true
+          },
+          {
+            "chaptertitle": "NEET Biology Class 12 Lecture",
+            "chapterpath": "exams/neet/youtube/class12biology/",
+            "clogo": "fa-brands fa-youtube",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "NEET Biology Previous Year Solutions",
+            "chapterpath": "exams/neet/youtube/biologysolutions/",
+            "clogo": "fa-brands fa-youtube",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "NEET Physics Previous Year Solutions",
+            "chapterpath": "exams/neet/youtube/physicssolutions/",
+            "clogo": "fa-brands fa-youtube",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
           }
         ]
       }
