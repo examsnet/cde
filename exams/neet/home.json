@@ -506,7 +506,7 @@
         "subjecttitle": "NCERT Class 12 Exemplar Solutions",
         "slogo": "fa-solid fa-book",
         "active": true,
-        "expand": true,
+        "expand": false,
         "chapters": [
           {
             "chaptertitle": "Biology",
