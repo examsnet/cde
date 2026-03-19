@@ -6,6 +6,17 @@
     "type": "home"
   },
   {
+    "title": "Text Size",
+    "icon": "fa-solid fa-text-height",
+    "link": "#",
+    "type": "font",
+    "submenu": [
+      {
+        "title": "Adjust app text size"
+      }
+    ]
+  },
+  {
     "title": "Review App",
     "icon": "fa-regular fa-star",
     "link": "#",
