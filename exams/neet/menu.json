@@ -16,18 +16,7 @@
       }
     ]
   },
-  {
-    "title": "Review App",
-    "icon": "fa-regular fa-star",
-    "link": "#",
-    "type": "rate"
-  },
-  {
-    "title": "Share App",
-    "icon": "fa-solid fa-share",
-    "link": "#",
-    "type": "share"
-  },
+ 
   {
     "title": "Themes",
     "icon": "theme-icon",
@@ -91,6 +80,18 @@
         "color": "#410093"
       }
     ]
+  },
+   {
+    "title": "Review App",
+    "icon": "fa-regular fa-star",
+    "link": "#",
+    "type": "rate"
+  },
+  {
+    "title": "Share App",
+    "icon": "fa-solid fa-share",
+    "link": "#",
+    "type": "share"
   },
     
   {
