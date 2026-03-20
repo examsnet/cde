@@ -13587,6 +13587,143 @@ body.admin-shell.dark-theme strong {
   color: #ff86b2;
 }
 
+body.admin-shell.dark-theme .container-fluid.bg-light,
+body.admin-shell.dark-theme .questionspage,
+body.admin-shell.dark-theme #questionsList,
+body.admin-shell.dark-theme #questionsList .question,
+body.admin-shell.dark-theme #solutionpanel,
+body.admin-shell.dark-theme #answerspanel,
+body.admin-shell.dark-theme .custom-bg-tbuddy {
+  background-color: #12293b !important;
+  color: #e8eef5 !important;
+}
+
+body.admin-shell.dark-theme .questionspage.bg-secondary,
+body.admin-shell.dark-theme .admin-page-shell .questionspage.bg-secondary {
+  background: linear-gradient(180deg, #18364d 0%, #12293b 100%) !important;
+}
+
+body.admin-shell.dark-theme #questionsList .question,
+body.admin-shell.dark-theme .custom-bg-tbuddy,
+body.admin-shell.dark-theme #solutionpanel,
+body.admin-shell.dark-theme #answerspanel {
+  border-color: rgba(127, 170, 204, 0.18) !important;
+  box-shadow: 0 12px 28px rgba(4, 12, 19, 0.22);
+}
+
+body.admin-shell.dark-theme .custom-bg-tbuddy {
+  background: linear-gradient(180deg, #163147 0%, #12293b 100%) !important;
+}
+
+body.admin-shell.dark-theme #testdetails,
+body.admin-shell.dark-theme #questionsList .question,
+body.admin-shell.dark-theme #questionsList .question *,
+body.admin-shell.dark-theme #solutionpanel,
+body.admin-shell.dark-theme #solutionpanel *,
+body.admin-shell.dark-theme #answerspanel,
+body.admin-shell.dark-theme #answerspanel * {
+  color: #e8eef5;
+}
+
+body.admin-shell.dark-theme #questionsList .text-dark,
+body.admin-shell.dark-theme #questionsList .text-primary,
+body.admin-shell.dark-theme #questionsList .text-danger,
+body.admin-shell.dark-theme #questionsList .fw-bold,
+body.admin-shell.dark-theme #solutionpanel .text-dark,
+body.admin-shell.dark-theme #solutionpanel .text-primary {
+  color: #e8eef5 !important;
+}
+
+body.admin-shell.dark-theme #questionsList .text-warning,
+body.admin-shell.dark-theme #solutionpanel .text-warning,
+body.admin-shell.dark-theme #answerspanel .text-warning,
+body.admin-shell.dark-theme .custom-bg-tbuddy .text-warning {
+  color: #ffd36e !important;
+}
+
+body.admin-shell.dark-theme #questionsList .text-danger {
+  color: #ff9db2 !important;
+}
+
+body.admin-shell.dark-theme #questionsList a,
+body.admin-shell.dark-theme #solutionpanel a,
+body.admin-shell.dark-theme #answerspanel a {
+  color: #8bc3f0 !important;
+}
+
+body.admin-shell.dark-theme .input-group-text,
+body.admin-shell.dark-theme .input-group-text.bg-light,
+body.admin-shell.dark-theme .bg-light,
+body.admin-shell.dark-theme .form-control,
+body.admin-shell.dark-theme .form-control-sm,
+body.admin-shell.dark-theme textarea.form-control,
+body.admin-shell.dark-theme input.form-control {
+  color: #edf5fb !important;
+  background: #173246 !important;
+  border-color: rgba(127, 170, 204, 0.18) !important;
+}
+
+body.admin-shell.dark-theme .form-check-input,
+body.admin-shell.dark-theme input[type="radio"],
+body.admin-shell.dark-theme input[type="checkbox"] {
+  accent-color: #8bc3f0;
+}
+
+body.admin-shell.dark-theme .previewdest {
+  background: #18364d;
+  color: #edf5fb;
+  border: 1px solid rgba(127, 170, 204, 0.18);
+  border-radius: 12px;
+}
+
+body.admin-shell.dark-theme .customlegends {
+  color: #d9e8f4;
+}
+
+body.admin-shell.dark-theme .btn-outline-warning {
+  color: #ffd36e;
+  border-color: rgba(255, 211, 110, 0.45);
+}
+
+body.admin-shell.dark-theme .btn-outline-warning:hover {
+  color: #1a2430;
+  background-color: #ffd36e;
+  border-color: #ffd36e;
+}
+
+body.admin-shell.dark-theme .btn-outline-success {
+  color: #7fd6b1;
+  border-color: rgba(127, 214, 177, 0.45);
+}
+
+body.admin-shell.dark-theme .btn-outline-success:hover {
+  color: #102131;
+  background-color: #7fd6b1;
+  border-color: #7fd6b1;
+}
+
+body.admin-shell.dark-theme .btn-outline-danger {
+  color: #ff9db2;
+  border-color: rgba(255, 157, 178, 0.45);
+}
+
+body.admin-shell.dark-theme .btn-outline-danger:hover {
+  color: #102131;
+  background-color: #ff9db2;
+  border-color: #ff9db2;
+}
+
+body.admin-shell.dark-theme .btn-outline-info {
+  color: #8bc3f0;
+  border-color: rgba(139, 195, 240, 0.45);
+}
+
+body.admin-shell.dark-theme .btn-outline-info:hover {
+  color: #102131;
+  background-color: #8bc3f0;
+  border-color: #8bc3f0;
+}
+
 @media (max-width: 767.98px) {
   .admin-navbar {
     padding: 0.3rem 0 !important;
