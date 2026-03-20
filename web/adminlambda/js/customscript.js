@@ -101,6 +101,10 @@ $(function () {
     onlyIntegers(this);
   });
 
+  $(document).on("click", "#themeToggle", function (event) {
+    toggleTheme(event);
+  });
+
   $(document).on("input", "#searchinput", function (event) {
     stopscroll(event);
      
