@@ -13499,6 +13499,94 @@ body.admin-shell {
   box-shadow: 0 12px 32px rgba(32, 64, 92, 0.08);
 }
 
+body.admin-shell.dark-theme {
+  color: #e8eef5;
+  background:
+    radial-gradient(circle at top left, rgba(65, 104, 138, 0.24), transparent 24%),
+    radial-gradient(circle at top right, rgba(99, 122, 148, 0.16), transparent 24%),
+    linear-gradient(180deg, #102131 0%, #132739 100%);
+}
+
+body.admin-shell.dark-theme .admin-navbar {
+  background: linear-gradient(135deg, #102739 0%, #15354d 55%, #1b4665 100%) !important;
+  box-shadow: 0 14px 30px rgba(6, 15, 24, 0.45);
+}
+
+body.admin-shell.dark-theme .admin-page-shell {
+  border-color: rgba(127, 170, 204, 0.18);
+  background: rgba(17, 34, 48, 0.92);
+  box-shadow: 0 22px 44px rgba(4, 12, 19, 0.34);
+}
+
+body.admin-shell.dark-theme .admin-page-shell .bg-secondary {
+  background: linear-gradient(180deg, #163147 0%, #122a3d 100%) !important;
+}
+
+body.admin-shell.dark-theme .admin-page-shell .btn-outline-primary {
+  color: #8bc3f0;
+  border-color: rgba(139, 195, 240, 0.45);
+}
+
+body.admin-shell.dark-theme .admin-page-shell .btn-outline-primary:hover {
+  color: #081420;
+  background-color: #8bc3f0;
+  border-color: #8bc3f0;
+}
+
+body.admin-shell.dark-theme .admin-page-shell .form-control,
+body.admin-shell.dark-theme .admin-page-shell .form-control-sm,
+body.admin-shell.dark-theme .admin-page-shell select {
+  color: #edf5fb;
+  background: #173246;
+  border-color: rgba(139, 195, 240, 0.18);
+}
+
+body.admin-shell.dark-theme .admin-page-shell .form-control:focus,
+body.admin-shell.dark-theme .admin-page-shell .form-control-sm:focus,
+body.admin-shell.dark-theme .admin-page-shell select:focus {
+  border-color: #8bc3f0;
+  box-shadow: 0 0 0 0.2rem rgba(139, 195, 240, 0.16);
+}
+
+body.admin-shell.dark-theme .admin-page-shell .table {
+  background: #12293b;
+  color: #e8eef5;
+}
+
+body.admin-shell.dark-theme .admin-page-shell,
+body.admin-shell.dark-theme .admin-page-shell .text-dark,
+body.admin-shell.dark-theme .admin-page-shell .text-primary,
+body.admin-shell.dark-theme .admin-page-shell .form-label,
+body.admin-shell.dark-theme .admin-page-shell label,
+body.admin-shell.dark-theme .admin-page-shell .h4,
+body.admin-shell.dark-theme .admin-page-shell .h5,
+body.admin-shell.dark-theme .admin-page-shell .h6,
+body.admin-shell.dark-theme .admin-page-shell .table,
+body.admin-shell.dark-theme .admin-page-shell .card,
+body.admin-shell.dark-theme .admin-page-shell .dropdown-item {
+  color: #e8eef5 !important;
+}
+
+body.admin-shell.dark-theme .admin-page-shell a.text-primary,
+body.admin-shell.dark-theme .admin-page-shell .dropdown-item:hover {
+  color: #8bc3f0 !important;
+}
+
+body.admin-shell.dark-theme .ag-theme-quartz {
+  --ag-background-color: #12293b !important;
+  --ag-foreground-color: #e8eef5 !important;
+  --ag-border-color: rgba(127, 170, 204, 0.18) !important;
+  --ag-header-background-color: #1b4665 !important;
+  --ag-header-foreground-color: #edf5fb !important;
+  --ag-odd-row-background-color: #163147 !important;
+  --ag-row-hover-color: rgba(139, 195, 240, 0.12) !important;
+  box-shadow: 0 16px 36px rgba(4, 12, 19, 0.28);
+}
+
+body.admin-shell.dark-theme strong {
+  color: #ff86b2;
+}
+
 @media (max-width: 767.98px) {
   .admin-navbar {
     padding: 0.3rem 0 !important;
