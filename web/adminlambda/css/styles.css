@@ -13500,57 +13500,57 @@ body.admin-shell {
 }
 
 body.admin-shell.dark-theme {
-  color: #e8eef5;
+  color: #b0b3b8;
   background:
-    radial-gradient(circle at top left, rgba(65, 104, 138, 0.24), transparent 24%),
-    radial-gradient(circle at top right, rgba(99, 122, 148, 0.16), transparent 24%),
-    linear-gradient(180deg, #102131 0%, #132739 100%);
+    radial-gradient(circle at top left, rgba(58, 59, 60, 0.24), transparent 26%),
+    radial-gradient(circle at top right, rgba(36, 37, 38, 0.18), transparent 22%),
+    linear-gradient(180deg, #18191a 0%, #242526 100%);
 }
 
 body.admin-shell.dark-theme .admin-navbar {
-  background: linear-gradient(135deg, #102739 0%, #15354d 55%, #1b4665 100%) !important;
-  box-shadow: 0 14px 30px rgba(6, 15, 24, 0.45);
+  background: linear-gradient(180deg, #18191a 0%, #18191a 100%) !important;
+  box-shadow: inset 0 1px 0 rgb(236 243 249 / 15%), 0 1px 5px #242526;
 }
 
 body.admin-shell.dark-theme .admin-page-shell {
-  border-color: rgba(127, 170, 204, 0.18);
-  background: rgba(17, 34, 48, 0.92);
-  box-shadow: 0 22px 44px rgba(4, 12, 19, 0.34);
+  border-color: #3a3b3c;
+  background: rgba(36, 37, 38, 0.96);
+  box-shadow: 0 22px 44px rgba(0, 0, 0, 0.34);
 }
 
 body.admin-shell.dark-theme .admin-page-shell .bg-secondary {
-  background: linear-gradient(180deg, #163147 0%, #122a3d 100%) !important;
+  background: linear-gradient(180deg, #18191a 0%, #242526 100%) !important;
 }
 
 body.admin-shell.dark-theme .admin-page-shell .btn-outline-primary {
-  color: #8bc3f0;
-  border-color: rgba(139, 195, 240, 0.45);
+  color: #00cd96;
+  border-color: rgba(0, 205, 150, 0.45);
 }
 
 body.admin-shell.dark-theme .admin-page-shell .btn-outline-primary:hover {
-  color: #081420;
-  background-color: #8bc3f0;
-  border-color: #8bc3f0;
+  color: #18191a;
+  background-color: #00cd96;
+  border-color: #00cd96;
 }
 
 body.admin-shell.dark-theme .admin-page-shell .form-control,
 body.admin-shell.dark-theme .admin-page-shell .form-control-sm,
 body.admin-shell.dark-theme .admin-page-shell select {
-  color: #edf5fb;
-  background: #173246;
-  border-color: rgba(139, 195, 240, 0.18);
+  color: #e4e6eb;
+  background: #242526;
+  border-color: #616161;
 }
 
 body.admin-shell.dark-theme .admin-page-shell .form-control:focus,
 body.admin-shell.dark-theme .admin-page-shell .form-control-sm:focus,
 body.admin-shell.dark-theme .admin-page-shell select:focus {
-  border-color: #8bc3f0;
-  box-shadow: 0 0 0 0.2rem rgba(139, 195, 240, 0.16);
+  border-color: #00cd96;
+  box-shadow: 0 0 0 0.2rem rgba(0, 205, 150, 0.16);
 }
 
 body.admin-shell.dark-theme .admin-page-shell .table {
-  background: #12293b;
-  color: #e8eef5;
+  background: #242526;
+  color: #b0b3b8;
 }
 
 body.admin-shell.dark-theme .admin-page-shell,
@@ -13564,27 +13564,27 @@ body.admin-shell.dark-theme .admin-page-shell .h6,
 body.admin-shell.dark-theme .admin-page-shell .table,
 body.admin-shell.dark-theme .admin-page-shell .card,
 body.admin-shell.dark-theme .admin-page-shell .dropdown-item {
-  color: #e8eef5 !important;
+  color: #b0b3b8 !important;
 }
 
 body.admin-shell.dark-theme .admin-page-shell a.text-primary,
 body.admin-shell.dark-theme .admin-page-shell .dropdown-item:hover {
-  color: #8bc3f0 !important;
+  color: #00cd96 !important;
 }
 
 body.admin-shell.dark-theme .ag-theme-quartz {
-  --ag-background-color: #12293b !important;
-  --ag-foreground-color: #e8eef5 !important;
-  --ag-border-color: rgba(127, 170, 204, 0.18) !important;
-  --ag-header-background-color: #1b4665 !important;
-  --ag-header-foreground-color: #edf5fb !important;
-  --ag-odd-row-background-color: #163147 !important;
-  --ag-row-hover-color: rgba(139, 195, 240, 0.12) !important;
-  box-shadow: 0 16px 36px rgba(4, 12, 19, 0.28);
+  --ag-background-color: #242526 !important;
+  --ag-foreground-color: #e4e6eb !important;
+  --ag-border-color: #3a3b3c !important;
+  --ag-header-background-color: #18191a !important;
+  --ag-header-foreground-color: #e4e6eb !important;
+  --ag-odd-row-background-color: #2b2c2d !important;
+  --ag-row-hover-color: rgba(58, 59, 60, 0.42) !important;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
 }
 
 body.admin-shell.dark-theme strong {
-  color: #ff86b2;
+  color: #ce916a;
 }
 
 body.admin-shell.dark-theme .container-fluid.bg-light,
@@ -13594,25 +13594,25 @@ body.admin-shell.dark-theme #questionsList .question,
 body.admin-shell.dark-theme #solutionpanel,
 body.admin-shell.dark-theme #answerspanel,
 body.admin-shell.dark-theme .custom-bg-tbuddy {
-  background-color: #12293b !important;
-  color: #e8eef5 !important;
+  background-color: #242526 !important;
+  color: #b0b3b8 !important;
 }
 
 body.admin-shell.dark-theme .questionspage.bg-secondary,
 body.admin-shell.dark-theme .admin-page-shell .questionspage.bg-secondary {
-  background: linear-gradient(180deg, #18364d 0%, #12293b 100%) !important;
+  background: linear-gradient(180deg, #18191a 0%, #242526 100%) !important;
 }
 
 body.admin-shell.dark-theme #questionsList .question,
 body.admin-shell.dark-theme .custom-bg-tbuddy,
 body.admin-shell.dark-theme #solutionpanel,
 body.admin-shell.dark-theme #answerspanel {
-  border-color: rgba(127, 170, 204, 0.18) !important;
-  box-shadow: 0 12px 28px rgba(4, 12, 19, 0.22);
+  border-color: #3a3b3c !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
 }
 
 body.admin-shell.dark-theme .custom-bg-tbuddy {
-  background: linear-gradient(180deg, #163147 0%, #12293b 100%) !important;
+  background: linear-gradient(180deg, #242526 0%, #242526 100%) !important;
 }
 
 body.admin-shell.dark-theme #testdetails,
@@ -13622,7 +13622,7 @@ body.admin-shell.dark-theme #solutionpanel,
 body.admin-shell.dark-theme #solutionpanel *,
 body.admin-shell.dark-theme #answerspanel,
 body.admin-shell.dark-theme #answerspanel * {
-  color: #e8eef5;
+  color: #e4e6eb;
 }
 
 body.admin-shell.dark-theme #questionsList .text-dark,
@@ -13631,24 +13631,24 @@ body.admin-shell.dark-theme #questionsList .text-danger,
 body.admin-shell.dark-theme #questionsList .fw-bold,
 body.admin-shell.dark-theme #solutionpanel .text-dark,
 body.admin-shell.dark-theme #solutionpanel .text-primary {
-  color: #e8eef5 !important;
+  color: #e4e6eb !important;
 }
 
 body.admin-shell.dark-theme #questionsList .text-warning,
 body.admin-shell.dark-theme #solutionpanel .text-warning,
 body.admin-shell.dark-theme #answerspanel .text-warning,
 body.admin-shell.dark-theme .custom-bg-tbuddy .text-warning {
-  color: #ffd36e !important;
+  color: #ce916a !important;
 }
 
 body.admin-shell.dark-theme #questionsList .text-danger {
-  color: #ff9db2 !important;
+  color: #ff7b7b !important;
 }
 
 body.admin-shell.dark-theme #questionsList a,
 body.admin-shell.dark-theme #solutionpanel a,
 body.admin-shell.dark-theme #answerspanel a {
-  color: #8bc3f0 !important;
+  color: #00cd96 !important;
 }
 
 body.admin-shell.dark-theme .input-group-text,
@@ -13658,70 +13658,112 @@ body.admin-shell.dark-theme .form-control,
 body.admin-shell.dark-theme .form-control-sm,
 body.admin-shell.dark-theme textarea.form-control,
 body.admin-shell.dark-theme input.form-control {
-  color: #edf5fb !important;
-  background: #173246 !important;
-  border-color: rgba(127, 170, 204, 0.18) !important;
+  color: #e4e6eb !important;
+  background: #242526 !important;
+  border-color: #616161 !important;
 }
 
 body.admin-shell.dark-theme .form-check-input,
 body.admin-shell.dark-theme input[type="radio"],
 body.admin-shell.dark-theme input[type="checkbox"] {
-  accent-color: #8bc3f0;
+  accent-color: #00cd96;
 }
 
 body.admin-shell.dark-theme .previewdest {
-  background: #18364d;
-  color: #edf5fb;
-  border: 1px solid rgba(127, 170, 204, 0.18);
+  background: #18191a;
+  color: #e4e6eb;
+  border: 1px solid #3a3b3c;
   border-radius: 12px;
 }
 
 body.admin-shell.dark-theme .customlegends {
-  color: #d9e8f4;
+  color: #b0b3b8;
 }
 
 body.admin-shell.dark-theme .btn-outline-warning {
-  color: #ffd36e;
-  border-color: rgba(255, 211, 110, 0.45);
+  color: #ce916a;
+  border-color: rgba(206, 145, 106, 0.45);
 }
 
 body.admin-shell.dark-theme .btn-outline-warning:hover {
-  color: #1a2430;
-  background-color: #ffd36e;
-  border-color: #ffd36e;
+  color: #18191a;
+  background-color: #ce916a;
+  border-color: #ce916a;
 }
 
 body.admin-shell.dark-theme .btn-outline-success {
-  color: #7fd6b1;
-  border-color: rgba(127, 214, 177, 0.45);
+  color: #00cd96;
+  border-color: rgba(0, 205, 150, 0.45);
 }
 
 body.admin-shell.dark-theme .btn-outline-success:hover {
-  color: #102131;
-  background-color: #7fd6b1;
-  border-color: #7fd6b1;
+  color: #18191a;
+  background-color: #00cd96;
+  border-color: #00cd96;
 }
 
 body.admin-shell.dark-theme .btn-outline-danger {
-  color: #ff9db2;
-  border-color: rgba(255, 157, 178, 0.45);
+  color: #ff7b7b;
+  border-color: rgba(255, 123, 123, 0.45);
 }
 
 body.admin-shell.dark-theme .btn-outline-danger:hover {
-  color: #102131;
-  background-color: #ff9db2;
-  border-color: #ff9db2;
+  color: #18191a;
+  background-color: #ff7b7b;
+  border-color: #ff7b7b;
 }
 
 body.admin-shell.dark-theme .btn-outline-info {
-  color: #8bc3f0;
-  border-color: rgba(139, 195, 240, 0.45);
+  color: #00cd96;
+  border-color: rgba(0, 205, 150, 0.45);
 }
 
 body.admin-shell.dark-theme .btn-outline-info:hover {
-  color: #102131;
-  background-color: #8bc3f0;
-  border-color: #8bc3f0;
+  color: #18191a;
+  background-color: #00cd96;
+  border-color: #00cd96;
+}
+
+body.admin-shell.dark-theme .dropdown-menu,
+body.admin-shell.dark-theme .modal-content,
+body.admin-shell.dark-theme .card,
+body.admin-shell.dark-theme .list-group-item {
+  background-color: #242526 !important;
+  color: #e4e6eb !important;
+  border-color: #3a3b3c !important;
+}
+
+body.admin-shell.dark-theme .table-hover > tbody > tr:hover,
+body.admin-shell.dark-theme .dropdown-item:hover,
+body.admin-shell.dark-theme .dropdown-item:focus {
+  background-color: #3a3b3c !important;
+}
+
+body.admin-shell.dark-theme footer,
+body.admin-shell.dark-theme .sticky-header {
+  background: #18191a !important;
+  color: #e4e6eb !important;
+}
+
+body.admin-shell.dark-theme .btn-primary,
+body.admin-shell.dark-theme .btn-info,
+body.admin-shell.dark-theme .btn-success,
+body.admin-shell.dark-theme .btn-danger,
+body.admin-shell.dark-theme .btn-warning,
+body.admin-shell.dark-theme .btn-default {
+  background-image: linear-gradient(to bottom, #18191a 0%, #18191a 100%);
+  background-color: #18191a !important;
+  border-color: #3a3b3c !important;
+  color: #b0b3b8 !important;
+}
+
+body.admin-shell.dark-theme .btn-primary:hover,
+body.admin-shell.dark-theme .btn-info:hover,
+body.admin-shell.dark-theme .btn-success:hover,
+body.admin-shell.dark-theme .btn-danger:hover,
+body.admin-shell.dark-theme .btn-warning:hover,
+body.admin-shell.dark-theme .btn-default:hover {
+  color: #00cd96 !important;
 }
 
 @media (max-width: 767.98px) {
