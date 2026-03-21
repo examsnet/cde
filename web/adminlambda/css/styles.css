@@ -13449,6 +13449,11 @@ body.admin-shell {
   background: linear-gradient(180deg, #f5fbff 0%, #edf5fb 100%) !important;
 }
 
+.questionspage.bg-secondary,
+.admin-page-shell .questionspage.bg-secondary {
+  background: linear-gradient(180deg, #eef1f4 0%, #e4e8ec 100%) !important;
+}
+
 .admin-page-shell .btn-primary,
 .admin-page-shell .bg-primary {
   background-color: #246aa0 !important;
@@ -13570,6 +13575,21 @@ body.admin-shell.dark-theme .admin-page-shell .dropdown-item {
 body.admin-shell.dark-theme .admin-page-shell a.text-primary,
 body.admin-shell.dark-theme .admin-page-shell .dropdown-item:hover {
   color: #00cd96 !important;
+}
+
+body.admin-shell.dark-theme .ag-theme-quartz,
+body.admin-shell.dark-theme .ag-theme-quartz .ag-cell,
+body.admin-shell.dark-theme .ag-theme-quartz .ag-cell-value,
+body.admin-shell.dark-theme .ag-theme-quartz .ag-header-cell-text,
+body.admin-shell.dark-theme .ag-theme-quartz .ag-row,
+body.admin-shell.dark-theme .ag-theme-quartz .ag-row a,
+body.admin-shell.dark-theme .ag-theme-quartz .ag-cell a {
+  color: #d2d5d9 !important;
+}
+
+body.admin-shell.dark-theme .ag-theme-quartz .ag-row a:hover,
+body.admin-shell.dark-theme .ag-theme-quartz .ag-cell a:hover {
+  color: #e4e6eb !important;
 }
 
 body.admin-shell.dark-theme .ag-theme-quartz {
