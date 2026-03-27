@@ -1,0 +1,121 @@
+[
+  {
+    "categorytitle": "Vietnam HSG Exam Test Format",
+    "elogo": "fa-solid fa-file-pen",
+    "active": true,
+    "subjects": [
+      {
+        "subjecttitle": "Vietnam HSG Exams",
+        "slogo": "fa-solid fa-user-group",
+        "active": true,
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "Vietnam HSG Past Papers",
+            "chapterpath": "asia/vietnam/hsg/prev/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "VN1",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categorytitle": "Vietnam HSG Exam PDF Format",
+    "elogo": "fa-solid fa-book",
+    "subjects": [
+      {
+        "subjecttitle": "Vietnam HSG Exams",
+        "slogo": "fa-solid fa-book",
+        "active": true,
+        "expand": true,
+        "chapters": [
+          {
+            "chaptertitle": "Mathematics",
+            "chapterpath": "asia/vietnam/hsg/math/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Physics",
+            "chapterpath": "asia/vietnam/hsg/physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Chemistry",
+            "chapterpath": "asia/vietnam/hsg/chemistry/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Biology",
+            "chapterpath": "asia/vietnam/hsg/biology/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX4",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Literature",
+            "chapterpath": "asia/vietnam/hsg/literature/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX5",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "History",
+            "chapterpath": "asia/vietnam/hsg/history/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Geography",
+            "chapterpath": "asia/vietnam/hsg/geography/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX7",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "English",
+            "chapterpath": "asia/vietnam/hsg/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Informatics",
+            "chapterpath": "asia/vietnam/hsg/informatics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "VNEX9",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      }
+    ]
+  }
+]
