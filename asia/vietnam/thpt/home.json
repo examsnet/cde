@@ -1,28 +1,5 @@
 [
-  {
-    "categorytitle": "Đề thi Tốt nghiệp THPT - Dạng bài kiểm tra",
-    "elogo": "fa-solid fa-file-pen",
-    "active": true,
-    "subjects": [
-      {
-        "subjecttitle": "Kỳ thi Tốt nghiệp THPT Việt Nam",
-        "slogo": "fa-solid fa-user-group",
-        "active": true,
-        "expand": true,
-        "chapters": [
-          {
-            "chaptertitle": "Đề thi Tốt nghiệp THPT các năm",
-            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/prev/",
-            "clogo": "fa-solid fa-pen",
-            "savekey": "VN0",
-            "datatype": "exams",
-            "active": true,
-            "common": false
-          }
-        ]
-      }
-    ]
-  },
+  
   {
     "categorytitle": "Đề thi Tốt nghiệp THPT - PDF",
     "elogo": "fa-solid fa-book",
