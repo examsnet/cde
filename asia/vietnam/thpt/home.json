@@ -1,20 +1,20 @@
 [
   {
-    "categorytitle": "Vietnam HSG Exam Test Format",
+    "categorytitle": "Đề thi Tốt nghiệp THPT - Dạng bài kiểm tra",
     "elogo": "fa-solid fa-file-pen",
     "active": true,
     "subjects": [
       {
-        "subjecttitle": "Vietnam HSG Exams",
+        "subjecttitle": "Kỳ thi Tốt nghiệp THPT Việt Nam",
         "slogo": "fa-solid fa-user-group",
         "active": true,
         "expand": true,
         "chapters": [
           {
-            "chaptertitle": "Vietnam HSG Past Papers",
-            "chapterpath": "asia/vietnam/hsg/prev/",
+            "chaptertitle": "Đề thi Tốt nghiệp THPT các năm",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/prev/",
             "clogo": "fa-solid fa-pen",
-            "savekey": "VN1",
+            "savekey": "VN0",
             "datatype": "exams",
             "active": true,
             "common": false
@@ -24,92 +24,101 @@
     ]
   },
   {
-    "categorytitle": "Vietnam HSG Exam PDF Format",
+    "categorytitle": "Đề thi Tốt nghiệp THPT - PDF",
     "elogo": "fa-solid fa-book",
     "subjects": [
       {
-        "subjecttitle": "Vietnam HSG Exams",
+        "subjecttitle": "Kỳ thi Tốt nghiệp THPT Việt Nam",
         "slogo": "fa-solid fa-book",
         "active": true,
         "expand": true,
         "chapters": [
           {
-            "chaptertitle": "Mathematics",
-            "chapterpath": "asia/vietnam/hsg/math/",
+            "chaptertitle": "Sinh học - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/Biology/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX1",
+            "savekey": "EXA0",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "Physics",
-            "chapterpath": "asia/vietnam/hsg/physics/",
+            "chaptertitle": "Hóa học - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/Chemistry/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX2",
+            "savekey": "EXA1",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "Chemistry",
-            "chapterpath": "asia/vietnam/hsg/chemistry/",
+            "chaptertitle": "Giáo dục công dân - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/Civics/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX3",
+            "savekey": "EXA2",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "Biology",
-            "chapterpath": "asia/vietnam/hsg/biology/",
+            "chaptertitle": "Kinh tế và Pháp luật - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/EconomicAndLaw/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX4",
+            "savekey": "EXA3",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "Literature",
-            "chapterpath": "asia/vietnam/hsg/literature/",
+            "chaptertitle": "Tiếng Anh - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/English/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX5",
+            "savekey": "EXA4",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "History",
-            "chapterpath": "asia/vietnam/hsg/history/",
+            "chaptertitle": "Địa lý - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/Geography/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX6",
+            "savekey": "EXA5",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "Geography",
-            "chapterpath": "asia/vietnam/hsg/geography/",
+            "chaptertitle": "Lịch sử - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/History/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX7",
+            "savekey": "EXA6",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "English",
-            "chapterpath": "asia/vietnam/hsg/english/",
+            "chaptertitle": "Ngữ văn - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/Literature/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX8",
+            "savekey": "EXA7",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "Informatics",
-            "chapterpath": "asia/vietnam/hsg/informatics/",
+            "chaptertitle": "Toán - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/Math/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "VNEX9",
+            "savekey": "EXA8",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "Vật lý - Kỳ thi Tốt nghiệp THPT Việt Nam",
+            "chapterpath": "asia/vietnam/HighSchoolGraduateExam/Physics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA9",
             "datatype": "link",
             "active": true,
             "common": true
