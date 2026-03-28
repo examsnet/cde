@@ -1,6 +1,4 @@
 [
-  
- 
   {
     "categorytitle": "KCPE Exam Papers",
     "elogo": "fa-solid fa-file-pen",
@@ -70,6 +68,59 @@
             "chapterpath": "africa/kenya/kcpe/socialstudies/",
             "clogo": "fa-solid fa-book-open",
             "savekey": "EXA6",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          }
+        ]
+      },
+      {
+        "subjecttitle": "KPSEA Previous Papers",
+        "slogo": "fa-solid fa-user-astronaut",
+        "active": true,
+        "expand": false,
+        "chapters": [
+          {
+            "chaptertitle": "KPSEA Creative Arts And Social Studies",
+            "chapterpath": "africa/kenya/kpsea/creativeartsandsocialstudies/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA0",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KPSEA English Language",
+            "chapterpath": "africa/kenya/kpsea/english/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA1",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KPSEA Integrated Science",
+            "chapterpath": "africa/kenya/kpsea/integratedscience/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA2",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KPSEA Kiswahili",
+            "chapterpath": "africa/kenya/kpsea/kiswahili/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA3",
+            "datatype": "link",
+            "active": true,
+            "common": true
+          },
+          {
+            "chaptertitle": "KPSEA Mathematics",
+            "chapterpath": "africa/kenya/kpsea/mathematics/",
+            "clogo": "fa-solid fa-book-open",
+            "savekey": "EXA4",
             "datatype": "link",
             "active": true,
             "common": true
@@ -1638,7 +1689,6 @@
             "active": true,
             "common": true
           }
-         
         ]
       },
       {
