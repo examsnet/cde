@@ -134,64 +134,64 @@
         "expand": false,
         "chapters": [
           {
-            "chaptertitle": "KCPE Composition",
+            "chaptertitle": "KCPE Notes Composition",
             "chapterpath": "africa/kenya/kcpenotes/composition/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA7",
+            "savekey": "EXA0",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "KCPE English",
+            "chaptertitle": "KCPE Notes English",
             "chapterpath": "africa/kenya/kcpenotes/english/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA8",
+            "savekey": "EXA1",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "KCPE Insha",
+            "chaptertitle": "KCPE Notes Insha",
             "chapterpath": "africa/kenya/kcpenotes/insha/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA9",
+            "savekey": "EXA2",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "KCPE Kiswahili",
+            "chaptertitle": "KCPE Notes Kiswahili",
             "chapterpath": "africa/kenya/kcpenotes/kiswahili/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA10",
+            "savekey": "EXA3",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "KCPE Mathematics",
+            "chaptertitle": "KCPE Notes Mathematics",
             "chapterpath": "africa/kenya/kcpenotes/mathematics/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA11",
+            "savekey": "EXA4",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "KCPE Science",
+            "chaptertitle": "KCPE Notes Science",
             "chapterpath": "africa/kenya/kcpenotes/science/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA12",
+            "savekey": "EXA5",
             "datatype": "link",
             "active": true,
             "common": true
           },
           {
-            "chaptertitle": "KCPE Social Studies",
+            "chaptertitle": "KCPE Notes Social Studies",
             "chapterpath": "africa/kenya/kcpenotes/socialstudies/",
             "clogo": "fa-solid fa-book-open",
-            "savekey": "EXA13",
+            "savekey": "EXA6",
             "datatype": "link",
             "active": true,
             "common": true
