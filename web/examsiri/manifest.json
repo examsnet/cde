@@ -1,0 +1,27 @@
+{
+    "short_name": "examsnet",
+    "name": "Unconfined Exams Practice",
+    "description": "Most Trusted Online Test Series for Exam Prep. Free Mock Tests JEE, NEET,MBA, MCA, Engineering, TET, UPSC, PSC, CA CPT, AFCAT, Bank PO, Clerk, SSC CGL, CHSL, GATE, Insurance, Railways, IBPS RRB, SBI, RBI, POSTAL",
+    "theme_color": "#246aa0",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "any",
+    "start_url": "./",
+    "icons": [
+      {
+      "src": "/favicon/web-app-manifest-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+      "src": "/favicon/web-app-manifest-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+      "src": "/favicon/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ] 
+  }

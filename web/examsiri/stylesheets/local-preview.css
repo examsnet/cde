@@ -1,0 +1,13 @@
+/*
+ Local preview stylesheet for quick UI tweaks.
+ This file is loaded only when LOCAL_PREVIEW_CSS is set.
+ Example: LOCAL_PREVIEW_CSS=/stylesheets/local-preview.css
+*/
+
+:root {
+  --preview-outline: transparent;
+}
+
+body {
+  outline: 0 solid var(--preview-outline);
+}
