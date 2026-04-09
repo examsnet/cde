@@ -10,7 +10,7 @@
   --es-border: #dfe5ef;
   --es-primary: #1a3e87;
   --es-primary-rgb: 26, 62, 135;
-  --es-primary-strong: #5a4fdc;
+  --es-primary-strong: #1a3e87;
   --es-secondary: #6f3cdf;
   --es-accent: #f6be2c;
   --es-success: #1fa866;
@@ -28,7 +28,11 @@
 }
 
 body {
-  background: linear-gradient(180deg, #f6f8fc 0%, #eef3fa 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(var(--es-primary-rgb), 0.06) 0%,
+    rgba(var(--es-primary-rgb), 0.12) 100%
+  );
   color: var(--es-ink);
   font-family: var(--es-font-sans-default) !important;
 }
@@ -884,7 +888,7 @@ h6.bg-primary.text-center.text-light {
 }
 
 .exam-subject-title .subject-title-text {
-  color: inherit;
+  color: var(--es-primary) !important;
 }
 
 .es-tab-nav {
@@ -977,8 +981,8 @@ body.dark-theme .es-tab-panel {
 
 .es-btn-ghost {
   background: transparent;
-  border-color: var(--es-border);
-  color: var(--es-ink);
+  border-color: var(--es-primary);
+  color: var(--es-primary) !important;
 }
 
 .es-btn-danger {
@@ -1009,8 +1013,8 @@ body.dark-theme .es-btn:focus {
 
 body.dark-theme .es-btn-ghost {
   background: transparent;
-  border-color: #2f3a5b;
-  color: #e3e9ff;
+  border-color: var(--es-primary);
+  color: var(--es-primary) !important;
 }
 
 body.dark-theme .es-btn-primary {
@@ -1520,11 +1524,11 @@ body.dark-theme .es-exam-page .es-tab-panel {
 /* Test page polish: unified Learn/Full/Review visual system */
 .es-test-flow {
   --es-test-accent: var(--es-primary);
-  --es-test-accent-strong: var(--es-primary-strong);
+  --es-test-accent-strong: var(--es-primary);
   --es-test-ink: var(--es-ink);
-  --es-test-line: #d9def0;
+  --es-test-line: rgba(var(--es-primary-rgb), 0.28);
   --es-test-surface: #ffffff;
-  --es-test-surface-soft: #f6f4ff;
+  --es-test-surface-soft: rgba(var(--es-primary-rgb), 0.08);
   --es-test-solution: var(--es-primary);
 }
 
