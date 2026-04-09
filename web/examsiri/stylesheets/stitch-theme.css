@@ -105,7 +105,7 @@ textarea {
   padding: 0.52rem 0.82rem;
   border: 1px solid var(--es-border);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.78);
+  background: linear-gradient(90deg, rgba(var(--es-primary-rgb), 0), rgba(var(--es-primary-rgb), 0.44), rgba(var(--es-primary-rgb), 0)) !important;
   backdrop-filter: blur(6px);
 }
 
@@ -132,7 +132,7 @@ textarea {
 }
 
 body.dark-theme .es-breadcrumb {
-  background: rgba(21, 30, 49, 0.78);
+  background: linear-gradient(90deg, rgba(var(--es-primary-rgb), 0), rgba(var(--es-primary-rgb), 0.44), rgba(var(--es-primary-rgb), 0)) !important;
   border-color: #2d3855;
   color: #95a4c7;
 }
