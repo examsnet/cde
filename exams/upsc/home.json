@@ -81,6 +81,21 @@
         ]
       },
       {
+        "subjecttitle": "UPSC ESE Papers",
+        "slogo": "fa-solid fa-gear",
+        "chapters": [ 
+          {
+            "chaptertitle": "UPSC ESE Previous Papers",
+            "chapterpath": "exams/upsc/ese/",
+            "clogo": "fa-solid fa-pen",
+            "savekey": "CS3",
+            "datatype": "exams",
+            "active": true,
+            "common": false
+          } 
+        ]
+      },
+      {
         "subjecttitle": "UPSC NDA Papers",
         "slogo": "fa-solid fa-user-shield",
         "active": true,
