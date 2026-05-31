@@ -559,11 +559,34 @@ function copyImageTag(ele, eve) {
   qtype = qtype.toLowerCase();
   if (imageprefix && imageprefix.length > 0) {
     let imgname = imageprefix + '_' + qtype + '_' + $(ele).closest('#question').find('#questionseqText').val();
-    //qseq = qtype+"_"+qseq; 
     imgname = imgname.replaceAll(/\./g, '_');
-    imageTag = '<div class="hscrollenable"><span class="sprite ' + imgname + '"></span></div>';
+    
+    // Resolve base CDN URL using the cdnroot key, matching CSSHEAD helper mapping dynamically
+    let cdnKey = (typeof cdnroot !== 'undefined' && cdnroot) ? cdnroot : 'CDN1';
+    let baseCDN = (typeof cdnRootPaths !== 'undefined' && cdnRootPaths && cdnRootPaths[cdnKey]) ? cdnRootPaths[cdnKey] : 'https://examsnet.github.io/cdn/img/';
+    
+    // Build folder path from the CSS file path (imagepath) if available and valid, otherwise fall back to imageprefix parsing
+    let cssFile = (typeof imagepath !== 'undefined' && imagepath && imagepath !== 'temp') ? imagepath.split(',')[0].trim() : '';
+    let folderPath = '';
+    if (cssFile && cssFile.toLowerCase().endsWith('.css')) {
+      let folderName = cssFile.replace(/\.css$/i, '');
+      folderPath = baseCDN + folderName + '/';
+    } else {
+      let parts = imageprefix.split('_');
+      let year = parts[parts.length - 1];
+      if (/^\d{4}$/.test(year)) {
+        let rest = parts.slice(0, parts.length - 1).join('/');
+        folderPath = baseCDN + rest + '/' + year + '/';
+      } else {
+        folderPath = baseCDN + parts.join('/') + '/';
+      }
+    }
+    
+    imageTag = '<div class="hscrollenable"><img src="' + folderPath + imgname + '.png" /></div>';
   } else {
-    imageTag = '<div class="hscrollenable"><span class="sprite <<imgname>>"></span></div>';
+    // Fallback if no prefix is set
+    let defaultCDN = (typeof cdnRootPaths !== 'undefined' && cdnRootPaths && cdnRootPaths['CDN1']) ? cdnRootPaths['CDN1'] : 'https://examsnet.github.io/cdn/img/';
+    imageTag = '<div class="hscrollenable"><img src="' + defaultCDN + '<<imgname>>.png" /></div>';
   }
   console.log(imageTag);
   copyToClipboard(imageTag);
@@ -603,64 +626,15 @@ function saveQuestion(ele, eve) {
   }
 
 }
-function preprocessJqmathToTex(question) {
+function preprocessQuestionToTex(question) {
   if (!question || typeof question !== 'string') {
     return '';
   }
-
-  // Method 1: If jqmath_to_latex is available, use the comprehensive converter
-  if (typeof jqmath_to_latex === 'function') {
-    return jqmath_to_latex(question);
-  }
-
-  // Method 2: Fallback - extract from <fmath> elements if DOM is available
-  if (typeof document !== 'undefined') {
-    // Create a temporary container to parse the HTML
-    const container = document.createElement('div');
-    container.innerHTML = question;
-
-    // Find all fmath elements and convert them to LaTeX
-    container.querySelectorAll("fmath").forEach(node => {
-      let tex = node.getAttribute("alttext");
-      if (!tex) return;
-
-      // ---------- NORMALIZATION RULES ----------
-
-      // 1. Fix primes: S^{'} → S'
-      tex = tex.replace(/\^\{\s*'\s*\}/g, "'");
-
-      // 2. Remove spacing commands like \;
-      tex = tex.replace(/\\;/g, " ");
-
-      // 3. Normalize dot operator
-      tex = tex.replace(/⋅/g, "\\cdot");
-
-      // 4. Normalize min / max
-      tex = tex.replace(/\\min\s*\(/g, "\\min\\left(");
-      tex = tex.replace(/\\max\s*\(/g, "\\max\\left(");
-      tex = tex.replace(/\)(?!\s*\\right)/g, "\\right)");
-
-      // 5. Normalize multiple spaces
-      tex = tex.replace(/\s+/g, " ").trim();
-
-      const isInline = node.classList.contains("fm-inline");
-      const latex = isInline ? `$${tex}$` : `$$${tex}$$`;
-
-      node.replaceWith(document.createTextNode(latex));
-    });
-
-    // Strip remaining HTML
-    let output = container.textContent;
-    output = output.replace(/\s+/g, " ").trim();
-
-    return output;
-  }
-
-  // Method 3: Last resort - return as is
-  return question;
+  return String(question).trim();
 }
 
 function getQuestionPreviewData(parentelement, optype) {
+  const questionKatexSource = sanitizequestion($(parentelement).find('#questionText').val());
   let questiondata = {
     _id: $(parentelement).attr('mid'),
     subject_key: $('#testdetails').attr('subject_key'),
@@ -668,6 +642,7 @@ function getQuestionPreviewData(parentelement, optype) {
     testid: $('#testdetails').attr('testid'),
     questionid: $(parentelement).attr('questid'),
     question: $(parentelement).find('#questiontextlbl').html(),
+    question_katex: questionKatexSource,
     section: $(parentelement).find('#section').html().trim(),
     answertype: $(parentelement).find('#answerType:checked').val(),
     isverified: $(parentelement).find('#isverified:checked').val(),
@@ -678,16 +653,19 @@ function getQuestionPreviewData(parentelement, optype) {
     yturl: $(parentelement).find('#yturl').html()
   }
   // Convert to LaTeX - read from raw input field #questionText
-  questiondata.questiontex = preprocessJqmathToTex($(parentelement).find('#questionText').val());
+  questiondata.questiontex = preprocessQuestionToTex(questionKatexSource);
   questiondata.questionseq = $(parentelement).find('#questionseqText').val();
   if (questiondata.questiontype !== "P") {
     const isChecked = document.getElementById('canpublishsols').checked;
     if (isChecked) {
+      const solutionKatexSource = sanitizequestion($(parentelement).find('#solutionText').val());
       questiondata.solution = $(parentelement).find('#solutionlbl').html();
+      questiondata.solution_katex = solutionKatexSource;
       // Convert solution to LaTeX - read from raw input field #solutionText
-      questiondata.solutiontex = preprocessJqmathToTex($(parentelement).find('#solutionText').val());
+      questiondata.solutiontex = preprocessQuestionToTex(solutionKatexSource);
     } else {
       questiondata.solution = '';
+      questiondata.solution_katex = '';
       questiondata.solutiontex = '';
     }
 
@@ -707,7 +685,8 @@ function getQuestionPreviewData(parentelement, optype) {
         let textanswerRaw = $(parentelement).find('#ansvaltextbox').val();
         questiondata.answers.push({
           text: textanswer,
-          textex: preprocessJqmathToTex(textanswerRaw),
+          text_katex: sanitizequestion(textanswerRaw),
+          textex: preprocessQuestionToTex(textanswerRaw),
           seq: 0
         });
         questiondata.correct = [textanswer];
@@ -719,7 +698,8 @@ function getQuestionPreviewData(parentelement, optype) {
           const answerTextRaw = $(val).find('#ansvaltextbox').val();
           questiondata.answers.push({
             text: answerText,
-            textex: preprocessJqmathToTex(answerTextRaw),
+            text_katex: sanitizequestion(answerTextRaw),
+            textex: preprocessQuestionToTex(answerTextRaw),
             seq: val.getAttribute('aseq')
           });
         });
@@ -740,7 +720,8 @@ function getQuestionPreviewData(parentelement, optype) {
           const choiceTextRaw = $(valu).find('#ansvaltextbox').val();
           choices.push({
             "text": choiceText,
-            "textex": preprocessJqmathToTex(choiceTextRaw),
+            "text_katex": sanitizequestion(choiceTextRaw),
+            "textex": preprocessQuestionToTex(choiceTextRaw),
             "seq": idx
           });
         });
@@ -762,7 +743,7 @@ function getQuestionData(parentelement) {
     chapterid: $('#testdetails').attr('chapterid'),
     testid: $('#testdetails').attr('testid'),
     questionid: $(parentelement).attr('questid'),
-    question: sanitizequestion($(parentelement).find('#questionText').val()),
+    question_katex: sanitizequestion($(parentelement).find('#questionText').val()),
     answertype: $(parentelement).find('#answerType:checked').val(),
     isverified: $(parentelement).find('#isverified:checked').val(),
     questiontype: $(parentelement).find('#questionType:checked').val(),
@@ -774,7 +755,7 @@ function getQuestionData(parentelement) {
   }
 
   if (questiondata.questiontype !== "P") {
-    questiondata.solution = $(parentelement).find('#solutionText').val(),
+    questiondata.solution_katex = sanitizequestion($(parentelement).find('#solutionText').val()),
       questiondata.haspara = $(parentelement).find('#haspara:checked').val(),
       questiondata.questiontype = $(parentelement).find('#questionType:checked').val(),
 
@@ -787,13 +768,13 @@ function getQuestionData(parentelement) {
       const rname = $(parentelement).find('#anschoice').attr('name');
       if (questiondata.answertype === "TX") {
         let textanswer = $(parentelement).find('#ansvaltextbox').val();
-        questiondata.answers.push({ text: textanswer, seq: 0 })
+        questiondata.answers.push({ text_katex: sanitizequestion(textanswer), seq: 0 })
         questiondata.correct = [textanswer];
       } else {
         questiondata.correct = selectedAnswers(rname);
         $(parentelement).find('#answerslist>li').each(function (id, val) {
           questiondata.answers.push({
-            text: sanitizequestion($(val).find('#ansvaltextbox').val()),
+            text_katex: sanitizequestion($(val).find('#ansvaltextbox').val()),
             seq: val.getAttribute('aseq')
           });
         });
@@ -809,7 +790,7 @@ function getQuestionData(parentelement) {
         }
         const choices = [];
         $(val).find('div#transchoice').each(function (idx, valu) {
-          choices.push({ "text": sanitizequestion($(valu).find('#ansvaltextbox').val()), "seq": idx });
+          choices.push({ "text_katex": sanitizequestion($(valu).find('#ansvaltextbox').val()), "seq": idx });
         });
         questiondata.answers.push({ "fieldname": $(val).find('#ansfield').val(), "choices": choices });
       });
@@ -870,9 +851,16 @@ function sanitizequestion(input) {
 
 
   let output = ele.html().replace(/ /g, ' ');
+  output = decodeHtmlEntities(output);
   output = output.trim();
 
   return output;
+}
+
+function decodeHtmlEntities(value) {
+  const textarea = document.createElement('textarea');
+  textarea.innerHTML = String(value || '');
+  return textarea.value;
 }
 
 
@@ -1054,7 +1042,7 @@ function paste4OptionsAlone(event) {
       var seq = answersList.find('li').length;
 
       options.forEach((option, index) => {
-        option = latex_to_js(option); // Convert LaTeX to JS format
+        option = String(option || '');
 
         var answerNode = $('#tpl_answer_r').clone();
         answerNode.find('#ansvaltextarea').text(option);
@@ -1122,7 +1110,7 @@ function pasteQuestionAndAnswers() {
     //tempquestion = tempquestion.replace(/(\w)([\r\n|\r|\n])(\w)/g, '$1 $3');
     tempquestion = processQuestion(tempquestion)
 
-    tempquestion = latex_to_js(tempquestion);
+    tempquestion = String(tempquestion || '');
     $(tpl).find('#questionTextArea').text(tempquestion);
     $(tpl).find('#questionText').attr("value", tempquestion);
     if (prevquestype === "P") {
@@ -1146,8 +1134,7 @@ function pasteQuestionAndAnswers() {
         // Ensure proper spacing around words separated by newlines
         answer_text = answer_text.replace(/(\w)([\r\n|\r|\n])(\w)/g, '$1 $3');
 
-        // Apply LaTeX conversion if enabled
-        answer_text = latex_to_js(answer_text);
+        answer_text = String(answer_text || '');
 
         // Remove leading <br> tags if present
         if (answer_text && answer_text.trim().startsWith('<br>')) {
@@ -1769,6 +1756,7 @@ function updatelinedquestion(ele, vent) {
 function publishQuestionsDataToS3(that, event) {
   $(that).find('.fa-spinner').show();
   let data = {};
+  data.is_katex = true;
   data.subject_key = testdata.subject_key;
   data.chapterid = testdata.chapterid;
   data.collname = $('#testdetails').attr('collection');
@@ -1803,6 +1791,7 @@ function publishQuestionsDataToS3(that, event) {
 function downloadmobilefile(that, event) {
   $(that).find('.fa-spinner').show();
   let data = {};
+  data.is_katex = true;
   data.subject_key = testdata.subject_key;
   data.chapterid = testdata.chapterid;
   data.collname = $('#testdetails').attr('collection');
@@ -1852,6 +1841,7 @@ function downloadmobilefile(that, event) {
 function downloadGitHubmobilefile(that, event) {
   $(that).find('.fa-spinner').show();
   let data = {};
+  data.is_katex = true;
   data.subject_key = testdata.subject_key;
 
   data.chapterid = testdata.chapterid;
@@ -1911,6 +1901,7 @@ function downloadGitHubmobilefile(that, event) {
 function downloadGitHubmobilefileExamsnetApp(that, event) {
   $(that).find('.fa-spinner').show();
   let data = {};
+  data.is_katex = true;
   data.subject_key = testdata.subject_key;
   data.chapterid = testdata.chapterid;
   data.collname = $('#testdetails').attr('collection');

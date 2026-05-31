@@ -13,26 +13,26 @@ var note_adminColsTestPage = [
     { headerName: 'Published', field: 'published', cellEditor: 'agSelectCellEditor', cellEditorParams: decisionParams, valueFormatter: decisionFormatter, editable: false, width: 100 },
     { headerName: 'Language', field: 'test_lang', cellEditor: 'agSelectCellEditor', cellEditorParams: languageParams, valueFormatter: languageFormatter, editable: false, flex:1 },
 
-    { headerName: 'CSS Path', field: 'test_image', cellClass: 'ag-cell-no-wrap', editable: false, flex:1 },
+    { headerName: 'CSS Path', field: 'test_image', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, flex:1 },
 
-    { headerName: 'Youtubeid', field: 'youtubeids', cellClass: 'ag-cell-no-wrap', editable: false, cellRenderer: placeHolder, valueParser: validateYoutubeIds, flex:1 },
-    { headerName: 'Playlist', field: 'playlistid', cellClass: 'ag-cell-no-wrap', editable: false, cellRenderer: placeHolder,valueParser: validateYoutubePlayListIds, flex:1 },
-    { headerName: 'Section Data', field: 'sectiondata', cellClass: 'ag-cell-no-wrap', editable: false, cellRenderer: placeHolder,valueParser: validateSections, flex:1 },
-    { headerName: 'Marks', field: 'marksdata', cellClass: 'ag-cell-no-wrap', editable: false, cellRenderer: placeHolder,valueParser: validateMarks, flex:1 },
+    { headerName: 'Youtubeid', field: 'youtubeids', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, cellRenderer: placeHolder, valueParser: validateYoutubeIds, flex:1 },
+    { headerName: 'Playlist', field: 'playlistid', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, cellRenderer: placeHolder,valueParser: validateYoutubePlayListIds, flex:1 },
+    { headerName: 'Section Data', field: 'sectiondata', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, cellRenderer: placeHolder,valueParser: validateSections, flex:1 },
+    { headerName: 'Marks', field: 'marksdata', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, cellRenderer: placeHolder,valueParser: validateMarks, flex:1 },
 
-    { headerName: 'Img prefix', field: 'imageprefix', cellClass: 'ag-cell-no-wrap', editable: false, cellRenderer: placeHolder, flex:1 },
-    { headerName: 'Linked Subject', field: 'linkedsubject', cellClass: 'ag-cell-no-wrap', editable: false, cellRenderer: placeHolder, flex:1 },
+    { headerName: 'Img prefix', field: 'imageprefix', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, cellRenderer: placeHolder, flex:1 },
+    { headerName: 'Linked Subject', field: 'linkedsubject', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, cellRenderer: placeHolder, flex:1 },
 
-    { headerName: 'CDN', field: 'is_cdn_https', editable: false, cellEditor: 'agSelectCellEditor', width: 100, cellEditorParams: decisionParams, valueFormatter: decisionFormatter, flex:1 },
+    { headerName: 'CDN Root', field: 'cdn_root_key', editable: false, hide: true, cellEditor: 'agSelectCellEditor', width: 110, cellEditorParams: cdnRootParams, valueFormatter: cdnRootFormatter, flex:1 },
      
     { headerName: 'Link', field: 'link', hide: true, cellClass: 'ag-cell-no-wrap'},
     { headerName: 'Test Title', field: 'test_file_title', hide: true, cellClass: 'ag-cell-no-wrap' },
     { headerName: 'File Name', field: 'test_file_name', hide: true, cellClass: 'ag-cell-no-wrap' },
-    { headerName: 'Mobile File Name', field: 'mobile_file_name', editable: false, cellClass: 'ag-cell-no-wrap' }, 
+    { headerName: 'Mobile File Name', field: 'mobile_file_name', hide: true, editable: false, cellClass: 'ag-cell-no-wrap' }, 
     { headerName: 'HTML Title', field: 't_title', hide: true, cellClass: 'ag-cell-no-wrap' },
-    { headerName: 'Data', field: 'data-actions', cellRenderer: dataactions, pinned: 'right', hide:true, width:230},
-    { headerName: 'Actions', field: 'extra-actions', cellRenderer: extraactions, pinned: 'right', hide:true, flex:1 },
-    { headerName: 'Selenium', field: 'selenium-actions', cellRenderer: seliniumactions, pinned: 'right', hide:true, flex:1 },
+    { headerName: 'Data Actions', field: 'data-actions', cellRenderer: dataactions, pinned: 'right', hide:true, width:230},
+    { headerName: 'Utilities', field: 'extra-actions', cellRenderer: extraactions, pinned: 'right', hide:true, flex:1 },
+    { headerName: 'Publish Actions', field: 'selenium-actions', cellRenderer: seliniumactions, pinned: 'right', hide:true, width:130 },
 
     { headerName: 'Del', field: 'delete-action', cellRenderer: deleteRender, width: 50, hide:true, pinned: 'right' },
 ]
@@ -98,11 +98,43 @@ function onAgGridReady(params) {
 function getAgGridRowId(params) {
     return params.data._id || params.data.testid;
 }
+var note_testGridSideBar = {
+    toolPanels: [
+        {
+            id: 'columns',
+            labelDefault: 'Columns',
+            labelKey: 'columns',
+            iconKey: 'columns',
+            toolPanel: 'agColumnsToolPanel',
+            toolPanelParams: {
+                suppressRowGroups: true,
+                suppressValues: true,
+                suppressPivots: true,
+                suppressPivotMode: true,
+                suppressSideButtons: true,
+                suppressColumnMove: true,
+                suppressColumnExpandAll: true,
+                contractColumnSelection: true,
+                suppressColumnSelectAll: true,
+                suppressColumnFilter: true,
+            }
+        }
+    ],
+    defaultToolPanel: '' // No tool panel is opened by default
+}
+
+
 var note_testGridOptions = {
+    defaultToolPanel: 'columns',
+    sideBar: false,
     cellSelection: true,
     onCellValueChanged: onCellValueChanged,
     getRowId: getAgGridRowId,
     onGridReady: onAgGridReady,
+    sideBar: note_testGridSideBar,
+    enableRangeSelection: true,
+    allowClipboardPaste: true,
+    suppressClipboardPaste: false,
     defaultColDef: {
       minWidth: 60,
       resizable: true,
@@ -641,6 +673,7 @@ $(function () {
             marksdata: '',
             imageprefix: '',
             is_cdn_https: decisionOptions[0],
+            cdn_root_key: cdnRootOptions[0],
             link: '',
             test_file_title: '',
             test_file_name: '',

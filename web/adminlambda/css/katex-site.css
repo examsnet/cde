@@ -1,0 +1,69 @@
+/* Keep admin KaTeX content on KaTeX's native font families.
+   This avoids admin theme typography leaking into math rendering. */
+.katex {
+  font-family: KaTeX_Main, "Times New Roman", serif !important;
+  text-align: left !important;
+}
+
+.katex .mathnormal,
+.katex .boldsymbol {
+  font-family: KaTeX_Math, "Times New Roman", serif !important;
+}
+
+.katex .mathrm,
+.katex .mainrm,
+.katex .textrm,
+.katex .mathbf,
+.katex .mathit {
+  font-family: KaTeX_Main, "Times New Roman", serif !important;
+}
+
+.katex .mathsf,
+.katex .textsf,
+.katex .mathboldsf,
+.katex .textboldsf,
+.katex .mathitsf,
+.katex .mathsfit,
+.katex .textitsf {
+  font-family: KaTeX_SansSerif, sans-serif !important;
+}
+
+.katex .mathtt,
+.katex .texttt {
+  font-family: KaTeX_Typewriter, monospace !important;
+}
+
+.katex .mathcal {
+  font-family: KaTeX_Caligraphic, cursive !important;
+}
+
+.katex .mathscr,
+.katex .textscr {
+  font-family: KaTeX_Script, cursive !important;
+}
+
+.katex .mathfrak,
+.katex .textfrak,
+.katex .mathboldfrak,
+.katex .textboldfrak {
+  font-family: KaTeX_Fraktur, serif !important;
+}
+
+.katex .amsrm,
+.katex .mathbb,
+.katex .textbb {
+  font-family: KaTeX_AMS, serif !important;
+}
+
+.katex-display {
+  text-align: left !important;
+}
+
+.katex-display > .katex {
+  text-align: left !important;
+}
+
+/* Force hide mathml rendering to prevent double formula rendering */
+.katex-mathml {
+  display: none !important;
+}

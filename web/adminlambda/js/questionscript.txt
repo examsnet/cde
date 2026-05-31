@@ -37,14 +37,14 @@ $(function () {
     downloadGitHubmobilefile(this, event);
   });
 
-  $(document).on('click', '.downloadformobile', function (event) {
-    stopscroll(event);
-    downloadmobilefile(this, event);
-  });
-
   $(document).on('click', '.getclonetestdetails', function (event) {
     stopscroll(event);
     getclonetestdetails(this, event);
+  });
+
+  $(document).on('click', '.copy-collection-details', function (event) {
+    stopscroll(event);
+    copyCollectionDetailsForQuestionPage();
   });
 
 
@@ -75,6 +75,11 @@ $(function () {
     stopscroll(event);
     updateQuestionNoSeqence();
 
+  });
+
+  $(document).on('click', '.jeequestionpatterncheck', function (event) {
+    stopscroll(event);
+    validateJeeQuestionPattern();
   });
 
   $(document).on('click', '.updatelinkedquestions', function (event) {
@@ -1116,6 +1121,7 @@ function validateMissingAnswers(ele, vent) {
 
 
   let questdata = [];
+  let firstMissingQuestionSeq = null;
   $('#questionsList>li').each(function (idx, pele) {
     questdata.push(getQuestionPreviewData($(pele), "s3"))
   });
@@ -1124,6 +1130,9 @@ function validateMissingAnswers(ele, vent) {
     // Check if the questiontype is "Q" and if the correct property is empty or not
     if (question.questiontype === "Q" && (!question.correct || question.correct.length === 0)) {
       console.log(question.questionseq)
+      if (firstMissingQuestionSeq === null) {
+        firstMissingQuestionSeq = question.questionseq;
+      }
       answerMissingQuestions.push({ "seq": question.questionseq, "id": question._id, "subject_key": question.subject_key });
       //alert(`Correct Answer is empty for QuestionSeq: ${question.questionseq}`);
     }
@@ -1134,10 +1143,159 @@ function validateMissingAnswers(ele, vent) {
   }
   );
   console.log(urlslist);
+  if (answerMissingQuestions.length > 0) {
+    bootstrap_alert.error($('.sticky-header').find('#alertplaceholder'), "Missing answers in questions: " + answerMissingQuestions.map(q => q.seq).join(", "));
+    scrollToElement($("#question[queseq='" + firstMissingQuestionSeq + "']"));
+  } else {
+    bootstrap_alert.success($('.sticky-header').find('#alertplaceholder'), "No Missing Answers found");
+  }
   //return $('.testtitle').text().trim()+"==>> "+answerMissingQuestions.toString();
   return urlslist;
 
 
+}
+
+function validateJeeQuestionPattern() {
+  const expectedQuestionCount = 75;
+  const sectionSize = 25;
+  const radioQuestionsPerSection = 20;
+  const rows = [];
+  const seenBySeq = {};
+  const violations = [];
+
+  $('#questionsList>li#question').each(function (idx, ele) {
+    const $question = $(ele);
+    const questionType = ($question.find("#questionType:checked").val() || '').trim();
+
+    if (questionType !== 'Q') {
+      return;
+    }
+
+    const seqText = ($question.find("#questionseqText").val() || $question.attr('queseq') || '').trim();
+    const seq = Number(seqText);
+    const answerType = ($question.find("#answerType:checked").val() || '').trim();
+    const row = {
+      ele,
+      seq,
+      seqText,
+      answerType
+    };
+
+    rows.push(row);
+
+    if (Number.isInteger(seq) && seq >= 1 && seq <= expectedQuestionCount) {
+      seenBySeq[seq] = seenBySeq[seq] || [];
+      seenBySeq[seq].push(row);
+    }
+  });
+
+  if (rows.length !== expectedQuestionCount) {
+    violations.push({
+      message: `Expected ${expectedQuestionCount} questions, found ${rows.length}.`
+    });
+  }
+
+  rows.forEach(row => {
+    if (!Number.isInteger(row.seq)) {
+      violations.push({
+        ele: row.ele,
+        message: `Question sequence "${row.seqText || 'empty'}" is not a valid whole number.`
+      });
+      return;
+    }
+
+    if (row.seq < 1 || row.seq > expectedQuestionCount) {
+      violations.push({
+        ele: row.ele,
+        message: `Q${row.seq} is outside the expected 1-${expectedQuestionCount} range.`
+      });
+    }
+  });
+
+  Object.keys(seenBySeq).forEach(seq => {
+    if (seenBySeq[seq].length > 1) {
+      violations.push({
+        ele: seenBySeq[seq][0].ele,
+        message: `Q${seq} is duplicated ${seenBySeq[seq].length} times.`
+      });
+    }
+  });
+
+  for (let seq = 1; seq <= expectedQuestionCount; seq++) {
+    if (!seenBySeq[seq]) {
+      violations.push({
+        message: `Q${seq} is missing.`
+      });
+    }
+  }
+
+  rows
+    .filter(row => Number.isInteger(row.seq) && row.seq >= 1 && row.seq <= expectedQuestionCount)
+    .forEach(row => {
+      const sectionNo = Math.floor((row.seq - 1) / sectionSize) + 1;
+      const sectionPosition = ((row.seq - 1) % sectionSize) + 1;
+      const expectedAnswerType = sectionPosition <= radioQuestionsPerSection ? 'R' : 'TX';
+
+      if (row.answerType !== expectedAnswerType) {
+        violations.push({
+          ele: row.ele,
+          message: `Q${row.seq} (section ${sectionNo}, position ${sectionPosition}) expected ${expectedAnswerType}, found ${row.answerType || 'empty'}.`
+        });
+      }
+    });
+
+  showJeeQuestionPatternResult(violations);
+}
+
+function showJeeQuestionPatternResult(violations) {
+  if (violations.length === 0) {
+    showJeeQuestionPatternPopup('JEE Check', 'All good. 75 questions match the JEE answer type pattern.');
+    return;
+  }
+
+  const firstQuestionViolation = violations.find(violation => violation.ele);
+  if (firstQuestionViolation) {
+    scrollToElement($(firstQuestionViolation.ele));
+    $(firstQuestionViolation.ele).css('box-shadow', '0 0 0 3px #f95303');
+    setTimeout(function () {
+      $(firstQuestionViolation.ele).css('box-shadow', '');
+    }, 5000);
+  }
+
+  const visibleViolations = violations.slice(0, 120);
+  const violationList = visibleViolations
+    .map(violation => `<li>${escapeJeeCheckHtml(violation.message)}</li>`)
+    .join('');
+  const hiddenCount = violations.length - visibleViolations.length;
+  const moreMessage = hiddenCount > 0 ? `<p><strong>${hiddenCount} more issue(s) not shown.</strong></p>` : '';
+
+  showJeeQuestionPatternPopup(
+    `JEE Check - ${violations.length} issue(s)`,
+    `<div style="max-height:60vh;overflow:auto;"><ol>${violationList}</ol>${moreMessage}</div>`
+  );
+}
+
+function showJeeQuestionPatternPopup(title, message) {
+  if (typeof bootbox !== 'undefined' && bootbox.alert) {
+    bootbox.alert({
+      title,
+      message
+    });
+  } else {
+    alert($('<div>').html(message).text() || message);
+  }
+}
+
+function escapeJeeCheckHtml(value) {
+  return String(value).replace(/[&<>"']/g, function (char) {
+    return {
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    }[char];
+  });
 }
 
 function validateMissingQuestions(ele, vent) {
@@ -1173,6 +1331,24 @@ function validateMissingQuestions(ele, vent) {
 }
 
 
+function isMissingSprite(v) {
+  const rect = v.getBoundingClientRect();
+  const computedStyle = window.getComputedStyle(v);
+  const pseudoStyle = window.getComputedStyle(v, '::after');
+  const computedWidth = parseFloat(computedStyle.width) || 0;
+  const computedHeight = parseFloat(computedStyle.height) || 0;
+  const pseudoWidth = parseFloat(pseudoStyle.width) || 0;
+  const pseudoHeight = parseFloat(pseudoStyle.height) || 0;
+  const pseudoContent = pseudoStyle.content || '';
+  const pseudoBackgroundImage = pseudoStyle.backgroundImage || '';
+
+  if (pseudoContent === 'none' || pseudoContent === 'normal' || pseudoBackgroundImage === 'none') {
+    return true;
+  }
+
+  return rect.width === 0 && computedWidth === 0 && pseudoWidth === 0 && pseudoHeight === 0 && computedHeight === 0;
+}
+
 function validateMissingImages(ele, vent) {
   console.log("Validate Missing Images Called")
   stopscroll(vent);
@@ -1181,7 +1357,7 @@ function validateMissingImages(ele, vent) {
   misClassNamesNoQuotes = [];
   var missedImagLocation = {}
   $('.clbl .hscrollenable .sprite').each((i, v) => {
-    if ($(v).height() == 0) {
+    if (isMissingSprite(v)) {
       missedImagLocation = $(v).closest("#question").find("#questionseqlbl")[0];
       missingimagelist += $(v).closest("#question").find("#questionseqlbl").html() + ", ";
       misClassNames += "\"" + v.className.replace(/sprite/, '').trim() + "\",\n";
@@ -1419,6 +1595,15 @@ async function getclonetestdetails(id, vent) {
   $(id).closest('.bootbox-body').find('.clonetestlist').val(testid).trigger('change');
 
 }
+function copyCollectionDetailsForQuestionPage() {
+  const chapterid = $('#testdetails').attr('chapterid');
+  const testid = $('#testdetails').attr('testid');
+  const subjectKey = $('#testdetails').attr('subject_key');
+  const collection = $('#testdetails').attr('collection');
+  copyToClipboard(`${chapterid}~${testid}~${subjectKey}~${collection}`);
+  bootstrap_alert.success($('.sticky-header').find('#alertplaceholder'), "Collection details copied");
+}
+
 function changeclonetestlist(id, vent) {
   var id = id;
   var subject_key = $(id).attr('linkedkey');
@@ -1520,6 +1705,7 @@ function downloadmobilefile(that, event) {
   data.questionImagesCdn = testdata.test_image;
   data.questionImages = (testdata.test_image) ? testdata.test_image.substring(testdata.test_image.lastIndexOf('/') + 1, testdata.test_image.length) : ''
   if (testdata.test_file_name && testdata.test_file_name.length > 0) { } else {
+    $(that).find('.fa-spinner').hide();
     alert('filename missing');
     return;
   }
@@ -1539,13 +1725,18 @@ function downloadmobilefile(that, event) {
   if (window.location.hostname.indexOf("localhost") > -1) {
     ajaxRequest("/admin/downloadmobiledata", "POST", body, function (result) {
       console.log(result)
+      $(that).find('.fa-spinner').hide();
+      bootstrap_alert.success($('.sticky-header').find('#alertplaceholder'), "Question Download for Mobile success.");
     }, function (result) {
       console.log(result)
+      $(that).find('.fa-spinner').hide();
+      bootstrap_alert.error($('.sticky-header').find('#alertplaceholder'), "Question Download for Mobile failed.");
     });
   } else {
     downloadJsonAsFile(filename, data);
+    $(that).find('.fa-spinner').hide();
+    bootstrap_alert.success($('.sticky-header').find('#alertplaceholder'), "Question Download for Mobile success.");
   }
-  $(that).find('.fa-spinner').hide();
 }
 
 
@@ -1563,6 +1754,7 @@ function downloadGitHubmobilefile(that, event) {
   data.questionImagesCdn = testdata.test_image;
   data.questionImages = (testdata.test_image) ? testdata.test_image.substring(testdata.test_image.lastIndexOf('/') + 1, testdata.test_image.length) : ''
   if (testdata.mobile_file_name && testdata.mobile_file_name.length > 0) { } else {
+    $(that).find('.fa-spinner').hide();
     alert('filename missing');
     return;
   }
@@ -1590,13 +1782,18 @@ function downloadGitHubmobilefile(that, event) {
   if (window.location.hostname.indexOf("localhost") > -1) {
     ajaxRequest("/admin/downloadgitmobiledata", "POST", body, function (result) {
       console.log(result)
+      $(that).find('.fa-spinner').hide();
+      bootstrap_alert.success($('.sticky-header').find('#alertplaceholder'), "Question Download for Mobile success.");
     }, function (result) {
       console.log(result)
+      $(that).find('.fa-spinner').hide();
+      bootstrap_alert.error($('.sticky-header').find('#alertplaceholder'), "Question Download for Mobile failed.");
     });
   } else {
     downloadJsonAsFile(filename, data);
+    $(that).find('.fa-spinner').hide();
+    bootstrap_alert.success($('.sticky-header').find('#alertplaceholder'), "Question Download for Mobile success.");
   }
-  $(that).find('.fa-spinner').hide();
 }
 
 

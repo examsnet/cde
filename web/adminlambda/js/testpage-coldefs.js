@@ -10,8 +10,9 @@ var endDefaultCols = [
 
 var adminColsTestPage = [
 
-    { headerName: 'Published', field: 'published', cellEditor: 'agSelectCellEditor', hide: true, cellEditorParams: decisionParams, valueFormatter: decisionFormatter, editable: false, width: 100 },
-    { headerName: 'Language', field: 'test_lang', cellEditor: 'agSelectCellEditor', hide: true, cellEditorParams: languageParams, valueFormatter: languageFormatter, editable: false, flex: 1 },
+    { headerName: 'Published', field: 'published', cellEditor: 'agSelectCellEditor', hide: false, cellEditorParams: decisionParams, valueFormatter: decisionFormatter, editable: false, width: 100 },
+    { headerName: 'KaTeX', field: 'is_katex', cellEditor: 'agSelectCellEditor', hide: false, cellEditorParams: decisionParams, valueFormatter: decisionFormatter, editable: false, width: 90 },
+    { headerName: 'Language', field: 'test_lang', cellEditor: 'agSelectCellEditor', hide: false, cellEditorParams: languageParams, valueFormatter: languageFormatter, editable: false, flex: 1 },
 
     { headerName: 'CSS Path', field: 'test_image', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, flex: 1 },
 
@@ -23,16 +24,16 @@ var adminColsTestPage = [
     { headerName: 'Img prefix', field: 'imageprefix', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, cellRenderer: placeHolder, flex: 1 },
     { headerName: 'Linked Subject', field: 'linkedsubject', cellClass: 'ag-cell-no-wrap', hide: true, editable: false, cellRenderer: placeHolder, flex: 1 },
 
-    { headerName: 'CDN', field: 'is_cdn_https', editable: false, cellEditor: 'agSelectCellEditor', hide: true, width: 100, cellEditorParams: decisionParams, valueFormatter: decisionFormatter, flex: 1 },
+    { headerName: 'CDN Root', field: 'cdn_root_key', editable: false, cellEditor: 'agSelectCellEditor', hide: true, width: 110, cellEditorParams: cdnRootParams, valueFormatter: cdnRootFormatter, flex: 1 },
 
     { headerName: 'Link', field: 'link', hide: true, cellClass: 'ag-cell-no-wrap' },
     { headerName: 'Test Title', field: 'test_file_title', hide: true, cellClass: 'ag-cell-no-wrap' },
-    { headerName: 'File Name', field: 'test_file_name', hide: true, editable: false, cellClass: 'ag-cell-no-wrap' },
+    //{ headerName: 'File Name', field: 'test_file_name', hide: true, editable: false, cellClass: 'ag-cell-no-wrap' },
     { headerName: 'Mobile File Name', field: 'mobile_file_name', hide: true, editable: false, cellClass: 'ag-cell-no-wrap' },
     { headerName: 'HTML Title', field: 't_title', hide: true, cellClass: 'ag-cell-no-wrap' },
-    { headerName: 'Data', field: 'data-actions', cellRenderer: dataactions, pinned: 'right', hide: false, width: 230 },
-    { headerName: 'Selenium', field: 'selenium-actions', cellRenderer: seleniumActions, pinned: 'right', hide: false, width: 100 },
-    { headerName: 'Actions', field: 'extra-actions', cellRenderer: extraactions, pinned: 'right', hide: false, flex: 1 },
+    { headerName: 'Data Actions', field: 'data-actions', cellRenderer: dataactions, pinned: 'right', hide: true, width: 230 },
+    { headerName: 'Publish Actions', field: 'selenium-actions', cellRenderer: seleniumActions, pinned: 'right', hide: true, width: 280 },
+    { headerName: 'Utilities', field: 'extra-actions', cellRenderer: extraactions, pinned: 'right', hide: false, flex: 1 },
     { headerName: 'Del', field: 'delete-action', cellRenderer: deleteRender, width: 50, hide: true, pinned: 'right' },
 ]
 
@@ -74,6 +75,7 @@ var adminColsTestPage = [
 
 var gridApi = {}
 var editedRows = {};
+var selectedRowLanguages = ['en'];
 
 function linkRenderer(params) {
     // Renders the cell as a clickable link
@@ -129,20 +131,73 @@ function onAgGridReady(params) {
     gridApi = params.api;
     columnApi = params.columnApi.api;
     //columnApi.autoSizeColumns(["test_name"])
+    updateLanguageSelectionButtonLabel();
+    updateBulkCdnRootToggleButtonLabel();
 }
 
 function getAgGridRowId(params) {
     return params.data._id || params.data.testid;
 }
+var testGridSideBar = {
+    toolPanels: [
+        {
+            id: 'columns',
+            labelDefault: 'Columns',
+            labelKey: 'columns',
+            iconKey: 'columns',
+            toolPanel: 'agColumnsToolPanel',
+            toolPanelParams: {
+                suppressRowGroups: true,
+                suppressValues: true,
+                suppressPivots: true,
+                suppressPivotMode: true,
+                suppressSideButtons: true,
+                suppressColumnMove: true,
+                suppressColumnExpandAll: true,
+                contractColumnSelection: true,
+                suppressColumnSelectAll: true,
+                suppressColumnFilter: true,
+            }
+        }
+    ],
+    defaultToolPanel: '' // No tool panel is opened by default
+}
+
+/*
 var testGridOptions = {
-    cellSelection: true,
+    defaultToolPanel: 'columns',
+    //pagination: true,
+    sideBar: true,
+     cellSelection: true,
+    // paginationPageSize: 200,
+    // paginationPageSizeSelector: [200, 300, 400, 500],
     onCellValueChanged: onCellValueChanged,
     getRowId: getAgGridRowId,
     onGridReady: onAgGridReady,
+    sideBar: testGridSideBar,
+    defaultColDef: {
+      minWidth: 60,
+      resizable: true // Make columns resizable
+
+    }
+  }
+*/
+
+var testGridOptions = {
+    defaultToolPanel: 'columns',
+    sideBar: false,
+    cellSelection: true,           // this is fine, but v31 prefers "enableRangeSelection"
+    onCellValueChanged: onCellValueChanged,
+    getRowId: getAgGridRowId,
+    onGridReady: onAgGridReady,
+    sideBar: testGridSideBar,
+    enableRangeSelection: true,    // ✅ allow range selection
+    allowClipboardPaste: true,     // ✅ enable paste from Excel/clipboard
+    suppressClipboardPaste: false, // (optional) make sure it’s not suppressed
     defaultColDef: {
         minWidth: 60,
         resizable: true,
-        editable: true
+        editable: true                // ✅ required if you want paste to actually write values
     }
 };
 
@@ -220,11 +275,6 @@ function dataactions(params) {
     const container = document.createElement('div');
     let buttonHtml = ``
     buttonHtml += `
-    <a href="#" class="btn btn-sm btn-outline-warning texturepackimages" id="texturepackimages" title="Texture Packer Images to Github Folder from Google Drive" data-id="${params.data._id}">
-          <i class="fas fa-yin-yang"></i> <i class="fa-solid fa-spinner  fa-spin-pulse" style="display: none;"></i>
-    </a>`;
-
-    buttonHtml += `
     <a href="#" class="btn btn-sm btn-outline-black  copytospritepath" id="copytospritepath" title="Texture Packer Images to Github Folder from Google Drive" data-id="${params.data._id}">
          <i class="fas fa-file-import"></i> <i class="fa-solid fa-spinner  fa-spin-pulse" style="display: none;"></i>
     </a>`;
@@ -260,10 +310,6 @@ function dataactions(params) {
     if (container.querySelector('.copy-collection-details')) {
         container.querySelector('.copy-collection-details').addEventListener('click', (event) => handleButtonClick(event, params));
     }
-    if (container.querySelector('.texturepackimages')) {
-        container.querySelector('.texturepackimages').addEventListener('click', (event) => handleButtonClick(event, params));
-    }
-
     if (container.querySelector('.copytospritepath')) {
         container.querySelector('.copytospritepath').addEventListener('click', (event) => handleButtonClick(event, params));
     }
@@ -277,15 +323,50 @@ function seleniumActions(params) {
     let buttonHtml = ``
     if (params.data._id) {
         buttonHtml +=
+            `<a href="#" class="btn btn-sm btn-outline-warning texturepackimages" id="texturepackimages" data-id="${params.data._id}" title="Texture Packer Images to Github Folder from Google Drive">
+            <i class="fas fa-yin-yang"></i><i class="fa-solid fa-spinner fa-spin-pulse" style="display: none;"></i>
+         </a>`;
+        buttonHtml +=
+            `<a href="#" class="btn btn-sm btn-outline-success seleniumPublishAllByTest" id="seleniumPublishAllByTest" data-id="${params.data._id}" title="Selenium Publish All Targets By Test">
+            <i class="fa-solid fa-rocket"></i><i class="fa-solid fa-spinner fa-spin-pulse" style="display: none;"></i>
+         </a>`;
+        buttonHtml +=
             `<a href="#" class="btn btn-sm btn-outline-warning seleniumMissingImagesByTest" id="seleniumMissingImagesByTest" data-id="${params.data._id}" title="Selenium Missing Images By Test">
             <i class="fa-solid fa-images"></i><i class="fa-solid fa-spinner fa-spin-pulse" style="display: none;"></i>
+         </a>`;
+        buttonHtml +=
+            `<a href="#" class="btn btn-sm btn-outline-warning mx-1 seleniumMissingCorrectByTest" id="seleniumMissingCorrectByTest" data-id="${params.data._id}" title="Selenium Missing Correct Answers By Test">
+            <i class="fa-solid fa-check"></i><i class="fa-solid fa-spinner fa-spin-pulse" style="display: none;"></i>
+         </a>`;
+        buttonHtml +=
+            `<a href="#" class="btn btn-sm btn-outline-info seleniumSortQuestionsByTest" id="seleniumSortQuestionsByTest" data-id="${params.data._id}" title="Selenium Sort Questions By Test">
+            <i class="fa-solid fa-arrow-down-1-9"></i><i class="fa-solid fa-spinner fa-spin-pulse" style="display: none;"></i>
+         </a>`;
+        buttonHtml +=
+            `<a href="#" class="btn btn-sm btn-outline-warning mx-1 seleniumUpdateLinkedByTest" id="seleniumUpdateLinkedByTest" data-id="${params.data._id}" title="Selenium Update Linked Questions By Test">
+            <i class="fa-solid fa-magnet"></i><i class="fa-solid fa-spinner fa-spin-pulse" style="display: none;"></i>
          </a>`;
     }
 
 
     container.innerHTML = buttonHtml;
+    if (container.querySelector('.texturepackimages')) {
+        container.querySelector('.texturepackimages').addEventListener('click', (event) => handleButtonClick(event, params));
+    }
     if (container.querySelector('.seleniumMissingImagesByTest')) {
         container.querySelector('.seleniumMissingImagesByTest').addEventListener('click', (event) => handleButtonClick(event, params));
+    }
+    if (container.querySelector('.seleniumPublishAllByTest')) {
+        container.querySelector('.seleniumPublishAllByTest').addEventListener('click', (event) => handleButtonClick(event, params));
+    }
+    if (container.querySelector('.seleniumMissingCorrectByTest')) {
+        container.querySelector('.seleniumMissingCorrectByTest').addEventListener('click', (event) => handleButtonClick(event, params));
+    }
+    if (container.querySelector('.seleniumSortQuestionsByTest')) {
+        container.querySelector('.seleniumSortQuestionsByTest').addEventListener('click', (event) => handleButtonClick(event, params));
+    }
+    if (container.querySelector('.seleniumUpdateLinkedByTest')) {
+        container.querySelector('.seleniumUpdateLinkedByTest').addEventListener('click', (event) => handleButtonClick(event, params));
     }
 
 
@@ -404,7 +485,11 @@ function handleButtonClick(event, params) {
         'texturepackimages': () => texturepackimages(event, params),
         'copytospritepath': () => copytospritepath(event, params),
         'youtubetime': () => updateyoutubetime(event, params),
-        'seleniumMissingImagesByTest': () => seleniumMissingImagesByTest(event, params)
+        'seleniumMissingImagesByTest': () => seleniumMissingImagesByTest(event, params),
+        'seleniumPublishAllByTest': () => seleniumPublishAllByTest(event, params),
+        'seleniumMissingCorrectByTest': () => seleniumMissingCorrectByTest(event, params),
+        'seleniumSortQuestionsByTest': () => seleniumSortQuestionsByTest(event, params),
+        'seleniumUpdateLinkedByTest': () => seleniumUpdateLinkedByTest(event, params)
     };
 
     const handler = actionHandlers[event.currentTarget.id];
@@ -526,16 +611,19 @@ function copyQuestionsToNewCollection(params) {
 
 
 function deleteSubjectRowData(vent, params) {
-    if (params?.data?._id) {
+    const rowId = params?.data?._id;
+    const isPersistedRow = /^[a-f\d]{24}$/i.test(String(rowId || ''));
+
+    if (isPersistedRow) {
         bootbox.confirm('Are you sure you want to delete this row?', async function (result) {
             if (result) {
                 const response = await fetch('/tests/deletetest', {
                     method: 'POST', headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ id: params.data._id })
+                    body: JSON.stringify({ id: rowId })
                 });
                 const result = await response.json();
                 if (response.ok) {
-                    const rowNode = gridApi.getRowNode(params.data._id);
+                    const rowNode = gridApi.getRowNode(rowId);
                     gridApi.applyTransaction({ remove: [rowNode.data] });
                 } else {
                     bootstrap_alert.error($('#alertplaceholder'), "Error in deletion .. " + result);
@@ -544,8 +632,8 @@ function deleteSubjectRowData(vent, params) {
             }
         });
     } else {
-        if (params?.data?._id) {
-            delete editedRows[params.data._id];
+        if (rowId) {
+            delete editedRows[rowId];
         } else if (params?.data?.testid) {
             delete editedRows[params.data.testid];
         }
@@ -617,6 +705,7 @@ $(function () {
         makeColumnsEditable();
         globals.editing = true;
         columnApi.setColumnVisible("delete-action", true);
+        updateLanguageSelectionButtonLabel();
     });
     var table_expanded = false
     $(document).on('click', '.expandAGTable', function (event) {
@@ -655,6 +744,21 @@ $(function () {
         columnApi.setColumnVisible("delete-action", false);
     });
 
+    $(document).on('click', '.languageSelectionButton', function (event) {
+        stopscroll(event);
+        openLanguageSelectionDialog();
+    });
+
+    $(document).on('click', '.bulkCdnRootToggleButton', function (event) {
+        stopscroll(event);
+        toggleBulkCdnRoot();
+    });
+
+    $(document).on('click', '.bulkPublishTrueButton', function (event) {
+        stopscroll(event);
+        markAllRowsPublishedTrue();
+    });
+
     $(document).on('click', '.saveAGTableAllRows', function (event) {
         stopscroll(event);
         saveAllTestRows();
@@ -662,32 +766,8 @@ $(function () {
     });
 
     $(document).on('click', '.addAGTableRow', function (event) {
-
-        const newRow = {
-            _id: generateTempId(),
-            test_seq: generateDefaultSeq(),
-            testid: generateUniqueTestId(),
-            test_name: '',
-            subject_key: globals.subjdetails.subject_key,
-            subjectid: globals.subjdetails.subjectid,
-            chapterid: globals.subjdetails.chapterid,
-            published: decisionOptions[0],
-            test_lang: languageOptions[1],
-            test_image: '',
-            yoututbeids: '',
-            playlistid: '',
-            sectiondata: '',
-            marksdata: '',
-            imageprefix: '',
-            is_cdn_https: decisionOptions[0],
-            link: '',
-            test_file_title: '',
-            test_file_name: '',
-            t_title: '',
-            actionrole: userRoleOptions[0] // Default to first role
-        };
-        gridApi.applyTransaction({ add: [newRow] });
-
+        stopscroll(event);
+        addRowsForSelectedLanguages();
     });
 
     $(document).on('click', '.updateTableSeqIndex', function (event) {
@@ -695,6 +775,228 @@ $(function () {
 
     });
 });
+
+function updateLanguageSelectionButtonLabel() {
+    const selectedCount = Array.isArray(selectedRowLanguages) && selectedRowLanguages.length > 0
+        ? selectedRowLanguages.length
+        : 1;
+    $('.languageSelectionButton .selected-language-count').text(selectedCount);
+}
+
+function getBulkCdnRootTarget() {
+    let hasRows = false;
+    let allRowsAreCdn2 = true;
+
+    gridApi.forEachNode((node) => {
+        hasRows = true;
+        if ((node.data.cdn_root_key || cdnRootOptions[0]) !== 'CDN2') {
+            allRowsAreCdn2 = false;
+        }
+    });
+
+    if (!hasRows) {
+        return 'CDN2';
+    }
+
+    return allRowsAreCdn2 ? 'CDN1' : 'CDN2';
+}
+
+function updateBulkCdnRootToggleButtonLabel() {
+    const targetRoot = getBulkCdnRootTarget();
+    $('.bulkCdnRootToggleButton .bulk-cdn-root-label').text(targetRoot);
+}
+
+function toggleBulkCdnRoot() {
+    const targetRoot = getBulkCdnRootTarget();
+    let updatedCount = 0;
+
+    gridApi.forEachNode((node) => {
+        const currentRoot = node.data.cdn_root_key || cdnRootOptions[0];
+        if (currentRoot === targetRoot) {
+            return;
+        }
+
+        node.setDataValue('cdn_root_key', targetRoot);
+
+        if (node.data._id) {
+            editedRows[node.data._id] = node.data;
+        } else if (node.data.testid) {
+            editedRows[node.data.testid] = node.data;
+        }
+
+        updatedCount += 1;
+    });
+
+    gridApi.refreshCells({ columns: ['cdn_root_key'], force: true });
+    updateBulkCdnRootToggleButtonLabel();
+
+    if (updatedCount > 0) {
+        bootstrap_alert.success($('#alertplaceholder'), `${updatedCount} rows updated to ${targetRoot}`);
+    }
+}
+
+function markAllRowsPublishedTrue() {
+    const publishedValue = 'true';
+    let updatedCount = 0;
+
+    gridApi.forEachNode((node) => {
+        if ((node.data.published || decisionOptions[0]) === publishedValue) {
+            return;
+        }
+
+        node.setDataValue('published', publishedValue);
+
+        if (node.data._id) {
+            editedRows[node.data._id] = node.data;
+        } else if (node.data.testid) {
+            editedRows[node.data.testid] = node.data;
+        }
+
+        updatedCount += 1;
+    });
+
+    gridApi.refreshCells({ columns: ['published'], force: true });
+
+    if (updatedCount > 0) {
+        bootstrap_alert.success($('#alertplaceholder'), `${updatedCount} rows marked as published`);
+    } else {
+        bootstrap_alert.success($('#alertplaceholder'), `All rows are already published`);
+    }
+}
+
+function getSelectedLanguages() {
+    if (Array.isArray(selectedRowLanguages) && selectedRowLanguages.length > 0) {
+        return selectedRowLanguages;
+    }
+    return ['en'];
+}
+
+function openLanguageSelectionDialog() {
+    const selectedLanguages = new Set(getSelectedLanguages());
+    const checkboxHtml = languages.map((lang) => `
+        <div class="form-check">
+            <input class="form-check-input language-selection-item" type="checkbox" value="${lang.langid}" id="lang-${lang.langid}" ${selectedLanguages.has(lang.langid) ? 'checked' : ''}>
+            <label class="form-check-label" for="lang-${lang.langid}">${lang.title}</label>
+        </div>
+    `).join('');
+
+    const allSelected = selectedLanguages.size === languages.length;
+    const dialog = bootbox.dialog({
+        title: 'Select Languages',
+        message: `
+            <div class="mb-2">
+                <div class="form-check border-bottom pb-2">
+                    <input class="form-check-input" type="checkbox" id="select-all-languages" ${allSelected ? 'checked' : ''}>
+                    <label class="form-check-label fw-bold" for="select-all-languages">Select All Languages</label>
+                </div>
+            </div>
+            <div class="language-selection-list" style="max-height: 320px; overflow-y: auto;">
+                ${checkboxHtml}
+            </div>
+        `,
+        buttons: {
+            cancel: {
+                label: 'Cancel',
+                className: 'btn-secondary'
+            },
+            confirm: {
+                label: 'Apply',
+                className: 'btn-primary',
+                callback: function () {
+                    const checkedLanguages = $('.bootbox .language-selection-item:checked').map(function () {
+                        return $(this).val();
+                    }).get();
+
+                    selectedRowLanguages = checkedLanguages.length > 0 ? checkedLanguages : ['en'];
+                    updateLanguageSelectionButtonLabel();
+                }
+            }
+        }
+    });
+
+    dialog.on('change', '#select-all-languages', function () {
+        const checked = $(this).is(':checked');
+        dialog.find('.language-selection-item').prop('checked', checked);
+    });
+
+    dialog.on('change', '.language-selection-item', function () {
+        const totalCount = dialog.find('.language-selection-item').length;
+        const checkedCount = dialog.find('.language-selection-item:checked').length;
+        dialog.find('#select-all-languages').prop('checked', totalCount === checkedCount);
+    });
+}
+
+function getNextTestSeqSeed() {
+    let maxSeq = 0;
+    gridApi.forEachNode(node => {
+        const seq = Number(node.data.test_seq || 0);
+        if (seq > maxSeq) {
+            maxSeq = seq;
+        }
+    });
+    return maxSeq + 1;
+}
+
+function getNextTestIdSeed() {
+    let maxId = 0;
+    gridApi.forEachNode(node => {
+        const testId = Number(node.data.testid || 0);
+        if (testId > maxId) {
+            maxId = testId;
+        }
+    });
+    return maxId + 1;
+}
+
+function buildNewTestRow(defaultTestName, langId, seqValue, testIdValue) {
+    const tempId = generateTempId();
+    const newRow = {
+        _id: tempId,
+        test_seq: seqValue,
+        testid: testIdValue,
+        test_name: defaultTestName,
+        subject_key: globals.subjdetails.subject_key,
+        subjectid: globals.subjdetails.subjectid,
+        chapterid: globals.subjdetails.chapterid,
+        published: decisionOptions[0],
+        is_katex: decisionOptions[0],
+        test_lang: langId,
+        test_image: '',
+        yoututbeids: '',
+        playlistid: '',
+        sectiondata: '',
+        marksdata: '',
+        imageprefix: '',
+        is_cdn_https: decisionOptions[0],
+        cdn_root_key: cdnRootOptions[0],
+        link: generateAnchorLink({ test_name: defaultTestName, test_lang: langId, chapterid: globals.subjdetails.chapterid }, globals.screen),
+        test_file_title: generateTitle({ test_name: defaultTestName, chapterid: globals.subjdetails.chapterid }, globals.screen),
+        //test_file_name: generateFileName(defaultTestName, langId),
+        t_title: generateHTMLTitle({ test_name: defaultTestName, chapterid: globals.subjdetails.chapterid }, globals.screen),
+        actionrole: userRoleOptions[0]
+    };
+
+    editedRows[tempId] = newRow;
+    updateBulkCdnRootToggleButtonLabel();
+    return newRow;
+}
+
+async function addRowsForSelectedLanguages() {
+    const selectedLanguages = getSelectedLanguages();
+    const defaultTestName = generateDefaultTestName();
+    let nextSeq = getNextTestSeqSeed();
+    let nextTestId = getNextTestIdSeed();
+
+    const rowsToAdd = selectedLanguages.map((langId) => {
+        const row = buildNewTestRow(defaultTestName, langId, nextSeq, nextTestId);
+        nextSeq += 1;
+        nextTestId += 1;
+        return row;
+    });
+
+    gridApi.applyTransaction({ add: rowsToAdd });
+    updateBulkCdnRootToggleButtonLabel();
+}
 
 function updateMobileFileNames(jsonArray) {
     // Step 1: Group objects by t_title
@@ -715,7 +1017,9 @@ function updateMobileFileNames(jsonArray) {
             // Update mobile_file_name for all objects in the group where mobile_file_name is empty
             group.forEach(obj => {
                 if (!obj.mobile_file_name) { // Check if mobile_file_name is empty
-                    obj.mobile_file_name = enId;
+                    if(!enId.startsWith("temp")){
+                            obj.mobile_file_name = enId;
+                    }
                 }
             });
         }
@@ -761,42 +1065,20 @@ function saveAllTestRows() {
     //Update file names before saving.
     for (row in rowsToSave) {
 
-        if (rowsToSave[row].test_file_name && rowsToSave[row].test_file_name.length > 0) { } else {
-            rowsToSave[row].test_file_name = generateFileName(rowsToSave[row].test_name, rowsToSave[row].test_lang)
+        rowsToSave[row].test_lang = (rowsToSave[row].test_lang && rowsToSave[row].test_lang.length > 0)
+            ? rowsToSave[row].test_lang
+            : "en";
+        rowsToSave[row].test_name = (rowsToSave[row].test_name || '').trim();
+
+        if (rowsToSave[row].test_name.length === 0) {
+            continue;
         }
 
-        if (rowsToSave[row].test_lang && rowsToSave[row].test_lang.length > 0) { } else {
-            rowsToSave[row].test_lang = "en"
-        }
         rowsToSave[row].test_name = replaceAndFormatDate(rowsToSave[row].test_name);
-        //rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ Exam/,'');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ with solutions/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/Symbiosis National Aptitude Test  /, '');
-
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/Solved /, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/solved /, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/Sovled /, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/sovled /, '');
+        //rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ Exam/,''); 
         rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/Preliminary /, 'Prelims ');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ Solutions/, '');
 
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/with Solutions/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/with solutions/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/with Answers/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/with answers/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ for free online practice/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ New Pattern/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ for Online Practice/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ Online Practice/, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ with Answer key/, '');
-
-        //rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/Mathematics /,'Math ');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/question /, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/Question /, '');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/for online practice/, '');
         rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/paper /, 'Paper ');
-        rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/ with key/, '');
-
         rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/jan /, 'Jan ');
         rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/feb /, 'Feb ');
         rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/mar /, 'Mar ');
@@ -811,11 +1093,15 @@ function saveAllTestRows() {
         rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/dec /, 'Dec ');
         //rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/March/,'Mar'); 
         rowsToSave[row].test_name = rowsToSave[row].test_name.replace(/-/g, ' ');
-        //rowsToSave[row].test_name =  rowsToSave[row].test_name + " Paper"
+        rowsToSave[row].test_name = rowsToSave[row].test_name.trim();
 
+        rowsToSave[row].link = generateAnchorLink(rowsToSave[row], globals.screen);
+        rowsToSave[row].t_title = generateHTMLTitle(rowsToSave[row], globals.screen);
+        rowsToSave[row].test_file_title = generateTitle(rowsToSave[row], globals.screen);
+        //rowsToSave[row].test_file_name = generateFileName(rowsToSave[row].test_name, rowsToSave[row].test_lang);
 
-        //var fileName = generateFileName(input.test_name, input.test_lang);
     }
+    rowsToSave = rowsToSave.filter((row) => row.test_name && row.test_name.length > 0);
     rowsToSave = updateMobileFileNames(rowsToSave);
 
     let input = {
@@ -844,6 +1130,7 @@ function saveAllTestRows() {
 
                     }
                     editedRows = {}; //important 
+                    updateBulkCdnRootToggleButtonLabel();
                     bootstrap_alert.success($('#alertplaceholder'), result.length + " Records Saved successfully");
                 } else {
                     bootstrap_alert.error($('#alertplaceholder'), result);
@@ -903,6 +1190,67 @@ function generateUniqueTestId() {
     let maxId = allIds.length > 0 ? Math.max(...allIds) : 0;
     return maxId + 1;
 
+}
+
+function extractYear(value) {
+    const match = String(value || '').match(/\b(19|20)\d{2}\b/);
+    return match ? match[0] : '';
+}
+
+function generateDefaultTestName() {
+    const chapterName = (globals?.subjdetails?.chapter_name || '').trim();
+    const chapters = Array.isArray(globals?.chapters) ? globals.chapters : [];
+    const subjectTests = Array.isArray(globals?.subjectTests) ? globals.subjectTests : [];
+    const currentChapterId = Number(globals?.subjdetails?.chapterid);
+    const currentChapter = chapters.find((chapter) => Number(chapter.chapterid) === currentChapterId);
+    const currentChapterTests = subjectTests
+        .filter((test) => Number(test.chapterid) === currentChapterId)
+        .sort((a, b) => Number(a.test_seq || 0) - Number(b.test_seq || 0));
+
+    if (!currentChapter) {
+        return chapterName || 'New Test';
+    }
+
+    if (currentChapterTests.length > 0) {
+        const currentChapterTestName = String(currentChapterTests[0].test_name || '').trim();
+        if (currentChapterTestName) {
+            return currentChapterTestName;
+        }
+    }
+
+    const currentYear = extractYear(currentChapter.chapter_name);
+    const currentIndex = chapters.findIndex((chapter) => Number(chapter.chapterid) === currentChapterId);
+
+    for (let index = currentIndex - 1; index >= 0; index -= 1) {
+        const previousChapter = chapters[index];
+        const previousTests = subjectTests
+            .filter((test) => Number(test.chapterid) === Number(previousChapter.chapterid))
+            .sort((a, b) => Number(a.test_seq || 0) - Number(b.test_seq || 0));
+
+        if (previousTests.length === 0) {
+            continue;
+        }
+
+        const previousTestName = String(previousTests[0].test_name || '').trim();
+        if (!previousTestName) {
+            continue;
+        }
+
+        const previousYear = extractYear(previousChapter.chapter_name);
+        if (currentYear) {
+            if (previousYear && previousTestName.includes(previousYear)) {
+                return previousTestName.replace(previousYear, currentYear).trim();
+            }
+
+            if (/\b(19|20)\d{2}\b/.test(previousTestName)) {
+                return previousTestName.replace(/\b(19|20)\d{2}\b/, currentYear).trim();
+            }
+        }
+
+        return previousTestName;
+    }
+
+    return chapterName || 'New Test';
 }
 
 function movequestionstoanothertest(testid, chapterid) {
@@ -1072,6 +1420,54 @@ function seleniumMissingImagesByTest(event, params) {
     let spinner = $(event.currentTarget).find('.fa-spinner');
     $(spinner).show();
     ajaxRequest("/selenium/findMissingImagesByTestId/" + params.data.subject_key + '/' + params.data.chapterid + '/' + params.data._id, 'GET', { imgpath: params.data.test_image },
+        function (result) {
+            $(spinner).removeClass('fa-spin-pulse');
+        },
+        function (result) {
+            $(spinner).hide();
+        });
+}
+
+function seleniumPublishAllByTest(event, params) {
+    let spinner = $(event.currentTarget).find('.fa-spinner');
+    $(spinner).show();
+    ajaxRequest("/selenium/publishallbytestid/" + params.data.subject_key + '/' + params.data.chapterid + '/' + params.data._id, 'GET', {},
+        function (result) {
+            $(spinner).removeClass('fa-spin-pulse');
+        },
+        function (result) {
+            $(spinner).hide();
+        });
+}
+
+function seleniumMissingCorrectByTest(event, params) {
+    let spinner = $(event.currentTarget).find('.fa-spinner');
+    $(spinner).show();
+    ajaxRequest("/selenium/findMissingCorrectAnswerByTestId/" + params.data.subject_key + '/' + params.data.chapterid + '/' + params.data._id, 'GET', {},
+        function (result) {
+            $(spinner).removeClass('fa-spin-pulse');
+        },
+        function (result) {
+            $(spinner).hide();
+        });
+}
+
+function seleniumSortQuestionsByTest(event, params) {
+    let spinner = $(event.currentTarget).find('.fa-spinner');
+    $(spinner).show();
+    ajaxRequest("/selenium/sortQuestionsByTestId/" + params.data.subject_key + '/' + params.data.chapterid + '/' + params.data._id, 'GET', {},
+        function (result) {
+            $(spinner).removeClass('fa-spin-pulse');
+        },
+        function (result) {
+            $(spinner).hide();
+        });
+}
+
+function seleniumUpdateLinkedByTest(event, params) {
+    let spinner = $(event.currentTarget).find('.fa-spinner');
+    $(spinner).show();
+    ajaxRequest("/selenium/updateLinkedQuestionsByTestId/" + params.data.subject_key + '/' + params.data.chapterid + '/' + params.data._id, 'GET', {},
         function (result) {
             $(spinner).removeClass('fa-spin-pulse');
         },

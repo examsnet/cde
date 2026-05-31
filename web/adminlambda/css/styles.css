@@ -4177,7 +4177,6 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-hover-color);
 }
 
-
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
@@ -13825,6 +13824,11 @@ body.admin-shell.dark-theme .btn-default:hover {
   .admin-navbar .navbar-brand {
     font-size: 1.05rem;
   }
+}
+
+/* Force hide mathml rendering to prevent double formula rendering */
+.katex-mathml {
+  display: none !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

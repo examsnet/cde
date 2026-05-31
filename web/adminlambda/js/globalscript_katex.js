@@ -286,9 +286,7 @@ function handleAltKey(e, element) {
             addsymbols(element, 'ω');
             break;
         case 'KeyZ':
-                e.preventDefault();
-                replaceSelectedText(latex_to_js(getselectedText())); 
-                break;
+            return true;
         case 'Semicolon':
             e.preventDefault();
             addsymbols(element, '∴');
@@ -474,11 +472,12 @@ function wait(ms) {
 
 function replaceBRwithNewLineAndBR(str) { 
     str = str.replace(/<br>/g, "\n <br>");
-    str = str; 
-    var matches = str.match(/\$(?:[^\$\\]|\\.)*\$/g);
+    var matches = str.match(/\$\$[\s\S]+?\$\$|\$(?!\$)[^$\n]+?\$(?!\$)/g);
     if (matches && matches.length > 0) {
-        matches.forEach(function(match) { 
-            str = str.replace(match, '\n' + match + '\n'); 
+        matches.forEach(function(match) {
+            str = str.replace(match, function () {
+                return '\n' + match + '\n';
+            });
         });
     }
     str = str.replace(/\n+/g, '\n');
@@ -487,17 +486,96 @@ function replaceBRwithNewLineAndBR(str) {
 
 
 function getFormulaText(text) {   
-    var matches = text.match(/\$(?:[^\$\\]|\\.)*\$/g);
-    if (matches && matches.length > 0) {
-        
-        matches.forEach(function(match) {
-            var temp = match.substring(1, match.length - 1); // to remove dollars 
-            temp = M.sToMathE(temp, true);
-            var tempEle = $(document.createElement('div')).html(temp).html();
-            text = text.replace(match, tempEle);
-        });
+    text = String(text || '').replace(/\r\n|\r/g, '\n');
+    const mathPattern = /\$\$[\s\S]+?\$\$|\$[^$\n]+?\$|\\\([\s\S]+?\\\)|\\\[[\s\S]+?\\\]/g;
+
+    if (typeof katex === 'undefined' || !mathPattern.test(text)) {
+        return text.replace(/\n/g, '<br>');
     }
-    return text;
+    mathPattern.lastIndex = 0;
+
+    let result = '';
+    let lastIndex = 0;
+    let match;
+
+    while ((match = mathPattern.exec(text)) !== null) {
+        result += text.slice(lastIndex, match.index).replace(/\n/g, '<br>');
+
+        const fullMatch = match[0];
+        const displayMath = fullMatch.startsWith('$$') ? fullMatch.slice(2, -2) : null;
+        const inlineMath = fullMatch.startsWith('$') && !fullMatch.startsWith('$$') ? fullMatch.slice(1, -1) : null;
+        const inlineParenMath = fullMatch.startsWith('\\(') ? fullMatch.slice(2, -2) : null;
+        const displayBracketMath = fullMatch.startsWith('\\[') ? fullMatch.slice(2, -2) : null;
+        const latex = (displayMath || inlineMath || inlineParenMath || displayBracketMath || '').trim();
+        const displayMode = Boolean(displayMath || displayBracketMath);
+
+        if (!latex) {
+            result += fullMatch;
+        } else {
+            try {
+                result += katex.renderToString(latex, {
+                    throwOnError: false,
+                    trust: false,
+                    strict: "warn",
+                    output: "htmlAndMathml",
+                    displayMode
+                });
+            } catch (error) {
+                result += fullMatch;
+            }
+        }
+
+        lastIndex = match.index + fullMatch.length;
+    }
+
+    result += text.slice(lastIndex).replace(/\n/g, '<br>');
+    return result;
+}
+
+function syncPreviewSpan($scope) {
+    const $previewSpan = $scope.closest('.previewspan');
+    const sourceValue = $previewSpan.find('.previewsrc').val() || '';
+    const renderedValue = getFormulaText(sourceValue);
+
+    $previewSpan.find('.valuetextbox').val(sourceValue);
+    $previewSpan.find('.previewdest').html(renderedValue);
+}
+
+function renderKatexQuestionBlock($question) {
+    const $questionLabel = $question.find('#questiontextlbl').first();
+    if ($questionLabel.length > 0) {
+        const source = $question.find('#questionText').val() || '';
+        const rendered = getFormulaText(source);
+        $questionLabel.html(rendered);
+        $question.find('#quespreview').html(rendered);
+    }
+
+    const $solutionLabel = $question.find('#solutionlbl').first();
+    if ($solutionLabel.length > 0) {
+        const source = $question.find('#solutionText').val() || '';
+        const rendered = getFormulaText(source);
+        $solutionLabel.html(rendered);
+        $question.find('#solutionpreview').html(rendered);
+    }
+
+    $question.find('#answerslist > li').each(function () {
+        const $answer = $(this);
+        const $answerLabel = $answer.find('#anstextlbl').first();
+        if ($answerLabel.length === 0) {
+            return;
+        }
+
+        const source = $answer.find('#ansvaltextbox').first().val() || '';
+        const rendered = getFormulaText(source);
+        $answerLabel.html(rendered);
+        $answer.find('#anspreview').first().html(rendered);
+    });
+}
+
+function renderKatexQuestionPage() {
+    $('#questionsList > li').each(function () {
+        renderKatexQuestionBlock($(this));
+    });
 }
 
 
@@ -520,6 +598,7 @@ function downloadJsonAsFile(filename, json) {
 
 
 $(function () {
+  renderKatexQuestionPage();
 
   $(document).on('click', '.gptgeneratesolution', function (event) {
     stopscroll(event);
@@ -536,10 +615,6 @@ $(function () {
     paste4OptionsAlone(event);
   }); 
 
-  $(document).on('click', '.makejqmath', function (event) {
-    stopscroll(event);
-    replaceSelectedText(latex_to_js(getselectedText()));
-  }); 
   $(document).on('click', '.makeanchor', function (event) {
     stopscroll(event);
     replaceSelectedText("<a href='javascript:void(0)' class='openinbrowser' ahref='" + getselectedText() + "'>" + getselectedText() + "</a>");
@@ -593,8 +668,10 @@ $(function () {
   });
 
   $(document).on('click', '.previewaction', function (event) {
-    console.log('preview fired')
-    $(this).closest('.previewspan').find('.previewdest').toggleClass('hidelem');
+    syncPreviewSpan($(this));
+    const $preview = $(this).closest('.previewspan').find('.previewdest');
+    $preview.toggleClass('hidelem');
+    $preview.css('display', $preview.hasClass('hidelem') ? 'none' : 'block');
   });
 
 
@@ -602,11 +679,13 @@ $(function () {
     let value = $(this).closest('.previewspan').find('.previewsrc').val();
     let formattedHtml = replaceBRwithNewLineAndBR(value);
     let lines = formattedHtml.split('\n').length;
-    $(this).closest('.previewspan').find('.previewsrc').val(formattedHtml); 
+    const $previewSpan = $(this).closest('.previewspan');
+    $previewSpan.find('.previewsrc').val(formattedHtml); 
     if (lines > 4) {
       if (lines > 25) { lines = 25 }
-      $(this).closest('.previewspan').find('.previewsrc').attr('rows', lines);
+      $previewSpan.find('.previewsrc').attr('rows', lines);
     } 
+    syncPreviewSpan($(this));
   });
   $(document).on('click', '.formathtml', function (event) { 
     let value = $(this).closest('.previewspan').find('.previewsrc').val(); 
@@ -615,18 +694,22 @@ $(function () {
         space_in_empty_paren: true
     }); 
     let lines = formattedHtml.split('\n').length;
-    $(this).closest('.previewspan').find('.previewsrc').val(formattedHtml); 
+    const $previewSpan = $(this).closest('.previewspan');
+    $previewSpan.find('.previewsrc').val(formattedHtml); 
     if (lines > 4) {
       if (lines > 25) { lines = 25 }
-      $(this).closest('.previewspan').find('.previewsrc').attr('rows', lines);
+      $previewSpan.find('.previewsrc').attr('rows', lines);
     } 
+    syncPreviewSpan($(this));
   });
 
 
   $(document).on('input', '.previewsrc', function (event) {
-    $(this).closest('.previewspan').find('.valuetextbox').val($(this).val())
-    let destval = getFormulaText($(this).val());
-    $(this).closest('.previewspan').find('.previewdest').html(destval) 
+    syncPreviewSpan($(this));
+    const $preview = $(this).closest('.previewspan').find('.previewdest');
+    if (!$preview.hasClass('hidelem')) {
+      $preview.css('display', 'block');
+    }
   });
 
 
@@ -709,8 +792,8 @@ async function fixMCQSolution(event) {
 async function getGptQuestionPayload($container) {
     const paragraphContext = getGptQuestionParagraphContext($container);
     const payload = {
-        question: $container.find('#questionText').val() || $container.find('#questiontextlbl').html() || '',
-        questionHtml: $container.find('#questiontextlbl').html() || $container.find('#questionText').val() || '',
+        question: $container.find('#questionText').val() || '',
+        questionHtml: $container.find('#questiontextlbl').html() || '',
         section: ($container.find('[id="section"]').first().text() || '').trim(),
         paragraphContext,
         options: $container.find('#ansvaltextbox').map(function () {
@@ -1047,16 +1130,11 @@ function getGptQuestionParagraphContext($container) {
         return '';
     }
 
-    return $paragraphQuestion.find('#questionText').val()
-        || $paragraphQuestion.find('#questiontextlbl').html()
-        || '';
+    return $paragraphQuestion.find('#questionText').val() || '';
 }
 
 function getCurrentQuestionSolution($container) {
-    return $container.find('#solutionText').val()
-        || $container.find('#solutionlbl').html()
-        || $container.find('#solutionpreview').html()
-        || '';
+    return $container.find('#solutionText').val() || '';
 }
 
 function isGptQuestionAutoSaveEnabled() {
@@ -1099,7 +1177,7 @@ async function requestAndApplyGptSolution({ event, url, payloadData, loadingText
 }
 
 function applyGptSolutionToQuestion($container, solution) {
-    solution = normalizeGptSolutionToJqMath(solution);
+    solution = normalizeGptSolutionToLatex(solution);
     const $hiddenInput = $container.find('#solutionText');
     $hiddenInput.val(solution);
 
@@ -1125,16 +1203,12 @@ function showGptQuestionProviderFeedback($container, data) {
     bootstrap_alert.success($container.find('#alertplaceholder'), message);
 }
 
-function normalizeGptSolutionToJqMath(solution) {
-    if (typeof latex_to_js !== 'function') {
-        return normalizeGptMarkdownFormatting(solution);
-    }
-
+function normalizeGptSolutionToLatex(solution) {
     const normalizedSolution = normalizeGptLatexSyntax(
         normalizeGptLatexDelimiters(stripGptSolutionHtml(solution))
     );
 
-    return normalizeGptMarkdownFormatting(latex_to_js(normalizedSolution));
+    return normalizeGptMarkdownFormatting(normalizedSolution);
 }
 
 function stripGptSolutionHtml(solution) {

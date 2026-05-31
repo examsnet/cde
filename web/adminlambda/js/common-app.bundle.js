@@ -66,10 +66,43 @@ function ajaxRequest(url, method, data, successCallback, errorCallback) {
   });
 }
 
+function applyStoredThemePreference() {
+  var storedTheme = window.localStorage.getItem("examsnettheme");
+  var isDark = storedTheme === "dark-theme";
+  $("body").toggleClass("dark-theme", isDark);
+  var themeIcon = $(".nav-link .fa-moon, .nav-link .fa-sun").first();
+  if (themeIcon.length) {
+    themeIcon.toggleClass("fa-moon", !isDark);
+    themeIcon.toggleClass("fa-sun", isDark);
+  }
+}
+
+function toggleTheme(event) {
+  if (event) {
+    stopscroll(event);
+  }
+
+  $("body").toggleClass("dark-theme");
+  var isDark = $("body").hasClass("dark-theme");
+  window.localStorage.setItem("examsnettheme", isDark ? "dark-theme" : "light-theme");
+
+  var themeIcon = $(".nav-link .fa-moon, .nav-link .fa-sun").first();
+  if (themeIcon.length) {
+    themeIcon.toggleClass("fa-moon", !isDark);
+    themeIcon.toggleClass("fa-sun", isDark);
+  }
+}
+
 $(function () {
+  applyStoredThemePreference();
+
   $(document).on("input", ".integer", function (event) {
     stopscroll(event);
     onlyIntegers(this);
+  });
+
+  $(document).on("click", "#themeToggle", function (event) {
+    toggleTheme(event);
   });
 
   $(document).on("input", "#searchinput", function (event) {
@@ -985,6 +1018,20 @@ function decisionFormatter(params) {
 }
 
 
+const cdnRoots = [
+    { key: 'CDN1', title: 'CDN 1' },
+    { key: 'CDN2', title: 'CDN 2' }
+];
+
+const cdnRootOptions = cdnRoots.map(root => root.key);
+const cdnRootParams = { values: cdnRootOptions }
+
+function cdnRootFormatter(params) {
+    const root = cdnRoots.find(root => root.key === params.value);
+    return root ? root.title : (params.value || 'CDN 1');
+}
+
+
 
 
 const userroles = [
@@ -1055,6 +1102,7 @@ function sortOrderFormatter(params) {
 }
 
  
+
 var SCREENLIST = {
   CATEGORIES: 'CATEGORIES',
   SUBJECTS: 'SUBJECTS',

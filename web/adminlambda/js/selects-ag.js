@@ -30,6 +30,20 @@ function decisionFormatter(params) {
 }
 
 
+const cdnRoots = [
+    { key: 'CDN1', title: 'CDN 1' },
+    { key: 'CDN2', title: 'CDN 2' }
+];
+
+const cdnRootOptions = cdnRoots.map(root => root.key);
+const cdnRootParams = { values: cdnRootOptions }
+
+function cdnRootFormatter(params) {
+    const root = cdnRoots.find(root => root.key === params.value);
+    return root ? root.title : (params.value || 'CDN 1');
+}
+
+
 
 
 const userroles = [

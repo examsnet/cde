@@ -273,6 +273,34 @@ function topicIdGenerator() {
   return ++value;
 }
 
+function isMissingSprite(v) {
+  const rect = v.getBoundingClientRect();
+  const computedStyle = window.getComputedStyle(v);
+  const pseudoStyle = window.getComputedStyle(v, "::after");
+  const computedWidth = parseFloat(computedStyle.width) || 0;
+  const computedHeight = parseFloat(computedStyle.height) || 0;
+  const pseudoWidth = parseFloat(pseudoStyle.width) || 0;
+  const pseudoHeight = parseFloat(pseudoStyle.height) || 0;
+  const pseudoContent = pseudoStyle.content || "";
+  const pseudoBackgroundImage = pseudoStyle.backgroundImage || "";
+
+  if (
+    pseudoContent === "none" ||
+    pseudoContent === "normal" ||
+    pseudoBackgroundImage === "none"
+  ) {
+    return true;
+  }
+
+  return (
+    rect.width === 0 &&
+    computedWidth === 0 &&
+    pseudoWidth === 0 &&
+    pseudoHeight === 0 &&
+    computedHeight === 0
+  );
+}
+
 function validateNotesMissingImages(ele, vent) {
   console.log("Validate Missign images event called");
   let missingimagelist = "";
@@ -280,7 +308,7 @@ function validateNotesMissingImages(ele, vent) {
   let misClassNamesNoQuotes = [];
   let missedImagLocation = {};
   $(".clbl .hscrollenable .sprite").each((i, v) => {
-    if ($(v).height() == 0) {
+    if (isMissingSprite(v)) {
       missedImagLocation = $(v).closest("#topic").find("#topicseq")[0];
       missingimagelist +=
         $(v).closest("#topic").find("#topicseq").html() + ", ";
@@ -357,6 +385,7 @@ function downloadnotesfornewmobile(that) {
   data.testid = testdata.testid;
   data.categorykey = $('#testdetails').attr('categorykey');
   data.is_cdn_https = testdata.is_cdn_https;
+  data.cdn_root_key = testdata.cdn_root_key || 'CDN1';
   data.questionImagesCdn = testdata.test_image;
   
   data.questionImages = (testdata.test_image) ? testdata.test_image.substring(testdata.test_image.lastIndexOf('/') + 1, testdata.test_image.length) : ''
@@ -422,6 +451,7 @@ function downloadnotesfornewmobile_examsnetapp(that) {
   data.testid = testdata.testid;
   data.categorykey = $('#testdetails').attr('categorykey');
   data.is_cdn_https = testdata.is_cdn_https;
+  data.cdn_root_key = testdata.cdn_root_key || 'CDN1';
   data.questionImagesCdn = testdata.test_image;
   data.questionImages = (testdata.test_image) ? testdata.test_image.substring(testdata.test_image.lastIndexOf('/') + 1, testdata.test_image.length) : ''
   data.topics = [];
